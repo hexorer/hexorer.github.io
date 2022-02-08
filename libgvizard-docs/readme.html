@@ -117,6 +117,14 @@ make
 <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">simple_dot_generator</span><span class="o">/</span><span class="n">simple_dot_generator</span><span class="w"></span>
 </pre></div>
 </div>
+<p>to generate docs add <code class="docutils literal notranslate"><span class="pre">-DLIBGVIZARD_OPT_GENERATE_DOCS=1</span></code> as it’s not
+targeted by default:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span><span class="w"> </span><span class="n">build</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">cd</span><span class="w"> </span><span class="n">build</span><span class="w"></span>
+<span class="n">cmake</span><span class="w"> </span><span class="p">..</span><span class="w"> </span><span class="o">-</span><span class="n">DLIBGVIZARD_OPT_GENERATE_DOCS</span><span class="o">=</span><span class="mi">1</span><span class="w"></span>
+<span class="n">make</span><span class="w"></span>
+</pre></div>
+</div>
+<p>now the html files will be at <code class="docutils literal notranslate"><span class="pre">./docs/sphinx/</span></code>.</p>
 </section>
 <section id="usage-exampe">
 <h2>Usage exampe<a class="headerlink" href="#usage-exampe" title="Permalink to this headline"></a></h2>
