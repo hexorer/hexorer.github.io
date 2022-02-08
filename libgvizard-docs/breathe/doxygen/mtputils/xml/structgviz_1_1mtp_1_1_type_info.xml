@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1_type_info" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::TypeInfo</compoundname>
+    <basecompoundref refid="structgviz_1_1mtp_1_1_expandable" prot="public" virt="non-virtual">gviz::mtp::Expandable&lt; Ts... &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1mtp_1_1_type_info_1a77251e4feba5a1975cf5d8874d24f857" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::mtp::TypeInfo&lt; Ts &gt;::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>gviz::mtp::TypeInfo::size</qualifiedname>
+        <initializer>= sizeof...(Ts)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="82" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gviz::mtp::Expandable&lt; Ts... &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1_expandable"/>
+      </node>
+      <node id="1">
+        <label>gviz::mtp::TypeInfo&lt; Ts &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1_type_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gviz::mtp::Expandable&lt; Ts... &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1_expandable"/>
+      </node>
+      <node id="1">
+        <label>gviz::mtp::TypeInfo&lt; Ts &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1_type_info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="81" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="81" bodyend="83"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1mtp_1_1_expandable_1af8cc09a0e4147b1a710b91d10db93d4a" prot="public" virt="non-virtual"><scope>gviz::mtp::TypeInfo</scope><name>expand_for_t</name></member>
+      <member refid="structgviz_1_1mtp_1_1_expandable_1aa4a7d789aa0073b78b702a26a068dd97" prot="public" virt="non-virtual"><scope>gviz::mtp::TypeInfo</scope><name>rexpand_for_t</name></member>
+      <member refid="structgviz_1_1mtp_1_1_type_info_1a77251e4feba5a1975cf5d8874d24f857" prot="public" virt="non-virtual"><scope>gviz::mtp::TypeInfo</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

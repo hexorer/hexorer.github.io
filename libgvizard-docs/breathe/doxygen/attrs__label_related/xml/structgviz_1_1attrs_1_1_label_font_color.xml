@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_label_font_color" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LabelFontColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LabelFontColor, attrtypes::ColorType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_label_font_color_1a635f2b4a01f9d080262aa89ad2ba0c99" prot="public" static="no">
+        <type>attrtypes::ColorType</type>
+        <definition>using gviz::attrs::LabelFontColor::value_type =  attrtypes::ColorType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="131" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_label_font_color_1a879895c1d0cc71b4742ea0142addf8d2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LabelFontColor::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::name</qualifiedname>
+        <initializer>= &quot;labelfontcolor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="133" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_font_color_1af46c88964aede3e4b05976973899018f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelFontColor::LabelFontColor</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LabelFontColor</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::LabelFontColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="135" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_font_color_1a886a8e547d7a583a1932b53bbb3f4c5d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelFontColor::LabelFontColor</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>LabelFontColor</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::LabelFontColor</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="136" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="136" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_font_color_1ac2667ebac3c539b788a8f4f04c16ed1b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LabelFontColor::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="140" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_font_color_1a4704fa17b613db37ddf5284aab32513a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelFontColor::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="145" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_font_color_1aac292238f2fe6892541d8a32d94abbe8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelFontColor::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LabelFontColor::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="150" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="150" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelFontColor, attrtypes::ColorType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelFontColor</label>
+        <link refid="structgviz_1_1attrs_1_1_label_font_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelFontColor, attrtypes::ColorType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelFontColor</label>
+        <link refid="structgviz_1_1attrs_1_1_label_font_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="128" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="130" bodyend="154"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1aac292238f2fe6892541d8a32d94abbe8" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1ac2667ebac3c539b788a8f4f04c16ed1b" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1a4704fa17b613db37ddf5284aab32513a" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1af46c88964aede3e4b05976973899018f" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>LabelFontColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1a886a8e547d7a583a1932b53bbb3f4c5d" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>LabelFontColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1a879895c1d0cc71b4742ea0142addf8d2" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_font_color_1a635f2b4a01f9d080262aa89ad2ba0c99" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFontColor</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

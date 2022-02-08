@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>graph/dynamic_half_square_matrix.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="registry" href="../registry/index.html" />
+    <link rel="prev" title="graph/dynamic_square_matrix.hpp" href="dynamic_square_matrix.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">graph</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="graph.html">graph/graph.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dynamic_square_matrix.html">graph/dynamic_square_matrix.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">graph/dynamic_half_square_matrix.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">graph</a> &raquo;</li>
+      <li>graph/dynamic_half_square_matrix.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/graph/dynamic_half_square_matrix.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="graph-dynamic-half-square-matrix-hpp">
+<h1>graph/dynamic_half_square_matrix.hpp<a class="headerlink" href="#graph-dynamic-half-square-matrix-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE">
+<span id="_CPPv3I00EN4gviz6detail23DynamicHalfSquareMatrixE"></span><span id="_CPPv2I00EN4gviz6detail23DynamicHalfSquareMatrixE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Vector</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">vector</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../colors/hsv.html#_CPPv4N4gviz6detailE" title="gviz::detail"><span class="n"><span class="pre">detail</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">DynamicHalfSquareMatrix</span></span></span><a class="headerlink" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="docutils container">
+<em>#include &lt;<a class="reference internal" href="#dynamic__half__square__matrix_8hpp"><span class="std std-ref">dynamic_half_square_matrix.hpp</span></a>&gt;</em></div>
+<p>A Dynamically Allocated Only-Square-Shape Half/Top-Triangle Matrix-like data structure that is suitable for resizing so much and undirected adjacency-matrix graph.</p>
+<p>NOTE: its linear indexing is different, see <code class="docutils literal notranslate"><span class="pre">index</span></code> private function. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10value_typeE">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix10value_typeE"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix10value_typeE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ac54c74cc95781360169c2babee164935"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixEv">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixEv"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::DynamicHalfSquareMatrixCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a81daa541a663b94f69a7b447174dc863"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">DynamicHalfSquareMatrix</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixENSt6size_tE1T">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixENSt6size_tE1T"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixENSt6size_tE1T"></span><span id="gviz::detail::DynamicHalfSquareMatrix::DynamicHalfSquareMatrix__std::s.TCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a0338eb53d5e911455673a53acd49e068"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">DynamicHalfSquareMatrix</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix23DynamicHalfSquareMatrixENSt6size_tE1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix4sizeEv">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix4sizeEv"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix4sizeEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::sizeCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1aabca9aa723ce2a1e792592855d21a6d0"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix4sizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix6resizeENSt6size_tE1T">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix6resizeENSt6size_tE1T"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix6resizeENSt6size_tE1T"></span><span id="gviz::detail::DynamicHalfSquareMatrix::resize__std::s.TCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a95cd8c14cb692da578c0afe843354fdf"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">resize</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix6resizeENSt6size_tE1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::at__std::s.std::sCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ae95712cb638a88954d49497ece6bb39b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">at</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">m</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::at__std::s.std::sCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2808a28feabb06b3ca17ab0eaa94f527"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">at</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">m</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix2atENSt6size_tENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10add_rowcolENSt6size_tE1T">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix10add_rowcolENSt6size_tE1T"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix10add_rowcolENSt6size_tE1T"></span><span id="gviz::detail::DynamicHalfSquareMatrix::add_rowcol__std::s.TCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2e11450fd73eaa42c81e14cb7131b983"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">add_rowcol</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">count</span></span>, <a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10add_rowcolENSt6size_tE1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10pop_rowcolENSt6size_tE">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix10pop_rowcolENSt6size_tE"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix10pop_rowcolENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::pop_rowcol__std::sCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a8f806ca3833dfdfcfd7a00753ccb29c8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pop_rowcol</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">x</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix10pop_rowcolENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix5beginEv">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix5beginEv"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix5beginEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::beginCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a39048b41a478116300add73b4619dc73"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix3endEv">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix3endEv"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix3endEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::endCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a5b25ce46eb1a5027b4aa0cae5a69ef56"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">end</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix3endEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5beginEv">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix5beginEv"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix5beginEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::beginCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a7d98b061e558f9d630cc8689f5b870fe"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix3endEv">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix3endEv"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix3endEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::endCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ae25c1cb8a37303f78f85d0d7f5e7b55c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">end</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix3endEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix6cbeginEv">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix6cbeginEv"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix6cbeginEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::cbeginCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ab20aacd56f9fe4702fbc53b0fcbe336c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cbegin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix6cbeginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix4cendEv">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix4cendEv"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix4cendEv"></span><span id="gviz::detail::DynamicHalfSquareMatrix::cendCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a1af567b3dc5c4c2e21081b5fcd744ef2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cend</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix4cendEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::call-operator__std::s.std::sCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2d697718b873fcb8f828e0251445ba46"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">()</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">m</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::call-operator__std::s.std::sCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1acb33148ae4faa98d83ea2b76ba485455"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">()</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">m</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrixclENSt6size_tENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-functions">Private Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5tsizeENSt6size_tE">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix5tsizeENSt6size_tE"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix5tsizeENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::tsize__std::sCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a460c1ff341054db67bd4801ad8cf09f8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tsize</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5tsizeENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5indexENSt6size_tENSt6size_tE">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix5indexENSt6size_tENSt6size_tE"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix5indexENSt6size_tENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::index__std::s.std::sCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a285cfa811f5ae07da01dd098e4ef5181"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">index</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">n</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">m</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix5indexENSt6size_tENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix13reverse_indexENSt6size_tE">
+<span id="_CPPv3NK4gviz6detail23DynamicHalfSquareMatrix13reverse_indexENSt6size_tE"></span><span id="_CPPv2NK4gviz6detail23DynamicHalfSquareMatrix13reverse_indexENSt6size_tE"></span><span id="gviz::detail::DynamicHalfSquareMatrix::reverse_index__std::sCCE"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1aecd0bedb05e915b806748bc021896a4f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">reverse_index</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">idx</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">pair</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4NK4gviz6detail23DynamicHalfSquareMatrix13reverse_indexENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix4vec_E">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix4vec_E"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix4vec_E"></span><span id="gviz::detail::DynamicHalfSquareMatrix::vec___Vector"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1abc8b6f0a1a1305ec8cf3ee65b1d45d59"></span><a class="reference internal" href="#_CPPv4I00EN4gviz6detail23DynamicHalfSquareMatrixE" title="gviz::detail::DynamicHalfSquareMatrix::Vector"><span class="n"><span class="pre">Vector</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">vec_</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix4vec_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail23DynamicHalfSquareMatrix5size_E">
+<span id="_CPPv3N4gviz6detail23DynamicHalfSquareMatrix5size_E"></span><span id="_CPPv2N4gviz6detail23DynamicHalfSquareMatrix5size_E"></span><span id="gviz::detail::DynamicHalfSquareMatrix::size___std::s"></span><span class="target" id="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1acd23486f214c9211b756472a3f96f345"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size_</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz6detail23DynamicHalfSquareMatrix5size_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detailE">
+<span id="_CPPv3N4gviz6detailE"></span><span id="_CPPv2N4gviz6detailE"></span><span id="gviz::detail"></span><span class="target" id="namespacegviz_1_1detail"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">detail</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dynamic__half__square__matrix_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">dynamic_half_square_matrix.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_e0c25747f46028ce5f9403284dcd8c1d"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="dynamic_square_matrix.html" class="btn btn-neutral float-left" title="graph/dynamic_square_matrix.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../registry/index.html" class="btn btn-neutral float-right" title="registry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

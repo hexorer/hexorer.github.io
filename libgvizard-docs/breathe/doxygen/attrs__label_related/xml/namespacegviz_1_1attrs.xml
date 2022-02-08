@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_label" prot="public">gviz::attrs::Label</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_angle" prot="public">gviz::attrs::LabelAngle</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_distance" prot="public">gviz::attrs::LabelDistance</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_float" prot="public">gviz::attrs::LabelFloat</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_font_color" prot="public">gviz::attrs::LabelFontColor</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_font_name" prot="public">gviz::attrs::LabelFontName</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_font_size" prot="public">gviz::attrs::LabelFontSize</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_just" prot="public">gviz::attrs::LabelJust</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_loc" prot="public">gviz::attrs::LabelLoc</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_scheme" prot="public">gviz::attrs::LabelScheme</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_target" prot="public">gviz::attrs::LabelTarget</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_tooltip" prot="public">gviz::attrs::LabelTooltip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_label_u_r_l" prot="public">gviz::attrs::LabelURL</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LabelJustEnum</name>
+        <qualifiedname>gviz::attrs::LabelJustEnum</qualifiedname>
+        <enumvalue id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923aadb115059e28d960fa8badfac5516667" prot="public">
+          <name>center</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a811882fecd5c7618d7099ebbd39ea254" prot="public">
+          <name>left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a7c4f29407893c334a6cb7a87bf045c0d" prot="public">
+          <name>right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="206" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="206" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="enum" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>LabelLocEnum</name>
+        <qualifiedname>gviz::attrs::LabelLocEnum</qualifiedname>
+        <enumvalue id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaf611271231707a44b6be19664cbe7c2c" prot="public">
+          <name>_default</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcab28354b543375bfa94dabaeda722927f" prot="public">
+          <name>top</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebca71f262d796bed1ab30e8a2d5a8ddee6f" prot="public">
+          <name>bottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaadb115059e28d960fa8badfac5516667" prot="public">
+          <name>center</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="254" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="254" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

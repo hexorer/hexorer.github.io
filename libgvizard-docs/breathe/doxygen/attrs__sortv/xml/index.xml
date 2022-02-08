@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_sort_v" kind="struct"><name>gviz::attrs::SortV</name>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a6ca9fd3f168df93cb96a2c00d5510a35" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a4e1609626af3b03e744171da6c8df6bf" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a6db0209749bdd1cddbb65962449fea9b" kind="function"><name>SortV</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a683009cf90927603a3aece7e0a42a8bd" kind="function"><name>SortV</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a932f27cf6a3079af31f642d5efba01c5" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1a94e1c04f8154726a7679bad73bade70e" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sort_v_1aef3ea12d4e8fac450b903bdcaf272141" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="sortv_8hpp" kind="file"><name>sortv.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

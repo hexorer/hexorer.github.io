@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="dirtype_8hpp_1a3410755e7d2489f93494daa9baa44c88" kind="enum"><name>DirType</name></member>
+    <member refid="dirtype_8hpp_1a3410755e7d2489f93494daa9baa44c88a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="dirtype_8hpp_1a3410755e7d2489f93494daa9baa44c88a965dbaac085fc891bfbbd4f9d145bbc8" kind="enumvalue"><name>forward</name></member>
+    <member refid="dirtype_8hpp_1a3410755e7d2489f93494daa9baa44c88a469bba0a564235dfceede42db14f17b0" kind="enumvalue"><name>back</name></member>
+    <member refid="dirtype_8hpp_1a3410755e7d2489f93494daa9baa44c88af6cb3e816496528d4187db53bc66567f" kind="enumvalue"><name>both</name></member>
+  </compound>
+  <compound refid="dirtype_8hpp" kind="file"><name>dirtype.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

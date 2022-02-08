@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_tooltip" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Tooltip</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Tooltip, attrtypes::EscString&lt; std::string &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_tooltip_1ad89252f50919f0dfc94f73e7f85729b0" prot="public" static="no">
+        <type>attrtypes::EscString&lt; std::string &gt;</type>
+        <definition>using gviz::attrs::Tooltip::value_type =  attrtypes::EscString&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Tooltip::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="14" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_tooltip_1ac62712aad93604e15bd5aac475f94627" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Tooltip::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Tooltip::name</qualifiedname>
+        <initializer>= &quot;tooltip&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="16" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1ae81d1f2efeb8b9130fa49dc9ff2a44c0" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Tooltip::Tooltip</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Tooltip</name>
+        <qualifiedname>gviz::attrs::Tooltip::Tooltip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="18" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1ae870e040b888dba1cf3b7a88f78d9fde" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Tooltip::Tooltip</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Tooltip</name>
+        <qualifiedname>gviz::attrs::Tooltip::Tooltip</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="19" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1a40d062a1d827545b98e05e35d0f009e7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Tooltip::Tooltip</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Tooltip</name>
+        <qualifiedname>gviz::attrs::Tooltip::Tooltip</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="20" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1a7720bc53444500eaa26f0ce8dc2c6aeb" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::Tooltip::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Tooltip::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="22" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1a5f0a92ba04243f368060c8f813bcccad" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Tooltip::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Tooltip::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="24" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tooltip_1ae04bdf22079166ee7faf692d115af945" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Tooltip::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Tooltip::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="29" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Tooltip, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Tooltip</label>
+        <link refid="structgviz_1_1attrs_1_1_tooltip"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Tooltip, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Tooltip</label>
+        <link refid="structgviz_1_1attrs_1_1_tooltip"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" line="11" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tooltip.hpp" bodystart="13" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1ae04bdf22079166ee7faf692d115af945" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1a7720bc53444500eaa26f0ce8dc2c6aeb" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1a5f0a92ba04243f368060c8f813bcccad" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1ac62712aad93604e15bd5aac475f94627" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1ae81d1f2efeb8b9130fa49dc9ff2a44c0" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>Tooltip</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1ae870e040b888dba1cf3b7a88f78d9fde" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>Tooltip</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1a40d062a1d827545b98e05e35d0f009e7" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>Tooltip</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tooltip_1ad89252f50919f0dfc94f73e7f85729b0" prot="public" virt="non-virtual"><scope>gviz::attrs::Tooltip</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

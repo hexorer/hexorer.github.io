@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1graph" kind="namespace" language="C++">
+    <compoundname>gviz::graph</compoundname>
+    <innerclass refid="classgviz_1_1graph_1_1_graph" prot="public">gviz::graph::Graph</innerclass>
+    <innerclass refid="structgviz_1_1graph_1_1no__view__t" prot="public">gviz::graph::no_view_t</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="graph_8hpp_1a6f92309035f1c46ac8b68bfcfe67e7f0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>EntityTypeEnum</name>
+        <qualifiedname>gviz::graph::EntityTypeEnum</qualifiedname>
+        <enumvalue id="graph_8hpp_1a6f92309035f1c46ac8b68bfcfe67e7f0aad921d60486366258809553a3db49a4a" prot="public">
+          <name>unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a6f92309035f1c46ac8b68bfcfe67e7f0a36c4536996ca5615dcf9911f068786dc" prot="public">
+          <name>node</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a6f92309035f1c46ac8b68bfcfe67e7f0a09039bd1628a3c1b25fda3134a4fe050" prot="public">
+          <name>edge</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a6f92309035f1c46ac8b68bfcfe67e7f0a06b2d4b91b5c9eaa8c20a1c270f95b3c" prot="public">
+          <name>cluster</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="25" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="graph_8hpp_1a77191bcc29de828e38253637f6a35e97" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>GraphDir</name>
+        <qualifiedname>gviz::graph::GraphDir</qualifiedname>
+        <enumvalue id="graph_8hpp_1a77191bcc29de828e38253637f6a35e97abc26cd8237a1f32814d687d6745880db" prot="public">
+          <name>undirected</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a77191bcc29de828e38253637f6a35e97a42e55a2462c0d3774dba7cba6835ff52" prot="public">
+          <name>directed</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="27" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="graph_8hpp_1a6e686810b4d2fd59d58ff4122bb743bb" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>EdgeDir</name>
+        <qualifiedname>gviz::graph::EdgeDir</qualifiedname>
+        <enumvalue id="graph_8hpp_1a6e686810b4d2fd59d58ff4122bb743bba13b5bfe96f3e2fe411c9f66f4a582adf" prot="public">
+          <name>in</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a6e686810b4d2fd59d58ff4122bb743bbac68271a63ddbc431c307beb7d2918275" prot="public">
+          <name>out</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="graph_8hpp_1a6e686810b4d2fd59d58ff4122bb743bba54c9ccb45f5ee60133cca31fca024432" prot="public">
+          <name>inout</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="28" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="21" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;</compoundname>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer" prot="public">gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename TI</type>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>TypeInfos</declname>
+        <defname>TypeInfos</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1a3e5a43e2b2f4301ced26b76997662fd9" prot="public" static="no">
+        <type>typename TI::template expand_for_t&lt; mixer &gt;</type>
+        <definition>using gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer_type =  typename TI::template expand_for_t&lt;mixer&gt;</definition>
+        <argsstring></argsstring>
+        <name>mixer_type</name>
+        <qualifiedname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="114" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1af2295aaf9f06ebd89e9ad9661057053a" prot="public" static="no">
+        <type>typename <ref refid="structgviz_1_1mtp_1_1_mix_type_info" kindref="compound">MixTypeInfo</ref>&lt; TypeInfos... &gt; ::type::template expand_for_t&lt; mixer_type::template inner &gt;::type</type>
+        <definition>using gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::type =  typename MixTypeInfo&lt;TypeInfos...&gt; ::type::template expand_for_t&lt;mixer_type::template inner&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="116" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="104" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="104" bodyend="119"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1a3e5a43e2b2f4301ced26b76997662fd9" prot="public" virt="non-virtual"><scope>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;</scope><name>mixer_type</name></member>
+      <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1af2295aaf9f06ebd89e9ad9661057053a" prot="public" virt="non-virtual"><scope>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

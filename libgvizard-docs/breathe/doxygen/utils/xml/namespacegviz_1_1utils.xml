@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1utils" kind="namespace" language="C++">
+    <compoundname>gviz::utils</compoundname>
+    <innerclass refid="structgviz_1_1utils_1_1_converter" prot="public">gviz::utils::Converter</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_enum_helper" prot="public">gviz::utils::EnumHelper</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_lambda_visitor" prot="public">gviz::utils::LambdaVisitor</innerclass>
+    <innerclass refid="classgviz_1_1utils_1_1_optional_ref" prot="public">gviz::utils::OptionalRef</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="utils_8hpp_1aab67a69b5afed6d85f3229244fb03cae" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T &gt;</type>
+        <definition>using gviz::utils::Ref = typedef std::shared_ptr&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>Ref</name>
+        <qualifiedname>gviz::utils::Ref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="19" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="utils_8hpp_1ac74ec1497a25b8107e96950f3bc55c9a" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::utils::nulloptref</definition>
+        <argsstring></argsstring>
+        <name>nulloptref</name>
+        <qualifiedname>gviz::utils::nulloptref</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="136" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="utils_8hpp_1a0a08993cc6b0fed8a6a0ff6cad65c462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>gviz::utils::LambdaVisitor</definition>
+        <argsstring>(Ts...) -&gt; LambdaVisitor&lt; Ts... &gt;</argsstring>
+        <name>LambdaVisitor</name>
+        <qualifiedname>gviz::utils::LambdaVisitor</qualifiedname>
+        <param>
+          <type>Ts...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="79" column="1" declfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" declline="79" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utils_8hpp_1a32b9cffecd0d8d535062704a612510d6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Fs</declname>
+            <defname>Fs</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::utils::LambdaVisit</definition>
+        <argsstring>(const T &amp;arg, Fs &amp;&amp;... fs)</argsstring>
+        <name>LambdaVisit</name>
+        <qualifiedname>gviz::utils::LambdaVisit</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type>Fs &amp;&amp;...</type>
+          <declname>fs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="82" column="16" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="16" column="1"/>
+  </compounddef>
+</doxygen>

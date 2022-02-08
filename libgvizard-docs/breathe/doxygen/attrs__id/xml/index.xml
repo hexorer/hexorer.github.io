@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_id" kind="struct"><name>gviz::attrs::Id</name>
+    <member refid="structgviz_1_1attrs_1_1_id_1a54fdaebea56434817f72097bded94e91" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1acb9c3e76f33ef80e4913b3a01b28c0e9" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1ac32d6fca9144b4440ebd85f0cdf36a8e" kind="function"><name>Id</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1aca04943ce0d3cde6859ce06b69cb7ee6" kind="function"><name>Id</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1a6df6d6378174d92bcae66fe728afa0d2" kind="function"><name>Id</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1a341eb808a0e7b995c9a22a9d8639153a" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1afa3038db7bda2a8b16e99626a9e2045f" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_id_1ad2378f0b1240129e6f669c0eb8c7900e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="id_8hpp" kind="file"><name>id.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

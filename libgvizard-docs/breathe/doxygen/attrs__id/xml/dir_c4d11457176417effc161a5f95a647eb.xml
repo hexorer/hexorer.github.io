@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_c4d11457176417effc161a5f95a647eb" kind="dir">
+    <compoundname>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</compoundname>
+    <innerfile refid="id_8hpp">id.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/"/>
+  </compounddef>
+</doxygen>

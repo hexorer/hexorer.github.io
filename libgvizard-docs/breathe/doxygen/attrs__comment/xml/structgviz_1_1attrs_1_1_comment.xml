@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_comment" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Comment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Comment, std::string &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_comment_1ab032a1493b17c8109a02e25ddef48fd4" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using gviz::attrs::Comment::value_type =  std::string</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Comment::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_comment_1aa40f841adbe3c30307a9226df6775df3" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Comment::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Comment::name</qualifiedname>
+        <initializer>= &quot;comment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1afc15d69c06b4578e46de2eff0ac4cbd6" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Comment::Comment</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Comment</name>
+        <qualifiedname>gviz::attrs::Comment::Comment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="15" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1a2303d02e667750272d0b8519496d2043" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Comment::Comment</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Comment</name>
+        <qualifiedname>gviz::attrs::Comment::Comment</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="16" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1a3ce52d90f5fd0879644b589bb5aedaeb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Comment::Comment</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Comment</name>
+        <qualifiedname>gviz::attrs::Comment::Comment</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="17" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1afa8e98810d40333af5135ed1fec514f7" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::Comment::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Comment::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="21" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1a76b7697117a2ff7be8443f06c37c3f2e" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::Comment::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Comment::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="23" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_comment_1a3942e2282c9e459c0668081ec798228a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Comment::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Comment::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Comment, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Comment</label>
+        <link refid="structgviz_1_1attrs_1_1_comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Comment, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Comment</label>
+        <link refid="structgviz_1_1attrs_1_1_comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/comment.hpp" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_comment_1afc15d69c06b4578e46de2eff0ac4cbd6" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>Comment</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1a2303d02e667750272d0b8519496d2043" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>Comment</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1a3ce52d90f5fd0879644b589bb5aedaeb" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>Comment</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1a3942e2282c9e459c0668081ec798228a" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1afa8e98810d40333af5135ed1fec514f7" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1a76b7697117a2ff7be8443f06c37c3f2e" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1aa40f841adbe3c30307a9226df6775df3" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_comment_1ab032a1493b17c8109a02e25ddef48fd4" prot="public" virt="non-virtual"><scope>gviz::attrs::Comment</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1_iterator_view" kind="class" language="C++" prot="public">
+    <compoundname>gviz::IteratorView</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Iter</type>
+        <defval>decltype(std::begin(std::declval&lt;T&amp;&gt;()))</defval>
+      </param>
+      <param>
+        <type>typename Sentinel</type>
+        <defval>decltype(std::end(std::declval&lt;T&amp;&gt;()))</defval>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>Const</declname>
+        <defname>Const</defname>
+        <defval>false</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgviz_1_1_iterator_view_1afd91db35e58047c1d568531b08d14d7f" prot="public" static="no">
+        <type>std::conditional_t&lt; Const, const Iter, Iter &gt;</type>
+        <definition>using gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::iter_t =  std::conditional_t&lt;Const, const Iter, Iter&gt;</definition>
+        <argsstring></argsstring>
+        <name>iter_t</name>
+        <qualifiedname>gviz::IteratorView::iter_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="132" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1_iterator_view_1a458a8d8d1223a167117fa01413cb14b4" prot="public" static="no">
+        <type>std::conditional_t&lt; Const, const Sentinel, Sentinel &gt;</type>
+        <definition>using gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::sentinel_t =  std::conditional_t&lt;Const, const Sentinel, Sentinel&gt;</definition>
+        <argsstring></argsstring>
+        <name>sentinel_t</name>
+        <qualifiedname>gviz::IteratorView::sentinel_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="133" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1_iterator_view_1a50402825761ca78c8ae263633aa31f82" prot="private" static="no" mutable="no">
+        <type>iter_t</type>
+        <definition>iter_t gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::iter_begin_</definition>
+        <argsstring></argsstring>
+        <name>iter_begin_</name>
+        <qualifiedname>gviz::IteratorView::iter_begin_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="136" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1_iterator_view_1a11a796933db70a8b3b5b554d3ff710f6" prot="private" static="no" mutable="no">
+        <type>sentinel_t</type>
+        <definition>sentinel_t gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::iter_end_</definition>
+        <argsstring></argsstring>
+        <name>iter_end_</name>
+        <qualifiedname>gviz::IteratorView::iter_end_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="137" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1_iterator_view_1a680b6ade27eae51d1d18f834d7304c5c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::IteratorView</definition>
+        <argsstring>(iter_t iter_begin, sentinel_t iter_end)</argsstring>
+        <name>IteratorView</name>
+        <qualifiedname>gviz::IteratorView::IteratorView</qualifiedname>
+        <param>
+          <type>iter_t</type>
+          <declname>iter_begin</declname>
+        </param>
+        <param>
+          <type>sentinel_t</type>
+          <declname>iter_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="140" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_iterator_view_1a5977bfc708e1cec3532763980d3262c1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::begin</definition>
+        <argsstring>() -&gt; iter_t</argsstring>
+        <name>begin</name>
+        <qualifiedname>gviz::IteratorView::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="145" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_iterator_view_1ab1c6761d677cc25295762a581764d3c1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::IteratorView&lt; T, Iter, Sentinel, Const &gt;::end</definition>
+        <argsstring>() -&gt; sentinel_t</argsstring>
+        <name>end</name>
+        <qualifiedname>gviz::IteratorView::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="146" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="130" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="130" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1_iterator_view_1a5977bfc708e1cec3532763980d3262c1" prot="public" virt="non-virtual"><scope>gviz::IteratorView</scope><name>begin</name></member>
+      <member refid="classgviz_1_1_iterator_view_1ab1c6761d677cc25295762a581764d3c1" prot="public" virt="non-virtual"><scope>gviz::IteratorView</scope><name>end</name></member>
+      <member refid="classgviz_1_1_iterator_view_1a50402825761ca78c8ae263633aa31f82" prot="private" virt="non-virtual"><scope>gviz::IteratorView</scope><name>iter_begin_</name></member>
+      <member refid="classgviz_1_1_iterator_view_1a11a796933db70a8b3b5b554d3ff710f6" prot="private" virt="non-virtual"><scope>gviz::IteratorView</scope><name>iter_end_</name></member>
+      <member refid="classgviz_1_1_iterator_view_1afd91db35e58047c1d568531b08d14d7f" prot="public" virt="non-virtual"><scope>gviz::IteratorView</scope><name>iter_t</name></member>
+      <member refid="classgviz_1_1_iterator_view_1a680b6ade27eae51d1d18f834d7304c5c" prot="public" virt="non-virtual"><scope>gviz::IteratorView</scope><name>IteratorView</name></member>
+      <member refid="classgviz_1_1_iterator_view_1a458a8d8d1223a167117fa01413cb14b4" prot="public" virt="non-virtual"><scope>gviz::IteratorView</scope><name>sentinel_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

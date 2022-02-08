@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_label" kind="struct"><name>gviz::attrs::Label</name>
+    <member refid="structgviz_1_1attrs_1_1_label_1ac68aea9e2830ed21deee6105fe8d2b84" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1adf161ec16237757539782b04c8deaeff" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1a80a74771f6744d995b3e646df1a6878c" kind="function"><name>Label</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1a50c88246451b184bfff141283935a39b" kind="function"><name>Label</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1a676866bb9e94021ee3ac507f44e1a314" kind="function"><name>Label</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1ade609d73aecd029352020a0bc4811505" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1aeeebb1dcb31753f49d3fe4f32a4303d3" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_1ac4d19f0df2e052a113e1ae0122542feb" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_angle" kind="struct"><name>gviz::attrs::LabelAngle</name>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1abb790c2092ad88376ed57cb1b6a696b8" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1aa82815bc41fd8af9c6cb99d713eaea44" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1a1ede0578929937f1053caebc2dd92f50" kind="function"><name>LabelAngle</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1a30c8089e69be76ea41cde525db1426bc" kind="function"><name>LabelAngle</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1aa35a7c5265cf368163a9002216d0f1a8" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1ae2bc87cef2db397ad896cff4b07d1fd0" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_angle_1aec67d3d5884da1ea5e4f48d38bac34ce" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_distance" kind="struct"><name>gviz::attrs::LabelDistance</name>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1a4a156f6477b65cf623067f142eb948e4" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1a3c38429b5466b9852737577ba0735e97" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1a25369971de5f5b2b92d2002baeed3f67" kind="function"><name>LabelDistance</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1af23e51c4c8fa2d0b96edb48da48e905a" kind="function"><name>LabelDistance</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1aea7cd9432fdbeb5a4b354c7cafffc6ad" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1a3ee35cdc45a91791bb5bfcfe77a04497" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_distance_1a26fe9efd61a2fca829cf2e7afc8fc533" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_float" kind="struct"><name>gviz::attrs::LabelFloat</name>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1ac0b960b1583bc380813bb2b37cfc733a" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1abab85fe6a6d59ebf3152140a8b02e628" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1ad9597557e4895f089d8cf5918ffbf9d5" kind="function"><name>LabelFloat</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1a2b4b2d97331ca41161ba259570d43249" kind="function"><name>LabelFloat</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1a59b10bad81498d5849331929b1d17e31" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1a2bd3c54e6224f5eba51804713e6f839d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_float_1a1519b72ce2c93899392382f7eefd7a88" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_font_color" kind="struct"><name>gviz::attrs::LabelFontColor</name>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1a635f2b4a01f9d080262aa89ad2ba0c99" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1a879895c1d0cc71b4742ea0142addf8d2" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1af46c88964aede3e4b05976973899018f" kind="function"><name>LabelFontColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1a886a8e547d7a583a1932b53bbb3f4c5d" kind="function"><name>LabelFontColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1ac2667ebac3c539b788a8f4f04c16ed1b" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1a4704fa17b613db37ddf5284aab32513a" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_color_1aac292238f2fe6892541d8a32d94abbe8" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_font_name" kind="struct"><name>gviz::attrs::LabelFontName</name>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a07fb125bd25f4bcc5daa5f3355b84ab5" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a69647bc2704b0ebd9464fc01694b1946" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1afbf36b91ed4b02134041c681be089648" kind="function"><name>LabelFontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a99f3f1c24e4f82ce2b6add8508eb9b72" kind="function"><name>LabelFontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a8542fe0ee41c077e896c4b6d2dced39b" kind="function"><name>LabelFontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1ac029444c99dbce4f374b27fc387a5bad" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a32c8b5ea7dbcc29ef8e7b77f8d8e6b68" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_name_1a7f7152eb7ad1eba6b8e2c19f64260f17" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_font_size" kind="struct"><name>gviz::attrs::LabelFontSize</name>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1a3ee73635f7f2c4bb94f37b01dca9a57c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1adbcb82478ca8e6c5cae9aebce708d958" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1af17a223c17bb8d28dd6432b60ef72a5f" kind="function"><name>LabelFontSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1a224d6cc77fa660424c0e7211c697c41c" kind="function"><name>LabelFontSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1a0a87deae3f6346c4c64a17b73ef3e6a7" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1a0e9146bdbd1817179c5865b6bb17d1a9" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_font_size_1aedadaa3848e946098eb99a32e20e94b6" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_just" kind="struct"><name>gviz::attrs::LabelJust</name>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a976fb95fea726169990b1a543cb1f5ec" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1add05dd7d9391f2224aeebeb00e29b3f1" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1ac1ddc98746f0cbd11bc515d2a84bb268" kind="function"><name>LabelJust</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a3799c21597413126c9f1f2c6ec92f765" kind="function"><name>LabelJust</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a444a031eb182a280b0b87b7cf6c96169" kind="function"><name>operator char</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1ad1864cdfda6aadb76647fab972621c3d" kind="function"><name>operator std::string_view</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1aef4060fc57cb5799392e0397419f031a" kind="function"><name>operator std::string</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a4ca8e4a936f58441e6d5c9037373d639" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a1dee2afe546988da9bfc115d24fa5f38" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_just_1a19b3774bc8d0f63873eaa975d02c11be" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_loc" kind="struct"><name>gviz::attrs::LabelLoc</name>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a879b4a3961fb990a8894aff4cdd93846" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1ae1d0cd4eb08c72815282a2f3b6703c3e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1add00a26284f5a00503b9fe952c243258" kind="function"><name>LabelLoc</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1ab736611a812a81c5ab06748c7a0d1723" kind="function"><name>LabelLoc</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a4ab8dc7648c16081a8ae47d7bf30014a" kind="function"><name>operator char</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1ace6180109f58cc778f9a2123b3c38a7c" kind="function"><name>operator std::string_view</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a86a4d15992a3380eecc2ac2cfbeac398" kind="function"><name>operator std::string</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a878477af0afa4edaa4deafefb2511b55" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a8cc576cb998f0ca0697e5cee0d32eea3" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_loc_1a0b4c90ed11a43321033b64e8e53b13d8" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_scheme" kind="struct"><name>gviz::attrs::LabelScheme</name>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1a9a6fecf7cda9d9d4d05549fa606745d7" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1a549051e526875364c7b9c11958176126" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1aa1355513abd09d2dffb561ed020b3c02" kind="function"><name>LabelScheme</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1aedd29289fa50e5ecb2add2fa33cdd5a5" kind="function"><name>LabelScheme</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1a1523378f4c9d0cc9f5be90ea20c8eae7" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1aaa840e4854af8c29d609e4662f460d4f" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_scheme_1a3ee22c41244c48807c7c6ec9825ba05b" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_target" kind="struct"><name>gviz::attrs::LabelTarget</name>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1a5fe639ebbdd1ca88066e7c615a8ecd6e" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1a2bffdc62a68f125b9c8d9b83b05bf8e8" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1abd1e175193ec3e1635aca64772fd4ac2" kind="function"><name>LabelTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1aca1a8d471b1478774b32681208b8a2ce" kind="function"><name>LabelTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1acec6cbc252f7e556b51e747c5467c825" kind="function"><name>LabelTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1aeb0baa6a08da0868f030211606670b5c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1afdb1923f3d6dc84dd01cb9982ff98fed" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_target_1a075d9776f2a6f05bc2668d7095039edb" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_tooltip" kind="struct"><name>gviz::attrs::LabelTooltip</name>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1a783d1c3f1fb674a1cc20461257e49d0f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1af682b6c0ad02083d9865392b65242497" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1af6e6cfb63c03990c288a751c65a42aae" kind="function"><name>LabelTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1a1cdd077d4582eda837cd36bd312b5092" kind="function"><name>LabelTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1a950163a043061939ffb0dd0825166082" kind="function"><name>LabelTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1afae9f38ee0abb4d2053b4095d6d934ae" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1ab931b6810063a8256b71bf8e35a23305" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_tooltip_1a7074f84d4f15d578891c79c706a4ecfa" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_label_u_r_l" kind="struct"><name>gviz::attrs::LabelURL</name>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a28bd0ac1a885ff4897b582cdbce2b12a" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a054339165e21d40846c22b1f9477dd66" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a7881291782ff754b414404e71f1e9454" kind="function"><name>LabelURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a5a5ad9f387a8c7bedfc32d5e2f7e65d6" kind="function"><name>LabelURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a278d5f1e4ed5f354786f3771f2c56b35" kind="function"><name>LabelURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a323fbd8f0c17dad1b6084ca8cbd12b0f" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a5cd70a812cde35aad1ff9a7c1f9667ea" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_label_u_r_l_1a22710e9cfa77e1e0d39fce124f77f185" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923" kind="enum"><name>LabelJustEnum</name></member>
+    <member refid="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923aadb115059e28d960fa8badfac5516667" kind="enumvalue"><name>center</name></member>
+    <member refid="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a811882fecd5c7618d7099ebbd39ea254" kind="enumvalue"><name>left</name></member>
+    <member refid="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a7c4f29407893c334a6cb7a87bf045c0d" kind="enumvalue"><name>right</name></member>
+    <member refid="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebc" kind="enum"><name>LabelLocEnum</name></member>
+    <member refid="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaf611271231707a44b6be19664cbe7c2c" kind="enumvalue"><name>_default</name></member>
+    <member refid="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcab28354b543375bfa94dabaeda722927f" kind="enumvalue"><name>top</name></member>
+    <member refid="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebca71f262d796bed1ab30e8a2d5a8ddee6f" kind="enumvalue"><name>bottom</name></member>
+    <member refid="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaadb115059e28d960fa8badfac5516667" kind="enumvalue"><name>center</name></member>
+  </compound>
+  <compound refid="label__related_8hpp" kind="file"><name>label_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

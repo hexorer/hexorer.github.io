@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_rects" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Rects</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Rects, RectsType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_rects_1a834a04f9e066ab2a4bc143f81e69cd7b" prot="public" static="no">
+        <type>RectsType</type>
+        <definition>using gviz::attrs::Rects::value_type =  RectsType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Rects::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="15" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_rects_1a3ce7fd7e60a9106e490246d58bdbb3c8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Rects::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Rects::name</qualifiedname>
+        <initializer>= &quot;rects&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="17" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rects_1a8841959f928360251b6d29ee491c6733" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rects::Rects</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Rects</name>
+        <qualifiedname>gviz::attrs::Rects::Rects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="19" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rects_1a90ac4b824bca35dce1f91e68a2590472" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rects::Rects</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Rects</name>
+        <qualifiedname>gviz::attrs::Rects::Rects</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="20" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rects_1a0a1a6eaf6bd9b4aee43722543f5452b3" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Rects::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Rects::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="24" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rects_1ae302af6b6455da19e29e2d3d3122dce7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rects::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Rects::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="29" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rects_1aae177540a37621baa2ea73f894d4dec2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rects::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Rects::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="34" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rects, RectsType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rects</label>
+        <link refid="structgviz_1_1attrs_1_1_rects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rects, RectsType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rects</label>
+        <link refid="structgviz_1_1attrs_1_1_rects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rects.hpp" bodystart="14" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_rects_1aae177540a37621baa2ea73f894d4dec2" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1a0a1a6eaf6bd9b4aee43722543f5452b3" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1ae302af6b6455da19e29e2d3d3122dce7" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1a3ce7fd7e60a9106e490246d58bdbb3c8" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1a8841959f928360251b6d29ee491c6733" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>Rects</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1a90ac4b824bca35dce1f91e68a2590472" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>Rects</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rects_1a834a04f9e066ab2a4bc143f81e69cd7b" prot="public" virt="non-virtual"><scope>gviz::attrs::Rects</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

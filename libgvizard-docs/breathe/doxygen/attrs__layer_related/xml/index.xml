@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_layer" kind="struct"><name>gviz::attrs::Layer</name>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a5b1dec9762709da91d18dea0a2c7600b" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a4530a6faa95d42877e1fcc260a9e6a2a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1aadc7b482a42831b1885a8c4edb2997fd" kind="function"><name>Layer</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a2cf985d1547c55d7b6c64e281b3a5076" kind="function"><name>Layer</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1ab0e701f1f4e3d921d929e61d0e39803d" kind="function"><name>Layer</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a135d12916125d75576d5cbeaa234c203" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a925c7041283bb6555e7cdf2f271f7bc1" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_1a691d1e2d0e66087ebaf17b8e611df4d8" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_layer_list_sep" kind="struct"><name>gviz::attrs::LayerListSep</name>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a8202092c98775a23c1053811dbde02cb" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1aeb9c72fb3742f9789aa6d277fbc5d688" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a1b6c425f636d265b46784f8385d96a56" kind="function"><name>LayerListSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a08a8248ad19ac0b42157f54310b5890b" kind="function"><name>LayerListSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a28622719a8f1ca227969112d7d339f0e" kind="function"><name>LayerListSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a2458ddc31fd1368ec74d77aeadf7d09e" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1aff71478d8124387fa69e7ffc926ca3ff" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_list_sep_1a71535879d5113903befff80d4198ed90" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_layers" kind="struct"><name>gviz::attrs::Layers</name>
+    <member refid="structgviz_1_1attrs_1_1_layers_1aa7f0c3494ee30b636b2972a75746e9a0" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1a4dab6bd2ce658a41a49a13a1482cbad8" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1aea0d2fb10ad0c3cae38b11dda5889500" kind="function"><name>Layers</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1ac0f36cf06c7975c878e2dd708c36734e" kind="function"><name>Layers</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1a470686b14551ddfa7e1acfbb95c61abb" kind="function"><name>Layers</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1af9dae7a8d39ce0f46c2d418a1a0a3831" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1afdb8b7ed29dbbfefc0c97b740e576a41" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layers_1a6b7b6d0cba73d6b30feb97cd852bb9ef" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_layer_select" kind="struct"><name>gviz::attrs::LayerSelect</name>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1a6273b2c12f9acae2a7c1be92b012dd93" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1aec9e3697ff35384e4e9bb9d7e30468a8" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1acf63424d7aaee19ef08c67f710c7f65c" kind="function"><name>LayerSelect</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1a5d41be6de23cc4e5f5bc2cb3dc01ac05" kind="function"><name>LayerSelect</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1ac1b585ca38361d1f0f8ddb6b21019f8b" kind="function"><name>LayerSelect</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1acd5b895596805696a5197748ce46f92a" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1a5f5e5d50ed63df055a62289571bd2c9f" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_select_1a63731f0ecd1ba33d01f14d605fff0ff3" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_layer_sep" kind="struct"><name>gviz::attrs::LayerSep</name>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1ae43aea0e9479eccf5bf0dccbf793b27f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1ae9bdfc49d91fcbea9ac094f061838caa" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1a8bca81a27b7c688442c6b6d74d383f51" kind="function"><name>LayerSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1a104b5b31f3e140451a310981da2f744c" kind="function"><name>LayerSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1ac80e44258302ed1a8fa243f6eed55452" kind="function"><name>LayerSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1a962e6d084fd5938ce18b9ff13c1221e6" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1af02d91010b5b7f9486af44b36cce34d3" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_layer_sep_1a8e8685e6d2d457717dbc035733417d0d" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="layer__related_8hpp" kind="file"><name>layer_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

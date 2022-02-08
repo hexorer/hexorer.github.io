@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_dim" kind="struct"><name>gviz::attrs::Dim</name>
+    <member refid="structgviz_1_1attrs_1_1_dim_1ace42d049d808154d6e6f9490e9f7c6f0" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1a30afa3b77237423e6be8b8779c692308" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1a9462fd4b60ca1a32163c1432b89ceb7e" kind="function"><name>Dim</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1aba8565d84c0671c96238af5c2c95961b" kind="function"><name>Dim</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1ace0ccd3bdb78d7ee1362a1be35a79359" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1a18536c93902a32f0cbdfe309254e7179" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dim_1a00c6a140342a5f3300d8a4ebe0023e3f" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="dim_8hpp" kind="file"><name>dim.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

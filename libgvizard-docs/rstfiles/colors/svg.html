@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>colors/svg.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="colors/general.hpp" href="general.html" />
+    <link rel="prev" title="colors/converter.hpp" href="converter.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">colors</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rgba.html">colors/rgba.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rgb.html">colors/rgb.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="converter.html">colors/converter.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">colors/svg.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="general.html">colors/general.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">colors/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="x11.html">colors/x11.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hsv.html">colors/hsv.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">colors</a> &raquo;</li>
+      <li>colors/svg.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/colors/svg.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="colors-svg-hpp">
+<h1>colors/svg.hpp<a class="headerlink" href="#colors-svg-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors8SVGColorE">
+<span id="_CPPv3N4gviz6colors8SVGColorE"></span><span id="_CPPv2N4gviz6colors8SVGColorE"></span><span id="gviz::colors::SVGColor"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="color.html#_CPPv4N4gviz6colorsE" title="gviz::colors"><span class="n"><span class="pre">colors</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">SVGColor</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors8SVGColorE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors8SVGColor8SVGColorE12SVGColorEnum">
+<span id="_CPPv3N4gviz6colors8SVGColor8SVGColorE12SVGColorEnum"></span><span id="_CPPv2N4gviz6colors8SVGColor8SVGColorE12SVGColorEnum"></span><span id="gviz::colors::SVGColor::SVGColor__SVGColorEnumCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1a9e290014bcb4a761369cbc7b7ebdcc4e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SVGColor</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz6colors12SVGColorEnumE" title="gviz::colors::SVGColorEnum"><span class="n"><span class="pre">SVGColorEnum</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">index</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6colors8SVGColor8SVGColorE12SVGColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors8SVGColor8get_enumEv">
+<span id="_CPPv3NK4gviz6colors8SVGColor8get_enumEv"></span><span id="_CPPv2NK4gviz6colors8SVGColor8get_enumEv"></span><span id="gviz::colors::SVGColor::get_enumCCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1aef895d2988cdcb790174b8c30fc33273"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors12SVGColorEnumE" title="gviz::colors::SVGColorEnum"><span class="n"><span class="pre">SVGColorEnum</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_enum</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors8SVGColor8get_enumEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors8SVGColor9get_colorEv">
+<span id="_CPPv3NK4gviz6colors8SVGColor9get_colorEv"></span><span id="_CPPv2NK4gviz6colors8SVGColor9get_colorEv"></span><span id="gviz::colors::SVGColor::get_colorCCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1a7084cf448c235d923eef076793cb71b0"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="general.html#_CPPv4I0EN4gviz6colors11SchemeColorE" title="gviz::colors::SchemeColor"><span class="n"><span class="pre">SchemeColor</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="rgb.html#_CPPv4N4gviz6colors3RGBE" title="gviz::colors::RGB"><span class="n"><span class="pre">RGB</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_color</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors8SVGColor9get_colorEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors8SVGColorcv11SchemeColorI3RGBEEv">
+<span id="_CPPv3NK4gviz6colors8SVGColorcv11SchemeColorI3RGBEEv"></span><span id="_CPPv2NK4gviz6colors8SVGColorcv11SchemeColorI3RGBEEv"></span><span id="gviz::colors::SVGColor::castto-SchemeColor:RGB:-operatorCCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1add647b32f407df26ec4b6e9551afe712"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="general.html#_CPPv4I0EN4gviz6colors11SchemeColorE" title="gviz::colors::SchemeColor"><span class="n"><span class="pre">SchemeColor</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="rgb.html#_CPPv4N4gviz6colors3RGBE" title="gviz::colors::RGB"><span class="n"><span class="pre">RGB</span></span></a><span class="p"><span class="pre">&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors8SVGColorcv11SchemeColorI3RGBEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors8SVGColoreqERK8SVGColor">
+<span id="_CPPv3NK4gviz6colors8SVGColoreqERK8SVGColor"></span><span id="_CPPv2NK4gviz6colors8SVGColoreqERK8SVGColor"></span><span id="gviz::colors::SVGColor::eq-operator__SVGColorCRCCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1af69c7852ef2a74677031c324ad7e8983"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors8SVGColorE" title="gviz::colors::SVGColor"><span class="n"><span class="pre">SVGColor</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors8SVGColoreqERK8SVGColor" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors8SVGColorneERK8SVGColor">
+<span id="_CPPv3NK4gviz6colors8SVGColorneERK8SVGColor"></span><span id="_CPPv2NK4gviz6colors8SVGColorneERK8SVGColor"></span><span id="gviz::colors::SVGColor::neq-operator__SVGColorCRCCE"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1ac413c14ab8cafe8151707b8426c889aa"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors8SVGColorE" title="gviz::colors::SVGColor"><span class="n"><span class="pre">SVGColor</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors8SVGColorneERK8SVGColor" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors8SVGColor4listE">
+<span id="_CPPv3N4gviz6colors8SVGColor4listE"></span><span id="_CPPv2N4gviz6colors8SVGColor4listE"></span><span id="gviz::colors::SVGColor::list__SchemeColor:RGB:A"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1a6530820c0bcd218c0d0fe90a31424b10"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="general.html#_CPPv4I0EN4gviz6colors11SchemeColorE" title="gviz::colors::SchemeColor"><span class="n"><span class="pre">SchemeColor</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="rgb.html#_CPPv4N4gviz6colors3RGBE" title="gviz::colors::RGB"><span class="n"><span class="pre">RGB</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">list</span></span></span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors8SVGColor4listE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors8SVGColor6index_E">
+<span id="_CPPv3N4gviz6colors8SVGColor6index_E"></span><span id="_CPPv2N4gviz6colors8SVGColor6index_E"></span><span id="gviz::colors::SVGColor::index___SVGColorEnum"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1a5636c0350ec075b9af783e76d03f9819"></span><a class="reference internal" href="#_CPPv4N4gviz6colors12SVGColorEnumE" title="gviz::colors::SVGColorEnum"><span class="n"><span class="pre">SVGColorEnum</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">index_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors8SVGColor6index_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors8SVGColor6color_E">
+<span id="_CPPv3N4gviz6colors8SVGColor6color_E"></span><span id="_CPPv2N4gviz6colors8SVGColor6color_E"></span><span id="gviz::colors::SVGColor::color___SchemeColor:RGB:"></span><span class="target" id="classgviz_1_1colors_1_1_s_v_g_color_1a07f4925da8d3003b7ce9e9aa3207b4ed"></span><a class="reference internal" href="general.html#_CPPv4I0EN4gviz6colors11SchemeColorE" title="gviz::colors::SchemeColor"><span class="n"><span class="pre">SchemeColor</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="rgb.html#_CPPv4N4gviz6colors3RGBE" title="gviz::colors::RGB"><span class="n"><span class="pre">RGB</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">color_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors8SVGColor6color_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colorsE">
+<span id="_CPPv3N4gviz6colorsE"></span><span id="_CPPv2N4gviz6colorsE"></span><span id="gviz::colors"></span><span class="target" id="namespacegviz_1_1colors"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">colors</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnumE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnumE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnumE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893cca"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">SVGColorEnum</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">uint16_t</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnumE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9aliceblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9aliceblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9aliceblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa0dccfe9c373d9f9edf4bde8bc83ec2d0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">aliceblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9aliceblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12antiquewhiteE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12antiquewhiteE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12antiquewhiteE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab8a9821d047caf2cb129bfffb5947a0b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">antiquewhite</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12antiquewhiteE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4aquaE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4aquaE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4aquaE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa65cb59645b852c2394ba3ff8b295e83c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">aqua</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4aquaE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10aquamarineE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10aquamarineE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10aquamarineE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa39d8e1a1a14670b0a3be357c318867ac"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">aquamarine</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10aquamarineE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5azureE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5azureE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5azureE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacf04a02e37b774fc311a48f605c3c597"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">azure</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5azureE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5beigeE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5beigeE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5beigeE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaefc5f4b470619b932aed03953e50ce60"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">beige</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5beigeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6bisqueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6bisqueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6bisqueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac7357031b08389007e6da9f56ea145e0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">bisque</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6bisqueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5blackE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5blackE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5blackE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1ffd9e753c8054cc61456ac7fac1ac89"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">black</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5blackE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14blanchedalmondE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14blanchedalmondE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14blanchedalmondE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa847121ab0da1e2b350c8fcbcb010cac6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">blanchedalmond</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14blanchedalmondE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4blueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4blueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4blueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa48d6215903dff56238e52e8891380c8f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">blue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4blueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10bluevioletE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10bluevioletE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10bluevioletE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacc28f4945fea3b8866fe4b653814e2eb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">blueviolet</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10bluevioletE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5brownE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5brownE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5brownE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6ff47afa5dc7daa42cc705a03fca8a9b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">brown</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5brownE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9burlywoodE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9burlywoodE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9burlywoodE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa36ca6792fd86e6880bf010d9dc980e44"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">burlywood</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9burlywoodE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9cadetblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9cadetblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9cadetblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa7c3d240dfca9d7bd93f1ab170faecd73"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cadetblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9cadetblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10chartreuseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10chartreuseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10chartreuseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3efea3cccdbed48be1f1db03de4fa20e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chartreuse</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10chartreuseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9chocolateE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9chocolateE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9chocolateE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac378985d629e99a4e86213db0cd5e70d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">chocolate</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9chocolateE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5coralE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5coralE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5coralE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad2ebed4eaf58509dcc358e1782c38fea"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">coral</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5coralE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14cornflowerblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14cornflowerblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14cornflowerblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaada4a06b7a74d94538ad7da873f073f4c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cornflowerblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14cornflowerblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8cornsilkE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8cornsilkE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8cornsilkE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaea26b11983535b3792d71954aa4d41d8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cornsilk</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8cornsilkE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7crimsonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7crimsonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7crimsonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5fa3ccc64c973db27e9fcade0810423e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">crimson</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7crimsonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4cyanE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4cyanE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4cyanE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6411532ba4971f378391776a9db629d3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cyan</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4cyanE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8darkblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8darkblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8darkblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaaf84d901acac3fd3dfdfc1d026f85220"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8darkblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8darkcyanE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8darkcyanE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8darkcyanE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac844370b9a3693e59921580d3fe427ff"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkcyan</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8darkcyanE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13darkgoldenrodE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13darkgoldenrodE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13darkgoldenrodE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1485725076cf6842d97c529df0b938f2"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkgoldenrod</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13darkgoldenrodE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8darkgrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8darkgrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8darkgrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadf3d32740b6229c55f6498f07bffafa1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkgray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8darkgrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9darkgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9darkgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9darkgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa86124f7c52bd00a90c471f3cc2d575b7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9darkgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8darkgreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8darkgreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8darkgreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f02c389110a7b258ce507d30331bb4d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkgrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8darkgreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9darkkhakiE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9darkkhakiE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9darkkhakiE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabbaf1c429c4e681dec050efdbcd71b55"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkkhaki</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9darkkhakiE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11darkmagentaE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11darkmagentaE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11darkmagentaE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa16e4e9ec0a1ae4e66c1b6d4ae985724a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkmagenta</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11darkmagentaE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14darkolivegreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14darkolivegreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14darkolivegreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa36b1e2a5d1ab5518965ef07d776f1779"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkolivegreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14darkolivegreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10darkorangeE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10darkorangeE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10darkorangeE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf969df3eba4d4bc4723870c807445541"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkorange</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10darkorangeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10darkorchidE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10darkorchidE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10darkorchidE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa137fae7a6f3e3ccbdb53e6870bdc85fb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkorchid</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10darkorchidE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7darkredE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7darkredE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7darkredE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa72e1e496fa756e6652bb2ac60a877802"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkred</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7darkredE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10darksalmonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10darksalmonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10darksalmonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacc2b015ff2154274f90b7b4b345893fd"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darksalmon</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10darksalmonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12darkseagreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12darkseagreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12darkseagreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4bebaa947133d2aac701a63705bb554c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkseagreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12darkseagreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13darkslateblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13darkslateblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13darkslateblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f4a563212ddae40719de71318cf9ecf"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkslateblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13darkslateblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13darkslategrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13darkslategrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13darkslategrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa129b0ee9de7b03fcae50aa744b7992d6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkslategray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13darkslategrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13darkslategreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13darkslategreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13darkslategreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab26ba2bcf1ea4311be3d84a53c99dfa9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkslategrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13darkslategreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13darkturquoiseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13darkturquoiseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13darkturquoiseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab61606b5206f82dc4b2f5e05a4cccdba"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkturquoise</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13darkturquoiseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10darkvioletE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10darkvioletE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10darkvioletE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa732cc3c4a283e0fc022329fe24acee0b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">darkviolet</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10darkvioletE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8deeppinkE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8deeppinkE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8deeppinkE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaef0ed9338a61e7a39b942e1b91e2cd15"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">deeppink</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8deeppinkE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11deepskyblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11deepskyblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11deepskyblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa00b0e77fb6c36753442d4adf19b98b22"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">deepskyblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11deepskyblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7dimgrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7dimgrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7dimgrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa27b5924d51e25cac5892b4bf2d1cbdf6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dimgray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7dimgrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7dimgreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7dimgreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7dimgreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafaf04492fd5f1fa35272644c7a282757"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dimgrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7dimgreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10dodgerblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10dodgerblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10dodgerblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5b5dda33a0ba88dc48e289ae551b2c31"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dodgerblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10dodgerblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9firebrickE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9firebrickE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9firebrickE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa293bdec991862602079dcb56ca72dcfc"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">firebrick</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9firebrickE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11floralwhiteE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11floralwhiteE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11floralwhiteE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa464df9442ffaa9ed859ce764d95758c1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">floralwhite</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11floralwhiteE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11forestgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11forestgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11forestgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6dea67df64be3cd8e04ab5388b8d7a72"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">forestgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11forestgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7fuchsiaE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7fuchsiaE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7fuchsiaE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f370737a8ad22210a0dd6b1c8f00896"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">fuchsia</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7fuchsiaE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9gainsboroE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9gainsboroE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9gainsboroE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2ca891b27d02c8a2fea622359be7c4dd"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gainsboro</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9gainsboroE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10ghostwhiteE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10ghostwhiteE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10ghostwhiteE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf342a66932a827c55a49eb209393b2b5"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ghostwhite</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10ghostwhiteE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4goldE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4goldE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4goldE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae07e81c20cf5935f5225765f0af81755"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gold</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4goldE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9goldenrodE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9goldenrodE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9goldenrodE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacf32f5cd9a11a837faccbbb96b3c8170"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">goldenrod</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9goldenrodE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4grayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4grayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4grayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacda7a650c5856cf2f6738072447d7825"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4grayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5greenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5greenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5greenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f27410725ab8cc8854a2769c7a516b8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">green</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5greenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11greenyellowE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11greenyellowE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11greenyellowE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadd675e7d49f43ce4437518439af03897"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">greenyellow</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11greenyellowE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4greyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4greyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4greyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaca50000a180a293de0b27acb67a695cb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">grey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4greyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8honeydewE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8honeydewE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8honeydewE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaada14d88f265df4cf00b5d11f45559cb8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">honeydew</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8honeydewE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7hotpinkE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7hotpinkE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7hotpinkE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2ed02e792f8ecd95b6570b687274afeb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">hotpink</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7hotpinkE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9indianredE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9indianredE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9indianredE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa0bcd7a6c04f7d92f5c9a923f5c5c8f69"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">indianred</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9indianredE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6indigoE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6indigoE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6indigoE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8a99d28c3c43cafed58cdbac5f4e9201"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">indigo</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6indigoE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5ivoryE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5ivoryE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5ivoryE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac55c68625ca1da0e1d4a922fc8cb373e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ivory</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5ivoryE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5khakiE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5khakiE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5khakiE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa12284913bfe16bebd8bc809573f0387a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">khaki</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5khakiE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8lavenderE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8lavenderE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8lavenderE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa153fa52654465ad67f045dc293f3b16e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lavender</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8lavenderE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13lavenderblushE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13lavenderblushE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13lavenderblushE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa300469c99650e3bcea985bebb51a67ae"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lavenderblush</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13lavenderblushE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lawngreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lawngreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lawngreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8bc9868eff968586101e0e57823085eb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lawngreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lawngreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12lemonchiffonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12lemonchiffonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12lemonchiffonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3b5720926e81aca08b9343bb338f3583"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lemonchiffon</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12lemonchiffonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lightblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lightblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lightblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6eed435cb5faa552a3117e7d60ebce8d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lightblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10lightcoralE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10lightcoralE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10lightcoralE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5fae03de713a5454a5f049f2d305ea85"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightcoral</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10lightcoralE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lightcyanE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lightcyanE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lightcyanE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa27bc3fe7e0664191f0ffc2cffa3035ab"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightcyan</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lightcyanE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum20lightgoldenrodyellowE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum20lightgoldenrodyellowE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum20lightgoldenrodyellowE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafd3264ae8deb8e9eb0fb1685f3d4f99d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightgoldenrodyellow</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum20lightgoldenrodyellowE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lightgrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lightgrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lightgrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa33ab79f7fc578194d82415ddfee833a"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightgray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lightgrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10lightgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10lightgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10lightgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaefb23a2630c07ad5391c75a6c6a87eb9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10lightgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lightgreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lightgreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lightgreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa680a7e93b520a05dd15827150ee96b1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightgrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lightgreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9lightpinkE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9lightpinkE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9lightpinkE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa41d487d9c27fbd6e655470c3061eedf6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightpink</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9lightpinkE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11lightsalmonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11lightsalmonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11lightsalmonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f2a029f042134a497ef445c486b3c26"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightsalmon</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11lightsalmonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13lightseagreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13lightseagreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13lightseagreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad19e2e476f23014d551db8def7c70ff4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightseagreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13lightseagreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12lightskyblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12lightskyblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12lightskyblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa4fd560e81d368f625763cb684dd348c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightskyblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12lightskyblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14lightslategrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14lightslategrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14lightslategrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf932db6a00b4137a7027fb8818c9069d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightslategray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14lightslategrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14lightslategreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14lightslategreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14lightslategreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac7ae18d076ed463e997aa760913e3541"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightslategrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14lightslategreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14lightsteelblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14lightsteelblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14lightsteelblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacaa8ae4449a666a15c3a5094688d2aed"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightsteelblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14lightsteelblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11lightyellowE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11lightyellowE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11lightyellowE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad69c77f2ac538b9e2f62ebf25b7cd64b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lightyellow</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11lightyellowE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4limeE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4limeE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4limeE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa67c0ecaf5a1b782b11146e9fbe80f016"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lime</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4limeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9limegreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9limegreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9limegreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8a03233f60c05bc5c3161698a5f78a58"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">limegreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9limegreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5linenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5linenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5linenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa6ab62e9da89b20d720c70602624bfc2"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">linen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5linenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7magentaE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7magentaE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7magentaE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4c2a4a7078da0ac6733464eacfd00f86"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">magenta</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7magentaE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6maroonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6maroonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6maroonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa04a3da97880fcedeb087378f29c3a102"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">maroon</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6maroonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum16mediumaquamarineE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum16mediumaquamarineE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum16mediumaquamarineE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac572cb15d610815a1a35f71bc98e87c1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumaquamarine</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum16mediumaquamarineE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10mediumblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10mediumblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10mediumblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa56f0b1fbfc4968e21e0954555646a5b9"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10mediumblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12mediumorchidE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12mediumorchidE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12mediumorchidE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa025a653c5fc64110513169a13e797f77"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumorchid</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12mediumorchidE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12mediumpurpleE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12mediumpurpleE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12mediumpurpleE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3399bde7e469480b9c2b720ccf93354b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumpurple</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12mediumpurpleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum14mediumseagreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum14mediumseagreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum14mediumseagreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3a694cc5ad6b28ce79189514c953b3b5"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumseagreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum14mediumseagreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum15mediumslateblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum15mediumslateblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum15mediumslateblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa83ecacb638da1965b258f66e89364ce3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumslateblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum15mediumslateblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum17mediumspringgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum17mediumspringgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum17mediumspringgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa6ddf4a2e773043413b1d7999d1345d6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumspringgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum17mediumspringgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum15mediumturquoiseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum15mediumturquoiseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum15mediumturquoiseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafd636290518e4c317ab2da0a74d68648"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumturquoise</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum15mediumturquoiseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum15mediumvioletredE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum15mediumvioletredE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum15mediumvioletredE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaec5ec994747a587cc97b2e1d6be4b277"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mediumvioletred</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum15mediumvioletredE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum12midnightblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum12midnightblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum12midnightblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa90f16555d78362c17648d92c0f09a722"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">midnightblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum12midnightblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9mintcreamE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9mintcreamE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9mintcreamE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa41578fc60554cfd9a8bf59508992aa0f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mintcream</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9mintcreamE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9mistyroseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9mistyroseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9mistyroseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac97b2f86b1996e93ef5309ec64885d0b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mistyrose</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9mistyroseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8moccasinE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8moccasinE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8moccasinE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadc8a6c38cc98a2c29859c34b26974bc7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">moccasin</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8moccasinE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11navajowhiteE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11navajowhiteE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11navajowhiteE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4f66b601b5bad722855550fb6d0175d3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">navajowhite</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11navajowhiteE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4navyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4navyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4navyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf3311d3d14c8437553bf3e3f90920736"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">navy</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4navyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7oldlaceE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7oldlaceE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7oldlaceE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf3e126bf2a84136aa8310055cff9195f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">oldlace</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7oldlaceE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5oliveE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5oliveE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5oliveE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf431b0eea3c08186ed101e588bfb3a2f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">olive</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5oliveE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9olivedrabE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9olivedrabE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9olivedrabE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad45de2d34108b74e8fa001c7036abf84"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">olivedrab</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9olivedrabE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6orangeE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6orangeE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6orangeE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafe01d67a002dfa0f3ac084298142eccd"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">orange</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6orangeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9orangeredE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9orangeredE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9orangeredE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf942a5b0776d7b0b52ffbdc54df6a5d3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">orangered</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9orangeredE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6orchidE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6orchidE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6orchidE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa93b1453c8ec5a548389c935052536ccb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">orchid</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6orchidE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13palegoldenrodE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13palegoldenrodE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13palegoldenrodE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad18849594a68a3f8295f5772ed94c356"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">palegoldenrod</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13palegoldenrodE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9palegreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9palegreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9palegreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae2b963edf33112a83ed4d42118d24753"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">palegreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9palegreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13paleturquoiseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13paleturquoiseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13paleturquoiseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f8632e28af5e28a5e441e439164fc96"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">paleturquoise</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13paleturquoiseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum13palevioletredE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum13palevioletredE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum13palevioletredE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf563b4203617143423a84a1936dfdd69"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">palevioletred</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum13palevioletredE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10papayawhipE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10papayawhipE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10papayawhipE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2d2ecb622215912c641188572973f85e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">papayawhip</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10papayawhipE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9peachpuffE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9peachpuffE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9peachpuffE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8e611c133acffe7aa45f9fe60b22fb6d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">peachpuff</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9peachpuffE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4peruE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4peruE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4peruE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa32e8419a7ecb8f918c70fdadf783e3d8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">peru</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4peruE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4pinkE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4pinkE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4pinkE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4a0b0dcedd48f780778d1cd1bb8f9877"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pink</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4pinkE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4plumE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4plumE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4plumE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3e042037287d6871eec3dbd48556b0b4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">plum</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4plumE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10powderblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10powderblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10powderblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab1687e60d96154a3df2156a6e71d2bfa"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">powderblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10powderblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6purpleE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6purpleE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6purpleE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabb7aedfa61007447dd6efaf9f37641e3"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">purple</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6purpleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum3redE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum3redE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum3redE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabda9643ac6601722a28f238714274da4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">red</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum3redE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9rosybrownE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9rosybrownE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9rosybrownE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae4f435dd8f3888fa39067553139ab409"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">rosybrown</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9rosybrownE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9royalblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9royalblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9royalblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa231f2b387a5d04315a8c8aff6e042ee7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">royalblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9royalblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11saddlebrownE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11saddlebrownE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11saddlebrownE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad8e2f64ce824268e85076de8ac2fbfa4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">saddlebrown</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11saddlebrownE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6salmonE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6salmonE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6salmonE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa180fd182f9a0742f483619781ccc36c4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">salmon</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6salmonE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10sandybrownE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10sandybrownE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10sandybrownE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac6863403307399b5b900cbdc0aad36aa"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sandybrown</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10sandybrownE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8seagreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8seagreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8seagreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf1309a260a8dbc81bf890cc79c644c12"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">seagreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8seagreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum8seashellE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum8seashellE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum8seashellE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1c2123d726ed9e6bc173b68f13915566"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">seashell</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum8seashellE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6siennaE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6siennaE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6siennaE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa91c001e5547439063fefe550d83533b6"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sienna</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6siennaE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6silverE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6silverE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6silverE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa97f014516561ef487ec368d6158eb3f4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">silver</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6silverE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7skyblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7skyblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7skyblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafcd8ce74755a0c1d53e1c4750251b22c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">skyblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7skyblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9slateblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9slateblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9slateblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaad5f9b21b16873ccb3b71ffce804461d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">slateblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9slateblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9slategrayE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9slategrayE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9slategrayE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae8fc5f9dd56e6031dbc45b25e7807707"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">slategray</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9slategrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9slategreyE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9slategreyE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9slategreyE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa167664a24ee7cbeef0c9e55d4692924d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">slategrey</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9slategreyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4snowE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4snowE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4snowE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2b93fbdf27d43547bec8794054c28e00"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">snow</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4snowE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11springgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11springgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11springgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5f6f0a07ae03bdbf4d6c26daf552dc87"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">springgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11springgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9steelblueE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9steelblueE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9steelblueE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa53f33c2424d2c6b5652d277d57b2d2c4"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">steelblue</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9steelblueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum3tanE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum3tanE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum3tanE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5b2d4484498235e80d61a233a7c04991"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tan</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum3tanE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum4tealE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum4tealE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum4tealE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3c4184e82bb3be8fa32669800fb7373c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">teal</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum4tealE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum7thistleE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum7thistleE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum7thistleE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa94ec2b8d73527db3da316ad28195219e"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">thistle</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum7thistleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6tomatoE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6tomatoE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6tomatoE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa006f87892f47ef9aa60fa5ed01a440fb"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tomato</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6tomatoE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum9turquoiseE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum9turquoiseE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum9turquoiseE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadcbb31fdf774bcd3f09d54c4487377c0"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">turquoise</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum9turquoiseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6violetE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6violetE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6violetE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad1d813a48d99f0e102f7d0a1b9068001"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">violet</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6violetE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5wheatE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5wheatE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5wheatE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad29db4ac8712f5bdb343991281b26db1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">wheat</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5wheatE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum5whiteE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum5whiteE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum5whiteE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad508fe45cecaf653904a0e774084bb5c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">white</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum5whiteE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum10whitesmokeE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum10whitesmokeE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum10whitesmokeE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabbeb08cd5fe2d11b53259e35a4abef82"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">whitesmoke</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum10whitesmokeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum6yellowE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum6yellowE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum6yellowE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad487dd0b55dfcacdd920ccbdaeafa351"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yellow</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum6yellowE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors12SVGColorEnum11yellowgreenE">
+<span id="_CPPv3N4gviz6colors12SVGColorEnum11yellowgreenE"></span><span id="_CPPv2N4gviz6colors12SVGColorEnum11yellowgreenE"></span><span class="target" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac79f8970c1ee53c916bac8e6fee80055"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yellowgreen</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors12SVGColorEnum11yellowgreenE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="svg_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">svg.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_0c172d4549410538c67f1e8c5f2bc6fb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="converter.html" class="btn btn-neutral float-left" title="colors/converter.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="general.html" class="btn btn-neutral float-right" title="colors/general.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7e" kind="enum"><name>ClusterMode</name></member>
+    <member refid="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7ea334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7eaf5ddaf0ca7929578b408c909429f68f2" kind="enumvalue"><name>local</name></member>
+    <member refid="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7ea9c70933aff6b2a6d08c687a6cbb6b765" kind="enumvalue"><name>global</name></member>
+  </compound>
+  <compound refid="clustermode_8hpp" kind="file"><name>clustermode.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

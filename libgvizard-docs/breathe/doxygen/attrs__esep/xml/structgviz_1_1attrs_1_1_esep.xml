@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_esep" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Esep</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Esep, EsepType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_esep_1a168b586cbec0fdc23f1c1cfc77621671" prot="public" static="no">
+        <type>EsepType</type>
+        <definition>using gviz::attrs::Esep::value_type =  EsepType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Esep::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="17" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_esep_1a49123ebc8d0a77597c4b1b4725f4be3a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Esep::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Esep::name</qualifiedname>
+        <initializer>= &quot;esep&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="19" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a57ef26ead1b40767e0d37d83d316decd" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Esep::Esep</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Esep</name>
+        <qualifiedname>gviz::attrs::Esep::Esep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="21" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a5d78d3c1bbb3faf50018a1fdb879b61b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Esep::Esep</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Esep</name>
+        <qualifiedname>gviz::attrs::Esep::Esep</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="22" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a3a282840fed426f7f908250fb9bd623c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Esep::Esep</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Esep</name>
+        <qualifiedname>gviz::attrs::Esep::Esep</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="25" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a124ad3960cc2b1eb5108331bee6e75e7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Esep::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Esep::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="29" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a2b40666086c724a1e62ff247f883612a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Esep::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Esep::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="34" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_esep_1a5b3283274db1866d629390c50aaff635" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Esep::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Esep::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="39" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Esep, EsepType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Esep</label>
+        <link refid="structgviz_1_1attrs_1_1_esep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Esep, EsepType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Esep</label>
+        <link refid="structgviz_1_1attrs_1_1_esep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="16" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="16" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a5b3283274db1866d629390c50aaff635" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a57ef26ead1b40767e0d37d83d316decd" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>Esep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a5d78d3c1bbb3faf50018a1fdb879b61b" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>Esep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a3a282840fed426f7f908250fb9bd623c" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>Esep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a124ad3960cc2b1eb5108331bee6e75e7" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a2b40666086c724a1e62ff247f883612a" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a49123ebc8d0a77597c4b1b4725f4be3a" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_esep_1a168b586cbec0fdc23f1c1cfc77621671" prot="public" virt="non-virtual"><scope>gviz::attrs::Esep</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

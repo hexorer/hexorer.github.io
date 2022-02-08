@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_arrow_modifier" kind="struct"><name>gviz::attrtypes::ArrowModifier</name>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a9a02d5e031a560cae273d40cd90b70df" kind="variable"><name>side</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a94b4712508c0e0ee4090068d48b1670e" kind="variable"><name>open</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a503a42753aecfb8b1dd222fa26e802bc" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a8eb645d38f08a33753e59d117d681f66" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_arrow_shape" kind="struct"><name>gviz::attrtypes::ArrowShape</name>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1a937a3d8f65311d7bd1f6aa3ba8c4a68a" kind="variable"><name>shape</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1a1071e9706d14b136eb39b3db6a9957fc" kind="variable"><name>modifier</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1a930374cf26b11b6c770fd7f566c13acc" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1ad52d555caf612d33f2c5be4d2262f2ef" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1aa056d2634d108d9dfc74c756c7b58cfa" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1a3c6a99bce398c4cd4976fa4e6aa9c1ce" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1a513b0e3ddd67b1e6bea76512d1571f2f" kind="function"><name>normalize</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1afb73ce6f6d016dfa545948bd163e8128" kind="function"><name>normalized</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_shape_1af56f56f23fad13fa20c247beb6a931d7" kind="function"><name>normalized_modifier</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1arrowshapes" kind="struct"><name>gviz::attrtypes::arrowshapes</name>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a0d44ca26c2f7ef44917f3fcf69e193b0" kind="variable"><name>none</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aac0979eb45182cc4e732a19c043b1e40" kind="variable"><name>normal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a357f92086e5e23d7b731077403cc63bd" kind="variable"><name>lnormal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ae4cd9a1d4528091e34532bf5c953addc" kind="variable"><name>rnormal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab4d3d06629dab0dedc0d7fa0b8b0a407" kind="variable"><name>onormal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7b8b0e62f9601c88f6c8bc405dd6d9a7" kind="variable"><name>olnormal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a6091a0b8f31f2ed629249e80c23d530e" kind="variable"><name>ornormal</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a8d07a3ddf70f2c749151691fe490ed1d" kind="variable"><name>box</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a51ea187d7b9a3564f6b1884aa57cf66d" kind="variable"><name>lbox</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1af59e87ec0eca6cf041e92df8410f3f61" kind="variable"><name>rbox</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a76c375d41c40eeb89070e0e9a3adc6c2" kind="variable"><name>obox</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a9ae9c5d0a992a79fcd2a827bd4b0f06c" kind="variable"><name>olbox</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1adc115e461a0f1f16b8af45ac628aa08d" kind="variable"><name>orbox</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7d3cc88b37c2417b5c57c19f67f73a9e" kind="variable"><name>crow</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a14d5cf8ace36cb59d94f51c0ba274e16" kind="variable"><name>lcrow</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab3ba2159d8d55060b0c8699aea2eaf7f" kind="variable"><name>rcrow</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1abe29fdb65ade3be19b22e577805eb143" kind="variable"><name>diamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3edffab7bd1413611f848839c00cfb5b" kind="variable"><name>ldiamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a39d695716bf459d47a512d15e3cb0395" kind="variable"><name>rdiamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a9ff5aa556dd9c8407682159945ac94ef" kind="variable"><name>odiamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aae7ed1b2f5a06de9621ac59a4b085562" kind="variable"><name>oldiamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ac3493ada3ed07b92baf044a6ea849564" kind="variable"><name>ordiamond</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a328a4661a40fedcaba69ed82ae5ab2e0" kind="variable"><name>dot</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3625a320452bec16db949ce034102b46" kind="variable"><name>odot</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3b7281c621bc9f67c3a25b3e65399f9a" kind="variable"><name>inv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a314dd5edea531a96d45a7e3f4637dcd4" kind="variable"><name>linv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ae279c78ad437b57b6a57137dc95214ed" kind="variable"><name>rinv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aa57cff1b240a012d390bd088ae543b1a" kind="variable"><name>oinv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a41a6b98f02caeb0f72dd4e26e6e5399b" kind="variable"><name>olinv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab3f878b8a0b7789985070a9326010929" kind="variable"><name>orinv</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a53d0e7ab178c7bb9f95af9e7075ca51a" kind="variable"><name>tee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3d31f3a99d21c63ad150e5ffb644c7f6" kind="variable"><name>ltee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a2e7223f3e8bcf445ce9a5c05f7a8b57f" kind="variable"><name>rtee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a50f3121bd76bb97288f729c5eb005a4f" kind="variable"><name>vee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a8cb30362cd6e832ecfff5746665894df" kind="variable"><name>lvee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3d2cbd70fed94bc3fbff19ae1278637e" kind="variable"><name>rvee</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a12603f0d221d9170c21854ad49d619ad" kind="variable"><name>curve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a39253fd47e7603793e8e3788c1f42fe4" kind="variable"><name>lcurve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a6f77ec1a60312fe74896350ca99ec5ce" kind="variable"><name>rcurve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7ac3c39ec976ece228151fbf4d13e3d5" kind="variable"><name>icurve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7830b9a94b305cec93a1f7c629681d10" kind="variable"><name>licurve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a1dd1af53e7d3ce42f28bd2bc6f5c16e8" kind="variable"><name>ricurve</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab7d92bd405cbd6a8db8e1d000872a0b0" kind="function"><name>arrowshapes</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_arrow_type" kind="struct"><name>gviz::attrtypes::ArrowType</name>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a3632a1fa315e1c74d4c2f20fa5452f5c" kind="variable"><name>shape1</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a76ba4f0196a0811e876fd45697f819d9" kind="variable"><name>shape2</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a1ce8266bfc1d520944768a97ed893126" kind="variable"><name>shape3</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a97c943ded7ba8af3cf04187199ce0512" kind="variable"><name>shape4</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a9b35860cc968781f1f0956b65fc15839" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1ab97d0155af003f608ab37d487e644fcb" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a5bfbf634e3532c0dd2c05b126c978af6" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1ab6c6b9afedea7bc2b1cc4d416f242d02" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a136c7822092e11d0e48bc24e3c1ebe0d" kind="function"><name>normalize</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a1676dda25547c0381b71bf4466ca024e" kind="function"><name>normalized</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a77e9e9fa55c4ed3141fca8a876c15e3b" kind="function"><name>as_tuple</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a55b0fef803aa1002e6e236dc4f6a876c" kind="function"><name>as_array</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813" kind="enum"><name>ArrowPrimaryShape</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a34be958a921e43d813a2075297d8e862" kind="enumvalue"><name>box</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813abbbd53e913a404b04abf373dc1dac49b" kind="enumvalue"><name>crow</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a4efa264f5ef3e1a5c95736e07544ebf0" kind="enumvalue"><name>curve</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813ab999e399cf28e9ab22d4aedf2a114b70" kind="enumvalue"><name>icurve</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a75c6f03161d020201000414cd1501f9f" kind="enumvalue"><name>diamond</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a69eb76c88557a8211cbfc9beda5fc062" kind="enumvalue"><name>dot</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a545f7f577c93318b34476e9999931731" kind="enumvalue"><name>inv</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813afea087517c26fadd409bd4b9dc642555" kind="enumvalue"><name>normal</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813aa04ce4f25ad79ff8ba880390edfb1ab4" kind="enumvalue"><name>tee</name></member>
+    <member refid="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a9bf9e7052992467f671d923e9444624e" kind="enumvalue"><name>vee</name></member>
+    <member refid="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0" kind="enum"><name>ArrowOpen</name></member>
+    <member refid="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0a7cef8a734855777c2a9d0caf42666e69" kind="enumvalue"><name>open</name></member>
+    <member refid="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8" kind="enum"><name>ArrowSide</name></member>
+    <member refid="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a811882fecd5c7618d7099ebbd39ea254" kind="enumvalue"><name>left</name></member>
+    <member refid="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a7c4f29407893c334a6cb7a87bf045c0d" kind="enumvalue"><name>right</name></member>
+  </compound>
+  <compound refid="arrowtype_8hpp" kind="file"><name>arrowtype.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

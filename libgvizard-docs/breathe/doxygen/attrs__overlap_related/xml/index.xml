@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_overlap" kind="struct"><name>gviz::attrs::Overlap</name>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a8a32c1c97804358c0e434510a0015625" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1acd4a0dfcef4b62e6a7c21e2f0bdd423e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a84dc5720aa5e67abbcb6958d87f3dfb5" kind="function"><name>Overlap</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1aca6842728866af0b966b953559624e2d" kind="function"><name>Overlap</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a17da892446ea2877136b455087e5d806" kind="function"><name>Overlap</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a8949bcc658145a9d196be70dd4abbc79" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a2584d4dde0bef82f34ada9099e9e28e1" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_1a8d4388d96263ec11e148f7d6800806d6" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_overlap_scaling" kind="struct"><name>gviz::attrs::OverlapScaling</name>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1aed015ffce62314e3571a8472b0e11ffa" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a88a74d89c2c2d4e95caca422db20d7f2" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a142d946273a0ce7eb3ef34f55d75405b" kind="function"><name>OverlapScaling</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a28030cc836553b22eefa609efa0c337a" kind="function"><name>OverlapScaling</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ae467ad31d4145e9b5f151ac012ecdb40" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ac568c39f5847fd69bea00e723a235c50" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ab197c366e7c3d00f7360efee359bda51" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_overlap_shrink" kind="struct"><name>gviz::attrs::OverlapShrink</name>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1ac82e60fd6ced5f926a10928aef55ea9f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1a26942206355438e9b31da45f2c80fef6" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1a77c99e2570017de726523859bc32262e" kind="function"><name>OverlapShrink</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1ab1590690fa7dcb9c3a035c8a4d595586" kind="function"><name>OverlapShrink</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1a7e52c94584d50d645e0fc0fb912726e7" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1a05f49dc2e03255c86c3247cdfba0c89d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_overlap_shrink_1a42d3297213985a5ee0a3e5f19c57c56e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="overlap__related_8hpp_1ac89045b4955384b2b5598faa5105f402" kind="typedef"><name>OverlapType</name></member>
+  </compound>
+  <compound refid="overlap__related_8hpp" kind="file"><name>overlap_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

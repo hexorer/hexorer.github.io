@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_pack_mode" prot="public">gviz::attrtypes::PackMode</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>PackModeEnum</name>
+        <qualifiedname>gviz::attrtypes::PackModeEnum</qualifiedname>
+        <enumvalue id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a36c4536996ca5615dcf9911f068786dc" prot="public">
+          <name>node</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a0b166c94272a55b586053a15b6d48a80" prot="public">
+          <name>clust</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af8b0b924ebd7046dbfa85a856e4682c8" prot="public">
+          <name>graph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af1f713c9e000f5d3f280adbd124df4f5" prot="public">
+          <name>array</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/packmode.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/packmode.hpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="enum" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>PackModeArrayFlag</name>
+        <qualifiedname>gviz::attrtypes::PackModeArrayFlag</qualifiedname>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a1afd32818d1c9525f82aff4c09efd254" prot="public">
+          <name>column</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8aee11cbb19052e40b07aac0ca060c23ee" prot="public">
+          <name>user</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8ab28354b543375bfa94dabaeda722927f" prot="public">
+          <name>top</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a71f262d796bed1ab30e8a2d5a8ddee6f" prot="public">
+          <name>bottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a811882fecd5c7618d7099ebbd39ea254" prot="public">
+          <name>left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a7c4f29407893c334a6cb7a87bf045c0d" prot="public">
+          <name>right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/packmode.hpp" line="15" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/packmode.hpp" bodystart="15" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/packmode.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

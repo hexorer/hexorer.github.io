@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1_gviz_graph" kind="struct"><name>gviz::GvizGraph</name>
+    <member refid="structgviz_1_1_gviz_graph_1a19835f6b458a4166d5c6aa6ad9a99087" kind="typedef"><name>registry_type</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1adb8e136caa53f520bbced66bb5630d70" kind="typedef"><name>entity_type</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1ab0f45a2081b4c1086e92ccc506ef19df" kind="typedef"><name>NodeId</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a34b3100c489a921012d48a2614ddbaa5" kind="typedef"><name>EdgeId</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a44a75d5682f9245b5cdf0b0501c40b21" kind="typedef"><name>ClusterId</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a1aedba958b1704fc5365082439682dd3" kind="variable"><name>graph</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1ada11e8fc97604db2ccc7bc228d28336b" kind="variable"><name>global_node_attrs</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1af8ee08ab8f0944ba6c30b6bc759f8712" kind="variable"><name>global_edge_attrs</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1af001762c117804cd0ef6e8bb4b321293" kind="variable"><name>global_cluster_attrs</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a9d311deb400ad04ef2d346112fdecd73" kind="function"><name>GvizGraph</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1aad7e1bd38e59354a4ca58eec762dfb4d" kind="function"><name>is_directed</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1ad00717d138cd48568ebbb34e235406fd" kind="function"><name>is_undirected</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a7bba4a6ae179b7e272f849fa8b8aade2" kind="function"><name>get_node_label</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a685cd96ddbea5a846527225a67aac659" kind="function"><name>get_node_style</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1ad83127f031c9f409d67637cca8e6a75a" kind="function"><name>set_node_label</name></member>
+    <member refid="structgviz_1_1_gviz_graph_1a2e4c29579fa2e81c7f4a9fc196b63331" kind="function"><name>set_node_style</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="gvizgraph_8hpp" kind="file"><name>gvizgraph.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

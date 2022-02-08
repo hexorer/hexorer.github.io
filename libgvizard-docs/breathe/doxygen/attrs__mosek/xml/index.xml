@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_mosek" kind="struct"><name>gviz::attrs::Mosek</name>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a449f29ef16fdaff38e981631e3bcdf49" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a7d220a4e5c33d4ea117640cc1956e0f6" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a93b0e789d248df44eb6b6cf4187c5ff2" kind="function"><name>Mosek</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a5ab7b7ace619f00aa73b5e860a5cd84c" kind="function"><name>Mosek</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a5e68679c9c4ed168046c8b738fab706c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a33c9b2e688288acc1b53b673e2bd64c7" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_mosek_1a5739d8a3378e95eacc30bd1ced9854fb" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="mosek_8hpp" kind="file"><name>mosek.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

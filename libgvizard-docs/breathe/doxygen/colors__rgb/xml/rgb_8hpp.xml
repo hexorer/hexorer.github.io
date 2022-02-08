@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="rgb_8hpp" kind="file" language="C++">
+    <compoundname>rgb.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp</label>
+        <link refid="rgb_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="3">
+        <label>optional</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1colors_1_1_r_g_b" prot="public">gviz::colors::RGB</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1colors">gviz::colors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_COLORS_RGB_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_COLORS_RGB_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::colors<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structgviz_1_1colors_1_1_r_g_b" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>octet_t<sp/>=<sp/>uint8_t;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>octet_t<sp/>r<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>octet_t<sp/>g<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>octet_t<sp/>b<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::optional&lt;RGB&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>make(octet_t<sp/>red,<sp/>octet_t<sp/>green,<sp/>octet_t<sp/>blue)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref>{<sp/>red,<sp/>green,<sp/>blue<sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>octet_t<sp/>min()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r<sp/>&lt;<sp/>g)<sp/>?<sp/>((r<sp/>&lt;<sp/>b)<sp/>?<sp/>r<sp/>:<sp/>b)<sp/>:<sp/>((g<sp/>&lt;<sp/>b)<sp/>?<sp/>g<sp/>:<sp/>b);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>octet_t<sp/>max()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r<sp/>&gt;<sp/>g)<sp/>?<sp/>((r<sp/>&gt;<sp/>b)<sp/>?<sp/>r<sp/>:<sp/>b)<sp/>:<sp/>((g<sp/>&gt;<sp/>b)<sp/>?<sp/>g<sp/>:<sp/>b);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref><sp/>from_binary(uint32_t<sp/>value)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>octet_t((value<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>0xff),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>octet_t((value<sp/>&gt;&gt;<sp/><sp/>8)<sp/>&amp;<sp/>0xff),</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>octet_t((value<sp/>&gt;&gt;<sp/><sp/>0)<sp/>&amp;<sp/>0xff)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>uint32_t<sp/>to_binary()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r<sp/>&lt;&lt;<sp/>16)<sp/>|</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(g<sp/>&lt;&lt;<sp/><sp/>8)<sp/>|</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(b<sp/>&lt;&lt;<sp/><sp/>0);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r<sp/>==<sp/>other.r<sp/>&amp;&amp;<sp/>g<sp/>==<sp/>other.g<sp/>&amp;&amp;<sp/>b<sp/>==<sp/>other.b;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r<sp/>!=<sp/>other.r<sp/>||<sp/>g<sp/>!=<sp/>other.g<sp/>||<sp/>b<sp/>!=<sp/>other.b;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz::colors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_COLORS_RGB_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp"/>
+  </compounddef>
+</doxygen>

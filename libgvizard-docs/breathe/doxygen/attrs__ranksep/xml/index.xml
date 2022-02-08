@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_rank_sep" kind="struct"><name>gviz::attrs::RankSep</name>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a2bd0dcc57649f62f577e829df05b13a8" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a6fa07547296a71edb6f19be6781eaeb5" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a0e66985e94effe04b84246823f28ac30" kind="function"><name>RankSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a903f4e3476b1f823855272df3f2315af" kind="function"><name>RankSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1ae98119f0db394cebc4ee885e41197cdd" kind="function"><name>RankSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a6a67fff659e911943bfb5a2976e802db" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a2bacc717265afbc28dec36f2f28c9861" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_sep_1a61e7401052b61a6aba90fc5a36c72f77" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="ranksep_8hpp_1abdd8536b17ce45cc495b36ad41061cd5" kind="typedef"><name>RankSepType</name></member>
+  </compound>
+  <compound refid="ranksep_8hpp" kind="file"><name>ranksep.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

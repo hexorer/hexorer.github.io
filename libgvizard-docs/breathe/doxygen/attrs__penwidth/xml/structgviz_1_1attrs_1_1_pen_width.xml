@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_pen_width" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::PenWidth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; PenWidth, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_pen_width_1afddcefd9486d729e079bdb0c457eef12" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::PenWidth::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::PenWidth::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_pen_width_1a8e94a38cd47ac244bd46bfa013124f73" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::PenWidth::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::PenWidth::name</qualifiedname>
+        <initializer>= &quot;penwidth&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_width_1a1e43a708bda0850e915cbc0563b90771" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PenWidth::PenWidth</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>PenWidth</name>
+        <qualifiedname>gviz::attrs::PenWidth::PenWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_width_1a2275ce9dcba085b0b2a735087025c810" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PenWidth::PenWidth</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>PenWidth</name>
+        <qualifiedname>gviz::attrs::PenWidth::PenWidth</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_width_1a9ad4188bf45879ee3d4e247ef86900f6" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::PenWidth::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::PenWidth::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_width_1aeaf75bfb720d34c5ed410d8f2f846418" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PenWidth::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::PenWidth::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_width_1a899f85d604ec55d18d9af80c9703f728" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PenWidth::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::PenWidth::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; PenWidth, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PenWidth</label>
+        <link refid="structgviz_1_1attrs_1_1_pen_width"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; PenWidth, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PenWidth</label>
+        <link refid="structgviz_1_1attrs_1_1_pen_width"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/penwidth.hpp" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1a899f85d604ec55d18d9af80c9703f728" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1a9ad4188bf45879ee3d4e247ef86900f6" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1aeaf75bfb720d34c5ed410d8f2f846418" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1a8e94a38cd47ac244bd46bfa013124f73" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1a1e43a708bda0850e915cbc0563b90771" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>PenWidth</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1a2275ce9dcba085b0b2a735087025c810" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>PenWidth</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_width_1afddcefd9486d729e079bdb0c457eef12" prot="public" virt="non-virtual"><scope>gviz::attrs::PenWidth</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

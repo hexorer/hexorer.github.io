@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_pos" kind="struct"><name>gviz::attrs::Pos</name>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a3527786de6fe1dbd6b65dede819b370f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1ad0ed737320a1f645577fa68c1b5aa3d3" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1adac3dbce13774fb69b9f5101c3cc47ba" kind="function"><name>Pos</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a4dcc5b732d059ae3ca9824593f59fe78" kind="function"><name>Pos</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a4f5b37d5ff990876928071440a8c4535" kind="function"><name>Pos</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a53e2a47f305fcebc1e8f71d91006cfc0" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a31d952e1a47c6b88845a0f6bb0931d20" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pos_1a5861dc5ecfe8e3d978e3010576fbf69d" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="pos_8hpp_1a93438058cee2293ddb476f571357fc67" kind="typedef"><name>PosType</name></member>
+  </compound>
+  <compound refid="pos_8hpp" kind="file"><name>pos.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

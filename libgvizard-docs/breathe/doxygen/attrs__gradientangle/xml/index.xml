@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_gradient_angle" kind="struct"><name>gviz::attrs::GradientAngle</name>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1afdcf31fea45a19e9b0125a42afd931a7" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1a5dc48b32939c61b7b904340786438cf8" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1ae19cedefe63ad785d87c662b2c902596" kind="function"><name>GradientAngle</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1a1941fe13d80cea216ab40dd1579edba8" kind="function"><name>GradientAngle</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1a8e88a40ec13347ed6bc9af101fe20e01" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1a3d9d083ae08731ff43685abb27a75e0d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_gradient_angle_1aa794400edb12c112fa462324200fe6a6" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="gradientangle_8hpp" kind="file"><name>gradientangle.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

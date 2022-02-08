@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1graph_1_1_graph_1_1_item" kind="class" language="C++" prot="private" final="yes">
+    <compoundname>gviz::graph::Graph::Item</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1_1_item_1a0227a992e4929ff426cf8c8e0ec8297a" prot="private" static="no" mutable="no">
+        <type>EntityTypeEnum</type>
+        <definition>EntityTypeEnum gviz::graph::Graph&lt; Registry, DirV &gt;::Item::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>gviz::graph::Graph::Item::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="71" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1_1_item_1a0529b618b3c6f5a96e851e69c0fe6480" prot="private" static="no" mutable="no">
+        <type>union gviz::graph::Graph::Item::@0</type>
+        <definition>union gviz::graph::Graph::Item::@0 gviz::graph::Graph&lt; Registry, DirV &gt;::Item::@1</definition>
+        <argsstring></argsstring>
+        <name>@1</name>
+        <qualifiedname>gviz::graph::Graph::Item::@1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="76" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1_1_item_1ad18f299c8986c65979da961f41b3ee38" prot="public" static="no" mutable="no">
+        <type>NodeItem</type>
+        <definition>NodeItem gviz::graph::Graph&lt; Registry, DirV &gt;::Item::node_</definition>
+        <argsstring></argsstring>
+        <name>node_</name>
+        <qualifiedname>gviz::graph::Graph::Item::node_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="73" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1_1_item_1a997b81910cd909af18fe4e2faf7f0faa" prot="public" static="no" mutable="no">
+        <type>EdgeItem</type>
+        <definition>EdgeItem gviz::graph::Graph&lt; Registry, DirV &gt;::Item::edge_</definition>
+        <argsstring></argsstring>
+        <name>edge_</name>
+        <qualifiedname>gviz::graph::Graph::Item::edge_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="74" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1_1_item_1a1ccbef936850c3f001dbb456c3d7b7ea" prot="public" static="no" mutable="no">
+        <type>ClusterItem</type>
+        <definition>ClusterItem gviz::graph::Graph&lt; Registry, DirV &gt;::Item::cluster_</definition>
+        <argsstring></argsstring>
+        <name>cluster_</name>
+        <qualifiedname>gviz::graph::Graph::Item::cluster_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="75" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a5a5cf9d3eb6e6bdf7c9ed83b58555688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::graph::Graph&lt; Registry, DirV &gt;::Item::Item</definition>
+        <argsstring>()</argsstring>
+        <name>Item</name>
+        <qualifiedname>gviz::graph::Graph::Item::Item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="79" column="5" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1ad03d2a89669f2b06f0e0d9765a43317f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::graph::Graph&lt; Registry, DirV &gt;::Item::Item</definition>
+        <argsstring>(NodeItem node) noexcept</argsstring>
+        <name>Item</name>
+        <qualifiedname>gviz::graph::Graph::Item::Item</qualifiedname>
+        <param>
+          <type>NodeItem</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="81" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a818aebfc26e68c3398736ede2fa7e376" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::graph::Graph&lt; Registry, DirV &gt;::Item::Item</definition>
+        <argsstring>(EdgeItem edge) noexcept</argsstring>
+        <name>Item</name>
+        <qualifiedname>gviz::graph::Graph::Item::Item</qualifiedname>
+        <param>
+          <type>EdgeItem</type>
+          <declname>edge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="85" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a5619f7eb5601cc1d2e3d040d370c31dc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::graph::Graph&lt; Registry, DirV &gt;::Item::Item</definition>
+        <argsstring>(ClusterItem cluster) noexcept</argsstring>
+        <name>Item</name>
+        <qualifiedname>gviz::graph::Graph::Item::Item</qualifiedname>
+        <param>
+          <type>ClusterItem</type>
+          <declname>cluster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="89" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a2cfd517ed8a7f2004d901324fbb256cc" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr EntityTypeEnum</type>
+        <definition>constexpr EntityTypeEnum gviz::graph::Graph&lt; Registry, DirV &gt;::Item::type</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>type</name>
+        <qualifiedname>gviz::graph::Graph::Item::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="93" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a8252f0c2c5207472ea72f2b1d97e630e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::Item::is_node</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>is_node</name>
+        <qualifiedname>gviz::graph::Graph::Item::is_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="95" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a00f9f1b7df8873aa0b2e2c5e2b463320" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::Item::is_edge</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>is_edge</name>
+        <qualifiedname>gviz::graph::Graph::Item::is_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="100" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a8ba8d19a551f2704972ec907293b2a5f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::Item::is_cluster</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>is_cluster</name>
+        <qualifiedname>gviz::graph::Graph::Item::is_cluster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="105" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a54109c994201b255ff79aa8af66c1d25" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr NodeItem &amp;</type>
+        <definition>constexpr NodeItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_node</definition>
+        <argsstring>()</argsstring>
+        <name>as_node</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="110" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a3815dc27f49e5647bf49153aedb2b35a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr const NodeItem &amp;</type>
+        <definition>constexpr const NodeItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_node</definition>
+        <argsstring>() const</argsstring>
+        <name>as_node</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="111" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1ae1ee98f59434ea11886592a9eeb6df97" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr EdgeItem &amp;</type>
+        <definition>constexpr EdgeItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_edge</definition>
+        <argsstring>()</argsstring>
+        <name>as_edge</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="113" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a93637c0e66f4c2fb5f8b72fee07d8c09" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr const EdgeItem &amp;</type>
+        <definition>constexpr const EdgeItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_edge</definition>
+        <argsstring>() const</argsstring>
+        <name>as_edge</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="114" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1a5089dc5aaaaac281ce3c14cbf2aea905" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr ClusterItem &amp;</type>
+        <definition>constexpr ClusterItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_cluster</definition>
+        <argsstring>()</argsstring>
+        <name>as_cluster</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_cluster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="116" column="33" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1_1_item_1abec64e3103f05bece7c65f2242c39f3a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr const ClusterItem &amp;</type>
+        <definition>constexpr const ClusterItem &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::Item::as_cluster</definition>
+        <argsstring>() const</argsstring>
+        <name>as_cluster</name>
+        <qualifiedname>gviz::graph::Graph::Item::as_cluster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="117" column="33" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>gviz::graph::Graph&lt; Registry, DirV &gt;::ClusterItem</label>
+      </node>
+      <node id="3">
+        <label>gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeItem</label>
+      </node>
+      <node id="2">
+        <label>gviz::graph::Graph&lt; Registry, DirV &gt;::NodeItem</label>
+      </node>
+      <node id="1">
+        <label>gviz::graph::Graph&lt; Registry, DirV &gt;::Item</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>node_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>edge_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>cluster_</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="70" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="70" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a5089dc5aaaaac281ce3c14cbf2aea905" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1abec64e3103f05bece7c65f2242c39f3a" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1ae1ee98f59434ea11886592a9eeb6df97" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a93637c0e66f4c2fb5f8b72fee07d8c09" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a54109c994201b255ff79aa8af66c1d25" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a3815dc27f49e5647bf49153aedb2b35a" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>as_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a1ccbef936850c3f001dbb456c3d7b7ea" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>cluster_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a997b81910cd909af18fe4e2faf7f0faa" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>edge_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a8ba8d19a551f2704972ec907293b2a5f" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>is_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a00f9f1b7df8873aa0b2e2c5e2b463320" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>is_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a8252f0c2c5207472ea72f2b1d97e630e" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>is_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a5a5cf9d3eb6e6bdf7c9ed83b58555688" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>Item</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1ad03d2a89669f2b06f0e0d9765a43317f" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>Item</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a818aebfc26e68c3398736ede2fa7e376" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>Item</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a5619f7eb5601cc1d2e3d040d370c31dc" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>Item</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1ad18f299c8986c65979da961f41b3ee38" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>node_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a2cfd517ed8a7f2004d901324fbb256cc" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1_1_item_1a0227a992e4929ff426cf8c8e0ec8297a" prot="private" virt="non-virtual"><scope>gviz::graph::Graph::Item</scope><name>type_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

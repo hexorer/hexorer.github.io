@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_constraint" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Constraint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Constraint, bool &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_constraint_1a05606eaa3f4809121c0e22c548c36cf0" prot="public" static="no">
+        <type>bool</type>
+        <definition>using gviz::attrs::Constraint::value_type =  bool</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Constraint::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_constraint_1a33c5f1bf33b93027b64e7473273e5202" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Constraint::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Constraint::name</qualifiedname>
+        <initializer>= &quot;constraint&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_constraint_1ad4db9d765a4da279aab7969ed71e0070" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Constraint::Constraint</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Constraint</name>
+        <qualifiedname>gviz::attrs::Constraint::Constraint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_constraint_1abd7c0642f950055c95569e3565a8bfad" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Constraint::Constraint</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Constraint</name>
+        <qualifiedname>gviz::attrs::Constraint::Constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_constraint_1ad940267ce0fd05a6682e576bed379ff1" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Constraint::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Constraint::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_constraint_1a3ca7d0d26f9e148c14fca8f3b280af4b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Constraint::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Constraint::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_constraint_1aa1e5a5d70f4e5e109bf5a8758ab6c29c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Constraint::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Constraint::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Constraint, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Constraint</label>
+        <link refid="structgviz_1_1attrs_1_1_constraint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Constraint, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Constraint</label>
+        <link refid="structgviz_1_1attrs_1_1_constraint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/constraint.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1ad4db9d765a4da279aab7969ed71e0070" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>Constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1abd7c0642f950055c95569e3565a8bfad" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>Constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1aa1e5a5d70f4e5e109bf5a8758ab6c29c" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1ad940267ce0fd05a6682e576bed379ff1" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1a3ca7d0d26f9e148c14fca8f3b280af4b" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1a33c5f1bf33b93027b64e7473273e5202" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_constraint_1a05606eaa3f4809121c0e22c548c36cf0" prot="public" virt="non-virtual"><scope>gviz::attrs::Constraint</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

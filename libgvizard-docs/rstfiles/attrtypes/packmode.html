@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/packmode.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/shape.hpp" href="shape.html" />
+    <link rel="prev" title="attrtypes/label.hpp" href="label.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/packmode.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/packmode.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-packmode-hpp">
+<h1>attrtypes/packmode.hpp<a class="headerlink" href="#attrtypes-packmode-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes8PackModeE">
+<span id="_CPPv3N4gviz9attrtypes8PackModeE"></span><span id="_CPPv2N4gviz9attrtypes8PackModeE"></span><span id="gviz::attrtypes::PackMode"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">PackMode</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes8PackModeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes8PackMode9normalizeEv">
+<span id="_CPPv3N4gviz9attrtypes8PackMode9normalizeEv"></span><span id="_CPPv2N4gviz9attrtypes8PackMode9normalizeEv"></span><span id="gviz::attrtypes::PackMode::normalizeCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1a274dc4cbda2df3f08daf89906bc64c02"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes8PackModeE" title="gviz::attrtypes::PackMode"><span class="n"><span class="pre">PackMode</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">normalize</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes8PackMode9normalizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes8PackMode10normalizedEv">
+<span id="_CPPv3NK4gviz9attrtypes8PackMode10normalizedEv"></span><span id="_CPPv2NK4gviz9attrtypes8PackMode10normalizedEv"></span><span id="gviz::attrtypes::PackMode::normalizedCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1aa6c4b78de1bc11ab3c81ab149c343eee"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes8PackModeE" title="gviz::attrtypes::PackMode"><span class="n"><span class="pre">PackMode</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">normalized</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes8PackMode10normalizedEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes8PackModeeqE8PackMode">
+<span id="_CPPv3NK4gviz9attrtypes8PackModeeqE8PackMode"></span><span id="_CPPv2NK4gviz9attrtypes8PackModeeqE8PackMode"></span><span id="gviz::attrtypes::PackMode::eq-operator__PackModeCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1a4f4422d8e5e1d106604af4f99f303ee1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes8PackModeE" title="gviz::attrtypes::PackMode"><span class="n"><span class="pre">PackMode</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes8PackModeeqE8PackMode" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes8PackModeneE8PackMode">
+<span id="_CPPv3NK4gviz9attrtypes8PackModeneE8PackMode"></span><span id="_CPPv2NK4gviz9attrtypes8PackModeneE8PackMode"></span><span id="gviz::attrtypes::PackMode::neq-operator__PackModeCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1ad87a55e50c98de79abd73ca440c29459"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes8PackModeE" title="gviz::attrtypes::PackMode"><span class="n"><span class="pre">PackMode</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes8PackModeneE8PackMode" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes8PackMode4modeE">
+<span id="_CPPv3N4gviz9attrtypes8PackMode4modeE"></span><span id="_CPPv2N4gviz9attrtypes8PackMode4modeE"></span><span id="gviz::attrtypes::PackMode::mode__PackModeEnum"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1a0ddf637286409bb689d8a22d49aacca3"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12PackModeEnumE" title="gviz::attrtypes::PackModeEnum"><span class="n"><span class="pre">PackModeEnum</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">mode</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12PackModeEnumE" title="gviz::attrtypes::PackModeEnum"><span class="n"><span class="pre">PackModeEnum</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12PackModeEnum4nodeE" title="gviz::attrtypes::PackModeEnum::node"><span class="n"><span class="pre">node</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes8PackMode4modeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes8PackMode4flagE">
+<span id="_CPPv3N4gviz9attrtypes8PackMode4flagE"></span><span id="_CPPv2N4gviz9attrtypes8PackMode4flagE"></span><span id="gviz::attrtypes::PackMode::flag__PackModeArrayFlag"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1a09eed744f704d6872b10337261ad83fe"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlagE" title="gviz::attrtypes::PackModeArrayFlag"><span class="n"><span class="pre">PackModeArrayFlag</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">flag</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlagE" title="gviz::attrtypes::PackModeArrayFlag"><span class="n"><span class="pre">PackModeArrayFlag</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag4noneE" title="gviz::attrtypes::PackModeArrayFlag::none"><span class="n"><span class="pre">none</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes8PackMode4flagE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes8PackMode6numberE">
+<span id="_CPPv3N4gviz9attrtypes8PackMode6numberE"></span><span id="_CPPv2N4gviz9attrtypes8PackMode6numberE"></span><span id="gviz::attrtypes::PackMode::number__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_pack_mode_1a06e3381813863cc4c30f84f4939554c8"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">number</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes8PackMode6numberE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12PackModeEnumE">
+<span id="_CPPv3N4gviz9attrtypes12PackModeEnumE"></span><span id="_CPPv2N4gviz9attrtypes12PackModeEnumE"></span><span class="target" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PackModeEnum</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12PackModeEnumE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12PackModeEnum4nodeE">
+<span id="_CPPv3N4gviz9attrtypes12PackModeEnum4nodeE"></span><span id="_CPPv2N4gviz9attrtypes12PackModeEnum4nodeE"></span><span class="target" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a36c4536996ca5615dcf9911f068786dc"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">node</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12PackModeEnum4nodeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12PackModeEnum5clustE">
+<span id="_CPPv3N4gviz9attrtypes12PackModeEnum5clustE"></span><span id="_CPPv2N4gviz9attrtypes12PackModeEnum5clustE"></span><span class="target" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a0b166c94272a55b586053a15b6d48a80"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">clust</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12PackModeEnum5clustE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12PackModeEnum5graphE">
+<span id="_CPPv3N4gviz9attrtypes12PackModeEnum5graphE"></span><span id="_CPPv2N4gviz9attrtypes12PackModeEnum5graphE"></span><span class="target" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af8b0b924ebd7046dbfa85a856e4682c8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">graph</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12PackModeEnum5graphE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12PackModeEnum5arrayE">
+<span id="_CPPv3N4gviz9attrtypes12PackModeEnum5arrayE"></span><span id="_CPPv2N4gviz9attrtypes12PackModeEnum5arrayE"></span><span class="target" id="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af1f713c9e000f5d3f280adbd124df4f5"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">array</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12PackModeEnum5arrayE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlagE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlagE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlagE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PackModeArrayFlag</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlagE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag4noneE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag4noneE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag4noneE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a334c4a4c42fdb79d7ebc3e73b517e6f8"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">none</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag4noneE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag6columnE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag6columnE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag6columnE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a1afd32818d1c9525f82aff4c09efd254"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">column</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag6columnE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag4userE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag4userE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag4userE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8aee11cbb19052e40b07aac0ca060c23ee"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">user</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag4userE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag3topE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag3topE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag3topE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8ab28354b543375bfa94dabaeda722927f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">top</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag3topE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag6bottomE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag6bottomE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag6bottomE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a71f262d796bed1ab30e8a2d5a8ddee6f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">bottom</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag6bottomE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag4leftE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag4leftE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag4leftE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a811882fecd5c7618d7099ebbd39ea254"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">left</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag4leftE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes17PackModeArrayFlag5rightE">
+<span id="_CPPv3N4gviz9attrtypes17PackModeArrayFlag5rightE"></span><span id="_CPPv2N4gviz9attrtypes17PackModeArrayFlag5rightE"></span><span class="target" id="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a7c4f29407893c334a6cb7a87bf045c0d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">right</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes17PackModeArrayFlag5rightE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="packmode_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">packmode.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="label.html" class="btn btn-neutral float-left" title="attrtypes/label.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="shape.html" class="btn btn-neutral float-right" title="attrtypes/shape.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

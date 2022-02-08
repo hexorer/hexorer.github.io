@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_pack_mode" kind="struct"><name>gviz::attrtypes::PackMode</name>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1a0ddf637286409bb689d8a22d49aacca3" kind="variable"><name>mode</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1a09eed744f704d6872b10337261ad83fe" kind="variable"><name>flag</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1a06e3381813863cc4c30f84f4939554c8" kind="variable"><name>number</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1a274dc4cbda2df3f08daf89906bc64c02" kind="function"><name>normalize</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1aa6c4b78de1bc11ab3c81ab149c343eee" kind="function"><name>normalized</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1a4f4422d8e5e1d106604af4f99f303ee1" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_pack_mode_1ad87a55e50c98de79abd73ca440c29459" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193" kind="enum"><name>PackModeEnum</name></member>
+    <member refid="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a36c4536996ca5615dcf9911f068786dc" kind="enumvalue"><name>node</name></member>
+    <member refid="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193a0b166c94272a55b586053a15b6d48a80" kind="enumvalue"><name>clust</name></member>
+    <member refid="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af8b0b924ebd7046dbfa85a856e4682c8" kind="enumvalue"><name>graph</name></member>
+    <member refid="packmode_8hpp_1aab3f878c69f08dcdbc1243cacd5d7193af1f713c9e000f5d3f280adbd124df4f5" kind="enumvalue"><name>array</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8" kind="enum"><name>PackModeArrayFlag</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a1afd32818d1c9525f82aff4c09efd254" kind="enumvalue"><name>column</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8aee11cbb19052e40b07aac0ca060c23ee" kind="enumvalue"><name>user</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8ab28354b543375bfa94dabaeda722927f" kind="enumvalue"><name>top</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a71f262d796bed1ab30e8a2d5a8ddee6f" kind="enumvalue"><name>bottom</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a811882fecd5c7618d7099ebbd39ea254" kind="enumvalue"><name>left</name></member>
+    <member refid="packmode_8hpp_1a7a0fa4351a8f27c1107935c97f97e3e8a7c4f29407893c334a6cb7a87bf045c0d" kind="enumvalue"><name>right</name></member>
+  </compound>
+  <compound refid="packmode_8hpp" kind="file"><name>packmode.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

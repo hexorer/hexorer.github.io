@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_true_color" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::TrueColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; TrueColor, bool &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_true_color_1afdd6b8d0f0ebabb68d16d7694a61e21a" prot="public" static="no">
+        <type>bool</type>
+        <definition>using gviz::attrs::TrueColor::value_type =  bool</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::TrueColor::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_true_color_1a61ae988e2fb827ac108220857764430a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::TrueColor::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::TrueColor::name</qualifiedname>
+        <initializer>= &quot;truecolor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_true_color_1ad92f3d505482242c905e753e2874b53c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::TrueColor::TrueColor</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>TrueColor</name>
+        <qualifiedname>gviz::attrs::TrueColor::TrueColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_true_color_1afc74018c4af3bfa562db4384940e624a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::TrueColor::TrueColor</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>TrueColor</name>
+        <qualifiedname>gviz::attrs::TrueColor::TrueColor</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_true_color_1a87b9d5a31a9e0200462e45f804d85b3c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::TrueColor::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::TrueColor::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_true_color_1a006109fc56bde410bc92e5d09c336bdd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::TrueColor::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::TrueColor::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_true_color_1a6faaeac16876ae1a235b72f6c15d0c97" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::TrueColor::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::TrueColor::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; TrueColor, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::TrueColor</label>
+        <link refid="structgviz_1_1attrs_1_1_true_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; TrueColor, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::TrueColor</label>
+        <link refid="structgviz_1_1attrs_1_1_true_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/truecolor.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1a6faaeac16876ae1a235b72f6c15d0c97" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1a87b9d5a31a9e0200462e45f804d85b3c" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1a006109fc56bde410bc92e5d09c336bdd" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1a61ae988e2fb827ac108220857764430a" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1ad92f3d505482242c905e753e2874b53c" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>TrueColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1afc74018c4af3bfa562db4384940e624a" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>TrueColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_true_color_1afdd6b8d0f0ebabb68d16d7694a61e21a" prot="public" virt="non-virtual"><scope>gviz::attrs::TrueColor</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_port_pos" kind="struct"><name>gviz::attrtypes::PortPos</name>
+    <member refid="structgviz_1_1attrtypes_1_1_port_pos_1ae4775a241a1b6252636f839ddd3166dc" kind="typedef"><name>str_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_port_pos_1a2f3f8d676513a023db60f83e53ef15b5" kind="variable"><name>port</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_port_pos_1abc4ff7f5d06bb549a28f05e9eec3dd56" kind="variable"><name>compass</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_port_pos_1af45a5fc3974ce3c94770574c86f42d5f" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_port_pos_1a6bfc1f403a98b9f82533a588c99cc405" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105" kind="enum"><name>CompassPoint</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105af611271231707a44b6be19664cbe7c2c" kind="enumvalue"><name>_default</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105aadb115059e28d960fa8badfac5516667" kind="enumvalue"><name>center</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a8d8d1437907bca79900ac5f0ea1f5c73" kind="enumvalue"><name>north</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a50fd76e33fe5b9617c5ca99008af8904" kind="enumvalue"><name>south</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ada4f0053a5c13882268852ae2da2e466" kind="enumvalue"><name>west</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a320381dbf7cd2f31c04baa6b36e1c682" kind="enumvalue"><name>east</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ac4b09eb0cd1dcc00e18f23b41b69668f" kind="enumvalue"><name>north_east</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ac61480480503b38bc1314f019ac3af5c" kind="enumvalue"><name>north_west</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a301acee0d8dc129fe2a27d269e8bc2c7" kind="enumvalue"><name>south_east</name></member>
+    <member refid="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a58bb2bc0b0e903b87cf999e9c9d96927" kind="enumvalue"><name>south_west</name></member>
+  </compound>
+  <compound refid="portpos_8hpp" kind="file"><name>portpos.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

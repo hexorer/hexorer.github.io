@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_dimen" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Dimen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Dimen, int &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_dimen_1a49443cd985f91bc99a5a19c4fbac0be5" prot="public" static="no">
+        <type>int</type>
+        <definition>using gviz::attrs::Dimen::value_type =  int</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Dimen::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_dimen_1aadfcfc8e6545d2bcc9d6342e901893f9" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Dimen::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Dimen::name</qualifiedname>
+        <initializer>= &quot;dimen&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dimen_1a704817696c40cac349a5cfb179b34b1c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Dimen::Dimen</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Dimen</name>
+        <qualifiedname>gviz::attrs::Dimen::Dimen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dimen_1a29760bc9f3b2357ac1b553024eb48aaf" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Dimen::Dimen</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Dimen</name>
+        <qualifiedname>gviz::attrs::Dimen::Dimen</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dimen_1ac607aca1ac717a778df3495ad0813218" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Dimen::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Dimen::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dimen_1aed437c3f99d3c0421479b98f644e6870" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Dimen::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Dimen::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="21" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dimen_1a214ca4d554373e2ab17f47c68505d5e1" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Dimen::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Dimen::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="26" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Dimen, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Dimen</label>
+        <link refid="structgviz_1_1attrs_1_1_dimen"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Dimen, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Dimen</label>
+        <link refid="structgviz_1_1attrs_1_1_dimen"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dimen.hpp" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1a214ca4d554373e2ab17f47c68505d5e1" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1a704817696c40cac349a5cfb179b34b1c" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>Dimen</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1a29760bc9f3b2357ac1b553024eb48aaf" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>Dimen</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1ac607aca1ac717a778df3495ad0813218" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1aed437c3f99d3c0421479b98f644e6870" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1aadfcfc8e6545d2bcc9d6342e901893f9" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dimen_1a49443cd985f91bc99a5a19c4fbac0be5" prot="public" virt="non-virtual"><scope>gviz::attrs::Dimen</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="converter_8hpp" kind="file" language="C++">
+    <compoundname>converter.hpp</compoundname>
+    <includes local="yes">gvizard/utils.hpp</includes>
+    <includes local="yes">gvizard/colors/rgb.hpp</includes>
+    <includes local="yes">gvizard/colors/rgba.hpp</includes>
+    <includes local="yes">gvizard/colors/hsv.hpp</includes>
+    <includes local="yes">gvizard/colors/x11.hpp</includes>
+    <includes local="yes">gvizard/colors/svg.hpp</includes>
+    <includes local="yes">gvizard/colors/general.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp</label>
+        <link refid="converter_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gvizard/colors/general.hpp</label>
+      </node>
+      <node id="5">
+        <label>gvizard/colors/hsv.hpp</label>
+      </node>
+      <node id="3">
+        <label>gvizard/colors/rgb.hpp</label>
+      </node>
+      <node id="4">
+        <label>gvizard/colors/rgba.hpp</label>
+      </node>
+      <node id="7">
+        <label>gvizard/colors/svg.hpp</label>
+      </node>
+      <node id="6">
+        <label>gvizard/colors/x11.hpp</label>
+      </node>
+      <node id="2">
+        <label>gvizard/utils.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_01_4" prot="public">gviz::utils::Converter&lt; HSV, RGB &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4" prot="public">gviz::utils::Converter&lt; RGB, HSV &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_r_g_b_01_4" prot="public">gviz::utils::Converter&lt; RGBA, RGB &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4" prot="public">gviz::utils::Converter&lt; RGB, RGBA &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_a_01_4" prot="public">gviz::utils::Converter&lt; HSV, RGBA &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_h_s_v_01_4" prot="public">gviz::utils::Converter&lt; RGBA, HSV &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4" prot="public">gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SchemeColor&lt; U &gt; &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_t_00_01_scheme_color_3_01_u_01_4_01_4" prot="public">gviz::utils::Converter&lt; T, SchemeColor&lt; U &gt; &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_01_4" prot="public">gviz::utils::Converter&lt; To, X11Color &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4" prot="public">gviz::utils::Converter&lt; To, SVGColor &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4" prot="public">gviz::utils::Converter&lt; To, X11ColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_enum_01_4" prot="public">gviz::utils::Converter&lt; To, SVGColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4" prot="public">gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, X11ColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_s_v_g_color_enum_01_4" prot="public">gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SVGColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_x11_color_00_01_s_v_g_color_enum_01_4" prot="public">gviz::utils::Converter&lt; X11Color, SVGColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_00_01_s_v_g_color_enum_01_4" prot="public">gviz::utils::Converter&lt; SVGColor, SVGColorEnum &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_x11_color_enum_00_01_x11_color_01_4" prot="public">gviz::utils::Converter&lt; X11ColorEnum, X11Color &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_enum_00_01_s_v_g_color_01_4" prot="public">gviz::utils::Converter&lt; SVGColorEnum, SVGColor &gt;</innerclass>
+    <innerclass refid="structgviz_1_1colors_1_1_color_converter_callable" prot="public">gviz::colors::ColorConverterCallable</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1utils">gviz::utils</innernamespace>
+    <innernamespace refid="namespacegviz_1_1colors">gviz::colors</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="converter_8hpp_1a566992582a3f84033aed195fe674c208" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const HSV</type>
+        <definition>constexpr const HSV hsv_zero_default</definition>
+        <argsstring></argsstring>
+        <name>hsv_zero_default</name>
+        <initializer>{0., 0., 0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="23" column="35" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_COLORS_CONVERTER_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_COLORS_CONVERTER_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/utils.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/rgb.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/rgba.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/hsv.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/x11.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/svg.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/general.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::HSV;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::RGB;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::RGBA;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::X11Color;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::SVGColor;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::X11ColorEnum;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::SVGColorEnum;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::colors::SchemeColor;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HSV<sp/>hsv_zero_default{0.,<sp/>0.,<sp/>0.};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">utils<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="29" refid="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;HSV,<sp/>RGB&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>HSV<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RGB&amp;<sp/>rgb)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>min<sp/>=<sp/>rgb.min(),<sp/>max<sp/>=<sp/>rgb.max();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(max<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hsv_zero_default;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v<sp/>=<sp/>double(max)<sp/>/<sp/>255;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s<sp/>=<sp/>long(max<sp/>-<sp/>min)<sp/>/<sp/>max;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s<sp/>==<sp/>0.)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hsv_zero_default;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NOTE<sp/>this<sp/>will<sp/>underflow<sp/>if<sp/>b<sp/>&gt;<sp/>g,<sp/>but<sp/>won&apos;t<sp/>be<sp/>negative,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>not<sp/>sure<sp/>if<sp/>abs<sp/>would<sp/>be<sp/>better.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>gb_diff<sp/>=<sp/>rgb.g<sp/>-<sp/>rgb.b;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>h<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(max<sp/>==<sp/>rgb.r)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>h<sp/>=<sp/>double(<sp/><sp/>0<sp/>+<sp/>43<sp/>*<sp/>gb_diff<sp/>/<sp/>(max<sp/>-<sp/>min))<sp/>/<sp/>255.;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(max<sp/>==<sp/>rgb.g)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>h<sp/>=<sp/>double(<sp/>83<sp/>+<sp/>43<sp/>*<sp/>gb_diff<sp/>/<sp/>(max<sp/>-<sp/>min))<sp/>/<sp/>255.;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>max<sp/>==<sp/>rgb.b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>h<sp/>=<sp/>double(171<sp/>+<sp/>43<sp/>*<sp/>gb_diff<sp/>/<sp/>(max<sp/>-<sp/>min))<sp/>/<sp/>255.;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>HSV::make(h,<sp/>s,<sp/>v).value();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="62" refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;RGB,<sp/>HSV&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>RGB<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HSV&amp;<sp/>hsv)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hsv.saturation()<sp/>==<sp/>0.)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{0,<sp/>0,<sp/>0};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>h<sp/>=<sp/>hsv.hue()<sp/>*<sp/>255;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>s<sp/>=<sp/>hsv.saturation()<sp/>*<sp/>255;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>v<sp/>=<sp/>hsv.value()<sp/>*<sp/>255;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>region<sp/>=<sp/>h<sp/>/<sp/>43;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>remainder<sp/>=<sp/>(h<sp/>-<sp/>(region<sp/>*<sp/>43))<sp/>*<sp/>6;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>p<sp/>=<sp/>(v<sp/>*<sp/>(255<sp/>-<sp/>s))<sp/>&gt;&gt;<sp/>8;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>q<sp/>=<sp/>(v<sp/>*<sp/>(255<sp/>-<sp/>((s<sp/>*<sp/>remainder)<sp/>&gt;&gt;<sp/>8)))<sp/>&gt;&gt;<sp/>8;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>t<sp/>=<sp/>(v<sp/>*<sp/>(255<sp/>-<sp/>((s<sp/>*<sp/>(255<sp/>-<sp/>remainder))<sp/>&gt;&gt;<sp/>8)))<sp/>&gt;&gt;<sp/>8;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(region)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>v,<sp/>t,<sp/>p<sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>q,<sp/>v,<sp/>p<sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>p,<sp/>v,<sp/>t<sp/>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>p,<sp/>q,<sp/>v<sp/>};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>t,<sp/>p,<sp/>v<sp/>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>v,<sp/>p,<sp/>q<sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="92" refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_r_g_b_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;RGBA,<sp/>RGB&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>RGBA<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RGB&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGBA{<sp/>color.r,<sp/>color.g,<sp/>color.b<sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="100" refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;RGB,<sp/>RGBA&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>RGB<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RGBA&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RGB{<sp/>color.r,<sp/>color.g,<sp/>color.b<sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="108" refid="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_a_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;HSV,<sp/>RGBA&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>HSV<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RGBA&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;HSV,<sp/>RGB&gt;::convert(</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Converter&lt;RGB,<sp/>RGBA&gt;::convert(color)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="118" refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_h_s_v_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;RGBA,<sp/>HSV&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>RGBA<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>HSV&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;RGBA,<sp/>RGB&gt;::convert(</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Converter&lt;RGB,<sp/>HSV&gt;::convert(color)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U&gt;</highlight></codeline>
+<codeline lineno="128" refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;SchemeColor&lt;T&gt;,<sp/>SchemeColor&lt;U&gt;&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SchemeColor&lt;U&gt;&amp;<sp/>color)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>color.name,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Converter&lt;T,<sp/>U&gt;::convert(color.color),</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>color.scheme</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>U&gt;</highlight></codeline>
+<codeline lineno="140" refid="structgviz_1_1utils_1_1_converter_3_01_t_00_01_scheme_color_3_01_u_01_4_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;T,<sp/>SchemeColor&lt;U&gt;&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>T<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SchemeColor&lt;U&gt;&amp;<sp/>color)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;T,<sp/>U&gt;::convert(color.color);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To&gt;</highlight></codeline>
+<codeline lineno="148" refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;To,<sp/>X11Color&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>To<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>X11Color&amp;<sp/>color)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;To,<sp/>RGB&gt;::convert(color.get_color());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To&gt;</highlight></codeline>
+<codeline lineno="156" refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;To,<sp/>SVGColor&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>To<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SVGColor&amp;<sp/>color)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;To,<sp/>RGB&gt;::convert(color.get_color());</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To&gt;</highlight></codeline>
+<codeline lineno="164" refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;To,<sp/>X11ColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>To<sp/>convert(X11ColorEnum<sp/>color)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;To,<sp/>RGB&gt;::convert(X11Color::list[uint16_t(color)].color);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To&gt;</highlight></codeline>
+<codeline lineno="172" refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;To,<sp/>SVGColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>To<sp/>convert(SVGColorEnum<sp/>color)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;To,<sp/>RGB&gt;::convert(X11Color::list[uint16_t(color)].color);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="180" refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;SchemeColor&lt;T&gt;,<sp/>X11ColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;<sp/>convert(X11ColorEnum<sp/>color)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SchemeColor&lt;RGB&gt;<sp/>scheme_color<sp/>=<sp/>X11Color::list[uint16_t(color)];</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>scheme_color.name,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Converter&lt;T,<sp/>RGB&gt;::convert(scheme_color.color),</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>scheme_color.scheme</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="193" refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_s_v_g_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;SchemeColor&lt;T&gt;,<sp/>SVGColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;<sp/>convert(SVGColorEnum<sp/>color)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SchemeColor&lt;RGB&gt;<sp/>scheme_color<sp/>=<sp/>SVGColor::list[uint16_t(color)];</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SchemeColor&lt;T&gt;{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>scheme_color.name,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Converter&lt;T,<sp/>RGB&gt;::convert(scheme_color.color),</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>scheme_color.scheme</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="206" refid="structgviz_1_1utils_1_1_converter_3_01_x11_color_00_01_s_v_g_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;X11Color,<sp/>SVGColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>X11Color<sp/>convert(X11ColorEnum<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>X11Color(color);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="214" refid="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_00_01_s_v_g_color_enum_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;SVGColor,<sp/>SVGColorEnum&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SVGColor<sp/>convert(SVGColorEnum<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SVGColor(color);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="222" refid="structgviz_1_1utils_1_1_converter_3_01_x11_color_enum_00_01_x11_color_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;X11ColorEnum,<sp/>X11Color&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>X11ColorEnum<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>X11Color&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>color.get_enum();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="230" refid="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_enum_00_01_s_v_g_color_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;SVGColorEnum,<sp/>SVGColor&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SVGColorEnum<sp/>convert(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SVGColor&amp;<sp/>color)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>color.get_enum();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>utils</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">colors<sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>gviz::utils::Converter;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To&gt;</highlight></codeline>
+<codeline lineno="244" refid="structgviz_1_1colors_1_1_color_converter_callable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1colors_1_1_color_converter_callable" kindref="compound">ColorConverterCallable</ref><sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>From&gt;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>To<sp/>operator()(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>From&amp;<sp/>color)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="247"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Converter&lt;To,<sp/>From&gt;::convert(color);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>colors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_COLORS_CONVERTER_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp"/>
+  </compounddef>
+</doxygen>

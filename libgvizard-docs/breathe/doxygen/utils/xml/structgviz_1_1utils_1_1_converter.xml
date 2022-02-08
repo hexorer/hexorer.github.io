@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename U</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_1a3123ab4d565a539cc0410c0b055017cc" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>static constexpr T gviz::utils::Converter&lt; T, U &gt;::convert</definition>
+        <argsstring>(const U &amp;obj)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter::convert</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="28" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_1a42cc0e44d3493450410c5adcd72e09fe" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>static constexpr T gviz::utils::Converter&lt; T, U &gt;::convert</definition>
+        <argsstring>(U &amp;&amp;obj)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter::convert</qualifiedname>
+        <param>
+          <type>U &amp;&amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="29" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="22" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="22" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_1a3123ab4d565a539cc0410c0b055017cc" prot="public" virt="non-virtual"><scope>gviz::utils::Converter</scope><name>convert</name></member>
+      <member refid="structgviz_1_1utils_1_1_converter_1a42cc0e44d3493450410c5adcd72e09fe" prot="public" virt="non-virtual"><scope>gviz::utils::Converter</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Simple Usage Example (Complete Graph and Dot Generator) &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reference Documentation" href="rstfiles/index.html" />
+    <link rel="prev" title="libgvizard" href="readme.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">libgvizard</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">A Simple Usage Example (Complete Graph and Dot Generator)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#simple-dot-generator">Simple Dot Generator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-complete-graph-generator-using-our-dot-generator">Writing Complete-Graph generator using our Dot Generator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#generate-the-dot-source-of-our-graph-by-our-dotgenerator">Generate the dot source of our graph by our DotGenerator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lets-turn-the-output-dot-code-into-a-png-so-we-can-see-how-it-really-looks">Let’s turn the output dot code into a png, so we can see how it really looks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rstfiles/index.html">Reference Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>A Simple Usage Example (Complete Graph and Dot Generator)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/demonstration.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="a-simple-usage-example-complete-graph-and-dot-generator">
+<h1>A Simple Usage Example (Complete Graph and Dot Generator)<a class="headerlink" href="#a-simple-usage-example-complete-graph-and-dot-generator" title="Permalink to this headline"></a></h1>
+<p>A Complete Graph of <code class="docutils literal notranslate"><span class="pre">n</span></code>, is a graph having <code class="docutils literal notranslate"><span class="pre">n</span></code> nodes all connected
+to each other.</p>
+<p>Dot is a graph description language. for more information:
+<a class="reference external" href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)">wikipedia</a>,
+<a class="reference external" href="https://graphviz.org/doc/info/lang.html">graphviz docs</a>.</p>
+<p>in this demonstration, we’re gonna make a very simple dot generator, and
+a program that takes <code class="docutils literal notranslate"><span class="pre">n</span></code> from user and generates dot source of a
+complete graph with <code class="docutils literal notranslate"><span class="pre">n</span></code> vertices.</p>
+<section id="simple-dot-generator">
+<h2>Simple Dot Generator<a class="headerlink" href="#simple-dot-generator" title="Permalink to this headline"></a></h2>
+<p>to generate a dot source from a graph, we first make the graph
+definition which is just a one liner here, then generate definition of
+nodes and their attributes (that we support), then generate edges and
+their attributes (in this example, for simplicity, we’re not gonna do
+that, but it’s very similar to how we do it for nodes).</p>
+<p>let’s make the DotGenerator class!</p>
+<p>the code is commented thoroughly and is pretty self-explaining:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sstream&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;vector&gt;</span><span class="cp"></span>
+
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;gvizard/gvizgraph.hpp&gt;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;gvizard/attrs/label_related.hpp&gt;</span><span class="cp"></span>
+
+<span class="c1">// dot language requires an identifier name for each node,</span>
+<span class="c1">// as a renderer/generator we define our own attr...</span>
+<span class="c1">// to use this renderer, the graph&#39;s registry must support this type.</span>
+<span class="c1">// the default registry (EnTTRegistry) accepts and holds any type.</span>
+<span class="k">struct</span><span class="w"> </span><span class="nc">NodeName</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">str</span><span class="p">;</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="c1">// a renderer/generator is a bit complex, making a class is always</span>
+<span class="c1">// a wise choice.</span>
+<span class="c1">//</span>
+<span class="c1">// in this example, we&#39;re gonna only support gvizard&#39;s Label attribute.</span>
+<span class="c1">// adding support of other attributes (depending on their AttributeType)</span>
+<span class="c1">// isn&#39;t that hard in this class.</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">DotGenerator</span><span class="w"> </span><span class="k">final</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="c1">// just to make the output rather readable...</span>
+<span class="w">  </span><span class="k">constexpr</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">str_indent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;    &quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// 4 spaces</span>
+
+<span class="w"> </span><span class="k">public</span><span class="o">:</span><span class="w"></span>
+<span class="w">  </span><span class="c1">// holding things is no use in this demonstration example...</span>
+<span class="w">  </span><span class="c1">// so let&#39;s leave it empty.</span>
+<span class="w">  </span><span class="n">DotGenerator</span><span class="p">()</span><span class="w"> </span><span class="p">{}</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// we get a GvizGraph with any underlying Graph conforming type in,</span>
+<span class="w">  </span><span class="c1">// and generate a dot source string.</span>
+<span class="w">  </span><span class="k">template</span><span class="w"> </span><span class="o">&lt;</span><span class="k">typename</span><span class="w"> </span><span class="nc">GraphT</span><span class="o">&gt;</span><span class="w"></span>
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">generate</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">GvizGraph</span><span class="o">&lt;</span><span class="n">GraphT</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">graph</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">stringstream</span><span class="w"> </span><span class="n">strstream</span><span class="p">{};</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// first line: &quot;graph|digraph {&quot;, no id or strict for simplicity reasons...</span>
+<span class="w">    </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="p">(</span><span class="n">graph</span><span class="p">.</span><span class="n">is_undirected</span><span class="p">()</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="s">&quot;graph&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;digraph&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; {</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// write definition of each node which is its name and its attributes.</span>
+<span class="w">    </span><span class="c1">// (in this case only Label if it&#39;s set)</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">auto</span><span class="w"> </span><span class="n">node_id</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">nodes_view</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="k">auto</span><span class="w"> </span><span class="n">node_name</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
+<span class="w">          </span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="k">template</span><span class="w"> </span><span class="n">get_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_id</span><span class="p">);</span><span class="w"></span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">node_name</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span><span class="w"> </span><span class="c1">// without node&#39;s name we can&#39;t define it</span>
+
+<span class="w">      </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">str_indent</span><span class="p">;</span><span class="w"></span>
+<span class="w">      </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">node_name</span><span class="o">-&gt;</span><span class="n">str</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">      </span><span class="c1">// having an attribute is always optional and graph doesn&#39;t enforce</span>
+<span class="w">      </span><span class="c1">// such semantics.</span>
+<span class="w">      </span><span class="c1">//</span>
+<span class="w">      </span><span class="c1">// if it is set, then add desired string at the end of node definition.</span>
+<span class="w">      </span><span class="k">auto</span><span class="w"> </span><span class="n">opt_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">graph</span><span class="p">.</span><span class="n">get_node_label</span><span class="p">(</span><span class="n">node_id</span><span class="p">);</span><span class="w"></span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">opt_label</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; [&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">node_attr_to_string</span><span class="p">(</span><span class="o">*</span><span class="n">opt_label</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;]&quot;</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">      </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// now let&#39;s write the edges...</span>
+<span class="w">    </span><span class="c1">// notice that we&#39;re not supporting edge attributes here.</span>
+<span class="w">    </span><span class="c1">// (just for simplicity)</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">auto</span><span class="w"> </span><span class="n">edge_id</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">edges_view</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="k">auto</span><span class="w"> </span><span class="p">[</span><span class="n">node_a_id</span><span class="p">,</span><span class="w"> </span><span class="n">node_b_id</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">get_edge_nodes</span><span class="p">(</span><span class="n">edge_id</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">      </span><span class="c1">// both nodes must have name to define them in dot language.</span>
+<span class="w">      </span><span class="k">auto</span><span class="w"> </span><span class="n">node_a_name</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
+<span class="w">          </span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="k">template</span><span class="w"> </span><span class="n">get_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_a_id</span><span class="p">);</span><span class="w"></span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">node_a_name</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">      </span><span class="k">auto</span><span class="w"> </span><span class="n">node_b_name</span><span class="w"> </span><span class="o">=</span><span class="w"></span>
+<span class="w">          </span><span class="n">graph</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="k">template</span><span class="w"> </span><span class="n">get_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_b_id</span><span class="p">);</span><span class="w"></span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">node_b_name</span><span class="p">)</span><span class="w"> </span><span class="k">continue</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">      </span><span class="c1">// result format: &quot;   {node_a_name} {-- or -&gt;} {node_b_name}\n&quot;</span>
+<span class="w">      </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">str_indent</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">node_a_name</span><span class="o">-&gt;</span><span class="n">str</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39; &#39;</span><span class="w"></span>
+<span class="w">                </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="p">(</span><span class="n">graph</span><span class="p">.</span><span class="n">is_undirected</span><span class="p">()</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="s">&quot;--&quot;</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s">&quot;-&gt;&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="w">                </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39; &#39;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">node_b_name</span><span class="o">-&gt;</span><span class="n">str</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">strstream</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;}&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// close the graph definition...</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">strstream</span><span class="p">.</span><span class="n">str</span><span class="p">();</span><span class="w"> </span><span class="c1">// our dot source is ready... :)</span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+
+<span class="w"> </span><span class="k">private</span><span class="o">:</span><span class="w"></span>
+<span class="w">  </span><span class="c1">// an attribute is defined as &quot;{attr_name}={attr_value}&quot; ...</span>
+<span class="w">  </span><span class="c1">// using function overloading can</span>
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">node_attr_to_string</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrs</span><span class="o">::</span><span class="n">Label</span><span class="o">&amp;</span><span class="w"> </span><span class="n">attr</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// label&#39;s underlying type is EscString which gets node name, edge name, etc..</span>
+<span class="w">    </span><span class="c1">// and applies to the given format.</span>
+<span class="w">    </span><span class="c1">// here we&#39;re not gonna do that due complexity of it.</span>
+<span class="w">    </span><span class="k">return</span><span class="w"></span>
+<span class="w">      </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="n">attr</span><span class="p">.</span><span class="n">get_name</span><span class="p">())</span><span class="w"></span>
+<span class="w">      </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;=&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">attr</span><span class="p">.</span><span class="n">get_value</span><span class="p">().</span><span class="n">get_format</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;</span><span class="se">\&quot;</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">};</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="writing-complete-graph-generator-using-our-dot-generator">
+<h2>Writing Complete-Graph generator using our Dot Generator<a class="headerlink" href="#writing-complete-graph-generator-using-our-dot-generator" title="Permalink to this headline"></a></h2>
+<p>we’re going to make an undirected graph (GvizGraph is undirected by
+default), then make <code class="docutils literal notranslate"><span class="pre">n</span></code> nodes (<code class="docutils literal notranslate"><span class="pre">n</span></code> given by user) and store their
+IDs in a vector, then iterating over vector and connect each node
+together.</p>
+<p>then we’ll have a complete graph!</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="k">auto</span><span class="w"> </span><span class="n">create_complete_graph</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="kt">size_t</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">using</span><span class="w"> </span><span class="n">Graph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">GvizGraph</span><span class="o">&lt;&gt;</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">Graph</span><span class="w"> </span><span class="n">g</span><span class="p">{};</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// to make edges, we need to first have all nodes... so we must store them.</span>
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Graph</span><span class="o">::</span><span class="n">NodeId</span><span class="o">&gt;</span><span class="w"> </span><span class="n">nodes</span><span class="p">{};</span><span class="w"></span>
+<span class="w">  </span><span class="n">nodes</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">n</span><span class="p">);</span><span class="w"> </span><span class="c1">// allocate once rather than on each push_back.</span>
+
+<span class="w">  </span><span class="c1">// create vertices and store them to later connect them together.</span>
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="kt">size_t</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">node_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">g</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_node</span><span class="p">();</span><span class="w"></span>
+<span class="w">    </span><span class="c1">// this line is required by DotGenerator. names a vertex as &quot;v{i}&quot;.</span>
+<span class="w">    </span><span class="n">g</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">set_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_id</span><span class="p">,</span><span class="w"></span>
+<span class="w">                                      </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="s">&quot;v&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">to_string</span><span class="p">(</span><span class="n">i</span><span class="p">));</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// label each even numbered node to &quot;Node #{i}&quot;.</span>
+<span class="w">    </span><span class="c1">// only labeling is just to show that it&#39;s optional</span>
+<span class="w">    </span><span class="c1">// and doesn&#39;t have to be set.</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
+<span class="w">      </span><span class="n">g</span><span class="p">.</span><span class="n">set_node_label</span><span class="p">(</span><span class="n">node_id</span><span class="p">,</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">(</span><span class="s">&quot;Node #&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">to_string</span><span class="p">(</span><span class="n">i</span><span class="p">));</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">nodes</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">node_id</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// connect each vertex to all other vertices in the list.</span>
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="kt">size_t</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// on undirected graph, i-&gt;j and j-&gt;i are the same and i==j is invalid.</span>
+<span class="w">    </span><span class="c1">// so we skip them.</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="kt">size_t</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">j</span><span class="p">)</span><span class="w"></span>
+<span class="w">      </span><span class="c1">// create the edge...</span>
+<span class="w">      </span><span class="n">g</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_edge</span><span class="p">(</span><span class="n">nodes</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w"> </span><span class="n">nodes</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">g</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="generate-the-dot-source-of-our-graph-by-our-dotgenerator">
+<h2>Generate the dot source of our graph by our DotGenerator<a class="headerlink" href="#generate-the-dot-source-of-our-graph-by-our-dotgenerator" title="Permalink to this headline"></a></h2>
+<p>simply just get a number from user by argv, call our
+<code class="docutils literal notranslate"><span class="pre">create_complete_graph</span></code> to make the graph, make a <code class="docutils literal notranslate"><span class="pre">DotGenerator</span></code>
+instance and pass the graph to its <code class="docutils literal notranslate"><span class="pre">generator</span></code> method, and finally
+print the result:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="o">*</span><span class="w"> </span><span class="n">argv</span><span class="p">[])</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">argc</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Usage:</span><span class="se">\n\t</span><span class="s">&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; &lt;vertex-count&gt;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="kt">size_t</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">stoi</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span><span class="w"></span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">10000</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// a simple threshold to avoid swallowing memory.</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot; [Error] maximum nodes to make is: 10000, &quot;</span><span class="w"></span>
+<span class="w">              </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;your input is: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">auto</span><span class="w"> </span><span class="n">graph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_complete_graph</span><span class="p">(</span><span class="n">n</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">DotGenerator</span><span class="p">().</span><span class="n">generate</span><span class="p">(</span><span class="n">graph</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>compiling this example and running it by 6 and 3 for example will give
+us:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">$</span><span class="w"> </span><span class="p">.</span><span class="o">/</span><span class="n">complete_graph</span><span class="w"> </span><span class="mi">6</span><span class="w"></span>
+
+<span class="n">graph</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">v0</span><span class="w"> </span><span class="p">[</span><span class="n">label</span><span class="o">=</span><span class="s">&quot;Node #0&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="p">[</span><span class="n">label</span><span class="o">=</span><span class="s">&quot;Node #2&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">v3</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v4</span><span class="w"> </span><span class="p">[</span><span class="n">label</span><span class="o">=</span><span class="s">&quot;Node #4&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v1</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v3</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v3</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v3</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v2</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v4</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v4</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v4</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v2</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v4</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v3</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v2</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v3</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v5</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v4</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+<span class="n">$</span><span class="w"> </span><span class="p">.</span><span class="o">/</span><span class="n">complete_graph</span><span class="w"> </span><span class="mi">3</span><span class="w"></span>
+
+<span class="n">graph</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="n">v0</span><span class="w"> </span><span class="p">[</span><span class="n">label</span><span class="o">=</span><span class="s">&quot;Node #0&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="p">[</span><span class="n">label</span><span class="o">=</span><span class="s">&quot;Node #2&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">v1</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v0</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">v2</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">v1</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="lets-turn-the-output-dot-code-into-a-png-so-we-can-see-how-it-really-looks">
+<h2>Let’s turn the output dot code into a png, so we can see how it really looks<a class="headerlink" href="#lets-turn-the-output-dot-code-into-a-png-so-we-can-see-how-it-really-looks" title="Permalink to this headline"></a></h2>
+<p>currently there aren’t any renderer made for this library, so we use our
+dot generated code and render via <code class="docutils literal notranslate"><span class="pre">circo</span></code> engine of <code class="docutils literal notranslate"><span class="pre">graphviz</span></code>:</p>
+<p>(you must have graphviz installed in your operating system)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">$</span><span class="w"> </span><span class="p">.</span><span class="o">/</span><span class="n">complete_graph</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">circo</span><span class="w"> </span><span class="o">-</span><span class="n">Tpng</span><span class="w"> </span><span class="o">-</span><span class="n">o</span><span class="w"> </span><span class="n">test</span><span class="p">.</span><span class="n">png</span><span class="w"></span>
+</pre></div>
+</div>
+<p>and it’ll draw this: <img alt="Complete Graph of 10 Vertices" src="_images/complete-graph-10.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="readme.html" class="btn btn-neutral float-left" title="libgvizard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rstfiles/index.html" class="btn btn-neutral float-right" title="Reference Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_search_size" kind="struct"><name>gviz::attrs::SearchSize</name>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1ab5fb6db7a4cb613a68e9cda2eb9d4dea" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1a518c5878c14a4616d2d96f395737e7a8" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1ac7ac06b19e2b3ed2e55851fec4ed57e4" kind="function"><name>SearchSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1aef34526c1a6f4799643d865faf1d0b93" kind="function"><name>SearchSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1ac606f6cd3bb39b58bc42bb8314695f07" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1a057ea1eae268cc8dffb5a8ae2800957c" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_search_size_1a19830fc259c4d7ce06a96052bec47624" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="searchsize_8hpp" kind="file"><name>searchsize.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

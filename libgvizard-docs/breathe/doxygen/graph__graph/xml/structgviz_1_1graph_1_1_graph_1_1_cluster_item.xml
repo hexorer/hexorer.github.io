@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1graph_1_1_graph_1_1_cluster_item" kind="struct" language="C++" prot="private" final="yes">
+    <compoundname>gviz::graph::Graph::ClusterItem</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="68" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="68" bodyend="68"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

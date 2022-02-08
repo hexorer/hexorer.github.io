@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_dir_edge_constraints" kind="struct"><name>gviz::attrs::DirEdgeConstraints</name>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a05f2872e2e71f7f637844e921f384ff0" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a9969828bd2baafaadba8460ca03196f3" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a158ace5a8740cbbcfaba3fa4b9298c22" kind="function"><name>DirEdgeConstraints</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a94f5f2a9005b6412aafaf039b4d65c7c" kind="function"><name>DirEdgeConstraints</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a5356f0c99e20c4beebd098e7f26e41be" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a1839aa2d13402806264d348d25e5dabe" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dir_edge_constraints_1a748386d96364ac546fc516f0880fdd38" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_edge_href" kind="struct"><name>gviz::attrs::EdgeHref</name>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a3de1f0dd037d516fa5e96f935b05854d" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a5f6aefb6859a8188096a0d8ee6d63b7e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a7475a366391d10f552f290be2e79e5a6" kind="function"><name>EdgeHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a49ca72ad19edef5ff2d6d1a3b8ef894b" kind="function"><name>EdgeHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a4d22db6312f475fa6f1e10030a5f681e" kind="function"><name>EdgeHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1ae7a44b15cb31d948d8b777c958ba3649" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1a4305e48cdf849fed367d9cf43c8ee211" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_href_1af57cb68d0ab16afafa259c60d06e3850" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_edge_target" kind="struct"><name>gviz::attrs::EdgeTarget</name>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1a289eac2a061c4264c7b14abe9bec7e41" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1a1fbc668841234827b0f02da361acaac4" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1aea5ab80fb22de1f25bbfeb0334dca796" kind="function"><name>EdgeTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1adb868ed8c87231c58e948b5c22ec0486" kind="function"><name>EdgeTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1a35c713789c01dbbb9a848e214404d4e5" kind="function"><name>EdgeTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1a2ea0bb005e24f5266d22f89a6d142f29" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1aa6951797284722481b5c1689f0545af8" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_target_1abdd63aebbd7c314d31c08e206e151478" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_edge_tooltip" kind="struct"><name>gviz::attrs::EdgeTooltip</name>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a0f146be43bbcf5fd7814f7a3ad705065" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a7ce741490c63b325263ded0e61cf88ff" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a94a5b14a3385c412f043fe7871ca3188" kind="function"><name>EdgeTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a3c79498408b5966d75c1f86e50fea2cc" kind="function"><name>EdgeTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1aba4a39090eb85a9eb41d99a79b5bdffa" kind="function"><name>EdgeTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a1bf38c969d45a0d1215892ae35d331c5" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1aa32edbeca4b6ba8ab1e4f2144640f107" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_tooltip_1a5864aaf1e1a76b78fe654e8b01e43c35" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_edge_u_r_l" kind="struct"><name>gviz::attrs::EdgeURL</name>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1a3775a178b6a72a20f5e09fdabf3ad4a8" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1abeab16e99668ecf49fa73350023f5fc1" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1af5a779a998c833209079f0afd60edaad" kind="function"><name>EdgeURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1a18470769a70866cd7e2e9a30327b20c9" kind="function"><name>EdgeURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1abf9d61a2d7f6916c06afe5abafc881c9" kind="function"><name>EdgeURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1aa770d5a78d7a1d88c68e2e39439c35bf" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1a5190d75ff667e4907cc5ef4d955477a9" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_edge_u_r_l_1ae112a410d2883f3b40e483219c7fe80b" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="edge__related_8hpp_1a8bfac2ef23917cd9bb172a866211a63b" kind="typedef"><name>DirEdgeConstraintsType</name></member>
+  </compound>
+  <compound refid="edge__related_8hpp" kind="file"><name>edge_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_label_just" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LabelJust</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LabelJust, LabelJustEnum &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_label_just_1a976fb95fea726169990b1a543cb1f5ec" prot="public" static="no">
+        <type>LabelJustEnum</type>
+        <definition>using gviz::attrs::LabelJust::value_type =  LabelJustEnum</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LabelJust::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="209" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_label_just_1add05dd7d9391f2224aeebeb00e29b3f1" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LabelJust::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LabelJust::name</qualifiedname>
+        <initializer>= &quot;labeljust&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="211" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1ac1ddc98746f0cbd11bc515d2a84bb268" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelJust::LabelJust</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LabelJust</name>
+        <qualifiedname>gviz::attrs::LabelJust::LabelJust</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="213" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1a3799c21597413126c9f1f2c6ec92f765" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelJust::LabelJust</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>LabelJust</name>
+        <qualifiedname>gviz::attrs::LabelJust::LabelJust</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="214" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="214" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1a444a031eb182a280b0b87b7cf6c96169" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::LabelJust::operator char</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>operator char</name>
+        <qualifiedname>gviz::attrs::LabelJust::operator char</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="228" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="228" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1ad1864cdfda6aadb76647fab972621c3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::LabelJust::operator std::string_view</definition>
+        <argsstring>()</argsstring>
+        <name>operator std::string_view</name>
+        <qualifiedname>gviz::attrs::LabelJust::string_view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="239" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="239" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1aef4060fc57cb5799392e0397419f031a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::LabelJust::operator std::string</definition>
+        <argsstring>()</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>gviz::attrs::LabelJust::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="250" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="250" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1a4ca8e4a936f58441e6d5c9037373d639" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LabelJust::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LabelJust::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="216" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1a1dee2afe546988da9bfc115d24fa5f38" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelJust::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LabelJust::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="221" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_just_1a19b3774bc8d0f63873eaa975d02c11be" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelJust::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LabelJust::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="226" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="226" bodyend="226"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelJust, LabelJustEnum &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelJust</label>
+        <link refid="structgviz_1_1attrs_1_1_label_just"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelJust, LabelJustEnum &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelJust</label>
+        <link refid="structgviz_1_1attrs_1_1_label_just"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="208" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="208" bodyend="251"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a19b3774bc8d0f63873eaa975d02c11be" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a4ca8e4a936f58441e6d5c9037373d639" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a1dee2afe546988da9bfc115d24fa5f38" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1ac1ddc98746f0cbd11bc515d2a84bb268" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>LabelJust</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a3799c21597413126c9f1f2c6ec92f765" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>LabelJust</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1add05dd7d9391f2224aeebeb00e29b3f1" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a444a031eb182a280b0b87b7cf6c96169" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>operator char</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1aef4060fc57cb5799392e0397419f031a" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>operator std::string</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1ad1864cdfda6aadb76647fab972621c3d" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>operator std::string_view</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_just_1a976fb95fea726169990b1a543cb1f5ec" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelJust</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

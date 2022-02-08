@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1contracts" kind="namespace" language="C++">
+    <compoundname>gviz::contracts</compoundname>
+    <innerclass refid="classgviz_1_1contracts_1_1_contract" prot="public">gviz::contracts::Contract</innerclass>
+    <innernamespace refid="namespacegviz_1_1contracts_1_1detail">gviz::contracts::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="contracts_8hpp_1a52fe89f0432c690544bb5b171cefc5e8" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>T</type>
+            <declname>min</declname>
+            <defname>min</defname>
+          </param>
+          <param>
+            <type>T</type>
+            <declname>max</declname>
+            <defname>max</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classgviz_1_1contracts_1_1_contract" kindref="compound">Contract</ref>&lt; T, detail::ranged_constraint&lt; T, min, max &gt; &gt;</type>
+        <definition>using gviz::contracts::Ranged = typedef Contract&lt;T, detail::ranged_constraint&lt;T, min, max&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>Ranged</name>
+        <qualifiedname>gviz::contracts::Ranged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="111" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="contracts_8hpp_1ad13bcafca3d0604034d38239320df6f7" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>T</type>
+            <declname>base</declname>
+            <defname>base</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classgviz_1_1contracts_1_1_contract" kindref="compound">Contract</ref>&lt; T, detail::lesseqed_constraint&lt; T, base &gt; &gt;</type>
+        <definition>using gviz::contracts::LessEqed = typedef Contract&lt;T, detail::lesseqed_constraint&lt;T, base&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>LessEqed</name>
+        <qualifiedname>gviz::contracts::LessEqed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="114" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="contracts_8hpp_1a6e0c4c7659a744620accbc6e9f87e1a3" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>T</type>
+            <declname>base</declname>
+            <defname>base</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classgviz_1_1contracts_1_1_contract" kindref="compound">Contract</ref>&lt; T, detail::greatereqed_constraint&lt; T, base &gt; &gt;</type>
+        <definition>using gviz::contracts::GreaterEqed = typedef Contract&lt;T, detail::greatereqed_constraint&lt;T, base&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>GreaterEqed</name>
+        <qualifiedname>gviz::contracts::GreaterEqed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="117" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

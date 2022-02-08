@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1contracts_1_1_contract" kind="class"><name>gviz::contracts::Contract</name>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a32904c2827b29f28f9eecc4e400905bf" kind="variable"><name>value_</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a84d8c0c1fa3ce2e150420c87a9bd1b6a" kind="function"><name>throw_if_invalid</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a4990dccab8952ad384b2a853da67fc3a" kind="function"><name>Contract</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a1427f0334b7fdc54c503cb01923f500b" kind="function"><name>Contract</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a8b989b58742d3b4fcc27e7bb7e0e2349" kind="function"><name>Contract</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a63ef797dee9678ed4ace298986e217a8" kind="function"><name>value</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a6fb8c945d3b88707ff609c9ade529721" kind="function"><name>assign</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a73e0acabbda12ef9a4df346882576d58" kind="function"><name>assign</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a6b22712db266d825dd9778ef1ecb9fd0" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1af9c336f038a66e806516d8ca49cc64e2" kind="function"><name>operator!=</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1aa76f1e4e92bb5fa28e2851295b82d454" kind="function"><name>operator&lt;</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1abd92551d07a3ca251b815a08d35e71d1" kind="function"><name>operator&gt;</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1aaf3b3fb435d32f25d61a6b94d804d4aa" kind="function"><name>operator&lt;=</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1ac7e80a7f7e0c26a015afa978ab79630f" kind="function"><name>operator&gt;=</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a781fe1bc112e9dffcd4180fbe2c55cc4" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1ae5c101e38e247c1def39fe1348fedc1f" kind="function"><name>operator*</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a4477744cc2d24814db4f1b3cec473018" kind="function"><name>operator T</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1a20402208b74108196095dcec74c7e0bd" kind="function"><name>check</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1af5577f639c3792f0762fe95095b6c995" kind="function"><name>constrain</name></member>
+    <member refid="classgviz_1_1contracts_1_1_contract_1ad3b4916d348b6ec1337ce762c5919d97" kind="function"><name>constrain</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1contracts" kind="namespace"><name>gviz::contracts</name>
+    <member refid="contracts_8hpp_1a52fe89f0432c690544bb5b171cefc5e8" kind="typedef"><name>Ranged</name></member>
+    <member refid="contracts_8hpp_1ad13bcafca3d0604034d38239320df6f7" kind="typedef"><name>LessEqed</name></member>
+    <member refid="contracts_8hpp_1a6e0c4c7659a744620accbc6e9f87e1a3" kind="typedef"><name>GreaterEqed</name></member>
+  </compound>
+  <compound refid="namespacegviz_1_1contracts_1_1detail" kind="namespace"><name>gviz::contracts::detail</name>
+    <member refid="contracts_8hpp_1a58aee34d5a11e8b3d66b9507f259d706" kind="function"><name>ranged_constraint</name></member>
+    <member refid="contracts_8hpp_1a958c6cff26c3670e656ef850a9566a73" kind="function"><name>lesseqed_constraint</name></member>
+    <member refid="contracts_8hpp_1a56f8aace9ab60c790cf76d8261aedee6" kind="function"><name>greatereqed_constraint</name></member>
+  </compound>
+  <compound refid="contracts_8hpp" kind="file"><name>contracts.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

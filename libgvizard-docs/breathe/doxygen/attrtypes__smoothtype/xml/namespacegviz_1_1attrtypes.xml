@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>SmoothType</name>
+        <qualifiedname>gviz::attrtypes::SmoothType</qualifiedname>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0a4ffb3a45e4cd4fa428786ba097deda74" prot="public">
+          <name>avg_dist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0a20e78df617f41468cd368fb65858ed51" prot="public">
+          <name>graph_dist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0a2df471fd1a42111ba5260e7caa29e071" prot="public">
+          <name>power_dist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0ad2d9ce665f66ae49556b47436a514c0f" prot="public">
+          <name>rng</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0a2a2d595e6ed9a0b24f027f2b63b134d6" prot="public">
+          <name>spring</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="smoothtype_8hpp_1a2ac905f060b6299a42df7654978ca7b0acef44b46f16ae8ecf664df4266ffdbf9" prot="public">
+          <name>triangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/smoothtype.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/smoothtype.hpp" bodystart="8" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/smoothtype.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

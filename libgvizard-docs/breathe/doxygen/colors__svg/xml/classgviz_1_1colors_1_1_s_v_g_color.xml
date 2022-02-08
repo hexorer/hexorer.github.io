@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1colors_1_1_s_v_g_color" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gviz::colors::SVGColor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_s_v_g_color_1a5636c0350ec075b9af783e76d03f9819" prot="private" static="no" mutable="no">
+        <type>SVGColorEnum</type>
+        <definition>SVGColorEnum gviz::colors::SVGColor::index_</definition>
+        <argsstring></argsstring>
+        <name>index_</name>
+        <qualifiedname>gviz::colors::SVGColor::index_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="164" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_s_v_g_color_1a07f4925da8d3003b7ce9e9aa3207b4ed" prot="private" static="no" mutable="no">
+        <type>SchemeColor&lt; RGB &gt;</type>
+        <definition>SchemeColor&lt;RGB&gt; gviz::colors::SVGColor::color_</definition>
+        <argsstring></argsstring>
+        <name>color_</name>
+        <qualifiedname>gviz::colors::SVGColor::color_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="165" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_s_v_g_color_1a6530820c0bcd218c0d0fe90a31424b10" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr SchemeColor&lt; RGB &gt;</type>
+        <definition>constexpr SchemeColor&lt;RGB&gt; gviz::colors::SVGColor::list[]</definition>
+        <argsstring>[]</argsstring>
+        <name>list</name>
+        <qualifiedname>gviz::colors::SVGColor::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="187" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1a9e290014bcb4a761369cbc7b7ebdcc4e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::colors::SVGColor::SVGColor</definition>
+        <argsstring>(SVGColorEnum index)</argsstring>
+        <name>SVGColor</name>
+        <qualifiedname>gviz::colors::SVGColor::SVGColor</qualifiedname>
+        <param>
+          <type>SVGColorEnum</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="168" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1aef895d2988cdcb790174b8c30fc33273" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr SVGColorEnum</type>
+        <definition>constexpr SVGColorEnum gviz::colors::SVGColor::get_enum</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_enum</name>
+        <qualifiedname>gviz::colors::SVGColor::get_enum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="172" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1a7084cf448c235d923eef076793cb71b0" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr SchemeColor&lt; RGB &gt;</type>
+        <definition>constexpr SchemeColor&lt; RGB &gt; gviz::colors::SVGColor::get_color</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_color</name>
+        <qualifiedname>gviz::colors::SVGColor::get_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="173" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1add647b32f407df26ec4b6e9551afe712" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::colors::SVGColor::operator SchemeColor&lt; RGB &gt;</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator SchemeColor&lt; RGB &gt;</name>
+        <qualifiedname>gviz::colors::SVGColor::operator SchemeColor&lt; RGB &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="175" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1af69c7852ef2a74677031c324ad7e8983" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::SVGColor::operator==</definition>
+        <argsstring>(const SVGColor &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::colors::SVGColor::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="177" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_s_v_g_color_1ac413c14ab8cafe8151707b8426c889aa" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::SVGColor::operator!=</definition>
+        <argsstring>(const SVGColor &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::colors::SVGColor::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="182" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="182" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="163" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="163" bodyend="336"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1a07f4925da8d3003b7ce9e9aa3207b4ed" prot="private" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>color_</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1a7084cf448c235d923eef076793cb71b0" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>get_color</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1aef895d2988cdcb790174b8c30fc33273" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>get_enum</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1a5636c0350ec075b9af783e76d03f9819" prot="private" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>index_</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1a6530820c0bcd218c0d0fe90a31424b10" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>list</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1add647b32f407df26ec4b6e9551afe712" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>operator SchemeColor&lt; RGB &gt;</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1ac413c14ab8cafe8151707b8426c889aa" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1af69c7852ef2a74677031c324ad7e8983" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1colors_1_1_s_v_g_color_1a9e290014bcb4a761369cbc7b7ebdcc4e" prot="public" virt="non-virtual"><scope>gviz::colors::SVGColor</scope><name>SVGColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

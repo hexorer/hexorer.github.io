@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1attrtypes_1_1_esc_string" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::EscString</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences" prot="private">gviz::attrtypes::EscString::Occurences</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename StringT</type>
+        <defval>std::string</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classgviz_1_1attrtypes_1_1_esc_string_1aefb56557804fb5b5f833deb1109eda44" prot="private" static="no">
+        <type>typename StringT::iterator</type>
+        <definition>using gviz::attrtypes::EscString&lt; StringT &gt;::iterator =  typename StringT::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>gviz::attrtypes::EscString::iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="20" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1attrtypes_1_1_esc_string_1a9b5389553739efc2a9670ef464e3ab1a" prot="private" static="no">
+        <type>typename StringT::const_iterator</type>
+        <definition>using gviz::attrtypes::EscString&lt; StringT &gt;::const_iterator =  typename StringT::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>gviz::attrtypes::EscString::const_iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="21" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_esc_string_1ae730fb87a5ff5b5a45b76970caad4337" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::attrtypes::EscString&lt; StringT &gt;::backslash_char_sv</definition>
+        <argsstring></argsstring>
+        <name>backslash_char_sv</name>
+        <qualifiedname>gviz::attrtypes::EscString::backslash_char_sv</qualifiedname>
+        <initializer>= std::string_view(&quot;\\&quot;, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_esc_string_1a56f9c8c3f32bf72e82dbc8f1178c41ff" prot="private" static="yes" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename StrT</type>
+            <defval>std::string</defval>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::decay_t&lt; StrT(std::size_t)&gt;</type>
+        <definition>constexpr std::decay_t&lt;StrT(std::size_t)&gt; gviz::attrtypes::EscString&lt; StringT &gt;::default_outstring_init</definition>
+        <argsstring></argsstring>
+        <name>default_outstring_init</name>
+        <qualifiedname>gviz::attrtypes::EscString::default_outstring_init</qualifiedname>
+        <initializer>=
+    +[](std::size_t size) -&gt; StrT
+    {
+      auto ret = StrT{};
+      ret.reserve(size);
+      return ret;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="26" column="33" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_esc_string_1a1515f1fb0a1fbd01c5ee8cbb7a955943" prot="private" static="yes" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename StrT</type>
+            <defval>std::string</defval>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::decay_t&lt; void(StrT &amp;, const std::string_view &amp;)&gt;</type>
+        <definition>constexpr std::decay_t&lt;void(StrT&amp;, const std::string_view&amp;)&gt; gviz::attrtypes::EscString&lt; StringT &gt;::default_outstring_append</definition>
+        <argsstring></argsstring>
+        <name>default_outstring_append</name>
+        <qualifiedname>gviz::attrtypes::EscString::default_outstring_append</qualifiedname>
+        <initializer>=
+    +[](StrT&amp; lhs, const std::string_view&amp; rhs)
+    {
+      lhs += rhs;
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="36" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_esc_string_1a1274d735b2b1b5f45217234e0399caa7" prot="private" static="no" mutable="no">
+        <type>Occurences</type>
+        <definition>Occurences gviz::attrtypes::EscString&lt; StringT &gt;::occurences</definition>
+        <argsstring></argsstring>
+        <name>occurences</name>
+        <qualifiedname>gviz::attrtypes::EscString::occurences</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="71" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_esc_string_1ae065bea3f2af0624d42c60cdbfd0bf46" prot="private" static="no" mutable="no">
+        <type>StringT</type>
+        <definition>StringT gviz::attrtypes::EscString&lt; StringT &gt;::format_</definition>
+        <argsstring></argsstring>
+        <name>format_</name>
+        <qualifiedname>gviz::attrtypes::EscString::format_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="72" column="11" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1ac441b8eafdb0b1a40217b244b4ef16c0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::EscString&lt; StringT &gt;::EscString</definition>
+        <argsstring>(const char *format, std::size_t size)</argsstring>
+        <name>EscString</name>
+        <qualifiedname>gviz::attrtypes::EscString::EscString</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="75" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a69aac80f33143e4d0fec8b2066a29e11" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::EscString&lt; StringT &gt;::EscString</definition>
+        <argsstring>(StringT format)</argsstring>
+        <name>EscString</name>
+        <qualifiedname>gviz::attrtypes::EscString::EscString</qualifiedname>
+        <param>
+          <type>StringT</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="82" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a0c44f78548ef1bcad166ccc6dbd20bb1" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr StringT</type>
+        <definition>constexpr StringT gviz::attrtypes::EscString&lt; StringT &gt;::get_format</definition>
+        <argsstring>() const</argsstring>
+        <name>get_format</name>
+        <qualifiedname>gviz::attrtypes::EscString::get_format</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="88" column="28" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a1e1b6ac1b35abea62a0269f705e9414d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr const StringT &amp;</type>
+        <definition>constexpr const StringT &amp; gviz::attrtypes::EscString&lt; StringT &gt;::get_format_ref</definition>
+        <argsstring>() const</argsstring>
+        <name>get_format_ref</name>
+        <qualifiedname>gviz::attrtypes::EscString::get_format_ref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="89" column="27" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a797a9489591f5a87844f9bc3a0e1cfb3" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr Occurences</type>
+        <definition>constexpr Occurences gviz::attrtypes::EscString&lt; StringT &gt;::get_occurences</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_occurences</name>
+        <qualifiedname>gviz::attrtypes::EscString::get_occurences</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="91" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1aa55f55c6ddffd95f12273dbd3961d5d9" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::EscString&lt; StringT &gt;::operator==</definition>
+        <argsstring>(const EscString &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::EscString::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="93" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1ac3786113743dc34e37cb74e0ca7a1bbf" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::EscString&lt; StringT &gt;::operator!=</definition>
+        <argsstring>(const EscString &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::EscString::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="98" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a3e271d5f284d8ef17ad213b816bbf2e2" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::apply_size</definition>
+        <argsstring>(const EscNameSetRef &amp;nameset) const</argsstring>
+        <name>apply_size</name>
+        <qualifiedname>gviz::attrtypes::EscString::apply_size</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref> &amp;</type>
+          <declname>nameset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="103" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="103" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a3919e197133b36a1e9ce06ae0b4e7370" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iterator</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::apply</definition>
+        <argsstring>(Iterator dstbegin, Iterator dstend, const EscNameSetRef &amp;nameset={}) const</argsstring>
+        <name>apply</name>
+        <qualifiedname>gviz::attrtypes::EscString::apply</qualifiedname>
+        <param>
+          <type>Iterator</type>
+          <declname>dstbegin</declname>
+        </param>
+        <param>
+          <type>Iterator</type>
+          <declname>dstend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref> &amp;</type>
+          <declname>nameset</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="115" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="115" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1a7862cdd7e7604af344887d9e9c95509e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename OutStringT</type>
+            <defval>std::string</defval>
+          </param>
+          <param>
+            <type>typename Fappend</type>
+            <defval>decltype(default_outstring_append&lt;OutStringT&gt;)</defval>
+          </param>
+        </templateparamlist>
+        <type>constexpr OutStringT</type>
+        <definition>constexpr OutStringT gviz::attrtypes::EscString&lt; StringT &gt;::apply_into</definition>
+        <argsstring>(OutStringT output, const EscNameSetRef &amp;nameset={}, Fappend append=default_outstring_append&lt; OutStringT &gt;) const</argsstring>
+        <name>apply_into</name>
+        <qualifiedname>gviz::attrtypes::EscString::apply_into</qualifiedname>
+        <param>
+          <type>OutStringT</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref> &amp;</type>
+          <declname>nameset</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>Fappend</type>
+          <declname>append</declname>
+          <defval>default_outstring_append&lt; OutStringT &gt;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="142" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="142" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1aa78b8952f0c9465aef5a23416414074f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename OutStringT</type>
+            <defval>std::string</defval>
+          </param>
+          <param>
+            <type>typename Finit</type>
+            <defval>decltype(default_outstring_init&lt;OutStringT&gt;)</defval>
+          </param>
+          <param>
+            <type>typename Fappend</type>
+            <defval>decltype(default_outstring_append&lt;OutStringT&gt;)</defval>
+          </param>
+        </templateparamlist>
+        <type>constexpr OutStringT</type>
+        <definition>constexpr OutStringT gviz::attrtypes::EscString&lt; StringT &gt;::apply</definition>
+        <argsstring>(const EscNameSetRef &amp;nameset={}, Finit init=default_outstring_init&lt; OutStringT &gt;, Fappend append=default_outstring_append&lt; OutStringT &gt;) const</argsstring>
+        <name>apply</name>
+        <qualifiedname>gviz::attrtypes::EscString::apply</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref> &amp;</type>
+          <declname>nameset</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>Finit</type>
+          <declname>init</declname>
+          <defval>default_outstring_init&lt; OutStringT &gt;</defval>
+        </param>
+        <param>
+          <type>Fappend</type>
+          <declname>append</declname>
+          <defval>default_outstring_append&lt; OutStringT &gt;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="157" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="157" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_esc_string_1aa72ae5d0a39c7061058e3a0b31f8113f" prot="private" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr Occurences</type>
+        <definition>static constexpr Occurences gviz::attrtypes::EscString&lt; StringT &gt;::count_occurences</definition>
+        <argsstring>(const_iterator str, const_iterator end) noexcept</argsstring>
+        <name>count_occurences</name>
+        <qualifiedname>gviz::attrtypes::EscString::count_occurences</qualifiedname>
+        <param>
+          <type>const_iterator</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const_iterator</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="196" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="196" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="19" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="19" bodyend="217"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a3919e197133b36a1e9ce06ae0b4e7370" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>apply</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa78b8952f0c9465aef5a23416414074f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>apply</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a7862cdd7e7604af344887d9e9c95509e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>apply_into</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a3e271d5f284d8ef17ad213b816bbf2e2" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>apply_size</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ae730fb87a5ff5b5a45b76970caad4337" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>backslash_char_sv</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a9b5389553739efc2a9670ef464e3ab1a" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>const_iterator</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa72ae5d0a39c7061058e3a0b31f8113f" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>count_occurences</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1515f1fb0a1fbd01c5ee8cbb7a955943" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>default_outstring_append</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a56f9c8c3f32bf72e82dbc8f1178c41ff" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>default_outstring_init</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ac441b8eafdb0b1a40217b244b4ef16c0" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>EscString</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a69aac80f33143e4d0fec8b2066a29e11" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>EscString</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ae065bea3f2af0624d42c60cdbfd0bf46" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>format_</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a0c44f78548ef1bcad166ccc6dbd20bb1" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>get_format</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1e1b6ac1b35abea62a0269f705e9414d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>get_format_ref</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a797a9489591f5a87844f9bc3a0e1cfb3" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>get_occurences</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aefb56557804fb5b5f833deb1109eda44" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>iterator</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1274d735b2b1b5f45217234e0399caa7" prot="private" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>occurences</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ac3786113743dc34e37cb74e0ca7a1bbf" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa55f55c6ddffd95f12273dbd3961d5d9" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_arrow_modifier" prot="public">gviz::attrtypes::ArrowModifier</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_arrow_shape" prot="public">gviz::attrtypes::ArrowShape</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1arrowshapes" prot="public">gviz::attrtypes::arrowshapes</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_arrow_type" prot="public">gviz::attrtypes::ArrowType</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>ArrowPrimaryShape</name>
+        <qualifiedname>gviz::attrtypes::ArrowPrimaryShape</qualifiedname>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a34be958a921e43d813a2075297d8e862" prot="public">
+          <name>box</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813abbbd53e913a404b04abf373dc1dac49b" prot="public">
+          <name>crow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a4efa264f5ef3e1a5c95736e07544ebf0" prot="public">
+          <name>curve</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813ab999e399cf28e9ab22d4aedf2a114b70" prot="public">
+          <name>icurve</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a75c6f03161d020201000414cd1501f9f" prot="public">
+          <name>diamond</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a69eb76c88557a8211cbfc9beda5fc062" prot="public">
+          <name>dot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a545f7f577c93318b34476e9999931731" prot="public">
+          <name>inv</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813afea087517c26fadd409bd4b9dc642555" prot="public">
+          <name>normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813aa04ce4f25ad79ff8ba880390edfb1ab4" prot="public">
+          <name>tee</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a7b15852306cb6955ff8f454e2a739813a9bf9e7052992467f671d923e9444624e" prot="public">
+          <name>vee</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0" prot="public" static="no" strong="yes">
+        <type>bool</type>
+        <name>ArrowOpen</name>
+        <qualifiedname>gviz::attrtypes::ArrowOpen</qualifiedname>
+        <enumvalue id="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= false</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a302657770e56400835ce1dd551f85bf0a7cef8a734855777c2a9d0caf42666e69" prot="public">
+          <name>open</name>
+          <initializer>= true</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="24" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>ArrowSide</name>
+        <qualifiedname>gviz::attrtypes::ArrowSide</qualifiedname>
+        <enumvalue id="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a811882fecd5c7618d7099ebbd39ea254" prot="public">
+          <name>left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="arrowtype_8hpp_1a0c9cefb88ba94f493d519b1bda3b79c8a7c4f29407893c334a6cb7a87bf045c0d" prot="public">
+          <name>right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="29" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

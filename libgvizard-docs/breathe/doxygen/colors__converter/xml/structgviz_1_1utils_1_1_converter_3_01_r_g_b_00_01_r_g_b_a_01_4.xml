@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; RGB, RGBA &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4_1a773804911e08bc7738f97f27095e1d84" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr RGB</type>
+        <definition>static constexpr RGB gviz::utils::Converter&lt; RGB, RGBA &gt;::convert</definition>
+        <argsstring>(const RGBA &amp;color) noexcept</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; RGB, RGBA &gt;::convert</qualifiedname>
+        <param>
+          <type>const RGBA &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="101" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="100" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="100" bodyend="105"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4_1a773804911e08bc7738f97f27095e1d84" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; RGB, RGBA &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>colors/hsv.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="graph" href="../graph/index.html" />
+    <link rel="prev" title="colors/x11.hpp" href="x11.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">colors</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rgba.html">colors/rgba.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rgb.html">colors/rgb.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="converter.html">colors/converter.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="svg.html">colors/svg.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="general.html">colors/general.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">colors/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="x11.html">colors/x11.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">colors/hsv.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">colors</a> &raquo;</li>
+      <li>colors/hsv.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/colors/hsv.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="colors-hsv-hpp">
+<h1>colors/hsv.hpp<a class="headerlink" href="#colors-hsv-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSVE">
+<span id="_CPPv3N4gviz6colors3HSVE"></span><span id="_CPPv2N4gviz6colors3HSVE"></span><span id="gviz::colors::HSV"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="color.html#_CPPv4N4gviz6colorsE" title="gviz::colors"><span class="n"><span class="pre">colors</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">HSV</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSVE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV7octet_tE">
+<span id="_CPPv3N4gviz6colors3HSV7octet_tE"></span><span id="_CPPv2N4gviz6colors3HSV7octet_tE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1ac04f2b9c22637d7e63f630cb52ce9313"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">octet_t</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV3HSVE7octet_t7octet_t7octet_t">
+<span id="_CPPv3N4gviz6colors3HSV3HSVE7octet_t7octet_t7octet_t"></span><span id="_CPPv2N4gviz6colors3HSV3HSVE7octet_t7octet_t7octet_t"></span><span id="gviz::colors::HSV::HSV__octet_t.octet_t.octet_tCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a0f33c10fcbc1f724bd3fbe40c06408bf"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">HSV</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">hue</span></span>, <a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">saturation</span></span>, <a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV3HSVE7octet_t7octet_t7octet_t" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors3HSV3hueEv">
+<span id="_CPPv3NK4gviz6colors3HSV3hueEv"></span><span id="_CPPv2NK4gviz6colors3HSV3hueEv"></span><span id="gviz::colors::HSV::hueCCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a4b3a2285c3a735b42582b3d8661c5ce6"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">hue</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors3HSV3hueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors3HSV10saturationEv">
+<span id="_CPPv3NK4gviz6colors3HSV10saturationEv"></span><span id="_CPPv2NK4gviz6colors3HSV10saturationEv"></span><span id="gviz::colors::HSV::saturationCCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1ae27713c2bcc612be2f67a3a4a58e8a69"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">saturation</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors3HSV10saturationEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors3HSV5valueEv">
+<span id="_CPPv3NK4gviz6colors3HSV5valueEv"></span><span id="_CPPv2NK4gviz6colors3HSV5valueEv"></span><span id="gviz::colors::HSV::valueCCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a64ff6919aa2c4ab60dc0485442f6ea0f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors3HSV5valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors3HSVeqERK3HSV">
+<span id="_CPPv3NK4gviz6colors3HSVeqERK3HSV"></span><span id="_CPPv2NK4gviz6colors3HSVeqERK3HSV"></span><span id="gviz::colors::HSV::eq-operator__HSVCRCCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1acb97c0ed8e16b9d89e1f63a66a0264f3"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSVE" title="gviz::colors::HSV"><span class="n"><span class="pre">HSV</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors3HSVeqERK3HSV" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz6colors3HSVneERK3HSV">
+<span id="_CPPv3NK4gviz6colors3HSVneERK3HSV"></span><span id="_CPPv2NK4gviz6colors3HSVneERK3HSV"></span><span id="gviz::colors::HSV::neq-operator__HSVCRCCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a5e20c9ce8a0aed5a4b1c54ce69db4b01"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSVE" title="gviz::colors::HSV"><span class="n"><span class="pre">HSV</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz6colors3HSVneERK3HSV" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV4makeE7octet_t7octet_t7octet_t">
+<span id="_CPPv3N4gviz6colors3HSV4makeE7octet_t7octet_t7octet_t"></span><span id="_CPPv2N4gviz6colors3HSV4makeE7octet_t7octet_t7octet_t"></span><span id="gviz::colors::HSV::make__octet_t.octet_t.octet_tCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a381a14df94e74a1ef15bc13fd29e445a"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSVE" title="gviz::colors::HSV"><span class="n"><span class="pre">HSV</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">make</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">h</span></span>, <a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">s</span></span>, <a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">v</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV4makeE7octet_t7octet_t7octet_t" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-functions">Private Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV3HSVEv">
+<span id="_CPPv3N4gviz6colors3HSV3HSVEv"></span><span id="_CPPv2N4gviz6colors3HSV3HSVEv"></span><span id="gviz::colors::HSV::HSVCE"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1ac0b4c3c29c6d3a10a0f20b9ad28e1d35"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">HSV</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV3HSVEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV1hE">
+<span id="_CPPv3N4gviz6colors3HSV1hE"></span><span id="_CPPv2N4gviz6colors3HSV1hE"></span><span id="gviz::colors::HSV::h__octet_t"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1ae5b9fafa4511a4f638421e2882eb49ac"></span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">h</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV1hE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV1sE">
+<span id="_CPPv3N4gviz6colors3HSV1sE"></span><span id="_CPPv2N4gviz6colors3HSV1sE"></span><span id="gviz::colors::HSV::s__octet_t"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1a0c28b48607de3cf5ad84e5d1e824b1c9"></span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">s</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV1sE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colors3HSV1vE">
+<span id="_CPPv3N4gviz6colors3HSV1vE"></span><span id="_CPPv2N4gviz6colors3HSV1vE"></span><span id="gviz::colors::HSV::v__octet_t"></span><span class="target" id="structgviz_1_1colors_1_1_h_s_v_1af6a0132d2d4c8af37da158a555da79f1"></span><a class="reference internal" href="#_CPPv4N4gviz6colors3HSV7octet_tE" title="gviz::colors::HSV::octet_t"><span class="n"><span class="pre">octet_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">v</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz6colors3HSV1vE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colorsE">
+<span id="_CPPv3N4gviz6colorsE"></span><span id="_CPPv2N4gviz6colorsE"></span><span id="gviz::colors"></span><span class="target" id="namespacegviz_1_1colors"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colors</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detailE">
+<span id="_CPPv3N4gviz6detailE"></span><span id="_CPPv2N4gviz6detailE"></span><span id="gviz::detail"></span><span class="target" id="namespacegviz_1_1detail"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">detail</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6detailE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail3hsvE">
+<span id="_CPPv3N4gviz6detail3hsvE"></span><span id="_CPPv2N4gviz6detail3hsvE"></span><span id="gviz::detail::hsv"></span><span class="target" id="namespacegviz_1_1detail_1_1hsv"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz6detailE" title="gviz::detail"><span class="n"><span class="pre">detail</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">hsv</span></span></span><a class="headerlink" href="#_CPPv4N4gviz6detail3hsvE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6detail3hsv16invalid_argumentEPKc">
+<span id="_CPPv3N4gviz6detail3hsv16invalid_argumentEPKc"></span><span id="_CPPv2N4gviz6detail3hsv16invalid_argumentEPKc"></span><span id="gviz::detail::hsv::invalid_argument__cCP"></span><span class="target" id="hsv_8hpp_1a666d6c3ac5ce809e4026469e876acd7e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">invalid_argument</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">reason</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz6detail3hsv16invalid_argumentEPKc" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="hsv_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">hsv.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_0c172d4549410538c67f1e8c5f2bc6fb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="x11.html" class="btn btn-neutral float-left" title="colors/x11.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../graph/index.html" class="btn btn-neutral float-right" title="graph" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

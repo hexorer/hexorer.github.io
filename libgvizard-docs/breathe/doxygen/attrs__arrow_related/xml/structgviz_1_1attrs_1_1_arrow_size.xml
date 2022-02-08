@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_arrow_size" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::ArrowSize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; ArrowSize, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_arrow_size_1a3d08feb2d9abcb6b722986969d69dffb" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::ArrowSize::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::ArrowSize::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="70" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_arrow_size_1a7ef3970e1cf266cb8f3ea267b93a301e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::ArrowSize::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::ArrowSize::name</qualifiedname>
+        <initializer>= &quot;arrowsize&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="72" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_size_1acd7e4d7ed841e105caf1b214e9b76798" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ArrowSize::ArrowSize</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>ArrowSize</name>
+        <qualifiedname>gviz::attrs::ArrowSize::ArrowSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="74" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_size_1a8f9a832de0569300dc145f7d658d24a2" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ArrowSize::ArrowSize</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>ArrowSize</name>
+        <qualifiedname>gviz::attrs::ArrowSize::ArrowSize</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="75" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="75" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_size_1aff58d401f3320ef92c0c81a43973e4ac" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::ArrowSize::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::ArrowSize::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="77" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_size_1a112bea2d6c03a4ca7ffc766250f6da80" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ArrowSize::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::ArrowSize::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="82" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_size_1af65b13d94839cf94fec5429fab209ccd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ArrowSize::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::ArrowSize::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="87" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; ArrowSize, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ArrowSize</label>
+        <link refid="structgviz_1_1attrs_1_1_arrow_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; ArrowSize, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ArrowSize</label>
+        <link refid="structgviz_1_1attrs_1_1_arrow_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="69" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="69" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1acd7e4d7ed841e105caf1b214e9b76798" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>ArrowSize</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1a8f9a832de0569300dc145f7d658d24a2" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>ArrowSize</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1af65b13d94839cf94fec5429fab209ccd" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1aff58d401f3320ef92c0c81a43973e4ac" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1a112bea2d6c03a4ca7ffc766250f6da80" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1a7ef3970e1cf266cb8f3ea267b93a301e" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_size_1a3d08feb2d9abcb6b722986969d69dffb" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowSize</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

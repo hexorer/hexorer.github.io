@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_true_color" kind="struct"><name>gviz::attrs::TrueColor</name>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1afdd6b8d0f0ebabb68d16d7694a61e21a" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1a61ae988e2fb827ac108220857764430a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1ad92f3d505482242c905e753e2874b53c" kind="function"><name>TrueColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1afc74018c4af3bfa562db4384940e624a" kind="function"><name>TrueColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1a87b9d5a31a9e0200462e45f804d85b3c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1a006109fc56bde410bc92e5d09c336bdd" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_true_color_1a6faaeac16876ae1a235b72f6c15d0c97" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="truecolor_8hpp" kind="file"><name>truecolor.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_n_s_limit1" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::NSLimit1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; NSLimit1, std::optional&lt; double &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_n_s_limit1_1a98f7a4785d101ca16d8044c388838d7d" prot="public" static="no">
+        <type>std::optional&lt; double &gt;</type>
+        <definition>using gviz::attrs::NSLimit1::value_type =  std::optional&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::NSLimit1::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_n_s_limit1_1a7a25ba243f611665dfbc5c04fb1cc8a5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::NSLimit1::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::NSLimit1::name</qualifiedname>
+        <initializer>= &quot;nslimit1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_n_s_limit1_1ae9e521ccdba2765a1db1d6c185b41d0c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::NSLimit1::NSLimit1</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>NSLimit1</name>
+        <qualifiedname>gviz::attrs::NSLimit1::NSLimit1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_n_s_limit1_1a921b9bae0a370caa814cd93d65accd52" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::NSLimit1::NSLimit1</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>NSLimit1</name>
+        <qualifiedname>gviz::attrs::NSLimit1::NSLimit1</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_n_s_limit1_1a56d9b33aae6190eb3f61759040ad899c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::NSLimit1::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::NSLimit1::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_n_s_limit1_1a8bc7c1056280986b828279280b504a0c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::NSLimit1::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::NSLimit1::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_n_s_limit1_1aa50cc0c34c61e4cb962fd04dfb3adb36" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::NSLimit1::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::NSLimit1::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; NSLimit1, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::NSLimit1</label>
+        <link refid="structgviz_1_1attrs_1_1_n_s_limit1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; NSLimit1, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::NSLimit1</label>
+        <link refid="structgviz_1_1attrs_1_1_n_s_limit1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/nslimit1.hpp" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1aa50cc0c34c61e4cb962fd04dfb3adb36" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a56d9b33aae6190eb3f61759040ad899c" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a8bc7c1056280986b828279280b504a0c" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a7a25ba243f611665dfbc5c04fb1cc8a5" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1ae9e521ccdba2765a1db1d6c185b41d0c" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>NSLimit1</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a921b9bae0a370caa814cd93d65accd52" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>NSLimit1</name></member>
+      <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a98f7a4785d101ca16d8044c388838d7d" prot="public" virt="non-virtual"><scope>gviz::attrs::NSLimit1</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

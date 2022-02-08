@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz" kind="namespace" language="C++">
+    <compoundname>gviz</compoundname>
+    <innerclass refid="classgviz_1_1_callback_view" prot="public">gviz::CallbackView</innerclass>
+    <innerclass refid="classgviz_1_1_callback_view_iterator" prot="public">gviz::CallbackViewIterator</innerclass>
+    <innerclass refid="classgviz_1_1_iterator_view" prot="public">gviz::IteratorView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

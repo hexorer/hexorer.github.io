@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_pen_color" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::PenColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; PenColor, attrtypes::ColorType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_pen_color_1a2d42365af012e4bff84fa9f3d65fad72" prot="public" static="no">
+        <type>attrtypes::ColorType</type>
+        <definition>using gviz::attrs::PenColor::value_type =  attrtypes::ColorType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::PenColor::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_pen_color_1ac736a614d97ac370f1f9c6a14bcb993d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::PenColor::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::PenColor::name</qualifiedname>
+        <initializer>= &quot;pencolor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_color_1aa3b2f355f5dee402dad22f159e4cdcb1" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PenColor::PenColor</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>PenColor</name>
+        <qualifiedname>gviz::attrs::PenColor::PenColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_color_1a64a73e8cd39693919e3058e09c0c8e82" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PenColor::PenColor</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>PenColor</name>
+        <qualifiedname>gviz::attrs::PenColor::PenColor</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_color_1a414347896ba3b7b98e0fd79c0c2b9d19" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::PenColor::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::PenColor::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_color_1a961ec1ce0361c1e64921c1b09eaf3b9b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PenColor::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::PenColor::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pen_color_1a604789d8b905e4137c29c56fbd138e38" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PenColor::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::PenColor::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; PenColor, attrtypes::ColorType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PenColor</label>
+        <link refid="structgviz_1_1attrs_1_1_pen_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; PenColor, attrtypes::ColorType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PenColor</label>
+        <link refid="structgviz_1_1attrs_1_1_pen_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pencolor.hpp" bodystart="12" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1a604789d8b905e4137c29c56fbd138e38" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1a414347896ba3b7b98e0fd79c0c2b9d19" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1a961ec1ce0361c1e64921c1b09eaf3b9b" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1ac736a614d97ac370f1f9c6a14bcb993d" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1aa3b2f355f5dee402dad22f159e4cdcb1" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>PenColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1a64a73e8cd39693919e3058e09c0c8e82" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>PenColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pen_color_1a2d42365af012e4bff84fa9f3d65fad72" prot="public" virt="non-virtual"><scope>gviz::attrs::PenColor</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

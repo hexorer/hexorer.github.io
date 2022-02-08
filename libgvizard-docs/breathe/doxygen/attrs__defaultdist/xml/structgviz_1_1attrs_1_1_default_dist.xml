@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_default_dist" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::DefaultDist</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; DefaultDist, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_default_dist_1a589b2ffa7928516f236a38de84c02566" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::DefaultDist::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::DefaultDist::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_default_dist_1ad5f514edf8f3f33bccea7fee1934a94a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::DefaultDist::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::DefaultDist::name</qualifiedname>
+        <initializer>= &quot;defaultdist&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_default_dist_1ae13c2840518e091a5f5724a40be65daf" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::DefaultDist::DefaultDist</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>DefaultDist</name>
+        <qualifiedname>gviz::attrs::DefaultDist::DefaultDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="15" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_default_dist_1a9e8dd633688744cbec7bd99da658c1a2" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::DefaultDist::DefaultDist</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>DefaultDist</name>
+        <qualifiedname>gviz::attrs::DefaultDist::DefaultDist</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="16" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_default_dist_1ae5b529e12f9a185d5bc17311951fb14c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::DefaultDist::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::DefaultDist::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="18" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_default_dist_1abe1fd23e918dd3a90ccfa8a5dd2f8262" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::DefaultDist::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::DefaultDist::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_default_dist_1aa5c3a5be88e95c6c620918cb9e892c78" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::DefaultDist::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::DefaultDist::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; DefaultDist, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::DefaultDist</label>
+        <link refid="structgviz_1_1attrs_1_1_default_dist"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; DefaultDist, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::DefaultDist</label>
+        <link refid="structgviz_1_1attrs_1_1_default_dist"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/defaultdist.hpp" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1aa5c3a5be88e95c6c620918cb9e892c78" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1ae13c2840518e091a5f5724a40be65daf" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>DefaultDist</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1a9e8dd633688744cbec7bd99da658c1a2" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>DefaultDist</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1ae5b529e12f9a185d5bc17311951fb14c" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1abe1fd23e918dd3a90ccfa8a5dd2f8262" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1ad5f514edf8f3f33bccea7fee1934a94a" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_default_dist_1a589b2ffa7928516f236a38de84c02566" prot="public" virt="non-virtual"><scope>gviz::attrs::DefaultDist</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

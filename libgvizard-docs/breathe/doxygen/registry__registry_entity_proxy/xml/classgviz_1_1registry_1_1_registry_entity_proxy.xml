@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1registry_1_1_registry_entity_proxy" kind="class" language="C++" prot="public">
+    <compoundname>gviz::registry::RegistryEntityProxy</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Registry</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgviz_1_1registry_1_1_registry_entity_proxy_1abb7bd8b8798a447d9a90bcba4ea3e110" prot="public" static="no">
+        <type>typename Registry::entity_type</type>
+        <definition>using gviz::registry::RegistryEntityProxy&lt; Registry &gt;::entity_type =  typename Registry::entity_type</definition>
+        <argsstring></argsstring>
+        <name>entity_type</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::entity_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1registry_1_1_registry_entity_proxy_1ae153a16b2e32bec2e8d59ec3e144cbcf" prot="private" static="no" mutable="no">
+        <type>Registry &amp;</type>
+        <definition>Registry&amp; gviz::registry::RegistryEntityProxy&lt; Registry &gt;::registry_</definition>
+        <argsstring></argsstring>
+        <name>registry_</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::registry_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="16" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1registry_1_1_registry_entity_proxy_1a89b98ae4a5af5176ecb0d1f65bc89416" prot="private" static="no" mutable="no">
+        <type>entity_type</type>
+        <definition>entity_type gviz::registry::RegistryEntityProxy&lt; Registry &gt;::entity_</definition>
+        <argsstring></argsstring>
+        <name>entity_</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::entity_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="17" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1a16a5b097da2a4ec4f1fc03fbff1ce5d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::registry::RegistryEntityProxy&lt; Registry &gt;::RegistryEntityProxy</definition>
+        <argsstring>(Registry &amp;registry, entity_type entity)</argsstring>
+        <name>RegistryEntityProxy</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::RegistryEntityProxy</qualifiedname>
+        <param>
+          <type>Registry &amp;</type>
+          <declname>registry</declname>
+        </param>
+        <param>
+          <type>entity_type</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="20" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1aadb3059e7edf35943dbf7006941da16b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::registry::RegistryEntityProxy&lt; Registry &gt;::get</definition>
+        <argsstring>() -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>get</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="26" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1a756ecf33d660778b7428634a4c00d459" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::registry::RegistryEntityProxy&lt; Registry &gt;::get</definition>
+        <argsstring>() const -&gt; utils::OptionalRef&lt; const Attr &gt;</argsstring>
+        <name>get</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="32" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1abebbaf2e05e05ac84983e65d4092f439" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool gviz::registry::RegistryEntityProxy&lt; Registry &gt;::has</definition>
+        <argsstring>() const</argsstring>
+        <name>has</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::has</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="38" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1a2e6e4790d428734c26200b3a0228699c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::registry::RegistryEntityProxy&lt; Registry &gt;::update</definition>
+        <argsstring>(F &amp;&amp;func) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>update</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::update</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="41" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1aa4b11c272d527ae6be821f0b9507215b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+          <param>
+            <type>typename ValT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::registry::RegistryEntityProxy&lt; Registry &gt;::set</definition>
+        <argsstring>(ValT &amp;&amp;value) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>set</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::set</qualifiedname>
+        <param>
+          <type>ValT &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="47" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1ae235f6b10e5e910b0b315631fb7b46dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::registry::RegistryEntityProxy&lt; Registry &gt;::emplace</definition>
+        <argsstring>(Args &amp;&amp;... args) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>emplace</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::emplace</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="53" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1registry_1_1_registry_entity_proxy_1af895704fe27f8f95a7182e49ae917775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool gviz::registry::RegistryEntityProxy&lt; Registry &gt;::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <qualifiedname>gviz::registry::RegistryEntityProxy::remove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="59" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" line="11" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry/registry_entity_proxy.hpp" bodystart="11" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1ae235f6b10e5e910b0b315631fb7b46dd" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>emplace</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1a89b98ae4a5af5176ecb0d1f65bc89416" prot="private" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>entity_</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1abb7bd8b8798a447d9a90bcba4ea3e110" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>entity_type</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1aadb3059e7edf35943dbf7006941da16b" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>get</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1a756ecf33d660778b7428634a4c00d459" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>get</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1abebbaf2e05e05ac84983e65d4092f439" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>has</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1ae153a16b2e32bec2e8d59ec3e144cbcf" prot="private" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>registry_</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1a16a5b097da2a4ec4f1fc03fbff1ce5d3" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>RegistryEntityProxy</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1af895704fe27f8f95a7182e49ae917775" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>remove</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1aa4b11c272d527ae6be821f0b9507215b" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>set</name></member>
+      <member refid="classgviz_1_1registry_1_1_registry_entity_proxy_1a2e6e4790d428734c26200b3a0228699c" prot="public" virt="non-virtual"><scope>gviz::registry::RegistryEntityProxy</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_pen_color" kind="struct"><name>gviz::attrs::PenColor</name>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1a2d42365af012e4bff84fa9f3d65fad72" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1ac736a614d97ac370f1f9c6a14bcb993d" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1aa3b2f355f5dee402dad22f159e4cdcb1" kind="function"><name>PenColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1a64a73e8cd39693919e3058e09c0c8e82" kind="function"><name>PenColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1a414347896ba3b7b98e0fd79c0c2b9d19" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1a961ec1ce0361c1e64921c1b09eaf3b9b" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_color_1a604789d8b905e4137c29c56fbd138e38" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="pencolor_8hpp" kind="file"><name>pencolor.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

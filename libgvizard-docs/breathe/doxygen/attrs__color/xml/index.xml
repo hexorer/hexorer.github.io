@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_color" kind="struct"><name>gviz::attrs::Color</name>
+    <member refid="structgviz_1_1attrs_1_1_color_1a5e63ec4bd406cae409ccd273e3062494" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1ae7ca279c5d8e393fb017fbcb3782ca43" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1ab2dc59ce605c25e868adb7b24cc6f371" kind="function"><name>Color</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1a018ad3812bf08b0542d732ebe80c3e7c" kind="function"><name>Color</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1a80954d0c993052bee7c19e7dfcbea90c" kind="function"><name>Color</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1a8d5fe2ec520ae4ef41d428abe4dc6083" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1a5a48180826c5dc1a3bacbf9789f8b0fd" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1a10c106d3da7290eea3fe461302472f6d" kind="function"><name>constraint</name></member>
+    <member refid="structgviz_1_1attrs_1_1_color_1afb60a8e4ed48e28e0bc5559d1c4774ab" kind="function"><name>get_default_color</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="color_8hpp_1a652d67f6b58e26bab0c0fb56556604d4" kind="typedef"><name>ColorValType</name></member>
+  </compound>
+  <compound refid="color_8hpp" kind="file"><name>color.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

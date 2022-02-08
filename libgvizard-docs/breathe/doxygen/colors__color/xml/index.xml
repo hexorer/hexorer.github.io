@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1colors_1_1_color" kind="struct"><name>gviz::colors::Color</name>
+    <member refid="structgviz_1_1colors_1_1_color_1ae1c2e1ac6ea089bed2a6557cd1bc6638" kind="typedef"><name>color_variant_t</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1af12c5d65017206396c9551431b3276b6" kind="variable"><name>color</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1abb18761bd540406ce58d6ec1e6e64ef9" kind="function"><name>Color</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1a40574c397dd56dfe1b1eb6b16883d7f6" kind="function"><name>as</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1a093238b797a7e0fd776265f1fba2943c" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1ad7cd7f2bfb78136a968c8846f2d547ad" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1a1f4967ce3016fa0042c902f509271c32" kind="function"><name>make_rgb</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1a03be89fad98ba7d6155af85a5d5753e3" kind="function"><name>make_rgba</name></member>
+    <member refid="structgviz_1_1colors_1_1_color_1afd917da239bf36ad2f86d730d31c9342" kind="function"><name>make_hsv</name></member>
+  </compound>
+  <compound refid="structgviz_1_1utils_1_1_converter_3_01_t_00_01colors_1_1_color_01_4" kind="struct"><name>gviz::utils::Converter&lt; T, colors::Color &gt;</name>
+    <member refid="structgviz_1_1utils_1_1_converter_3_01_t_00_01colors_1_1_color_01_4_1a48326cc14d0e9f8d96ab85b680fa945a" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1colors" kind="namespace"><name>gviz::colors</name>
+  </compound>
+  <compound refid="namespacegviz_1_1utils" kind="namespace"><name>gviz::utils</name>
+  </compound>
+  <compound refid="color_8hpp" kind="file"><name>color.hpp</name>
+  </compound>
+  <compound refid="dir_0c172d4549410538c67f1e8c5f2bc6fb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

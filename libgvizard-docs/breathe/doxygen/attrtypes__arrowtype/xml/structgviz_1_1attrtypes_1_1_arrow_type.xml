@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_arrow_type" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::attrtypes::ArrowType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_type_1a3632a1fa315e1c74d4c2f20fa5452f5c" prot="public" static="no" mutable="no">
+        <type><ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>ArrowShape gviz::attrtypes::ArrowType::shape1</definition>
+        <argsstring></argsstring>
+        <name>shape1</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::shape1</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="112" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_type_1a76ba4f0196a0811e876fd45697f819d9" prot="public" static="no" mutable="no">
+        <type><ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>ArrowShape gviz::attrtypes::ArrowType::shape2</definition>
+        <argsstring></argsstring>
+        <name>shape2</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::shape2</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="113" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_type_1a1ce8266bfc1d520944768a97ed893126" prot="public" static="no" mutable="no">
+        <type><ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>ArrowShape gviz::attrtypes::ArrowType::shape3</definition>
+        <argsstring></argsstring>
+        <name>shape3</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::shape3</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="114" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_type_1a97c943ded7ba8af3cf04187199ce0512" prot="public" static="no" mutable="no">
+        <type><ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>ArrowShape gviz::attrtypes::ArrowType::shape4</definition>
+        <argsstring></argsstring>
+        <name>shape4</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::shape4</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="115" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a9b35860cc968781f1f0956b65fc15839" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowType::operator==</definition>
+        <argsstring>(const ArrowType &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_type" kindref="compound">ArrowType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="117" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="117" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1ab97d0155af003f608ab37d487e644fcb" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowType::operator!=</definition>
+        <argsstring>(const ArrowType &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_type" kindref="compound">ArrowType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="125" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a5bfbf634e3532c0dd2c05b126c978af6" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowType::operator==</definition>
+        <argsstring>(const ArrowShape &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="133" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="133" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1ab6c6b9afedea7bc2b1cc4d416f242d02" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowType::operator!=</definition>
+        <argsstring>(const ArrowShape &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="141" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a136c7822092e11d0e48bc24e3c1ebe0d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr <ref refid="structgviz_1_1attrtypes_1_1_arrow_type" kindref="compound">ArrowType</ref> &amp;</type>
+        <definition>constexpr ArrowType &amp; gviz::attrtypes::ArrowType::normalize</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>normalize</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::normalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="149" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="149" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a1676dda25547c0381b71bf4466ca024e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr <ref refid="structgviz_1_1attrtypes_1_1_arrow_type" kindref="compound">ArrowType</ref></type>
+        <definition>constexpr ArrowType gviz::attrtypes::ArrowType::normalized</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>normalized</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::normalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="158" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="158" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a77e9e9fa55c4ed3141fca8a876c15e3b" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr std::tuple&lt; <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref>, <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref>, <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref>, <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref> &gt;</type>
+        <definition>constexpr std::tuple&lt; ArrowShape, ArrowShape, ArrowShape, ArrowShape &gt; gviz::attrtypes::ArrowType::as_tuple</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>as_tuple</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::as_tuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="169" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_type_1a55b0fef803aa1002e6e236dc4f6a876c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr std::array&lt; <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref>, 4 &gt;</type>
+        <definition>constexpr std::array&lt; ArrowShape, 4 &gt; gviz::attrtypes::ArrowType::as_array</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>as_array</name>
+        <qualifiedname>gviz::attrtypes::ArrowType::as_array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="175" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="175" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>gviz::attrtypes::ArrowModifier</label>
+        <link refid="structgviz_1_1attrtypes_1_1_arrow_modifier"/>
+      </node>
+      <node id="2">
+        <label>gviz::attrtypes::ArrowShape</label>
+        <link refid="structgviz_1_1attrtypes_1_1_arrow_shape"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>modifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gviz::attrtypes::ArrowType</label>
+        <link refid="structgviz_1_1attrtypes_1_1_arrow_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>shape1</edgelabel>
+          <edgelabel>shape2</edgelabel>
+          <edgelabel>shape3</edgelabel>
+          <edgelabel>shape4</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="111" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="111" bodyend="179"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a55b0fef803aa1002e6e236dc4f6a876c" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>as_array</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a77e9e9fa55c4ed3141fca8a876c15e3b" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>as_tuple</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a136c7822092e11d0e48bc24e3c1ebe0d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>normalize</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a1676dda25547c0381b71bf4466ca024e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>normalized</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1ab97d0155af003f608ab37d487e644fcb" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1ab6c6b9afedea7bc2b1cc4d416f242d02" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a9b35860cc968781f1f0956b65fc15839" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a5bfbf634e3532c0dd2c05b126c978af6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a3632a1fa315e1c74d4c2f20fa5452f5c" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>shape1</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a76ba4f0196a0811e876fd45697f819d9" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>shape2</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a1ce8266bfc1d520944768a97ed893126" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>shape3</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_type_1a97c943ded7ba8af3cf04187199ce0512" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowType</scope><name>shape4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

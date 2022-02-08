@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/pagedir.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/portpos.hpp" href="portpos.html" />
+    <link rel="prev" title="attrtypes/spline.hpp" href="spline.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/pagedir.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/pagedir.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-pagedir-hpp">
+<h1>attrtypes/pagedir.hpp<a class="headerlink" href="#attrtypes-pagedir-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDirE">
+<span id="_CPPv3N4gviz9attrtypes7PageDirE"></span><span id="_CPPv2N4gviz9attrtypes7PageDirE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PageDir</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDirE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2BLE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2BLE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2BLE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745aa6f5350f5a2b25a96d66757f761ce65c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">BL</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2BLE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2BRE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2BRE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2BRE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745a19d3326f3137cbadd21ce901a9bed4a7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">BR</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2BRE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2TLE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2TLE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2TLE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745ac4534c00ebdb14023f4f538811df5209"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TL</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2TLE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2TRE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2TRE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2TRE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745aebe021079e5a3c4f42ca6119eab92633"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">TR</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2TRE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2RBE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2RBE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2RBE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745ac8ee22e1fc2165dfd3d2b04aef93b2f2"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RB</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2RBE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2RTE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2RTE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2RTE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745a705610ed3e5ec724f5cb0d76a5fd3aa1"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RT</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2RTE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2LBE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2LBE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2LBE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745ac951270e425b15fc20c64da4341c1d89"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LB</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2LBE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PageDir2LTE">
+<span id="_CPPv3N4gviz9attrtypes7PageDir2LTE"></span><span id="_CPPv2N4gviz9attrtypes7PageDir2LTE"></span><span class="target" id="pagedir_8hpp_1ae2aa9e19c162713b261de3b20f138745ac562607189d77eb9dfb707464c1e7b0b"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LT</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PageDir2LTE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="pagedir_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">pagedir.hpp</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="spline.html" class="btn btn-neutral float-left" title="attrtypes/spline.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="portpos.html" class="btn btn-neutral float-right" title="attrtypes/portpos.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

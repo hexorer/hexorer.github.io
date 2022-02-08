@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_scale" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Scale</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Scale, ScaleType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_scale_1ab94cff09b36e2f4b2e483704d4d33e02" prot="public" static="no">
+        <type>ScaleType</type>
+        <definition>using gviz::attrs::Scale::value_type =  ScaleType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Scale::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="16" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_scale_1a7fc9f3d12a228b81ed072aa6c15b3e34" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Scale::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Scale::name</qualifiedname>
+        <initializer>= &quot;scale&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="18" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_scale_1a5871661244c5b468a76104e9f21c8f3e" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Scale::Scale</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Scale</name>
+        <qualifiedname>gviz::attrs::Scale::Scale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="20" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_scale_1adc36cd3b74ae36c1b538fe9a3fa1f192" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Scale::Scale</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Scale</name>
+        <qualifiedname>gviz::attrs::Scale::Scale</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="21" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_scale_1a1aba2431f0d8564ed2ffc82a0237f32a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Scale::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Scale::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="25" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_scale_1a62f156c1715c7be5616f49b1e1cbcbe5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Scale::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Scale::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_scale_1a4739e38e21509bdac0f6802367370b8b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Scale::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Scale::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="35" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Scale, ScaleType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Scale</label>
+        <link refid="structgviz_1_1attrs_1_1_scale"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Scale, ScaleType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Scale</label>
+        <link refid="structgviz_1_1attrs_1_1_scale"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="15" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_scale_1a4739e38e21509bdac0f6802367370b8b" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1a1aba2431f0d8564ed2ffc82a0237f32a" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1a62f156c1715c7be5616f49b1e1cbcbe5" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1a7fc9f3d12a228b81ed072aa6c15b3e34" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1a5871661244c5b468a76104e9f21c8f3e" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>Scale</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1adc36cd3b74ae36c1b538fe9a3fa1f192" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>Scale</name></member>
+      <member refid="structgviz_1_1attrs_1_1_scale_1ab94cff09b36e2f4b2e483704d4d33e02" prot="public" virt="non-virtual"><scope>gviz::attrs::Scale</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

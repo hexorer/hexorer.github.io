@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_vertices" prot="public">gviz::attrs::Vertices</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="vertices_8hpp_1a43c9f54f101f783880d8a31c117e0e9c" prot="public" static="no">
+        <type>std::vector&lt; attrtypes::PointType&lt; double &gt; &gt;</type>
+        <definition>using gviz::attrs::VerticesType = typedef std::vector&lt;attrtypes::PointType&lt;double&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>VerticesType</name>
+        <qualifiedname>gviz::attrs::VerticesType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/vertices.hpp" line="11" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/vertices.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/vertices.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

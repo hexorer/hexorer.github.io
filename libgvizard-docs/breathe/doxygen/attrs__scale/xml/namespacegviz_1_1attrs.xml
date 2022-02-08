@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_scale" prot="public">gviz::attrs::Scale</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="scale_8hpp_1a3afb5456f2f07ce440f741c64ffb8520" prot="public" static="no">
+        <type>std::optional&lt; std::variant&lt; double, attrtypes::PointType&lt; double &gt; &gt; &gt;</type>
+        <definition>using gviz::attrs::ScaleType = typedef std::optional&lt;std::variant&lt;double, attrtypes::PointType&lt;double&gt; &gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>ScaleType</name>
+        <qualifiedname>gviz::attrs::ScaleType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/scale.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

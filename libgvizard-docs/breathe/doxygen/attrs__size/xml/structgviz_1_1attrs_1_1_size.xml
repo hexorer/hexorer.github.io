@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_size" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Size</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Size, SizeType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_size_1a80b843c5db812693f24de53ee6363fb5" prot="public" static="no">
+        <type>SizeType</type>
+        <definition>using gviz::attrs::Size::value_type =  SizeType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Size::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="16" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_size_1a08c617d14b9392fe256b6a0b75d589bf" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Size::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Size::name</qualifiedname>
+        <initializer>= &quot;size&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="18" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_size_1ab86e91fdf4d056fb7331980bd2ea65f3" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Size::Size</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Size</name>
+        <qualifiedname>gviz::attrs::Size::Size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="20" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_size_1ae787c8971ae74d16afbd2d748fd92ac5" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Size::Size</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Size</name>
+        <qualifiedname>gviz::attrs::Size::Size</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="21" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_size_1a2a8d97f470150ceed00a53df8f87ec67" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Size::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Size::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="25" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_size_1a141053b141e5d00695d8bd153fc63eac" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Size::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Size::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_size_1acbdde0dd807a8c3c145517906a0fb10b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Size::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Size::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="35" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Size, SizeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Size</label>
+        <link refid="structgviz_1_1attrs_1_1_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Size, SizeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Size</label>
+        <link refid="structgviz_1_1attrs_1_1_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" line="15" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/size.hpp" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_size_1acbdde0dd807a8c3c145517906a0fb10b" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1a2a8d97f470150ceed00a53df8f87ec67" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1a141053b141e5d00695d8bd153fc63eac" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1a08c617d14b9392fe256b6a0b75d589bf" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1ab86e91fdf4d056fb7331980bd2ea65f3" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>Size</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1ae787c8971ae74d16afbd2d748fd92ac5" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>Size</name></member>
+      <member refid="structgviz_1_1attrs_1_1_size_1a80b843c5db812693f24de53ee6363fb5" prot="public" virt="non-virtual"><scope>gviz::attrs::Size</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

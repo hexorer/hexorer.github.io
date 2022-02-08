@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; RGB, HSV &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4_1a2cb26be87c05f26052b3c51ab24570fc" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr RGB</type>
+        <definition>static constexpr RGB gviz::utils::Converter&lt; RGB, HSV &gt;::convert</definition>
+        <argsstring>(const HSV &amp;hsv) noexcept</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; RGB, HSV &gt;::convert</qualifiedname>
+        <param>
+          <type>const HSV &amp;</type>
+          <declname>hsv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="63" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="63" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="62" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="62" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4_1a2cb26be87c05f26052b3c51ab24570fc" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; RGB, HSV &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

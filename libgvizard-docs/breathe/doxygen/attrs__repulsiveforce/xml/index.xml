@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_repulsive_force" kind="struct"><name>gviz::attrs::RepulsiveForce</name>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a550c69cfb8f2d8f9d6ae7796af2bd0cb" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a8d7c8e317bbe2b08bf9647c68eb95dad" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1adb48c0746a5c86465344d5d18a1b5ad4" kind="function"><name>RepulsiveForce</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1abdbcf4a31541c6489e2fd927a9168453" kind="function"><name>RepulsiveForce</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a8262d690cc915476ede250d3334366cd" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a82d664055991125185f9588aa8b2ab88" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_repulsive_force_1adf7e45142985fadc5318f7bd739b4237" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="repulsiveforce_8hpp" kind="file"><name>repulsiveforce.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

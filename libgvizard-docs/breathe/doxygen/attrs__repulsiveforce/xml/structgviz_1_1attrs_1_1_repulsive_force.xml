@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_repulsive_force" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::RepulsiveForce</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; RepulsiveForce, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_repulsive_force_1a550c69cfb8f2d8f9d6ae7796af2bd0cb" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::RepulsiveForce::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_repulsive_force_1a8d7c8e317bbe2b08bf9647c68eb95dad" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::RepulsiveForce::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::name</qualifiedname>
+        <initializer>= &quot;repulsiveforce&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="12" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_repulsive_force_1adb48c0746a5c86465344d5d18a1b5ad4" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::RepulsiveForce::RepulsiveForce</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>RepulsiveForce</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::RepulsiveForce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_repulsive_force_1abdbcf4a31541c6489e2fd927a9168453" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::RepulsiveForce::RepulsiveForce</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>RepulsiveForce</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::RepulsiveForce</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="15" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_repulsive_force_1a8262d690cc915476ede250d3334366cd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::RepulsiveForce::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="19" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_repulsive_force_1a82d664055991125185f9588aa8b2ab88" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::RepulsiveForce::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="21" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_repulsive_force_1adf7e45142985fadc5318f7bd739b4237" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::RepulsiveForce::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::RepulsiveForce::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="26" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; RepulsiveForce, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::RepulsiveForce</label>
+        <link refid="structgviz_1_1attrs_1_1_repulsive_force"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; RepulsiveForce, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::RepulsiveForce</label>
+        <link refid="structgviz_1_1attrs_1_1_repulsive_force"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/repulsiveforce.hpp" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1adf7e45142985fadc5318f7bd739b4237" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a8262d690cc915476ede250d3334366cd" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a82d664055991125185f9588aa8b2ab88" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a8d7c8e317bbe2b08bf9647c68eb95dad" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1adb48c0746a5c86465344d5d18a1b5ad4" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>RepulsiveForce</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1abdbcf4a31541c6489e2fd927a9168453" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>RepulsiveForce</name></member>
+      <member refid="structgviz_1_1attrs_1_1_repulsive_force_1a550c69cfb8f2d8f9d6ae7796af2bd0cb" prot="public" virt="non-virtual"><scope>gviz::attrs::RepulsiveForce</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

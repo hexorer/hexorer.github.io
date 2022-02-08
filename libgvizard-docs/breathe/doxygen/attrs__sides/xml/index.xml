@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_sides" kind="struct"><name>gviz::attrs::Sides</name>
+    <member refid="structgviz_1_1attrs_1_1_sides_1a56be0d06b863ab8f1b406419e691a03c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1a2dafed69666541a39ee612a5c125abc0" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1a5ae3c3cc98aa2784f6bb67d4ff730652" kind="function"><name>Sides</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1ab494b03bfb312b881cb9448f5a1b6cf3" kind="function"><name>Sides</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1aafe0ab2689ea695c2f8daed5e4c35626" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1a0d1bee7f943dd8220da7fd2adbdb2cb8" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sides_1a5a5b10c223196aaeeb746bd6de90b735" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="sides_8hpp" kind="file"><name>sides.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

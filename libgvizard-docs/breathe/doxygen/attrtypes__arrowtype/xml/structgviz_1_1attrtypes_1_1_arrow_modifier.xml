@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_arrow_modifier" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::attrtypes::ArrowModifier</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_modifier_1a9a02d5e031a560cae273d40cd90b70df" prot="public" static="no" mutable="no">
+        <type>ArrowSide</type>
+        <definition>ArrowSide gviz::attrtypes::ArrowModifier::side</definition>
+        <argsstring></argsstring>
+        <name>side</name>
+        <qualifiedname>gviz::attrtypes::ArrowModifier::side</qualifiedname>
+        <initializer>= ArrowSide::none</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="36" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_arrow_modifier_1a94b4712508c0e0ee4090068d48b1670e" prot="public" static="no" mutable="no">
+        <type>ArrowOpen</type>
+        <definition>ArrowOpen gviz::attrtypes::ArrowModifier::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <qualifiedname>gviz::attrtypes::ArrowModifier::open</qualifiedname>
+        <initializer>= ArrowOpen::none</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="37" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_modifier_1a503a42753aecfb8b1dd222fa26e802bc" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowModifier::operator==</definition>
+        <argsstring>(const ArrowModifier &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::ArrowModifier::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_modifier" kindref="compound">ArrowModifier</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="39" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_arrow_modifier_1a8eb645d38f08a33753e59d117d681f66" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ArrowModifier::operator!=</definition>
+        <argsstring>(const ArrowModifier &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::ArrowModifier::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_arrow_modifier" kindref="compound">ArrowModifier</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="44" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="35" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="35" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a94b4712508c0e0ee4090068d48b1670e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowModifier</scope><name>open</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a8eb645d38f08a33753e59d117d681f66" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowModifier</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a503a42753aecfb8b1dd222fa26e802bc" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowModifier</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_arrow_modifier_1a9a02d5e031a560cae273d40cd90b70df" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ArrowModifier</scope><name>side</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_cluster_rank" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::ClusterRank</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; ClusterRank, attrtypes::ClusterMode &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_cluster_rank_1a3ded9274f0867e571cac5d9fc79757fd" prot="public" static="no">
+        <type>attrtypes::ClusterMode</type>
+        <definition>using gviz::attrs::ClusterRank::value_type =  attrtypes::ClusterMode</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::ClusterRank::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="12" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_cluster_rank_1a74e5049c9bd296c6de59b95d1d7b54d9" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::ClusterRank::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::ClusterRank::name</qualifiedname>
+        <initializer>= &quot;clusterrank&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="14" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_cluster_rank_1ac7170ef807cbb0b0fb96389c44ae0fc9" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ClusterRank::ClusterRank</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>ClusterRank</name>
+        <qualifiedname>gviz::attrs::ClusterRank::ClusterRank</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="16" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_cluster_rank_1ab11e66db83dc12bff372439a12f04147" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ClusterRank::ClusterRank</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>ClusterRank</name>
+        <qualifiedname>gviz::attrs::ClusterRank::ClusterRank</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_cluster_rank_1ac4cc9bbdf38041ea62114af8f03080d5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::ClusterRank::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::ClusterRank::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="19" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_cluster_rank_1a1f5bb002716d08da1eb306acd3cf6042" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ClusterRank::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::ClusterRank::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="24" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_cluster_rank_1a0dfc591fb93c264b5eff3735e731dbd9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ClusterRank::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::ClusterRank::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="29" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; ClusterRank, attrtypes::ClusterMode &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ClusterRank</label>
+        <link refid="structgviz_1_1attrs_1_1_cluster_rank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; ClusterRank, attrtypes::ClusterMode &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ClusterRank</label>
+        <link refid="structgviz_1_1attrs_1_1_cluster_rank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/clusterrank.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1ac7170ef807cbb0b0fb96389c44ae0fc9" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>ClusterRank</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1ab11e66db83dc12bff372439a12f04147" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>ClusterRank</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1a0dfc591fb93c264b5eff3735e731dbd9" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1ac4cc9bbdf38041ea62114af8f03080d5" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1a1f5bb002716d08da1eb306acd3cf6042" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1a74e5049c9bd296c6de59b95d1d7b54d9" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_cluster_rank_1a3ded9274f0867e571cac5d9fc79757fd" prot="public" virt="non-virtual"><scope>gviz::attrs::ClusterRank</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

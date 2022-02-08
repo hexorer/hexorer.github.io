@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_height" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Height</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Height, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_height_1a210a708d53a0c4506f95a19c8dfc9d3c" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::Height::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Height::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_height_1a1a7de5af457c13a3409ae9dc9d2b9594" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Height::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Height::name</qualifiedname>
+        <initializer>= &quot;height&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_height_1a9d719367bff107991acad972742c0213" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Height::Height</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Height</name>
+        <qualifiedname>gviz::attrs::Height::Height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_height_1a021a18f547c6ab3b5b1a151a0cec9302" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Height::Height</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Height</name>
+        <qualifiedname>gviz::attrs::Height::Height</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_height_1ab471bc2d057b09f30b74fa6e4f12145d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Height::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Height::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_height_1a63181ec09994dd5a8e46b0ff8ffa32ed" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Height::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Height::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="21" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_height_1a3f466c799059509acc9ddec99632eaec" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Height::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Height::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="26" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Height, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Height</label>
+        <link refid="structgviz_1_1attrs_1_1_height"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Height, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Height</label>
+        <link refid="structgviz_1_1attrs_1_1_height"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/height.hpp" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_height_1a3f466c799059509acc9ddec99632eaec" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1ab471bc2d057b09f30b74fa6e4f12145d" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1a9d719367bff107991acad972742c0213" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>Height</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1a021a18f547c6ab3b5b1a151a0cec9302" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>Height</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1a63181ec09994dd5a8e46b0ff8ffa32ed" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1a1a7de5af457c13a3409ae9dc9d2b9594" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_height_1a210a708d53a0c4506f95a19c8dfc9d3c" prot="public" virt="non-virtual"><scope>gviz::attrs::Height</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_tail_target" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::TailTarget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; TailTarget, attrtypes::EscString&lt; std::string &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_tail_target_1ab014a24b78170622fe8ce4ba31f433a3" prot="public" static="no">
+        <type>attrtypes::EscString&lt; std::string &gt;</type>
+        <definition>using gviz::attrs::TailTarget::value_type =  attrtypes::EscString&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::TailTarget::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="145" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_tail_target_1a9fde56eb0e20fee1dc768bbd4ff0c57b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::TailTarget::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::TailTarget::name</qualifiedname>
+        <initializer>= &quot;tailtarget&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="147" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1afcf294ecdfb6b41d8d9ad65679dc3c33" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::TailTarget::TailTarget</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>TailTarget</name>
+        <qualifiedname>gviz::attrs::TailTarget::TailTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="149" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1a97adf9cfd739a17b93f5373930b3fd80" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::TailTarget::TailTarget</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>TailTarget</name>
+        <qualifiedname>gviz::attrs::TailTarget::TailTarget</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="150" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1a483324237c818f37d4600ca4aa9c1245" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::TailTarget::TailTarget</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>TailTarget</name>
+        <qualifiedname>gviz::attrs::TailTarget::TailTarget</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="151" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="151" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1a407fa5f18e10d5bb33ecb8ff43e41464" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::TailTarget::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::TailTarget::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="155" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1a7e359a833548e6c60d83bcad869b7956" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::TailTarget::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::TailTarget::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="157" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_tail_target_1aa237a1087c726c83ab770f2c449f7154" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::TailTarget::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::TailTarget::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="162" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="162" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; TailTarget, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::TailTarget</label>
+        <link refid="structgviz_1_1attrs_1_1_tail_target"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; TailTarget, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::TailTarget</label>
+        <link refid="structgviz_1_1attrs_1_1_tail_target"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="142" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="144" bodyend="166"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1aa237a1087c726c83ab770f2c449f7154" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1a407fa5f18e10d5bb33ecb8ff43e41464" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1a7e359a833548e6c60d83bcad869b7956" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1a9fde56eb0e20fee1dc768bbd4ff0c57b" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1afcf294ecdfb6b41d8d9ad65679dc3c33" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>TailTarget</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1a97adf9cfd739a17b93f5373930b3fd80" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>TailTarget</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1a483324237c818f37d4600ca4aa9c1245" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>TailTarget</name></member>
+      <member refid="structgviz_1_1attrs_1_1_tail_target_1ab014a24b78170622fe8ce4ba31f433a3" prot="public" virt="non-virtual"><scope>gviz::attrs::TailTarget</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

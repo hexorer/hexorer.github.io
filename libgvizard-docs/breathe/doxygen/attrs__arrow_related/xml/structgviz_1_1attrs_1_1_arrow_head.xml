@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_arrow_head" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::ArrowHead</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; ArrowHead, attrtypes::ArrowType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_arrow_head_1a41a0b45d495aa2febf12b8927a836bc1" prot="public" static="no">
+        <type>attrtypes::ArrowType</type>
+        <definition>using gviz::attrs::ArrowHead::value_type =  attrtypes::ArrowType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::ArrowHead::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="14" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_arrow_head_1a0e146a8f8ffb162f4d70efdd01a0ee15" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::ArrowHead::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::ArrowHead::name</qualifiedname>
+        <initializer>= &quot;arrowhead&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="16" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_head_1a2e59d802f9b78c13b124e761c0a7dd78" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ArrowHead::ArrowHead</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>ArrowHead</name>
+        <qualifiedname>gviz::attrs::ArrowHead::ArrowHead</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="18" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_head_1aacd691aefd936b21e06c426c6e110c07" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ArrowHead::ArrowHead</definition>
+        <argsstring>(value_type arrow)</argsstring>
+        <name>ArrowHead</name>
+        <qualifiedname>gviz::attrs::ArrowHead::ArrowHead</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>arrow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="19" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_head_1a61398da94474e75b0bbe9c1785830c5d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::ArrowHead::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::ArrowHead::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="23" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_head_1a1e890137eac2be9d08fe862e8d3afb1e" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ArrowHead::is_default</definition>
+        <argsstring>(const value_type &amp;arrow) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::ArrowHead::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>arrow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_arrow_head_1a77f42b9a29231004218a46e4c160f30a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ArrowHead::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::ArrowHead::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="34" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; ArrowHead, attrtypes::ArrowType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ArrowHead</label>
+        <link refid="structgviz_1_1attrs_1_1_arrow_head"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; ArrowHead, attrtypes::ArrowType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ArrowHead</label>
+        <link refid="structgviz_1_1attrs_1_1_arrow_head"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" line="11" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/arrow_related.hpp" bodystart="13" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a2e59d802f9b78c13b124e761c0a7dd78" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>ArrowHead</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1aacd691aefd936b21e06c426c6e110c07" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>ArrowHead</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a77f42b9a29231004218a46e4c160f30a" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a61398da94474e75b0bbe9c1785830c5d" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a1e890137eac2be9d08fe862e8d3afb1e" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a0e146a8f8ffb162f4d70efdd01a0ee15" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_arrow_head_1a41a0b45d495aa2febf12b8927a836bc1" prot="public" virt="non-virtual"><scope>gviz::attrs::ArrowHead</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

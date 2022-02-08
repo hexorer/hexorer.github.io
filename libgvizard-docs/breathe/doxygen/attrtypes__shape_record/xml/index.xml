@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_record_field_id" kind="struct"><name>gviz::attrtypes::RecordFieldId</name>
+    <member refid="structgviz_1_1attrtypes_1_1_record_field_id_1a03c4d8d569a00ac0284e78182f9eddb8" kind="typedef"><name>name_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_field_id_1ad28d3f712e61d6b0f6a50d0f3cdc8be3" kind="typedef"><name>port_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_field_id_1a75222f90805eeea58074721d52101749" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_field_id_1a3565dba0395648b8462be6692b58df00" kind="variable"><name>port</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_record_shape" kind="struct"><name>gviz::attrtypes::RecordShape</name>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a6b633acf873a941e897d7686090d41f6" kind="typedef"><name>fieldid_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a3586d6b5c90410bc93e2028d8c700a2e" kind="typedef"><name>fieldid_list_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a77fc846cd49016ff67bb7a4dddbf531f" kind="typedef"><name>field_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1ac13b57c9c35891378b7393d4a7ff5601" kind="variable"><name>fields</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a1e03539a2fcf3e7abc8c5a899546e5e5" kind="function"><name>RecordShape</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_record_shape_1af5d99aef56ffaca7cf21d7c9d3d4dd42" kind="function"><name>RecordShape</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+  </compound>
+  <compound refid="shape__record_8hpp" kind="file"><name>shape_record.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

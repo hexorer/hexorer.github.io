@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SchemeColor&lt; U &gt; &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename U</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4_1a4f559a91f3720c6d07573b3fa8e643f2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr SchemeColor&lt; T &gt;</type>
+        <definition>static constexpr SchemeColor&lt; T &gt; gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SchemeColor&lt; U &gt; &gt;::convert</definition>
+        <argsstring>(const SchemeColor&lt; U &gt; &amp;color)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SchemeColor&lt; U &gt; &gt;::convert</qualifiedname>
+        <param>
+          <type>const SchemeColor&lt; U &gt; &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="129" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="129" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="128" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="128" bodyend="137"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4_1a4f559a91f3720c6d07573b3fa8e643f2" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, SchemeColor&lt; U &gt; &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

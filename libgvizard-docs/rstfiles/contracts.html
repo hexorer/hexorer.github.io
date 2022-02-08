@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contracts.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="gvizgraph.hpp" href="gvizgraph.html" />
+    <link rel="prev" title="attribute.hpp" href="attribute.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Reference Documentation</a> &raquo;</li>
+      <li>contracts.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/rstfiles/contracts.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contracts-hpp">
+<h1>contracts.hpp<a class="headerlink" href="#contracts-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I0_DpDaEN4gviz9contracts8ContractE">
+<span id="_CPPv3I0_DpDaEN4gviz9contracts8ContractE"></span><span id="_CPPv2I0_DpDaEN4gviz9contracts8ContractE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraints</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz9contractsE" title="gviz::contracts"><span class="n"><span class="pre">contracts</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Contract</span></span></span><a class="headerlink" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="docutils container">
+<em>#include &lt;<a class="reference internal" href="#contracts_8hpp"><span class="std std-ref">contracts.hpp</span></a>&gt;</em></div>
+<p><a class="reference internal" href="#classgviz_1_1contracts_1_1_contract"><span class="std std-ref">Contract</span></a> is a (monad-like) single container that ensures its holding value of type <code class="docutils literal notranslate"><span class="pre">T</span></code> is satisfied by given <code class="docutils literal notranslate"><span class="pre">constraints</span></code> callable protectes. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract8ContractEv">
+<span id="_CPPv3N4gviz9contracts8Contract8ContractEv"></span><span id="_CPPv2N4gviz9contracts8Contract8ContractEv"></span><span id="gviz::contracts::Contract::ContractCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a4990dccab8952ad384b2a853da67fc3a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Contract</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract8ContractEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract8ContractERK1T">
+<span id="_CPPv3N4gviz9contracts8Contract8ContractERK1T"></span><span id="_CPPv2N4gviz9contracts8Contract8ContractERK1T"></span><span id="gviz::contracts::Contract::Contract__TCRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a1427f0334b7fdc54c503cb01923f500b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Contract</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">v</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract8ContractERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract8ContractERR1T">
+<span id="_CPPv3N4gviz9contracts8Contract8ContractERR1T"></span><span id="_CPPv2N4gviz9contracts8Contract8ContractERR1T"></span><span id="gviz::contracts::Contract::Contract__TRRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a8b989b58742d3b4fcc27e7bb7e0e2349"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Contract</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">v</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract8ContractERR1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9contracts8Contract5valueEv">
+<span id="_CPPv3NK4gviz9contracts8Contract5valueEv"></span><span id="_CPPv2NK4gviz9contracts8Contract5valueEv"></span><span id="gviz::contracts::Contract::valueCCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a63ef797dee9678ed4ace298986e217a8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9contracts8Contract5valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract6assignERK1T">
+<span id="_CPPv3N4gviz9contracts8Contract6assignERK1T"></span><span id="_CPPv2N4gviz9contracts8Contract6assignERK1T"></span><span id="gviz::contracts::Contract::assign__TCRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a6fb8c945d3b88707ff609c9ade529721"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">assign</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract6assignERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract6assignERR1T">
+<span id="_CPPv3N4gviz9contracts8Contract6assignERR1T"></span><span id="_CPPv2N4gviz9contracts8Contract6assignERR1T"></span><span id="gviz::contracts::Contract::assign__TRRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a73e0acabbda12ef9a4df346882576d58"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">assign</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract6assignERR1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContracteqEDaRK1U">
+<span id="_CPPv3I0ENK4gviz9contracts8ContracteqERK1U"></span><span id="_CPPv2I0ENK4gviz9contracts8ContracteqERK1U"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1a6b22712db266d825dd9778ef1ecb9fd0"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz9contracts8ContracteqEDaRK1U" title="gviz::contracts::Contract::operator==::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContracteqEDaRK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContractneEDaRK1T">
+<span id="_CPPv3I0ENK4gviz9contracts8ContractneERK1T"></span><span id="_CPPv2I0ENK4gviz9contracts8ContractneERK1T"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1af9c336f038a66e806516d8ca49cc64e2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContractneEDaRK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContractltEDaRK1U">
+<span id="_CPPv3I0ENK4gviz9contracts8ContractltERK1U"></span><span id="_CPPv2I0ENK4gviz9contracts8ContractltERK1U"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1aa76f1e4e92bb5fa28e2851295b82d454"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">&lt;</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz9contracts8ContractltEDaRK1U" title="gviz::contracts::Contract::operator&lt;::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContractltEDaRK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContractgtEDaRK1U">
+<span id="_CPPv3I0ENK4gviz9contracts8ContractgtERK1U"></span><span id="_CPPv2I0ENK4gviz9contracts8ContractgtERK1U"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1abd92551d07a3ca251b815a08d35e71d1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">&gt;</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz9contracts8ContractgtEDaRK1U" title="gviz::contracts::Contract::operator&gt;::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContractgtEDaRK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContractleEDaRK1U">
+<span id="_CPPv3I0ENK4gviz9contracts8ContractleERK1U"></span><span id="_CPPv2I0ENK4gviz9contracts8ContractleERK1U"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1aaf3b3fb435d32f25d61a6b94d804d4aa"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">&lt;=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz9contracts8ContractleEDaRK1U" title="gviz::contracts::Contract::operator&lt;=::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContractleEDaRK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9contracts8ContractgeEDaRK1U">
+<span id="_CPPv3I0ENK4gviz9contracts8ContractgeERK1U"></span><span id="_CPPv2I0ENK4gviz9contracts8ContractgeERK1U"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1contracts_1_1_contract_1ac7e80a7f7e0c26a015afa978ab79630f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">&gt;=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz9contracts8ContractgeEDaRK1U" title="gviz::contracts::Contract::operator&gt;=::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9contracts8ContractgeEDaRK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9contracts8ContractptEv">
+<span id="_CPPv3NK4gviz9contracts8ContractptEv"></span><span id="_CPPv2NK4gviz9contracts8ContractptEv"></span><span id="gviz::contracts::Contract::pointer-operatorCCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a781fe1bc112e9dffcd4180fbe2c55cc4"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz9contracts8ContractptEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9contracts8ContractmlEv">
+<span id="_CPPv3NK4gviz9contracts8ContractmlEv"></span><span id="_CPPv2NK4gviz9contracts8ContractmlEv"></span><span id="gviz::contracts::Contract::mul-operatorCCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1ae5c101e38e247c1def39fe1348fedc1f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">*</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz9contracts8ContractmlEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9contracts8Contractcv1TEv">
+<span id="_CPPv3NK4gviz9contracts8Contractcv1TEv"></span><span id="_CPPv2NK4gviz9contracts8Contractcv1TEv"></span><span id="gviz::contracts::Contract::castto-T-operatorCCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a4477744cc2d24814db4f1b3cec473018"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9contracts8Contractcv1TEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract5checkERK1T">
+<span id="_CPPv3N4gviz9contracts8Contract5checkERK1T"></span><span id="_CPPv2N4gviz9contracts8Contract5checkERK1T"></span><span id="gviz::contracts::Contract::check__TCRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a20402208b74108196095dcec74c7e0bd"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">check</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract5checkERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract9constrainERK1T">
+<span id="_CPPv3N4gviz9contracts8Contract9constrainERK1T"></span><span id="_CPPv2N4gviz9contracts8Contract9constrainERK1T"></span><span id="gviz::contracts::Contract::constrain__TCRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1af5577f639c3792f0762fe95095b6c995"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constrain</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract9constrainERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract9constrainERR1T">
+<span id="_CPPv3N4gviz9contracts8Contract9constrainERR1T"></span><span id="_CPPv2N4gviz9contracts8Contract9constrainERR1T"></span><span id="gviz::contracts::Contract::constrain__TRRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1ad3b4916d348b6ec1337ce762c5919d97"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constrain</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract9constrainERR1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-protected-attributes">Protected Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract6value_E">
+<span id="_CPPv3N4gviz9contracts8Contract6value_E"></span><span id="_CPPv2N4gviz9contracts8Contract6value_E"></span><span id="gviz::contracts::Contract::value___T"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a32904c2827b29f28f9eecc4e400905bf"></span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract6value_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-protected-static-functions">Protected Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts8Contract16throw_if_invalidERK1T">
+<span id="_CPPv3N4gviz9contracts8Contract16throw_if_invalidERK1T"></span><span id="_CPPv2N4gviz9contracts8Contract16throw_if_invalidERK1T"></span><span id="gviz::contracts::Contract::throw_if_invalid__TCRCE"></span><span class="target" id="classgviz_1_1contracts_1_1_contract_1a84d8c0c1fa3ce2e150420c87a9bd1b6a"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">throw_if_invalid</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9contracts8Contract16throw_if_invalidERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contractsE">
+<span id="_CPPv3N4gviz9contractsE"></span><span id="_CPPv2N4gviz9contractsE"></span><span id="gviz::contracts"></span><span class="target" id="namespacegviz_1_1contracts"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">contracts</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9contractsE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-typedefs">Typedefs</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1T_1TEN4gviz9contracts6RangedE">
+<span id="_CPPv3I0_1T_1TEN4gviz9contracts6RangedE"></span><span id="_CPPv2I0_1T_1TEN4gviz9contracts6RangedE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">min</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1a52fe89f0432c690544bb5b171cefc5e8"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Ranged</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract"><span class="n"><span class="pre">Contract</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9contracts6detailE" title="gviz::contracts::detail"><span class="n"><span class="pre">detail</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T" title="gviz::contracts::detail::ranged_constraint"><span class="n"><span class="pre">ranged_constraint</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::min"><span class="n"><span class="pre">min</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="gviz::contracts::Ranged::max"><span class="n"><span class="pre">max</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0_1T_1TEN4gviz9contracts6RangedE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1TEN4gviz9contracts8LessEqedE">
+<span id="_CPPv3I0_1TEN4gviz9contracts8LessEqedE"></span><span id="_CPPv2I0_1TEN4gviz9contracts8LessEqedE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts8LessEqedE" title="gviz::contracts::LessEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">base</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1ad13bcafca3d0604034d38239320df6f7"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LessEqed</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract"><span class="n"><span class="pre">Contract</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts8LessEqedE" title="gviz::contracts::LessEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9contracts6detailE" title="gviz::contracts::detail"><span class="n"><span class="pre">detail</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail19lesseqed_constraintEbRK1T" title="gviz::contracts::detail::lesseqed_constraint"><span class="n"><span class="pre">lesseqed_constraint</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts8LessEqedE" title="gviz::contracts::LessEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts8LessEqedE" title="gviz::contracts::LessEqed::base"><span class="n"><span class="pre">base</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0_1TEN4gviz9contracts8LessEqedE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE">
+<span id="_CPPv3I0_1TEN4gviz9contracts11GreaterEqedE"></span><span id="_CPPv2I0_1TEN4gviz9contracts11GreaterEqedE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE" title="gviz::contracts::GreaterEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">base</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1a6e0c4c7659a744620accbc6e9f87e1a3"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">GreaterEqed</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_DpDaEN4gviz9contracts8ContractE" title="gviz::contracts::Contract"><span class="n"><span class="pre">Contract</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE" title="gviz::contracts::GreaterEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9contracts6detailE" title="gviz::contracts::detail"><span class="n"><span class="pre">detail</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail22greatereqed_constraintEbRK1T" title="gviz::contracts::detail::greatereqed_constraint"><span class="n"><span class="pre">greatereqed_constraint</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE" title="gviz::contracts::GreaterEqed::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE" title="gviz::contracts::GreaterEqed::base"><span class="n"><span class="pre">base</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0_1TEN4gviz9contracts11GreaterEqedE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9contracts6detailE">
+<span id="_CPPv3N4gviz9contracts6detailE"></span><span id="_CPPv2N4gviz9contracts6detailE"></span><span id="gviz::contracts::detail"></span><span class="target" id="namespacegviz_1_1contracts_1_1detail"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz9contractsE" title="gviz::contracts"><span class="n"><span class="pre">contracts</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">detail</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9contracts6detailE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T">
+<span id="_CPPv3I0_1T_1TEN4gviz9contracts6detail17ranged_constraintERK1T"></span><span id="_CPPv2I0_1T_1TEN4gviz9contracts6detail17ranged_constraintERK1T"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T" title="gviz::contracts::detail::ranged_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">min</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T" title="gviz::contracts::detail::ranged_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1a58aee34d5a11e8b3d66b9507f259d706"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ranged_constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T" title="gviz::contracts::detail::ranged_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0_1T_1TEN4gviz9contracts6detail17ranged_constraintEbRK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1TEN4gviz9contracts6detail19lesseqed_constraintEbRK1T">
+<span id="_CPPv3I0_1TEN4gviz9contracts6detail19lesseqed_constraintERK1T"></span><span id="_CPPv2I0_1TEN4gviz9contracts6detail19lesseqed_constraintERK1T"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail19lesseqed_constraintEbRK1T" title="gviz::contracts::detail::lesseqed_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">base</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1a958c6cff26c3670e656ef850a9566a73"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">lesseqed_constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail19lesseqed_constraintEbRK1T" title="gviz::contracts::detail::lesseqed_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0_1TEN4gviz9contracts6detail19lesseqed_constraintEbRK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0_1TEN4gviz9contracts6detail22greatereqed_constraintEbRK1T">
+<span id="_CPPv3I0_1TEN4gviz9contracts6detail22greatereqed_constraintERK1T"></span><span id="_CPPv2I0_1TEN4gviz9contracts6detail22greatereqed_constraintERK1T"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail22greatereqed_constraintEbRK1T" title="gviz::contracts::detail::greatereqed_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">base</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="contracts_8hpp_1a56f8aace9ab60c790cf76d8261aedee6"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">greatereqed_constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0_1TEN4gviz9contracts6detail22greatereqed_constraintEbRK1T" title="gviz::contracts::detail::greatereqed_constraint::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">val</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0_1TEN4gviz9contracts6detail22greatereqed_constraintEbRK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="contracts_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">contracts.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="attribute.html" class="btn btn-neutral float-left" title="attribute.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="gvizgraph.html" class="btn btn-neutral float-right" title="gvizgraph.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

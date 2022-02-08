@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_min_len" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::MinLen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; MinLen, int &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_min_len_1a0b0c5289c63e5d8cd18fe8e494839941" prot="public" static="no">
+        <type>int</type>
+        <definition>using gviz::attrs::MinLen::value_type =  int</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::MinLen::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_min_len_1a0db2e4d3b1bf04e5a4cf4ddae1d755bd" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::MinLen::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::MinLen::name</qualifiedname>
+        <initializer>= &quot;minlen&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_min_len_1a18bc138e9d81007f4e8924ca00726b97" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::MinLen::MinLen</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>MinLen</name>
+        <qualifiedname>gviz::attrs::MinLen::MinLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_min_len_1a452788e701dabca58bd1b5710d8d7e04" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::MinLen::MinLen</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>MinLen</name>
+        <qualifiedname>gviz::attrs::MinLen::MinLen</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_min_len_1ad01964b660fb5955a317ddcee1e159c4" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::MinLen::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::MinLen::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_min_len_1a083761b085e7d4b2aa036672e370f491" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::MinLen::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::MinLen::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_min_len_1a94e7ff7492bebeb27466256b254c1326" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::MinLen::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::MinLen::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; MinLen, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::MinLen</label>
+        <link refid="structgviz_1_1attrs_1_1_min_len"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; MinLen, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::MinLen</label>
+        <link refid="structgviz_1_1attrs_1_1_min_len"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/minlen.hpp" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a94e7ff7492bebeb27466256b254c1326" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1ad01964b660fb5955a317ddcee1e159c4" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a083761b085e7d4b2aa036672e370f491" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a18bc138e9d81007f4e8924ca00726b97" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>MinLen</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a452788e701dabca58bd1b5710d8d7e04" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>MinLen</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a0db2e4d3b1bf04e5a4cf4ddae1d755bd" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_min_len_1a0b0c5289c63e5d8cd18fe8e494839941" prot="public" virt="non-virtual"><scope>gviz::attrs::MinLen</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gvizgraph.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="mtputils.hpp" href="mtputils.html" />
+    <link rel="prev" title="contracts.hpp" href="contracts.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Reference Documentation</a> &raquo;</li>
+      <li>gvizgraph.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/rstfiles/gvizgraph.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gvizgraph-hpp">
+<h1>gvizgraph.hpp<a class="headerlink" href="#gvizgraph-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9GvizGraphE">
+<span id="_CPPv3I0EN4gviz9GvizGraphE"></span><span id="_CPPv2I0EN4gviz9GvizGraphE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Graph</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph5graphE" title="gviz::GvizGraph::graph"><span class="n"><span class="pre">graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Graph</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="registry/entt_registry.html#_CPPv4N4gviz8registryE" title="gviz::registry"><span class="n"><span class="pre">registry</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="registry/entt_registry.html#_CPPv4N4gviz8registry12EnTTRegistryE" title="gviz::registry::EnTTRegistry"><span class="n"><span class="pre">EnTTRegistry</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1_gviz_graph"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">GvizGraph</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9GvizGraphE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph13registry_typeE">
+<span id="_CPPv3N4gviz9GvizGraph13registry_typeE"></span><span id="_CPPv2N4gviz9GvizGraph13registry_typeE"></span><span class="target" id="structgviz_1_1_gviz_graph_1a19835f6b458a4166d5c6aa6ad9a99087"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">registry_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">registry_type</span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph13registry_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph11entity_typeE">
+<span id="_CPPv3N4gviz9GvizGraph11entity_typeE"></span><span id="_CPPv2N4gviz9GvizGraph11entity_typeE"></span><span class="target" id="structgviz_1_1_gviz_graph_1adb8e136caa53f520bbced66bb5630d70"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">entity_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">entity_type</span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph11entity_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph6NodeIdE">
+<span id="_CPPv3N4gviz9GvizGraph6NodeIdE"></span><span id="_CPPv2N4gviz9GvizGraph6NodeIdE"></span><span class="target" id="structgviz_1_1_gviz_graph_1ab0f45a2081b4c1086e92ccc506ef19df"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">NodeId</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">NodeId</span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph6NodeIdE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph6EdgeIdE">
+<span id="_CPPv3N4gviz9GvizGraph6EdgeIdE"></span><span id="_CPPv2N4gviz9GvizGraph6EdgeIdE"></span><span class="target" id="structgviz_1_1_gviz_graph_1a34b3100c489a921012d48a2614ddbaa5"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">EdgeId</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">EdgeId</span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph6EdgeIdE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph9ClusterIdE">
+<span id="_CPPv3N4gviz9GvizGraph9ClusterIdE"></span><span id="_CPPv2N4gviz9GvizGraph9ClusterIdE"></span><span class="target" id="structgviz_1_1_gviz_graph_1a44a75d5682f9245b5cdf0b0501c40b21"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ClusterId</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ClusterId</span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph9ClusterIdE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph9GvizGraphE5Graph">
+<span id="_CPPv3N4gviz9GvizGraph9GvizGraphE5Graph"></span><span id="_CPPv2N4gviz9GvizGraph9GvizGraphE5Graph"></span><span id="gviz::GvizGraph::GvizGraph__GraphCE"></span><span class="target" id="structgviz_1_1_gviz_graph_1a9d311deb400ad04ef2d346112fdecd73"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">GvizGraph</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">graph_arg</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph9GvizGraphE5Graph" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9GvizGraph11is_directedEv">
+<span id="_CPPv3NK4gviz9GvizGraph11is_directedEv"></span><span id="_CPPv2NK4gviz9GvizGraph11is_directedEv"></span><span id="gviz::GvizGraph::is_directedCCE"></span><span class="target" id="structgviz_1_1_gviz_graph_1aad7e1bd38e59354a4ca58eec762dfb4d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_directed</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9GvizGraph11is_directedEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9GvizGraph13is_undirectedEv">
+<span id="_CPPv3NK4gviz9GvizGraph13is_undirectedEv"></span><span id="_CPPv2NK4gviz9GvizGraph13is_undirectedEv"></span><span id="gviz::GvizGraph::is_undirectedCCE"></span><span class="target" id="structgviz_1_1_gviz_graph_1ad00717d138cd48568ebbb34e235406fd"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_undirected</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9GvizGraph13is_undirectedEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9GvizGraph14get_node_labelE6NodeId">
+<span id="_CPPv3NK4gviz9GvizGraph14get_node_labelE6NodeId"></span><span id="_CPPv2NK4gviz9GvizGraph14get_node_labelE6NodeId"></span><span id="gviz::GvizGraph::get_node_label__NodeIdC"></span><span class="target" id="structgviz_1_1_gviz_graph_1a7bba4a6ae179b7e272f849fa8b8aade2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_node_label</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph6NodeIdE" title="gviz::GvizGraph::NodeId"><span class="n"><span class="pre">NodeId</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">node_id</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9GvizGraph14get_node_labelE6NodeId" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9GvizGraph14get_node_styleE6NodeId">
+<span id="_CPPv3NK4gviz9GvizGraph14get_node_styleE6NodeId"></span><span id="_CPPv2NK4gviz9GvizGraph14get_node_styleE6NodeId"></span><span id="gviz::GvizGraph::get_node_style__NodeIdC"></span><span class="target" id="structgviz_1_1_gviz_graph_1a685cd96ddbea5a846527225a67aac659"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_node_style</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph6NodeIdE" title="gviz::GvizGraph::NodeId"><span class="n"><span class="pre">NodeId</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">node_id</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9GvizGraph14get_node_styleE6NodeId" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph14set_node_labelE6NodeIdN9attrtypes5LabelIEE">
+<span id="_CPPv3N4gviz9GvizGraph14set_node_labelE6NodeIdN9attrtypes5LabelIEE"></span><span id="_CPPv2N4gviz9GvizGraph14set_node_labelE6NodeIdN9attrtypes5LabelIEE"></span><span id="gviz::GvizGraph::set_node_label__NodeId.attrtypes::Label::"></span><span class="target" id="structgviz_1_1_gviz_graph_1ad83127f031c9f409d67637cca8e6a75a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">set_node_label</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph6NodeIdE" title="gviz::GvizGraph::NodeId"><span class="n"><span class="pre">NodeId</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">node_id</span></span>, <a class="reference internal" href="attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/label.html#_CPPv4I0EN4gviz9attrtypes5LabelE" title="gviz::attrtypes::Label"><span class="n"><span class="pre">Label</span></span></a><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">label</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph14set_node_labelE6NodeIdN9attrtypes5LabelIEE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph14set_node_styleE6NodeIdN9attrtypes5StyleE">
+<span id="_CPPv3N4gviz9GvizGraph14set_node_styleE6NodeIdN9attrtypes5StyleE"></span><span id="_CPPv2N4gviz9GvizGraph14set_node_styleE6NodeIdN9attrtypes5StyleE"></span><span id="gviz::GvizGraph::set_node_style__NodeId.attrtypes::Style"></span><span class="target" id="structgviz_1_1_gviz_graph_1a2e4c29579fa2e81c7f4a9fc196b63331"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">set_node_style</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph6NodeIdE" title="gviz::GvizGraph::NodeId"><span class="n"><span class="pre">NodeId</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">node_id</span></span>, <a class="reference internal" href="attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/style.html#_CPPv4N4gviz9attrtypes5StyleE" title="gviz::attrtypes::Style"><span class="n"><span class="pre">Style</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">style</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph14set_node_styleE6NodeIdN9attrtypes5StyleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph5graphE">
+<span id="_CPPv3N4gviz9GvizGraph5graphE"></span><span id="_CPPv2N4gviz9GvizGraph5graphE"></span><span id="gviz::GvizGraph::graph__Graph"></span><span class="target" id="structgviz_1_1_gviz_graph_1a1aedba958b1704fc5365082439682dd3"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9GvizGraphE" title="gviz::GvizGraph::Graph"><span class="n"><span class="pre">Graph</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">graph</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph5graphE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph17global_node_attrsE">
+<span id="_CPPv3N4gviz9GvizGraph17global_node_attrsE"></span><span id="_CPPv2N4gviz9GvizGraph17global_node_attrsE"></span><span id="gviz::GvizGraph::global_node_attrs__registry::RegistryEntityProxy:registry_type:"></span><span class="target" id="structgviz_1_1_gviz_graph_1ada11e8fc97604db2ccc7bc228d28336b"></span><a class="reference internal" href="registry/entt_registry.html#_CPPv4N4gviz8registryE" title="gviz::registry"><span class="n"><span class="pre">registry</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="registry/registry_entity_proxy.html#_CPPv4I0EN4gviz8registry19RegistryEntityProxyE" title="gviz::registry::RegistryEntityProxy"><span class="n"><span class="pre">RegistryEntityProxy</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph13registry_typeE" title="gviz::GvizGraph::registry_type"><span class="n"><span class="pre">registry_type</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">global_node_attrs</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph17global_node_attrsE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph17global_edge_attrsE">
+<span id="_CPPv3N4gviz9GvizGraph17global_edge_attrsE"></span><span id="_CPPv2N4gviz9GvizGraph17global_edge_attrsE"></span><span id="gviz::GvizGraph::global_edge_attrs__registry::RegistryEntityProxy:registry_type:"></span><span class="target" id="structgviz_1_1_gviz_graph_1af8ee08ab8f0944ba6c30b6bc759f8712"></span><a class="reference internal" href="registry/entt_registry.html#_CPPv4N4gviz8registryE" title="gviz::registry"><span class="n"><span class="pre">registry</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="registry/registry_entity_proxy.html#_CPPv4I0EN4gviz8registry19RegistryEntityProxyE" title="gviz::registry::RegistryEntityProxy"><span class="n"><span class="pre">RegistryEntityProxy</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph13registry_typeE" title="gviz::GvizGraph::registry_type"><span class="n"><span class="pre">registry_type</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">global_edge_attrs</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph17global_edge_attrsE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9GvizGraph20global_cluster_attrsE">
+<span id="_CPPv3N4gviz9GvizGraph20global_cluster_attrsE"></span><span id="_CPPv2N4gviz9GvizGraph20global_cluster_attrsE"></span><span id="gviz::GvizGraph::global_cluster_attrs__registry::RegistryEntityProxy:registry_type:"></span><span class="target" id="structgviz_1_1_gviz_graph_1af001762c117804cd0ef6e8bb4b321293"></span><a class="reference internal" href="registry/entt_registry.html#_CPPv4N4gviz8registryE" title="gviz::registry"><span class="n"><span class="pre">registry</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="registry/registry_entity_proxy.html#_CPPv4I0EN4gviz8registry19RegistryEntityProxyE" title="gviz::registry::RegistryEntityProxy"><span class="n"><span class="pre">RegistryEntityProxy</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9GvizGraph13registry_typeE" title="gviz::GvizGraph::registry_type"><span class="n"><span class="pre">registry_type</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">global_cluster_attrs</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9GvizGraph20global_cluster_attrsE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="gvizgraph_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">gvizgraph.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="contracts.html" class="btn btn-neutral float-left" title="contracts.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="mtputils.html" class="btn btn-neutral float-right" title="mtputils.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

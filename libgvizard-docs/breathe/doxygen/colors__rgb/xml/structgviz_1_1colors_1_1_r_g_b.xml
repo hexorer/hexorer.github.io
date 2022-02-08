@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1colors_1_1_r_g_b" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::colors::RGB</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1colors_1_1_r_g_b_1a2d73970f6a544e387f11bba051821ff5" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>using gviz::colors::RGB::octet_t =  uint8_t</definition>
+        <argsstring></argsstring>
+        <name>octet_t</name>
+        <qualifiedname>gviz::colors::RGB::octet_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1colors_1_1_r_g_b_1ad4f2fd1a9213a6a49c220c06fdd7352f" prot="public" static="no" mutable="no">
+        <type>octet_t</type>
+        <definition>octet_t gviz::colors::RGB::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>gviz::colors::RGB::r</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="12" column="11" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1colors_1_1_r_g_b_1a82ed60944f3794ab4c3aebca507abe80" prot="public" static="no" mutable="no">
+        <type>octet_t</type>
+        <definition>octet_t gviz::colors::RGB::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>gviz::colors::RGB::g</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="13" column="11" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1colors_1_1_r_g_b_1a4f808372989cabe227c39b0ec1433d87" prot="public" static="no" mutable="no">
+        <type>octet_t</type>
+        <definition>octet_t gviz::colors::RGB::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>gviz::colors::RGB::b</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="14" column="11" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1a0ab375c05292e49f83eaa998a6b122e4" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr std::optional&lt; <ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref> &gt;</type>
+        <definition>static constexpr std::optional&lt; RGB &gt; gviz::colors::RGB::make</definition>
+        <argsstring>(octet_t red, octet_t green, octet_t blue) noexcept</argsstring>
+        <name>make</name>
+        <qualifiedname>gviz::colors::RGB::make</qualifiedname>
+        <param>
+          <type>octet_t</type>
+          <declname>red</declname>
+        </param>
+        <param>
+          <type>octet_t</type>
+          <declname>green</declname>
+        </param>
+        <param>
+          <type>octet_t</type>
+          <declname>blue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="17" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1aa1ae305d3b77d3a5ce0cd2e7bd0c2125" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr <ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref></type>
+        <definition>static constexpr RGB gviz::colors::RGB::from_binary</definition>
+        <argsstring>(uint32_t value) noexcept</argsstring>
+        <name>from_binary</name>
+        <qualifiedname>gviz::colors::RGB::from_binary</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="32" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="32" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1a015142090ee55dadf7bd79773f3a7b38" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr octet_t</type>
+        <definition>constexpr octet_t gviz::colors::RGB::min</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>min</name>
+        <qualifiedname>gviz::colors::RGB::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="22" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1afd1e44970280b74fa82796b89cf56af2" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr octet_t</type>
+        <definition>constexpr octet_t gviz::colors::RGB::max</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>max</name>
+        <qualifiedname>gviz::colors::RGB::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="27" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1a9f5f35f78301d5ac54d024be55409dfa" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t gviz::colors::RGB::to_binary</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>to_binary</name>
+        <qualifiedname>gviz::colors::RGB::to_binary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="41" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1a7f60c743fc9ac26ea5a54a9b77033b65" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::RGB::operator==</definition>
+        <argsstring>(const RGB &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::colors::RGB::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="48" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1colors_1_1_r_g_b_1a62fe10dac26e31b0395c02f960eb841c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::RGB::operator!=</definition>
+        <argsstring>(const RGB &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::colors::RGB::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1colors_1_1_r_g_b" kindref="compound">RGB</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="53" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/rgb.hpp" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a4f808372989cabe227c39b0ec1433d87" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>b</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1aa1ae305d3b77d3a5ce0cd2e7bd0c2125" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>from_binary</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a82ed60944f3794ab4c3aebca507abe80" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>g</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a0ab375c05292e49f83eaa998a6b122e4" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>make</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1afd1e44970280b74fa82796b89cf56af2" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>max</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a015142090ee55dadf7bd79773f3a7b38" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>min</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a2d73970f6a544e387f11bba051821ff5" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>octet_t</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a62fe10dac26e31b0395c02f960eb841c" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a7f60c743fc9ac26ea5a54a9b77033b65" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1ad4f2fd1a9213a6a49c220c06fdd7352f" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>r</name></member>
+      <member refid="structgviz_1_1colors_1_1_r_g_b_1a9f5f35f78301d5ac54d024be55409dfa" prot="public" virt="non-virtual"><scope>gviz::colors::RGB</scope><name>to_binary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

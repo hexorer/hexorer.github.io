@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix" kind="class"><name>gviz::detail::DynamicHalfSquareMatrix</name>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ac54c74cc95781360169c2babee164935" kind="typedef"><name>value_type</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1abc8b6f0a1a1305ec8cf3ee65b1d45d59" kind="variable"><name>vec_</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1acd23486f214c9211b756472a3f96f345" kind="variable"><name>size_</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a81daa541a663b94f69a7b447174dc863" kind="function"><name>DynamicHalfSquareMatrix</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a0338eb53d5e911455673a53acd49e068" kind="function"><name>DynamicHalfSquareMatrix</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1aabca9aa723ce2a1e792592855d21a6d0" kind="function"><name>size</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a95cd8c14cb692da578c0afe843354fdf" kind="function"><name>resize</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ae95712cb638a88954d49497ece6bb39b" kind="function"><name>at</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2808a28feabb06b3ca17ab0eaa94f527" kind="function"><name>at</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2e11450fd73eaa42c81e14cb7131b983" kind="function"><name>add_rowcol</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a8f806ca3833dfdfcfd7a00753ccb29c8" kind="function"><name>pop_rowcol</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a39048b41a478116300add73b4619dc73" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a5b25ce46eb1a5027b4aa0cae5a69ef56" kind="function"><name>end</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a7d98b061e558f9d630cc8689f5b870fe" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ae25c1cb8a37303f78f85d0d7f5e7b55c" kind="function"><name>end</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1ab20aacd56f9fe4702fbc53b0fcbe336c" kind="function"><name>cbegin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a1af567b3dc5c4c2e21081b5fcd744ef2" kind="function"><name>cend</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a2d697718b873fcb8f828e0251445ba46" kind="function"><name>operator()</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1acb33148ae4faa98d83ea2b76ba485455" kind="function"><name>operator()</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a460c1ff341054db67bd4801ad8cf09f8" kind="function"><name>tsize</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1a285cfa811f5ae07da01dd098e4ef5181" kind="function"><name>index</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_half_square_matrix_1aecd0bedb05e915b806748bc021896a4f" kind="function"><name>reverse_index</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1detail" kind="namespace"><name>gviz::detail</name>
+  </compound>
+  <compound refid="dynamic__half__square__matrix_8hpp" kind="file"><name>dynamic_half_square_matrix.hpp</name>
+  </compound>
+  <compound refid="dir_e0c25747f46028ce5f9403284dcd8c1d" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

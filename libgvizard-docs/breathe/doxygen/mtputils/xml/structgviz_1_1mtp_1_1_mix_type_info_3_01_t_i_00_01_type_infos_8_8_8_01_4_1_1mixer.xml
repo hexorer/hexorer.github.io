@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer</compoundname>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner" prot="public">gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer::inner</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="107" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="107" bodyend="112"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

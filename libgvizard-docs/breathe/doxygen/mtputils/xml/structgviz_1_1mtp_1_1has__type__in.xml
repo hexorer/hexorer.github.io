@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1has__type__in" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::has_type_in</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::bool_constant&lt;(true &amp;&amp;... &amp;&amp;std::is_same_v&lt; X, Ts &gt;)&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename X</type>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gviz::mtp::has_type_in&lt; X, Ts &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1has__type__in"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::bool_constant&lt;(true &amp;&amp;... &amp;&amp;std::is_same_v&lt; X, Ts &gt;)&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gviz::mtp::has_type_in&lt; X, Ts &gt;</label>
+        <link refid="structgviz_1_1mtp_1_1has__type__in"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::bool_constant&lt;(true &amp;&amp;... &amp;&amp;std::is_same_v&lt; X, Ts &gt;)&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="166" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="168" bodyend="168"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

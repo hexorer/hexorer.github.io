@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_splines" kind="struct"><name>gviz::attrs::Splines</name>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a300434af6f707ebb7e895c225c7a8a0f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a1f4a13353886bbbc3476a6705793411a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a67ed9599ab8c653c176ca47fba8d5d14" kind="function"><name>Splines</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a134d84acb726a144d0bf4526e1c2c72c" kind="function"><name>Splines</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a34262ad5e6311d54e8d7c088aaf9ea43" kind="function"><name>Splines</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a8cf8bc898c3495066fe77a65a3a5e645" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1af076bf343032420875104f000be73d26" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_splines_1a94095fa47e2c2a0a6a68a627b8be2776" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="splines_8hpp_1af2bc0a4962b2c876b934bab773659571" kind="typedef"><name>SplinesType</name></member>
+  </compound>
+  <compound refid="splines_8hpp" kind="file"><name>splines.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

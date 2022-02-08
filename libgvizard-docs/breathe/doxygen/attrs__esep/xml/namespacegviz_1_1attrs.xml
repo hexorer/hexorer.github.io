@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_esep" prot="public">gviz::attrs::Esep</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="esep_8hpp_1af4946173c24b7815a4716c05e9510a3f" prot="public" static="no">
+        <type>std::variant&lt; attrtypes::AddDouble, attrtypes::Addible&lt; attrtypes::PointType&lt; double &gt; &gt; &gt;</type>
+        <definition>using gviz::attrs::EsepType = typedef std::variant&lt;attrtypes::AddDouble, attrtypes::Addible&lt;attrtypes::PointType&lt;double&gt; &gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>EsepType</name>
+        <qualifiedname>gviz::attrs::EsepType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/esep.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="quadtype_8hpp" kind="file" language="C++">
+    <compoundname>quadtype.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="yes">gvizard/utils.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp</label>
+        <link refid="quadtype_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="3">
+        <label>gvizard/utils.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01attrtypes_1_1_quad_type_00_01bool_01_4" prot="public">gviz::utils::Converter&lt; attrtypes::QuadType, bool &gt;</innerclass>
+    <innerclass refid="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4" prot="public">gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1attrtypes">gviz::attrtypes</innernamespace>
+    <innernamespace refid="namespacegviz_1_1utils">gviz::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_ATTRTYPES_QUADTYPE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_ATTRTYPES_QUADTYPE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/utils.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">attrtypes<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>QuadType<sp/>:<sp/>uint8_t<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>none<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/>normal,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>fast</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QuadType<sp/>quadtype_from_bool(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>type)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>type<sp/>?<sp/>QuadType::normal<sp/>:<sp/>QuadType::none;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>attrtypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">utils<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="27" refid="structgviz_1_1utils_1_1_converter_3_01attrtypes_1_1_quad_type_00_01bool_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;attrtypes::QuadType,<sp/>bool&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>attrtypes::QuadType<sp/>convert(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>qtype)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>attrtypes::quadtype_from_bool(qtype);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="35" refid="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Converter&lt;bool,<sp/>attrtypes::QuadType&gt;<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>convert(attrtypes::QuadType<sp/>qtype)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qtype<sp/>==<sp/>attrtypes::QuadType::normal;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>utils</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_ATTRTYPES_QUADTYPE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp"/>
+  </compounddef>
+</doxygen>

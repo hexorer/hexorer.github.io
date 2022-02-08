@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_epsilon" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Epsilon</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Epsilon, std::optional&lt; double &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_epsilon_1a217ba39e757ca52ba2831892f7bc2123" prot="public" static="no">
+        <type>std::optional&lt; double &gt;</type>
+        <definition>using gviz::attrs::Epsilon::value_type =  std::optional&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Epsilon::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="12" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_epsilon_1a32938be17b6a0e137ce87750ced57fdd" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Epsilon::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Epsilon::name</qualifiedname>
+        <initializer>= &quot;epsilon&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="14" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_epsilon_1ad2c47ca345630e987491d73bc60d5bbe" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Epsilon::Epsilon</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Epsilon</name>
+        <qualifiedname>gviz::attrs::Epsilon::Epsilon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="16" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_epsilon_1aceb2fbf6bb50409b083d2edfb8bf7688" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Epsilon::Epsilon</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Epsilon</name>
+        <qualifiedname>gviz::attrs::Epsilon::Epsilon</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_epsilon_1ac7fd75268fe1346371d1d4060ac6de14" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Epsilon::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Epsilon::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="19" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_epsilon_1a41985b1f7b901046936dc153b0f79415" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Epsilon::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Epsilon::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="24" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_epsilon_1a609ec5b70d9719dc8b3dc2077af109f7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Epsilon::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Epsilon::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="29" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Epsilon, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Epsilon</label>
+        <link refid="structgviz_1_1attrs_1_1_epsilon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Epsilon, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Epsilon</label>
+        <link refid="structgviz_1_1attrs_1_1_epsilon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/epsilon.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1a609ec5b70d9719dc8b3dc2077af109f7" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1ad2c47ca345630e987491d73bc60d5bbe" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>Epsilon</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1aceb2fbf6bb50409b083d2edfb8bf7688" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>Epsilon</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1ac7fd75268fe1346371d1d4060ac6de14" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1a41985b1f7b901046936dc153b0f79415" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1a32938be17b6a0e137ce87750ced57fdd" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_epsilon_1a217ba39e757ca52ba2831892f7bc2123" prot="public" virt="non-virtual"><scope>gviz::attrs::Epsilon</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

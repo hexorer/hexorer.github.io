@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_overlap_scaling" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::OverlapScaling</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; OverlapScaling, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_overlap_scaling_1aed015ffce62314e3571a8472b0e11ffa" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::OverlapScaling::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="35" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_overlap_scaling_1a88a74d89c2c2d4e95caca422db20d7f2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::OverlapScaling::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::name</qualifiedname>
+        <initializer>= &quot;overlap_scaling&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="37" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_overlap_scaling_1a142d946273a0ce7eb3ef34f55d75405b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::OverlapScaling::OverlapScaling</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>OverlapScaling</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::OverlapScaling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="39" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_overlap_scaling_1a28030cc836553b22eefa609efa0c337a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::OverlapScaling::OverlapScaling</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>OverlapScaling</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::OverlapScaling</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="40" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_overlap_scaling_1ae467ad31d4145e9b5f151ac012ecdb40" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::OverlapScaling::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="44" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_overlap_scaling_1ac568c39f5847fd69bea00e723a235c50" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::OverlapScaling::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="46" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_overlap_scaling_1ab197c366e7c3d00f7360efee359bda51" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::OverlapScaling::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::OverlapScaling::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="51" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; OverlapScaling, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::OverlapScaling</label>
+        <link refid="structgviz_1_1attrs_1_1_overlap_scaling"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; OverlapScaling, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::OverlapScaling</label>
+        <link refid="structgviz_1_1attrs_1_1_overlap_scaling"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" line="33" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/overlap_related.hpp" bodystart="34" bodyend="55"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ab197c366e7c3d00f7360efee359bda51" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ae467ad31d4145e9b5f151ac012ecdb40" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1ac568c39f5847fd69bea00e723a235c50" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a88a74d89c2c2d4e95caca422db20d7f2" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a142d946273a0ce7eb3ef34f55d75405b" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>OverlapScaling</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1a28030cc836553b22eefa609efa0c337a" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>OverlapScaling</name></member>
+      <member refid="structgviz_1_1attrs_1_1_overlap_scaling_1aed015ffce62314e3571a8472b0e11ffa" prot="public" virt="non-virtual"><scope>gviz::attrs::OverlapScaling</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

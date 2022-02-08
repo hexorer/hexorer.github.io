@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrs/label_related.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrs/style.hpp" href="style.html" />
+    <link rel="prev" title="attrs/font_related.hpp" href="font_related.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrs</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="sortv.html">attrs/sortv.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="height.html">attrs/height.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="target.html">attrs/target.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pencolor.html">attrs/pencolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searchsize.html">attrs/searchsize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="epsilon.html">attrs/epsilon.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clusterrank.html">attrs/clusterrank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scale.html">attrs/scale.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pos.html">attrs/pos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ordering.html">attrs/ordering.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="landscape.html">attrs/landscape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boundingbox.html">attrs/boundingbox.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="area.html">attrs/area.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="page.html">attrs/page.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repulsiveforce.html">attrs/repulsiveforce.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mindist.html">attrs/mindist.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dim.html">attrs/dim.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xdotversion.html">attrs/xdotversion.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pin.html">attrs/pin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tooltip.html">attrs/tooltip.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sep.html">attrs/sep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layout.html">attrs/layout.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group.html">attrs/group.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minlen.html">attrs/minlen.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="center.html">attrs/center.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pad.html">attrs/pad.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="charset.html">attrs/charset.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quantum.html">attrs/quantum.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dimen.html">attrs/dimen.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrs/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fixedsize.html">attrs/fixedsize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mosek.html">attrs/mosek.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sametail.html">attrs/sametail.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorscheme.html">attrs/colorscheme.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tail_related.html">attrs/tail_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="size.html">attrs/size.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xlabel.html">attrs/xlabel.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stylesheet.html">attrs/stylesheet.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gradientangle.html">attrs/gradientangle.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mclimit.html">attrs/mclimit.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="font_related.html">attrs/font_related.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrs/label_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrs/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="level_related.html">attrs/level_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtree.html">attrs/quadtree.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pack.html">attrs/pack.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrs/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="peripheries.html">attrs/peripheries.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bgcolor.html">attrs/bgcolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remincross.html">attrs/remincross.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="voro_margin.html">attrs/voro_margin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="compound.html">attrs/compound.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="comment.html">attrs/comment.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shapefile.html">attrs/shapefile.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="notranslate.html">attrs/notranslate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rotation.html">attrs/rotation.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="z.html">attrs/z.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="concentrate.html">attrs/concentrate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="splines.html">attrs/splines.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nslimit1.html">attrs/nslimit1.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="resolution.html">attrs/resolution.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="len.html">attrs/len.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ratio.html">attrs/ratio.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clazz.html">attrs/clazz.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="samehead.html">attrs/samehead.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dpi.html">attrs/dpi.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="model.html">attrs/model.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrs/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="orientation.html">attrs/orientation.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="normalize.html">attrs/normalize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="truecolor.html">attrs/truecolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="href.html">attrs/href.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decorate.html">attrs/decorate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrs/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nslimit.html">attrs/nslimit.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="margin.html">attrs/margin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nodesep.html">attrs/nodesep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="root.html">attrs/root.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="esep.html">attrs/esep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="head_related.html">attrs/head_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="width.html">attrs/width.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="forcelabels.html">attrs/forcelabels.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrow_related.html">attrs/arrow_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="k.html">attrs/k.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_related.html">attrs/logical_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputorder.html">attrs/outputorder.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="inputscale.html">attrs/inputscale.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="regular.html">attrs/regular.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxiter.html">attrs/maxiter.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="smoothing.html">attrs/smoothing.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edge_related.html">attrs/edge_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defaultdist.html">attrs/defaultdist.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrs/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dir.html">attrs/dir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertices.html">attrs/vertices.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html">attrs/start.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="damping.html">attrs/damping.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="constraint.html">attrs/constraint.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="samplepoints.html">attrs/samplepoints.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rects.html">attrs/rects.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="skew.html">attrs/skew.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id.html">attrs/id.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nojustify.html">attrs/nojustify.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ranksep.html">attrs/ranksep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rotate.html">attrs/rotate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="weight.html">attrs/weight.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="distortion.html">attrs/distortion.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shadowboxes.html">attrs/shadowboxes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="url.html">attrs/url.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="image_related.html">attrs/image_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode.html">attrs/mode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layer_related.html">attrs/layer_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrs/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rankdir.html">attrs/rankdir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newrank.html">attrs/newrank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fillcolor.html">attrs/fillcolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="penwidth.html">attrs/penwidth.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="overlap_related.html">attrs/overlap_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sides.html">attrs/sides.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrs</a> &raquo;</li>
+      <li>attrs/label_related.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrs/label_related.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrs-label-related-hpp">
+<h1>attrs/label_related.hpp<a class="headerlink" href="#attrs-label-related-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5LabelE">
+<span id="_CPPv3N4gviz5attrs5LabelE"></span><span id="_CPPv2N4gviz5attrs5LabelE"></span><span id="gviz::attrs::Label"></span><span class="target" id="structgviz_1_1attrs_1_1_label"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Label</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs5LabelE" title="gviz::attrs::Label"><span class="n"><span class="pre">Label</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/label.html#_CPPv4I0EN4gviz9attrtypes5LabelE" title="gviz::attrtypes::Label"><span class="n"><span class="pre">Label</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5LabelE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label10value_typeE">
+<span id="_CPPv3N4gviz5attrs5Label10value_typeE"></span><span id="_CPPv2N4gviz5attrs5Label10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1ac68aea9e2830ed21deee6105fe8d2b84"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/label.html#_CPPv4I0EN4gviz9attrtypes5LabelE" title="gviz::attrtypes::Label"><span class="n"><span class="pre">Label</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label5LabelEv">
+<span id="_CPPv3N4gviz5attrs5Label5LabelEv"></span><span id="_CPPv2N4gviz5attrs5Label5LabelEv"></span><span id="gviz::attrs::Label::Label"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1a80a74771f6744d995b3e646df1a6878c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Label</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label5LabelEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label5LabelERK10value_type">
+<span id="_CPPv3N4gviz5attrs5Label5LabelERK10value_type"></span><span id="_CPPv2N4gviz5attrs5Label5LabelERK10value_type"></span><span id="gviz::attrs::Label::Label__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1a50c88246451b184bfff141283935a39b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Label</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="gviz::attrs::Label::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label5LabelERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label5LabelERR10value_type">
+<span id="_CPPv3N4gviz5attrs5Label5LabelERR10value_type"></span><span id="_CPPv2N4gviz5attrs5Label5LabelERR10value_type"></span><span id="gviz::attrs::Label::Label__value_typeRR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1a676866bb9e94021ee3ac507f44e1a314"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Label</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="gviz::attrs::Label::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label5LabelERR10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs5Label17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs5Label17get_default_valueEv"></span><span id="gviz::attrs::Label::get_default_value"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1ade609d73aecd029352020a0bc4811505"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="gviz::attrs::Label::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs5Label10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs5Label10is_defaultERK10value_type"></span><span id="gviz::attrs::Label::is_default__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1aeeebb1dcb31753f49d3fe4f32a4303d3"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="gviz::attrs::Label::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs5Label10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs5Label10constraintERK10value_type"></span><span id="gviz::attrs::Label::constraint__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1ac4d19f0df2e052a113e1ae0122542feb"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs5Label10value_typeE" title="gviz::attrs::Label::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs5Label4nameE">
+<span id="_CPPv3N4gviz5attrs5Label4nameE"></span><span id="_CPPv2N4gviz5attrs5Label4nameE"></span><span id="gviz::attrs::Label::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_1adf161ec16237757539782b04c8deaeff"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;label&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs5Label4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngleE">
+<span id="_CPPv3N4gviz5attrs10LabelAngleE"></span><span id="_CPPv2N4gviz5attrs10LabelAngleE"></span><span id="gviz::attrs::LabelAngle"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelAngle</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelAngleE" title="gviz::attrs::LabelAngle"><span class="n"><span class="pre">LabelAngle</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngleE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle10value_typeE">
+<span id="_CPPv3N4gviz5attrs10LabelAngle10value_typeE"></span><span id="_CPPv2N4gviz5attrs10LabelAngle10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1abb790c2092ad88376ed57cb1b6a696b8"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle10LabelAngleEv">
+<span id="_CPPv3N4gviz5attrs10LabelAngle10LabelAngleEv"></span><span id="_CPPv2N4gviz5attrs10LabelAngle10LabelAngleEv"></span><span id="gviz::attrs::LabelAngle::LabelAngleCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1a1ede0578929937f1053caebc2dd92f50"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelAngle</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle10LabelAngleEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle10LabelAngleE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelAngle10LabelAngleE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelAngle10LabelAngleE10value_type"></span><span id="gviz::attrs::LabelAngle::LabelAngle__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1a30c8089e69be76ea41cde525db1426bc"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelAngle</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelAngle10value_typeE" title="gviz::attrs::LabelAngle::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle10LabelAngleE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs10LabelAngle17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs10LabelAngle17get_default_valueEv"></span><span id="gviz::attrs::LabelAngle::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1aa35a7c5265cf368163a9002216d0f1a8"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelAngle10value_typeE" title="gviz::attrs::LabelAngle::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelAngle10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelAngle10is_defaultE10value_type"></span><span id="gviz::attrs::LabelAngle::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1ae2bc87cef2db397ad896cff4b07d1fd0"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelAngle10value_typeE" title="gviz::attrs::LabelAngle::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelAngle10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelAngle10constraintE10value_type"></span><span id="gviz::attrs::LabelAngle::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1aec67d3d5884da1ea5e4f48d38bac34ce"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelAngle10value_typeE" title="gviz::attrs::LabelAngle::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelAngle4nameE">
+<span id="_CPPv3N4gviz5attrs10LabelAngle4nameE"></span><span id="_CPPv2N4gviz5attrs10LabelAngle4nameE"></span><span id="gviz::attrs::LabelAngle::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_angle_1aa82815bc41fd8af9c6cb99d713eaea44"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelangle&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelAngle4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistanceE">
+<span id="_CPPv3N4gviz5attrs13LabelDistanceE"></span><span id="_CPPv2N4gviz5attrs13LabelDistanceE"></span><span id="gviz::attrs::LabelDistance"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelDistance</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelDistanceE" title="gviz::attrs::LabelDistance"><span class="n"><span class="pre">LabelDistance</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistanceE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance10value_typeE">
+<span id="_CPPv3N4gviz5attrs13LabelDistance10value_typeE"></span><span id="_CPPv2N4gviz5attrs13LabelDistance10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1a4a156f6477b65cf623067f142eb948e4"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance13LabelDistanceEv">
+<span id="_CPPv3N4gviz5attrs13LabelDistance13LabelDistanceEv"></span><span id="_CPPv2N4gviz5attrs13LabelDistance13LabelDistanceEv"></span><span id="gviz::attrs::LabelDistance::LabelDistanceCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1a25369971de5f5b2b92d2002baeed3f67"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelDistance</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance13LabelDistanceEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance13LabelDistanceE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelDistance13LabelDistanceE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelDistance13LabelDistanceE10value_type"></span><span id="gviz::attrs::LabelDistance::LabelDistance__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1af23e51c4c8fa2d0b96edb48da48e905a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelDistance</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelDistance10value_typeE" title="gviz::attrs::LabelDistance::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance13LabelDistanceE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs13LabelDistance17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs13LabelDistance17get_default_valueEv"></span><span id="gviz::attrs::LabelDistance::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1aea7cd9432fdbeb5a4b354c7cafffc6ad"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelDistance10value_typeE" title="gviz::attrs::LabelDistance::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelDistance10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelDistance10is_defaultE10value_type"></span><span id="gviz::attrs::LabelDistance::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1a3ee35cdc45a91791bb5bfcfe77a04497"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelDistance10value_typeE" title="gviz::attrs::LabelDistance::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelDistance10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelDistance10constraintE10value_type"></span><span id="gviz::attrs::LabelDistance::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1a26fe9efd61a2fca829cf2e7afc8fc533"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelDistance10value_typeE" title="gviz::attrs::LabelDistance::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelDistance4nameE">
+<span id="_CPPv3N4gviz5attrs13LabelDistance4nameE"></span><span id="_CPPv2N4gviz5attrs13LabelDistance4nameE"></span><span id="gviz::attrs::LabelDistance::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_distance_1a3c38429b5466b9852737577ba0735e97"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labeldistance&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelDistance4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloatE">
+<span id="_CPPv3N4gviz5attrs10LabelFloatE"></span><span id="_CPPv2N4gviz5attrs10LabelFloatE"></span><span id="gviz::attrs::LabelFloat"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelFloat</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelFloatE" title="gviz::attrs::LabelFloat"><span class="n"><span class="pre">LabelFloat</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloatE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat10value_typeE">
+<span id="_CPPv3N4gviz5attrs10LabelFloat10value_typeE"></span><span id="_CPPv2N4gviz5attrs10LabelFloat10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1ac0b960b1583bc380813bb2b37cfc733a"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat10LabelFloatEv">
+<span id="_CPPv3N4gviz5attrs10LabelFloat10LabelFloatEv"></span><span id="_CPPv2N4gviz5attrs10LabelFloat10LabelFloatEv"></span><span id="gviz::attrs::LabelFloat::LabelFloatCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1ad9597557e4895f089d8cf5918ffbf9d5"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFloat</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat10LabelFloatEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat10LabelFloatE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelFloat10LabelFloatE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelFloat10LabelFloatE10value_type"></span><span id="gviz::attrs::LabelFloat::LabelFloat__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1a2b4b2d97331ca41161ba259570d43249"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFloat</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelFloat10value_typeE" title="gviz::attrs::LabelFloat::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat10LabelFloatE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs10LabelFloat17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs10LabelFloat17get_default_valueEv"></span><span id="gviz::attrs::LabelFloat::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1a59b10bad81498d5849331929b1d17e31"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelFloat10value_typeE" title="gviz::attrs::LabelFloat::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelFloat10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelFloat10is_defaultE10value_type"></span><span id="gviz::attrs::LabelFloat::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1a2bd3c54e6224f5eba51804713e6f839d"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelFloat10value_typeE" title="gviz::attrs::LabelFloat::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs10LabelFloat10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs10LabelFloat10constraintE10value_type"></span><span id="gviz::attrs::LabelFloat::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1a1519b72ce2c93899392382f7eefd7a88"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs10LabelFloat10value_typeE" title="gviz::attrs::LabelFloat::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs10LabelFloat4nameE">
+<span id="_CPPv3N4gviz5attrs10LabelFloat4nameE"></span><span id="_CPPv2N4gviz5attrs10LabelFloat4nameE"></span><span id="gviz::attrs::LabelFloat::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_float_1abab85fe6a6d59ebf3152140a8b02e628"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelfloat&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs10LabelFloat4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColorE">
+<span id="_CPPv3N4gviz5attrs14LabelFontColorE"></span><span id="_CPPv2N4gviz5attrs14LabelFontColorE"></span><span id="gviz::attrs::LabelFontColor"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontColor</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs14LabelFontColorE" title="gviz::attrs::LabelFontColor"><span class="n"><span class="pre">LabelFontColor</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/color.html#_CPPv4N4gviz9attrtypes9ColorTypeE" title="gviz::attrtypes::ColorType"><span class="n"><span class="pre">ColorType</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColorE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor10value_typeE">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor10value_typeE"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1a635f2b4a01f9d080262aa89ad2ba0c99"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/color.html#_CPPv4N4gviz9attrtypes9ColorTypeE" title="gviz::attrtypes::ColorType"><span class="n"><span class="pre">ColorType</span></span></a><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor14LabelFontColorEv">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor14LabelFontColorEv"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor14LabelFontColorEv"></span><span id="gviz::attrs::LabelFontColor::LabelFontColorCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1af46c88964aede3e4b05976973899018f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontColor</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor14LabelFontColorEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor14LabelFontColorERK10value_type">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor14LabelFontColorERK10value_type"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor14LabelFontColorERK10value_type"></span><span id="gviz::attrs::LabelFontColor::LabelFontColor__value_typeCRCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1a886a8e547d7a583a1932b53bbb3f4c5d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontColor</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs14LabelFontColor10value_typeE" title="gviz::attrs::LabelFontColor::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor14LabelFontColorERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor17get_default_valueEv"></span><span id="gviz::attrs::LabelFontColor::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1ac2667ebac3c539b788a8f4f04c16ed1b"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs14LabelFontColor10value_typeE" title="gviz::attrs::LabelFontColor::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor10is_defaultERK10value_type"></span><span id="gviz::attrs::LabelFontColor::is_default__value_typeCRCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1a4704fa17b613db37ddf5284aab32513a"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs14LabelFontColor10value_typeE" title="gviz::attrs::LabelFontColor::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor10constraintERK10value_type"></span><span id="gviz::attrs::LabelFontColor::constraint__value_typeCRCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1aac292238f2fe6892541d8a32d94abbe8"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs14LabelFontColor10value_typeE" title="gviz::attrs::LabelFontColor::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs14LabelFontColor4nameE">
+<span id="_CPPv3N4gviz5attrs14LabelFontColor4nameE"></span><span id="_CPPv2N4gviz5attrs14LabelFontColor4nameE"></span><span id="gviz::attrs::LabelFontColor::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_color_1a879895c1d0cc71b4742ea0142addf8d2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelfontcolor&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs14LabelFontColor4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontNameE">
+<span id="_CPPv3N4gviz5attrs13LabelFontNameE"></span><span id="_CPPv2N4gviz5attrs13LabelFontNameE"></span><span id="gviz::attrs::LabelFontName"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontName</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontNameE" title="gviz::attrs::LabelFontName"><span class="n"><span class="pre">LabelFontName</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontNameE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName10value_typeE">
+<span id="_CPPv3N4gviz5attrs13LabelFontName10value_typeE"></span><span id="_CPPv2N4gviz5attrs13LabelFontName10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a07fb125bd25f4bcc5daa5f3355b84ab5"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameEv">
+<span id="_CPPv3N4gviz5attrs13LabelFontName13LabelFontNameEv"></span><span id="_CPPv2N4gviz5attrs13LabelFontName13LabelFontNameEv"></span><span id="gviz::attrs::LabelFontName::LabelFontName"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1afbf36b91ed4b02134041c681be089648"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontName</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameERK10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontName13LabelFontNameERK10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontName13LabelFontNameERK10value_type"></span><span id="gviz::attrs::LabelFontName::LabelFontName__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a99f3f1c24e4f82ce2b6add8508eb9b72"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontName</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="gviz::attrs::LabelFontName::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameERR10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontName13LabelFontNameERR10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontName13LabelFontNameERR10value_type"></span><span id="gviz::attrs::LabelFontName::LabelFontName__value_typeRR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a8542fe0ee41c077e896c4b6d2dced39b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontName</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="gviz::attrs::LabelFontName::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName13LabelFontNameERR10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs13LabelFontName17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs13LabelFontName17get_default_valueEv"></span><span id="gviz::attrs::LabelFontName::get_default_value"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1ac029444c99dbce4f374b27fc387a5bad"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="gviz::attrs::LabelFontName::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontName10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontName10is_defaultERK10value_type"></span><span id="gviz::attrs::LabelFontName::is_default__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a32c8b5ea7dbcc29ef8e7b77f8d8e6b68"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="gviz::attrs::LabelFontName::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontName10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontName10constraintERK10value_type"></span><span id="gviz::attrs::LabelFontName::constraint__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a7f7152eb7ad1eba6b8e2c19f64260f17"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontName10value_typeE" title="gviz::attrs::LabelFontName::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontName4nameE">
+<span id="_CPPv3N4gviz5attrs13LabelFontName4nameE"></span><span id="_CPPv2N4gviz5attrs13LabelFontName4nameE"></span><span id="gviz::attrs::LabelFontName::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_name_1a69647bc2704b0ebd9464fc01694b1946"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelfontname&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontName4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSizeE">
+<span id="_CPPv3N4gviz5attrs13LabelFontSizeE"></span><span id="_CPPv2N4gviz5attrs13LabelFontSizeE"></span><span id="gviz::attrs::LabelFontSize"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontSize</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontSizeE" title="gviz::attrs::LabelFontSize"><span class="n"><span class="pre">LabelFontSize</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSizeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize10value_typeE">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize10value_typeE"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1a3ee73635f7f2c4bb94f37b01dca9a57c"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">double</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize13LabelFontSizeEv">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize13LabelFontSizeEv"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize13LabelFontSizeEv"></span><span id="gviz::attrs::LabelFontSize::LabelFontSizeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1af17a223c17bb8d28dd6432b60ef72a5f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontSize</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize13LabelFontSizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize13LabelFontSizeE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize13LabelFontSizeE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize13LabelFontSizeE10value_type"></span><span id="gviz::attrs::LabelFontSize::LabelFontSize__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1a224d6cc77fa660424c0e7211c697c41c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelFontSize</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontSize10value_typeE" title="gviz::attrs::LabelFontSize::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize13LabelFontSizeE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize17get_default_valueEv"></span><span id="gviz::attrs::LabelFontSize::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1a0a87deae3f6346c4c64a17b73ef3e6a7"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontSize10value_typeE" title="gviz::attrs::LabelFontSize::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize10is_defaultE10value_type"></span><span id="gviz::attrs::LabelFontSize::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1a0e9146bdbd1817179c5865b6bb17d1a9"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontSize10value_typeE" title="gviz::attrs::LabelFontSize::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize10constraintE10value_type"></span><span id="gviz::attrs::LabelFontSize::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1aedadaa3848e946098eb99a32e20e94b6"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelFontSize10value_typeE" title="gviz::attrs::LabelFontSize::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelFontSize4nameE">
+<span id="_CPPv3N4gviz5attrs13LabelFontSize4nameE"></span><span id="_CPPv2N4gviz5attrs13LabelFontSize4nameE"></span><span id="gviz::attrs::LabelFontSize::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_font_size_1adbcb82478ca8e6c5cae9aebce708d958"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelfontsize&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelFontSize4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJustE">
+<span id="_CPPv3N4gviz5attrs9LabelJustE"></span><span id="_CPPv2N4gviz5attrs9LabelJustE"></span><span id="gviz::attrs::LabelJust"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelJust</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs9LabelJustE" title="gviz::attrs::LabelJust"><span class="n"><span class="pre">LabelJust</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelJustEnumE" title="gviz::attrs::LabelJustEnum"><span class="n"><span class="pre">LabelJustEnum</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJustE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust10value_typeE">
+<span id="_CPPv3N4gviz5attrs9LabelJust10value_typeE"></span><span id="_CPPv2N4gviz5attrs9LabelJust10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a976fb95fea726169990b1a543cb1f5ec"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs13LabelJustEnumE" title="gviz::attrs::LabelJustEnum"><span class="n"><span class="pre">LabelJustEnum</span></span></a><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust9LabelJustEv">
+<span id="_CPPv3N4gviz5attrs9LabelJust9LabelJustEv"></span><span id="_CPPv2N4gviz5attrs9LabelJust9LabelJustEv"></span><span id="gviz::attrs::LabelJust::LabelJustCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1ac1ddc98746f0cbd11bc515d2a84bb268"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelJust</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust9LabelJustEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust9LabelJustE10value_type">
+<span id="_CPPv3N4gviz5attrs9LabelJust9LabelJustE10value_type"></span><span id="_CPPv2N4gviz5attrs9LabelJust9LabelJustE10value_type"></span><span id="gviz::attrs::LabelJust::LabelJust__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a3799c21597413126c9f1f2c6ec92f765"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelJust</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs9LabelJust10value_typeE" title="gviz::attrs::LabelJust::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust9LabelJustE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJustcvcEv">
+<span id="_CPPv3N4gviz5attrs9LabelJustcvcEv"></span><span id="_CPPv2N4gviz5attrs9LabelJustcvcEv"></span><span id="gviz::attrs::LabelJust::castto-c-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a444a031eb182a280b0b87b7cf6c96169"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJustcvcEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJustcvNSt11string_viewEEv">
+<span id="_CPPv3N4gviz5attrs9LabelJustcvNSt11string_viewEEv"></span><span id="_CPPv2N4gviz5attrs9LabelJustcvNSt11string_viewEEv"></span><span id="gviz::attrs::LabelJust::castto-std::string_view-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1ad1864cdfda6aadb76647fab972621c3d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJustcvNSt11string_viewEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJustcvNSt6stringEEv">
+<span id="_CPPv3N4gviz5attrs9LabelJustcvNSt6stringEEv"></span><span id="_CPPv2N4gviz5attrs9LabelJustcvNSt6stringEEv"></span><span id="gviz::attrs::LabelJust::castto-ss-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1aef4060fc57cb5799392e0397419f031a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJustcvNSt6stringEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs9LabelJust17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs9LabelJust17get_default_valueEv"></span><span id="gviz::attrs::LabelJust::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a4ca8e4a936f58441e6d5c9037373d639"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs9LabelJust10value_typeE" title="gviz::attrs::LabelJust::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs9LabelJust10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs9LabelJust10is_defaultE10value_type"></span><span id="gviz::attrs::LabelJust::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a1dee2afe546988da9bfc115d24fa5f38"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs9LabelJust10value_typeE" title="gviz::attrs::LabelJust::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs9LabelJust10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs9LabelJust10constraintE10value_type"></span><span id="gviz::attrs::LabelJust::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1a19b3774bc8d0f63873eaa975d02c11be"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs9LabelJust10value_typeE" title="gviz::attrs::LabelJust::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs9LabelJust4nameE">
+<span id="_CPPv3N4gviz5attrs9LabelJust4nameE"></span><span id="_CPPv2N4gviz5attrs9LabelJust4nameE"></span><span id="gviz::attrs::LabelJust::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_just_1add05dd7d9391f2224aeebeb00e29b3f1"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labeljust&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs9LabelJust4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLocE">
+<span id="_CPPv3N4gviz5attrs8LabelLocE"></span><span id="_CPPv2N4gviz5attrs8LabelLocE"></span><span id="gviz::attrs::LabelLoc"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelLoc</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelLocE" title="gviz::attrs::LabelLoc"><span class="n"><span class="pre">LabelLoc</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelLocEnumE" title="gviz::attrs::LabelLocEnum"><span class="n"><span class="pre">LabelLocEnum</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLocE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc10value_typeE">
+<span id="_CPPv3N4gviz5attrs8LabelLoc10value_typeE"></span><span id="_CPPv2N4gviz5attrs8LabelLoc10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a879b4a3961fb990a8894aff4cdd93846"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelLocEnumE" title="gviz::attrs::LabelLocEnum"><span class="n"><span class="pre">LabelLocEnum</span></span></a><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc8LabelLocEv">
+<span id="_CPPv3N4gviz5attrs8LabelLoc8LabelLocEv"></span><span id="_CPPv2N4gviz5attrs8LabelLoc8LabelLocEv"></span><span id="gviz::attrs::LabelLoc::LabelLocCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1add00a26284f5a00503b9fe952c243258"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelLoc</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc8LabelLocEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc8LabelLocE10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelLoc8LabelLocE10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelLoc8LabelLocE10value_type"></span><span id="gviz::attrs::LabelLoc::LabelLoc__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1ab736611a812a81c5ab06748c7a0d1723"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelLoc</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelLoc10value_typeE" title="gviz::attrs::LabelLoc::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc8LabelLocE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoccvcEv">
+<span id="_CPPv3N4gviz5attrs8LabelLoccvcEv"></span><span id="_CPPv2N4gviz5attrs8LabelLoccvcEv"></span><span id="gviz::attrs::LabelLoc::castto-c-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a4ab8dc7648c16081a8ae47d7bf30014a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoccvcEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoccvNSt11string_viewEEv">
+<span id="_CPPv3N4gviz5attrs8LabelLoccvNSt11string_viewEEv"></span><span id="_CPPv2N4gviz5attrs8LabelLoccvNSt11string_viewEEv"></span><span id="gviz::attrs::LabelLoc::castto-std::string_view-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1ace6180109f58cc778f9a2123b3c38a7c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoccvNSt11string_viewEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoccvNSt6stringEEv">
+<span id="_CPPv3N4gviz5attrs8LabelLoccvNSt6stringEEv"></span><span id="_CPPv2N4gviz5attrs8LabelLoccvNSt6stringEEv"></span><span id="gviz::attrs::LabelLoc::castto-ss-operator"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a86a4d15992a3380eecc2ac2cfbeac398"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoccvNSt6stringEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs8LabelLoc17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs8LabelLoc17get_default_valueEv"></span><span id="gviz::attrs::LabelLoc::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a878477af0afa4edaa4deafefb2511b55"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelLoc10value_typeE" title="gviz::attrs::LabelLoc::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelLoc10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelLoc10is_defaultE10value_type"></span><span id="gviz::attrs::LabelLoc::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a8cc576cb998f0ca0697e5cee0d32eea3"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelLoc10value_typeE" title="gviz::attrs::LabelLoc::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelLoc10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelLoc10constraintE10value_type"></span><span id="gviz::attrs::LabelLoc::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1a0b4c90ed11a43321033b64e8e53b13d8"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelLoc10value_typeE" title="gviz::attrs::LabelLoc::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelLoc4nameE">
+<span id="_CPPv3N4gviz5attrs8LabelLoc4nameE"></span><span id="_CPPv2N4gviz5attrs8LabelLoc4nameE"></span><span id="gviz::attrs::LabelLoc::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_loc_1ae1d0cd4eb08c72815282a2f3b6703c3e"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelloc&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelLoc4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelSchemeE">
+<span id="_CPPv3N4gviz5attrs11LabelSchemeE"></span><span id="_CPPv2N4gviz5attrs11LabelSchemeE"></span><span id="gviz::attrs::LabelScheme"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelScheme</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelSchemeE" title="gviz::attrs::LabelScheme"><span class="n"><span class="pre">LabelScheme</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelSchemeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme10value_typeE">
+<span id="_CPPv3N4gviz5attrs11LabelScheme10value_typeE"></span><span id="_CPPv2N4gviz5attrs11LabelScheme10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1a9a6fecf7cda9d9d4d05549fa606745d7"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="kt"><span class="pre">int</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme11LabelSchemeEv">
+<span id="_CPPv3N4gviz5attrs11LabelScheme11LabelSchemeEv"></span><span id="_CPPv2N4gviz5attrs11LabelScheme11LabelSchemeEv"></span><span id="gviz::attrs::LabelScheme::LabelSchemeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1aa1355513abd09d2dffb561ed020b3c02"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelScheme</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme11LabelSchemeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme11LabelSchemeE10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelScheme11LabelSchemeE10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelScheme11LabelSchemeE10value_type"></span><span id="gviz::attrs::LabelScheme::LabelScheme__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1aedd29289fa50e5ecb2add2fa33cdd5a5"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelScheme</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelScheme10value_typeE" title="gviz::attrs::LabelScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme11LabelSchemeE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs11LabelScheme17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs11LabelScheme17get_default_valueEv"></span><span id="gviz::attrs::LabelScheme::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1a1523378f4c9d0cc9f5be90ea20c8eae7"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelScheme10value_typeE" title="gviz::attrs::LabelScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelScheme10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelScheme10is_defaultE10value_type"></span><span id="gviz::attrs::LabelScheme::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1aaa840e4854af8c29d609e4662f460d4f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelScheme10value_typeE" title="gviz::attrs::LabelScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelScheme10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelScheme10constraintE10value_type"></span><span id="gviz::attrs::LabelScheme::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1a3ee22c41244c48807c7c6ec9825ba05b"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelScheme10value_typeE" title="gviz::attrs::LabelScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelScheme4nameE">
+<span id="_CPPv3N4gviz5attrs11LabelScheme4nameE"></span><span id="_CPPv2N4gviz5attrs11LabelScheme4nameE"></span><span id="gviz::attrs::LabelScheme::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_scheme_1a549051e526875364c7b9c11958176126"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;label_scheme&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelScheme4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTargetE">
+<span id="_CPPv3N4gviz5attrs11LabelTargetE"></span><span id="_CPPv2N4gviz5attrs11LabelTargetE"></span><span id="gviz::attrs::LabelTarget"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelTarget</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTargetE" title="gviz::attrs::LabelTarget"><span class="n"><span class="pre">LabelTarget</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTargetE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget10value_typeE">
+<span id="_CPPv3N4gviz5attrs11LabelTarget10value_typeE"></span><span id="_CPPv2N4gviz5attrs11LabelTarget10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1a5fe639ebbdd1ca88066e7c615a8ecd6e"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget11LabelTargetEv">
+<span id="_CPPv3N4gviz5attrs11LabelTarget11LabelTargetEv"></span><span id="_CPPv2N4gviz5attrs11LabelTarget11LabelTargetEv"></span><span id="gviz::attrs::LabelTarget::LabelTarget"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1abd1e175193ec3e1635aca64772fd4ac2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTarget</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget11LabelTargetEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget11LabelTargetERK10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelTarget11LabelTargetERK10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelTarget11LabelTargetERK10value_type"></span><span id="gviz::attrs::LabelTarget::LabelTarget__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1aca1a8d471b1478774b32681208b8a2ce"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTarget</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="gviz::attrs::LabelTarget::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget11LabelTargetERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget11LabelTargetERR10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelTarget11LabelTargetERR10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelTarget11LabelTargetERR10value_type"></span><span id="gviz::attrs::LabelTarget::LabelTarget__value_typeRR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1acec6cbc252f7e556b51e747c5467c825"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTarget</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="gviz::attrs::LabelTarget::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget11LabelTargetERR10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs11LabelTarget17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs11LabelTarget17get_default_valueEv"></span><span id="gviz::attrs::LabelTarget::get_default_value"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1aeb0baa6a08da0868f030211606670b5c"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="gviz::attrs::LabelTarget::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelTarget10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelTarget10is_defaultERK10value_type"></span><span id="gviz::attrs::LabelTarget::is_default__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1afdb1923f3d6dc84dd01cb9982ff98fed"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="gviz::attrs::LabelTarget::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs11LabelTarget10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs11LabelTarget10constraintERK10value_type"></span><span id="gviz::attrs::LabelTarget::constraint__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1a075d9776f2a6f05bc2668d7095039edb"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11LabelTarget10value_typeE" title="gviz::attrs::LabelTarget::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11LabelTarget4nameE">
+<span id="_CPPv3N4gviz5attrs11LabelTarget4nameE"></span><span id="_CPPv2N4gviz5attrs11LabelTarget4nameE"></span><span id="gviz::attrs::LabelTarget::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_target_1a2bffdc62a68f125b9c8d9b83b05bf8e8"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labeltarget&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11LabelTarget4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltipE">
+<span id="_CPPv3N4gviz5attrs12LabelTooltipE"></span><span id="_CPPv2N4gviz5attrs12LabelTooltipE"></span><span id="gviz::attrs::LabelTooltip"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelTooltip</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltipE" title="gviz::attrs::LabelTooltip"><span class="n"><span class="pre">LabelTooltip</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltipE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip10value_typeE">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip10value_typeE"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1a783d1c3f1fb674a1cc20461257e49d0f"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipEv">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip12LabelTooltipEv"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip12LabelTooltipEv"></span><span id="gviz::attrs::LabelTooltip::LabelTooltip"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1af6e6cfb63c03990c288a751c65a42aae"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTooltip</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipERK10value_type">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip12LabelTooltipERK10value_type"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip12LabelTooltipERK10value_type"></span><span id="gviz::attrs::LabelTooltip::LabelTooltip__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1a1cdd077d4582eda837cd36bd312b5092"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTooltip</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="gviz::attrs::LabelTooltip::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipERR10value_type">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip12LabelTooltipERR10value_type"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip12LabelTooltipERR10value_type"></span><span id="gviz::attrs::LabelTooltip::LabelTooltip__value_typeRR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1a950163a043061939ffb0dd0825166082"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelTooltip</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="gviz::attrs::LabelTooltip::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip12LabelTooltipERR10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip17get_default_valueEv"></span><span id="gviz::attrs::LabelTooltip::get_default_value"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1afae9f38ee0abb4d2053b4095d6d934ae"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="gviz::attrs::LabelTooltip::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip10is_defaultERK10value_type"></span><span id="gviz::attrs::LabelTooltip::is_default__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1ab931b6810063a8256b71bf8e35a23305"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="gviz::attrs::LabelTooltip::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip10constraintERK10value_type"></span><span id="gviz::attrs::LabelTooltip::constraint__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1a7074f84d4f15d578891c79c706a4ecfa"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs12LabelTooltip10value_typeE" title="gviz::attrs::LabelTooltip::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelTooltip4nameE">
+<span id="_CPPv3N4gviz5attrs12LabelTooltip4nameE"></span><span id="_CPPv2N4gviz5attrs12LabelTooltip4nameE"></span><span id="gviz::attrs::LabelTooltip::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_tooltip_1af682b6c0ad02083d9865392b65242497"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labeltooltip&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelTooltip4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURLE">
+<span id="_CPPv3N4gviz5attrs8LabelURLE"></span><span id="_CPPv2N4gviz5attrs8LabelURLE"></span><span id="gviz::attrs::LabelURL"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">LabelURL</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURLE" title="gviz::attrs::LabelURL"><span class="n"><span class="pre">LabelURL</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURLE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL10value_typeE">
+<span id="_CPPv3N4gviz5attrs8LabelURL10value_typeE"></span><span id="_CPPv2N4gviz5attrs8LabelURL10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a28bd0ac1a885ff4897b582cdbce2b12a"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/escstring.html#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL8LabelURLEv">
+<span id="_CPPv3N4gviz5attrs8LabelURL8LabelURLEv"></span><span id="_CPPv2N4gviz5attrs8LabelURL8LabelURLEv"></span><span id="gviz::attrs::LabelURL::LabelURL"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a7881291782ff754b414404e71f1e9454"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelURL</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL8LabelURLEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL8LabelURLERK10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelURL8LabelURLERK10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelURL8LabelURLERK10value_type"></span><span id="gviz::attrs::LabelURL::LabelURL__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a5a5ad9f387a8c7bedfc32d5e2f7e65d6"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelURL</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="gviz::attrs::LabelURL::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL8LabelURLERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL8LabelURLERR10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelURL8LabelURLERR10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelURL8LabelURLERR10value_type"></span><span id="gviz::attrs::LabelURL::LabelURL__value_typeRR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a278d5f1e4ed5f354786f3771f2c56b35"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelURL</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="gviz::attrs::LabelURL::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL8LabelURLERR10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs8LabelURL17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs8LabelURL17get_default_valueEv"></span><span id="gviz::attrs::LabelURL::get_default_value"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a323fbd8f0c17dad1b6084ca8cbd12b0f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="gviz::attrs::LabelURL::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL10is_defaultERK10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelURL10is_defaultERK10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelURL10is_defaultERK10value_type"></span><span id="gviz::attrs::LabelURL::is_default__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a5cd70a812cde35aad1ff9a7c1f9667ea"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="gviz::attrs::LabelURL::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL10is_defaultERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL10constraintERK10value_type">
+<span id="_CPPv3N4gviz5attrs8LabelURL10constraintERK10value_type"></span><span id="_CPPv2N4gviz5attrs8LabelURL10constraintERK10value_type"></span><span id="gviz::attrs::LabelURL::constraint__value_typeCR"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a22710e9cfa77e1e0d39fce124f77f185"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs8LabelURL10value_typeE" title="gviz::attrs::LabelURL::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL10constraintERK10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs8LabelURL4nameE">
+<span id="_CPPv3N4gviz5attrs8LabelURL4nameE"></span><span id="_CPPv2N4gviz5attrs8LabelURL4nameE"></span><span id="gviz::attrs::LabelURL::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_label_u_r_l_1a054339165e21d40846c22b1f9477dd66"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;labelURL&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs8LabelURL4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrsE">
+<span id="_CPPv3N4gviz5attrsE"></span><span id="_CPPv2N4gviz5attrsE"></span><span id="gviz::attrs"></span><span class="target" id="namespacegviz_1_1attrs"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">attrs</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelJustEnumE">
+<span id="_CPPv3N4gviz5attrs13LabelJustEnumE"></span><span id="_CPPv2N4gviz5attrs13LabelJustEnumE"></span><span class="target" id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelJustEnum</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelJustEnumE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelJustEnum6centerE">
+<span id="_CPPv3N4gviz5attrs13LabelJustEnum6centerE"></span><span id="_CPPv2N4gviz5attrs13LabelJustEnum6centerE"></span><span class="target" id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923aadb115059e28d960fa8badfac5516667"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">center</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelJustEnum6centerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelJustEnum4leftE">
+<span id="_CPPv3N4gviz5attrs13LabelJustEnum4leftE"></span><span id="_CPPv2N4gviz5attrs13LabelJustEnum4leftE"></span><span class="target" id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a811882fecd5c7618d7099ebbd39ea254"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">left</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelJustEnum4leftE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs13LabelJustEnum5rightE">
+<span id="_CPPv3N4gviz5attrs13LabelJustEnum5rightE"></span><span id="_CPPv2N4gviz5attrs13LabelJustEnum5rightE"></span><span class="target" id="label__related_8hpp_1a5cfae343bcf0d695e926e519e7f83923a7c4f29407893c334a6cb7a87bf045c0d"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">right</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs13LabelJustEnum5rightE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelLocEnumE">
+<span id="_CPPv3N4gviz5attrs12LabelLocEnumE"></span><span id="_CPPv2N4gviz5attrs12LabelLocEnumE"></span><span class="target" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebc"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LabelLocEnum</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelLocEnumE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelLocEnum8_defaultE">
+<span id="_CPPv3N4gviz5attrs12LabelLocEnum8_defaultE"></span><span id="_CPPv2N4gviz5attrs12LabelLocEnum8_defaultE"></span><span class="target" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaf611271231707a44b6be19664cbe7c2c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_default</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelLocEnum8_defaultE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelLocEnum3topE">
+<span id="_CPPv3N4gviz5attrs12LabelLocEnum3topE"></span><span id="_CPPv2N4gviz5attrs12LabelLocEnum3topE"></span><span class="target" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcab28354b543375bfa94dabaeda722927f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">top</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelLocEnum3topE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelLocEnum6bottomE">
+<span id="_CPPv3N4gviz5attrs12LabelLocEnum6bottomE"></span><span id="_CPPv2N4gviz5attrs12LabelLocEnum6bottomE"></span><span class="target" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebca71f262d796bed1ab30e8a2d5a8ddee6f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">bottom</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelLocEnum6bottomE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs12LabelLocEnum6centerE">
+<span id="_CPPv3N4gviz5attrs12LabelLocEnum6centerE"></span><span id="_CPPv2N4gviz5attrs12LabelLocEnum6centerE"></span><span class="target" id="label__related_8hpp_1a69227b4349f1586e537f0cfec2d5cebcaadb115059e28d960fa8badfac5516667"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">center</span></span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs12LabelLocEnum6centerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="label__related_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">label_related.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_c4d11457176417effc161a5f95a647eb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="font_related.html" class="btn btn-neutral float-left" title="attrs/font_related.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="style.html" class="btn btn-neutral float-right" title="attrs/style.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

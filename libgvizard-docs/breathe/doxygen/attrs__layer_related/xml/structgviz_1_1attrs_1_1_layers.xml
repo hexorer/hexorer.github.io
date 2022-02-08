@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_layers" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Layers</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Layers, attrtypes::LayerList &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_layers_1aa7f0c3494ee30b636b2972a75746e9a0" prot="public" static="no">
+        <type>attrtypes::LayerList</type>
+        <definition>using gviz::attrs::Layers::value_type =  attrtypes::LayerList</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Layers::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="55" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_layers_1a4dab6bd2ce658a41a49a13a1482cbad8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Layers::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Layers::name</qualifiedname>
+        <initializer>= &quot;layers&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="57" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1aea0d2fb10ad0c3cae38b11dda5889500" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Layers::Layers</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Layers</name>
+        <qualifiedname>gviz::attrs::Layers::Layers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="59" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1ac0f36cf06c7975c878e2dd708c36734e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Layers::Layers</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Layers</name>
+        <qualifiedname>gviz::attrs::Layers::Layers</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="60" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1a470686b14551ddfa7e1acfbb95c61abb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Layers::Layers</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Layers</name>
+        <qualifiedname>gviz::attrs::Layers::Layers</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="61" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1af9dae7a8d39ce0f46c2d418a1a0a3831" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::Layers::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Layers::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="63" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1afdb8b7ed29dbbfefc0c97b740e576a41" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::Layers::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Layers::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="65" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_layers_1a6b7b6d0cba73d6b30feb97cd852bb9ef" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::Layers::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Layers::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="70" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="70" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Layers, attrtypes::LayerList &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Layers</label>
+        <link refid="structgviz_1_1attrs_1_1_layers"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Layers, attrtypes::LayerList &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Layers</label>
+        <link refid="structgviz_1_1attrs_1_1_layers"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" line="53" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/layer_related.hpp" bodystart="54" bodyend="71"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_layers_1a6b7b6d0cba73d6b30feb97cd852bb9ef" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1af9dae7a8d39ce0f46c2d418a1a0a3831" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1afdb8b7ed29dbbfefc0c97b740e576a41" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1aea0d2fb10ad0c3cae38b11dda5889500" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>Layers</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1ac0f36cf06c7975c878e2dd708c36734e" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>Layers</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1a470686b14551ddfa7e1acfbb95c61abb" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>Layers</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1a4dab6bd2ce658a41a49a13a1482cbad8" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_layers_1aa7f0c3494ee30b636b2972a75746e9a0" prot="public" virt="non-virtual"><scope>gviz::attrs::Layers</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

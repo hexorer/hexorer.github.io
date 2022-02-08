@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_builtin_style_item" prot="public">gviz::attrtypes::BuiltinStyleItem</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_style" prot="public">gviz::attrtypes::Style</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_style_item" prot="public">gviz::attrtypes::StyleItem</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>CommonStyle</name>
+        <qualifiedname>gviz::attrtypes::CommonStyle</qualifiedname>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72ac0f6b39bf695638238b0a81992cc8c73" prot="public">
+          <name>dashed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72ae9cfe8505332b52c2fcaf80c6a2c1251" prot="public">
+          <name>dotted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72aec03f91ae56e478455e3786e91559194" prot="public">
+          <name>solid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a10d739c5546fab1edb1b1d1857bd805b" prot="public">
+          <name>invis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a69dcab4a73aeec2113f69b61e6263da8" prot="public">
+          <name>bold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="14" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="enum" id="style_8hpp_1a01d160d18f4f8723efb1db184633b4af" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>NodeStyleOnly</name>
+        <qualifiedname>gviz::attrtypes::NodeStyleOnly</qualifiedname>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa9aa76d8a9f8e25e87dbcafc7aaf556fc" prot="public">
+          <name>filled</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa615226bc5d8900fdde32c7907f4aa96b" prot="public">
+          <name>striped</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa20ce7def80719dd409707f688c20ba24" prot="public">
+          <name>wedged</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afad68c12a51f40d9feac821fc0e61c78bf" prot="public">
+          <name>diagonals</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa990fcd0ba3c5c9e322c930c83a93be48" prot="public">
+          <name>rounded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa869836a44b607137a7e094cf8a308938" prot="public">
+          <name>radial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="23" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="23" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>EdgeStyleOnly</name>
+        <qualifiedname>gviz::attrtypes::EdgeStyleOnly</qualifiedname>
+        <enumvalue id="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5a4c6737890eeff46eb8dd48dc0b94b563" prot="public">
+          <name>tapered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="33" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>ClusterStyleOnly</name>
+        <qualifiedname>gviz::attrtypes::ClusterStyleOnly</qualifiedname>
+        <enumvalue id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a9aa76d8a9f8e25e87dbcafc7aaf556fc" prot="public">
+          <name>filled</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a615226bc5d8900fdde32c7907f4aa96b" prot="public">
+          <name>striped</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a990fcd0ba3c5c9e322c930c83a93be48" prot="public">
+          <name>rounded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a869836a44b607137a7e094cf8a308938" prot="public">
+          <name>radial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="38" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

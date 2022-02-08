@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_image" kind="struct"><name>gviz::attrs::Image</name>
+    <member refid="structgviz_1_1attrs_1_1_image_1a95af967ff5535658e74f4a5130c6a1ff" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1acb87bb398dc5f6a4b61b8d9cfb7ca733" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1ad3c4b158d059f75063b91e94cef3b10e" kind="function"><name>Image</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1a42bbd653fa3358426f0866ba4f6d9fea" kind="function"><name>Image</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1ad50245b8c0e78d11a5505b81c6b23f9e" kind="function"><name>Image</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1a5c1b7f6e0f5eea5dcc2629af1c977778" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1a78a19bf230e5a2c71d0ebf08174fa4ad" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_1a46e1c6ab6396db3e73aa546c893a195d" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_image_path" kind="struct"><name>gviz::attrs::ImagePath</name>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1a56bf2f38d822d529a80ec8ead9b4c821" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1a1db1176e986f71484092e64002c408dc" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1aa4888062dcbb1fafe7010825e44694e5" kind="function"><name>ImagePath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1a3a011a57e15a2022dff2845ebe88b2e7" kind="function"><name>ImagePath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1adac76466b6f7f486b3e288ffc2d9e37e" kind="function"><name>ImagePath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1abff8d15f970b532ca6f82e121649b89a" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1ab87b7dcab7263d079b63e2ce5877bf4b" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_path_1a5b42f50f6ef15a1bac45a893dd7d7e9c" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_image_pos" kind="struct"><name>gviz::attrs::ImagePos</name>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1af8b02e022ec748bc73cc24bb1229c518" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1abf11f0332ce86d4449f0b054bacf9c76" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1a03a62444764a6a6cc0f86e268628834f" kind="function"><name>ImagePos</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1ae9c10b325405af6d76d4438c2474bc55" kind="function"><name>ImagePos</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1ac01bfbbe9785807962604273313c0b1c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1a5aecdfbf6fb511f1a9d26f68dd3ce6e2" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_pos_1aef92c64783171042111279efed9dd328" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_image_scale" kind="struct"><name>gviz::attrs::ImageScale</name>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1a358b490cf98ba983246ccd749e95ad33" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1a908c5514e29b7fb5dabb75a14b172f66" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1aba712b94d6887ae0877bc994bbe6fc03" kind="function"><name>ImageScale</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1a43d757e0c400ce4cda47754d699d06f8" kind="function"><name>ImageScale</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1a9175d4ef8d78517edf5910e1d622b357" kind="function"><name>ImageScale</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1abc7b9042923fbecd897984712af4a9d0" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1aa9bf115b04fa17b6525405dd7047cb02" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_image_scale_1a7279e852cb34a6254cd97e4da1185a24" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="image__related_8hpp_1a87dd158bc474f4d79157927555803308" kind="typedef"><name>ImageScaleType</name></member>
+  </compound>
+  <compound refid="image__related_8hpp" kind="file"><name>image_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

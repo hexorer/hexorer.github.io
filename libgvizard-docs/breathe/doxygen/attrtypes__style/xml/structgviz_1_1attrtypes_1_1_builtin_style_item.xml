@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_builtin_style_item" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::BuiltinStyleItem</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad85696c7a875e9200900029e1e817997" prot="public" static="no">
+        <type>std::variant&lt; CommonStyle, NodeStyleOnly, EdgeStyleOnly, ClusterStyleOnly &gt;</type>
+        <definition>using gviz::attrtypes::BuiltinStyleItem::builtin_style_type =  std::variant&lt;CommonStyle, NodeStyleOnly, EdgeStyleOnly, ClusterStyleOnly&gt;</definition>
+        <argsstring></argsstring>
+        <name>builtin_style_type</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::builtin_style_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="62" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad3a09755515a27275db8a72eafcca4d7" prot="public" static="no" mutable="no">
+        <type>builtin_style_type</type>
+        <definition>builtin_style_type gviz::attrtypes::BuiltinStyleItem::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="64" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1a404dde0e8c239d12d387e6dc3353a37a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; gviz::attrtypes::BuiltinStyleItem::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::args</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="65" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1a3edae0fd66c1fd8fbf5b65a5401ec4c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrtypes::BuiltinStyleItem::BuiltinStyleItem</definition>
+        <argsstring>(builtin_style_type style, std::vector&lt; std::string &gt; vecargs={})</argsstring>
+        <name>BuiltinStyleItem</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::BuiltinStyleItem</qualifiedname>
+        <param>
+          <type>builtin_style_type</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>vecargs</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="67" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1aac0d9666c04cb5ed999748b58bfabaa5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::attrtypes::BuiltinStyleItem::operator==</definition>
+        <argsstring>(const BuiltinStyleItem &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_builtin_style_item" kindref="compound">BuiltinStyleItem</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="73" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1a53a87732f06c5a39b94279afa3a0ad9d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::attrtypes::BuiltinStyleItem::operator!=</definition>
+        <argsstring>(const BuiltinStyleItem &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_builtin_style_item" kindref="compound">BuiltinStyleItem</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="78" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_builtin_style_item_1a8a39367f7969371682db349dc1760fab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structgviz_1_1attrtypes_1_1_style_item" kindref="compound">StyleItem</ref></type>
+        <definition>StyleItem gviz::attrtypes::BuiltinStyleItem::to_style_item</definition>
+        <argsstring>() const</argsstring>
+        <name>to_style_item</name>
+        <qualifiedname>gviz::attrtypes::BuiltinStyleItem::to_style_item</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="83" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="83" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" line="61" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/style.hpp" bodystart="61" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a404dde0e8c239d12d387e6dc3353a37a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>args</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad85696c7a875e9200900029e1e817997" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>builtin_style_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a3edae0fd66c1fd8fbf5b65a5401ec4c5" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>BuiltinStyleItem</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad3a09755515a27275db8a72eafcca4d7" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a53a87732f06c5a39b94279afa3a0ad9d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1aac0d9666c04cb5ed999748b58bfabaa5" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a8a39367f7969371682db349dc1760fab" prot="public" virt="non-virtual"><scope>gviz::attrtypes::BuiltinStyleItem</scope><name>to_style_item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

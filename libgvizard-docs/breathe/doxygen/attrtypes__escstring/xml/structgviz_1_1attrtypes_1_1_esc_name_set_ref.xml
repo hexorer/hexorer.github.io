@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::EscNameSetRef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a1d89cabcd62c85301aea268dc174634f" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::graph</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="10" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a18f151c60a154c06b6ce7bc3db092532" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::node</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="11" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1aa9cdb1323a652abb2318c77f40dbd920" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::edge</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="12" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a94198fa0428f30bc61800cefe7e27331" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::label</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="13" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a7efb90445074346dca1797cf2eeabef7" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::head</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="14" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1ad3cf8f7adb7f9b9f9472a5d9add3a327" prot="public" static="no" mutable="no">
+        <type>const std::string_view</type>
+        <definition>const std::string_view gviz::attrtypes::EscNameSetRef::tail</definition>
+        <argsstring></argsstring>
+        <name>tail</name>
+        <qualifiedname>gviz::attrtypes::EscNameSetRef::tail</qualifiedname>
+        <initializer>=&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="15" column="26" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1aa9cdb1323a652abb2318c77f40dbd920" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>edge</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a1d89cabcd62c85301aea268dc174634f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>graph</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a7efb90445074346dca1797cf2eeabef7" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>head</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a94198fa0428f30bc61800cefe7e27331" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>label</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a18f151c60a154c06b6ce7bc3db092532" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>node</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1ad3cf8f7adb7f9b9f9472a5d9add3a327" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscNameSetRef</scope><name>tail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

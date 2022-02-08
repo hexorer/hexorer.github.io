@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_quad_tree" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::QuadTree</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; QuadTree, QuadTreeType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_quad_tree_1a83e8fad220853811308d29dba032220c" prot="public" static="no">
+        <type>QuadTreeType</type>
+        <definition>using gviz::attrs::QuadTree::value_type =  QuadTreeType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::QuadTree::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="14" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_quad_tree_1aa7f473a7eeb2ce9fc90cd8351946c4de" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::QuadTree::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::QuadTree::name</qualifiedname>
+        <initializer>= &quot;quadtree&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="16" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_quad_tree_1a7d8af0c0c347d812368b99c83224eb3f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::QuadTree::QuadTree</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>QuadTree</name>
+        <qualifiedname>gviz::attrs::QuadTree::QuadTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_quad_tree_1a8cd10a50e017cc723d7f769a3dd2187d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::QuadTree::QuadTree</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>QuadTree</name>
+        <qualifiedname>gviz::attrs::QuadTree::QuadTree</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="19" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_quad_tree_1a9d18d2bd448f58eeec1288789081c9e2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::QuadTree::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::QuadTree::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="21" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_quad_tree_1adb17a8a4b3bd2aa8488e03646298ad9a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::QuadTree::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::QuadTree::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="26" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_quad_tree_1aeff1e79377427569c02216f202abe94c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::QuadTree::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::QuadTree::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="31" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; QuadTree, QuadTreeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::QuadTree</label>
+        <link refid="structgviz_1_1attrs_1_1_quad_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; QuadTree, QuadTreeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::QuadTree</label>
+        <link refid="structgviz_1_1attrs_1_1_quad_tree"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/quadtree.hpp" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1aeff1e79377427569c02216f202abe94c" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1a9d18d2bd448f58eeec1288789081c9e2" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1adb17a8a4b3bd2aa8488e03646298ad9a" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1aa7f473a7eeb2ce9fc90cd8351946c4de" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1a7d8af0c0c347d812368b99c83224eb3f" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>QuadTree</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1a8cd10a50e017cc723d7f769a3dd2187d" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>QuadTree</name></member>
+      <member refid="structgviz_1_1attrs_1_1_quad_tree_1a83e8fad220853811308d29dba032220c" prot="public" virt="non-virtual"><scope>gviz::attrs::QuadTree</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

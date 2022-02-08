@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1contracts_1_1_contract" kind="class" language="C++" prot="public">
+    <compoundname>gviz::contracts::Contract</compoundname>
+    <includes refid="contracts_8hpp" local="no">contracts.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>auto ...</type>
+        <declname>constraints</declname>
+        <defname>constraints</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgviz_1_1contracts_1_1_contract_1a32904c2827b29f28f9eecc4e400905bf" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T gviz::contracts::Contract&lt; T, constraints &gt;::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>gviz::contracts::Contract::value_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="26" column="5" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a84d8c0c1fa3ce2e150420c87a9bd1b6a" prot="protected" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr void</type>
+        <definition>static constexpr void gviz::contracts::Contract&lt; T, constraints &gt;::throw_if_invalid</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>throw_if_invalid</name>
+        <qualifiedname>gviz::contracts::Contract::throw_if_invalid</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a4990dccab8952ad384b2a853da67fc3a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::contracts::Contract&lt; T, constraints &gt;::Contract</definition>
+        <argsstring>()</argsstring>
+        <name>Contract</name>
+        <qualifiedname>gviz::contracts::Contract::Contract</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="35" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a1427f0334b7fdc54c503cb01923f500b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::contracts::Contract&lt; T, constraints &gt;::Contract</definition>
+        <argsstring>(const T &amp;v)</argsstring>
+        <name>Contract</name>
+        <qualifiedname>gviz::contracts::Contract::Contract</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="36" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a8b989b58742d3b4fcc27e7bb7e0e2349" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::contracts::Contract&lt; T, constraints &gt;::Contract</definition>
+        <argsstring>(T &amp;&amp;v)</argsstring>
+        <name>Contract</name>
+        <qualifiedname>gviz::contracts::Contract::Contract</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="37" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a63ef797dee9678ed4ace298986e217a8" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr T</type>
+        <definition>constexpr T gviz::contracts::Contract&lt; T, constraints &gt;::value</definition>
+        <argsstring>() const</argsstring>
+        <name>value</name>
+        <qualifiedname>gviz::contracts::Contract::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="39" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a6fb8c945d3b88707ff609c9ade529721" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::contracts::Contract&lt; T, constraints &gt;::assign</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>assign</name>
+        <qualifiedname>gviz::contracts::Contract::assign</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="41" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a73e0acabbda12ef9a4df346882576d58" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::contracts::Contract&lt; T, constraints &gt;::assign</definition>
+        <argsstring>(T &amp;&amp;value)</argsstring>
+        <name>assign</name>
+        <qualifiedname>gviz::contracts::Contract::assign</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="48" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a6b22712db266d825dd9778ef1ecb9fd0" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator==</definition>
+        <argsstring>(const U &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::contracts::Contract::operator==</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="74" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1af9c336f038a66e806516d8ca49cc64e2" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator!=</definition>
+        <argsstring>(const T &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::contracts::Contract::operator!=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="76" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1aa76f1e4e92bb5fa28e2851295b82d454" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator&lt;</definition>
+        <argsstring>(const U &amp;other) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>gviz::contracts::Contract::operator&lt;</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="79" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1abd92551d07a3ca251b815a08d35e71d1" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator&gt;</definition>
+        <argsstring>(const U &amp;other) const</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>gviz::contracts::Contract::operator&gt;</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="81" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1aaf3b3fb435d32f25d61a6b94d804d4aa" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator&lt;=</definition>
+        <argsstring>(const U &amp;other) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>gviz::contracts::Contract::operator&lt;=</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="84" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1ac7e80a7f7e0c26a015afa978ab79630f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator&gt;=</definition>
+        <argsstring>(const U &amp;other) const</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>gviz::contracts::Contract::operator&gt;=</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="86" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a781fe1bc112e9dffcd4180fbe2c55cc4" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator-&gt;</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>gviz::contracts::Contract::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="88" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1ae5c101e38e247c1def39fe1348fedc1f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>constexpr auto gviz::contracts::Contract&lt; T, constraints &gt;::operator*</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>gviz::contracts::Contract::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="89" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a4477744cc2d24814db4f1b3cec473018" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::contracts::Contract&lt; T, constraints &gt;::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>gviz::contracts::Contract::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="91" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="91" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1a20402208b74108196095dcec74c7e0bd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::contracts::Contract&lt; T, constraints &gt;::check</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>check</name>
+        <qualifiedname>gviz::contracts::Contract::check</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="55" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1af5577f639c3792f0762fe95095b6c995" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr std::optional&lt; T &gt;</type>
+        <definition>static constexpr std::optional&lt; T &gt; gviz::contracts::Contract&lt; T, constraints &gt;::constrain</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>constrain</name>
+        <qualifiedname>gviz::contracts::Contract::constrain</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="60" column="34" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1contracts_1_1_contract_1ad3b4916d348b6ec1337ce762c5919d97" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr std::optional&lt; T &gt;</type>
+        <definition>static constexpr std::optional&lt; T &gt; gviz::contracts::Contract&lt; T, constraints &gt;::constrain</definition>
+        <argsstring>(T &amp;&amp;value)</argsstring>
+        <name>constrain</name>
+        <qualifiedname>gviz::contracts::Contract::constrain</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="66" column="34" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classgviz_1_1contracts_1_1_contract" kindref="compound">Contract</ref> is a (monad-like) single container that ensures its holding value of type <computeroutput>T</computeroutput> is satisfied by given <computeroutput>constraints</computeroutput> callable protectes. </para>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" line="16" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/contracts.hpp" bodystart="16" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a6fb8c945d3b88707ff609c9ade529721" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>assign</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a73e0acabbda12ef9a4df346882576d58" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>assign</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a20402208b74108196095dcec74c7e0bd" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>check</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1af5577f639c3792f0762fe95095b6c995" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>constrain</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1ad3b4916d348b6ec1337ce762c5919d97" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>constrain</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a4990dccab8952ad384b2a853da67fc3a" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>Contract</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a1427f0334b7fdc54c503cb01923f500b" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>Contract</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a8b989b58742d3b4fcc27e7bb7e0e2349" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>Contract</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a4477744cc2d24814db4f1b3cec473018" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator T</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1af9c336f038a66e806516d8ca49cc64e2" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1ae5c101e38e247c1def39fe1348fedc1f" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator*</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a781fe1bc112e9dffcd4180fbe2c55cc4" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator-&gt;</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1aa76f1e4e92bb5fa28e2851295b82d454" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator&lt;</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1aaf3b3fb435d32f25d61a6b94d804d4aa" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator&lt;=</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a6b22712db266d825dd9778ef1ecb9fd0" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1abd92551d07a3ca251b815a08d35e71d1" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator&gt;</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1ac7e80a7f7e0c26a015afa978ab79630f" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>operator&gt;=</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a84d8c0c1fa3ce2e150420c87a9bd1b6a" prot="protected" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>throw_if_invalid</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a63ef797dee9678ed4ace298986e217a8" prot="public" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>value</name></member>
+      <member refid="classgviz_1_1contracts_1_1_contract_1a32904c2827b29f28f9eecc4e400905bf" prot="protected" virt="non-virtual"><scope>gviz::contracts::Contract</scope><name>value_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

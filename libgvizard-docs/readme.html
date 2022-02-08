@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>libgvizard &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="A Simple Usage Example (Complete Graph and Dot Generator)" href="demonstration.html" />
+    <link rel="prev" title="libgvizard" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">libgvizard</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-tests-and-examples">Build tests and examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage-exampe">Usage exampe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-problem-does-it-solve">What problem does it solve?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#general-utilities">General utilities:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#template-meta-programming-utilites">Template Meta-Programming utilites:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rstfiles/index.html">Reference Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>libgvizard</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/readme.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="libgvizard">
+<h1>libgvizard<a class="headerlink" href="#libgvizard" title="Permalink to this headline"></a></h1>
+<p>libgvizard is a c++17 header-only graph visualization abstraction
+library that only provides a comprehensive flexible set of types and
+interfaces heavily inspired by graphviz, along with visualization
+attributes, graph and related data structures, and other utilities.</p>
+<p>upon this library, many can make different renderers and thus one with a
+single graph definition can render it by different renderers of choice.</p>
+<p>heavily inspired by <a class="reference external" href="https://graphviz.org">graphviz</a>.</p>
+<section id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/skypjack/entt">EnTT</a></p></li>
+<li><p><a class="reference external" href="https://github.com/Neargye/magic_enum">magic-enum</a></p></li>
+<li><p><a class="reference external" href="https://github.com/catchorg/Catch2">catch2</a> (optional: for tests)</p></li>
+<li><p><a class="reference external" href="https://www.doxygen.nl/index.html">doxygen</a> (optional: for docs)</p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/Sphinx/">sphinx</a> (optional: for docs)</p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/breathe/">breathe</a> (optional: for docs)</p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/sphinx-rtd-theme/">sphinx-rtd-theme</a>
+(optional: for docs)</p></li>
+</ul>
+<p>if vcpkg build toolchain isn’t specified, the packages will be
+automatically downloaded on cmake build.</p>
+</section>
+<section id="build-tests-and-examples">
+<h2>Build tests and examples<a class="headerlink" href="#build-tests-and-examples" title="Permalink to this headline"></a></h2>
+<p>if you already have vcpkg, specify it with
+<code class="docutils literal notranslate"><span class="pre">-DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg.cmake</span></code>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir build <span class="o">&amp;&amp;</span> <span class="nb">cd</span> build
+cmake ..
+make
+</pre></div>
+</div>
+<p>to test:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="n">ctest</span><span class="w"> </span><span class="o">--</span><span class="n">output</span><span class="o">-</span><span class="n">on</span><span class="o">-</span><span class="n">failure</span><span class="w"></span>
+</pre></div>
+</div>
+<p>to run a specific example:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">simple_dot_generator</span><span class="o">/</span><span class="n">simple_dot_generator</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="usage-exampe">
+<h2>Usage exampe<a class="headerlink" href="#usage-exampe" title="Permalink to this headline"></a></h2>
+<p>a glare of some parts of the api:</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="k">using</span><span class="w"> </span><span class="n">NodeName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">typename</span><span class="w"> </span><span class="nc">MyRenderer</span><span class="o">::</span><span class="n">NodeName</span><span class="p">;</span><span class="w"></span>
+
+<span class="k">auto</span><span class="w"> </span><span class="n">make_graph</span><span class="p">()</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="n">gviz</span><span class="o">::</span><span class="n">GvizGraph</span><span class="o">&lt;&gt;</span><span class="w"> </span><span class="n">ret</span><span class="p">{};</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">auto</span><span class="w"> </span><span class="n">node_a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_node</span><span class="p">();</span><span class="w"></span>
+<span class="w">  </span><span class="k">auto</span><span class="w"> </span><span class="n">node_b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_node</span><span class="p">();</span><span class="w"></span>
+<span class="w">  </span><span class="k">auto</span><span class="w"> </span><span class="n">node_c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_node</span><span class="p">();</span><span class="w"></span>
+<span class="w">  </span><span class="k">auto</span><span class="w"> </span><span class="n">node_d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_node</span><span class="p">();</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">set_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_a</span><span class="p">,</span><span class="w"> </span><span class="n">NodeName</span><span class="p">{</span><span class="s">&quot;a&quot;</span><span class="p">});</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">set_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_b</span><span class="p">,</span><span class="w"> </span><span class="n">NodeName</span><span class="p">{</span><span class="s">&quot;b&quot;</span><span class="p">});</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">set_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_c</span><span class="p">,</span><span class="w"> </span><span class="n">NodeName</span><span class="p">{</span><span class="s">&quot;c&quot;</span><span class="p">});</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">set_entity_attr</span><span class="o">&lt;</span><span class="n">NodeName</span><span class="o">&gt;</span><span class="p">(</span><span class="n">node_d</span><span class="p">,</span><span class="w"> </span><span class="n">NodeName</span><span class="p">{</span><span class="s">&quot;d&quot;</span><span class="p">});</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_edge</span><span class="p">(</span><span class="n">node_a</span><span class="p">,</span><span class="w"> </span><span class="n">node_b</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">graph</span><span class="p">.</span><span class="n">create_edge</span><span class="p">(</span><span class="n">node_c</span><span class="p">,</span><span class="w"> </span><span class="n">node_d</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">set_node_label</span><span class="p">(</span><span class="n">node_a</span><span class="p">,</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrtypes</span><span class="o">::</span><span class="n">Label</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="s">&quot;This is Node A&quot;</span><span class="p">));</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">set_node_label</span><span class="p">(</span><span class="n">node_d</span><span class="p">,</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrtypes</span><span class="o">::</span><span class="n">Label</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="s">&quot;This is Node D&quot;</span><span class="p">));</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">set_node_style</span><span class="p">(</span><span class="n">node_a</span><span class="p">,</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrtypes</span><span class="o">::</span><span class="n">CommonStyle</span><span class="o">::</span><span class="n">bold</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">set_node_style</span><span class="p">(</span><span class="n">node_b</span><span class="p">,</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrtypes</span><span class="o">::</span><span class="n">CommonStyle</span><span class="o">::</span><span class="n">dashed</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="n">ret</span><span class="p">.</span><span class="n">set_node_style</span><span class="p">(</span><span class="n">node_c</span><span class="p">,</span><span class="w"> </span><span class="n">gviz</span><span class="o">::</span><span class="n">attrtypes</span><span class="o">::</span><span class="n">CommonStyle</span><span class="o">::</span><span class="n">dotted</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">ret</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>the example above is from <code class="docutils literal notranslate"><span class="pre">examples/simple_dot_generator/main.cpp</span></code> and
+executing it after build outputs this:</p>
+<div class="highlight-dot notranslate"><div class="highlight"><pre><span></span><span class="k">graph</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">a</span><span class="w"> </span><span class="p">[</span><span class="na">label</span><span class="p">=</span><span class="s2">&quot;This is Node A&quot;</span><span class="w"> </span><span class="na">style</span><span class="p">=</span><span class="s">bold</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="nt">b</span><span class="w"> </span><span class="p">[</span><span class="na">style</span><span class="p">=</span><span class="s">dashed</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="nb">c</span><span class="w"> </span><span class="p">[</span><span class="na">style</span><span class="p">=</span><span class="s">dotted</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="nt">d</span><span class="w"> </span><span class="p">[</span><span class="na">label</span><span class="p">=</span><span class="s2">&quot;This is Node D&quot;</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="nt">b</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="nt">a</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">d</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="nb">c</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="what-problem-does-it-solve">
+<h2>What problem does it solve?<a class="headerlink" href="#what-problem-does-it-solve" title="Permalink to this headline"></a></h2>
+<p>the problem of defining a graph to be drawn.</p>
+<p>graphviz is considered to be the most notable graph visualization
+toolset, but there aren’t any c++ library bindings to it nor any
+alternative.</p>
+<p>aside from graphviz there aren’t any c++ graph visualization that isn’t
+tied to a specific rendering framework, and they usually don’t have an
+easy/simple api, nor support much customization.</p>
+<p>libgvizard provides all of that, and is very flexible by being generic.</p>
+<p>it is not tied to any renderer, only provides a set of interfaces and
+utilities with at least one predefined implementation of its interfaces.
+thus anyone can make a renderer upon this library’s interface and
+utilities.</p>
+<p>it can be used either for rendering once (like graphviz) or to be
+rendered in real-time, for example in game engines (e.g. visual
+scripting and node-based flow/graphics compositions).</p>
+</section>
+<section id="how-does-it-work">
+<h2>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline"></a></h2>
+<p>There are 5 main components: <code class="docutils literal notranslate"><span class="pre">GvizGraph</span></code>, <code class="docutils literal notranslate"><span class="pre">Graph</span></code>, <code class="docutils literal notranslate"><span class="pre">Registry</span></code>,
+<code class="docutils literal notranslate"><span class="pre">Attribute</span></code>, <code class="docutils literal notranslate"><span class="pre">AttributeType</span></code>.</p>
+<p>The word <code class="docutils literal notranslate"><span class="pre">entity</span></code> refers to node, edge or cluster and is basically
+just an identifier along with its holden storage for set types that is
+created/destroyed and its id is used to access its underlying holden
+storage in <code class="docutils literal notranslate"><span class="pre">Registry</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">GvizGraph</span></code> is what puts all other components together along with
+helper methods, consisting of <code class="docutils literal notranslate"><span class="pre">Graph</span></code> data structure itself (which
+contains its registry) and a <code class="docutils literal notranslate"><span class="pre">registry</span> <span class="pre">entity</span> <span class="pre">proxy</span></code> (same registry
+methods that don’t take an entity id and forward the args along with
+<code class="docutils literal notranslate"><span class="pre">entity</span> <span class="pre">id</span></code> given at construction to the shared registry container at
+<code class="docutils literal notranslate"><span class="pre">graph</span></code>) for each entity type (node, edge, cluster) that hold global
+values for an <code class="docutils literal notranslate"><span class="pre">Attribute</span></code>, which according to graphviz is used for an
+entity when that <code class="docutils literal notranslate"><span class="pre">Attribute</span></code> isn’t set for an entity of same type.</p>
+<p><code class="docutils literal notranslate"><span class="pre">Graph</span></code> is the data structure holding the hierarchy of the graph,
+having nodes, edges (which connect two nodes to each other), and cluster
+(which can contain zero or more nodes but two clusters never share a
+node). the <code class="docutils literal notranslate"><span class="pre">Graph</span></code> is also in charge of holding its <code class="docutils literal notranslate"><span class="pre">Registry</span></code> and
+provide access/modifier methods to get/set/remove an <code class="docutils literal notranslate"><span class="pre">Attribute</span></code>
+from/to an entity.</p>
+<p><code class="docutils literal notranslate"><span class="pre">Registry</span></code> is a set of entities each with a unique id mapped to
+limited or unlimited set of types which are accessed/modifed by a pair
+of <code class="docutils literal notranslate"><span class="pre">entity</span> <span class="pre">id</span></code> and <code class="docutils literal notranslate"><span class="pre">value</span> <span class="pre">type</span></code> (thus an entity can’t contain two
+values for same type). this <code class="docutils literal notranslate"><span class="pre">type</span></code> is commonly an <code class="docutils literal notranslate"><span class="pre">Attribute</span></code>, but
+it’s not enforced and it’s up to renderer what types to accepts and how
+behave about it.</p>
+<p>an <code class="docutils literal notranslate"><span class="pre">Attribute</span></code> supposedly defines appearance of an entity and consists
+of a name, a default value and the set value, the type of this value is
+an <code class="docutils literal notranslate"><span class="pre">AttributeType</span></code>. the type can be variant and accept serveral
+<code class="docutils literal notranslate"><span class="pre">AttributeTypes</span></code>. The resulting appearance after render is up to
+renderer and this library doesn’t guarantee that.</p>
+<p>(this library provides all attributes defined in graphviz documentation)</p>
+<p><code class="docutils literal notranslate"><span class="pre">AttributeType</span></code> is a type that is used by an <code class="docutils literal notranslate"><span class="pre">Attribute</span></code> to define
+appearance of an entity. such as <code class="docutils literal notranslate"><span class="pre">Style</span></code>, <code class="docutils literal notranslate"><span class="pre">Shape</span></code> or <code class="docutils literal notranslate"><span class="pre">Color</span></code>.</p>
+<p>(this library provides all attrtibute types defined in graphviz
+documentation)</p>
+</section>
+<section id="general-utilities">
+<h2>General utilities:<a class="headerlink" href="#general-utilities" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Color</span></code>: <code class="docutils literal notranslate"><span class="pre">RGB</span></code>, <code class="docutils literal notranslate"><span class="pre">RGBA</span></code>, <code class="docutils literal notranslate"><span class="pre">HSV</span></code> colors and <code class="docutils literal notranslate"><span class="pre">X11Color</span></code>,
+<code class="docutils literal notranslate"><span class="pre">SGVColor</span></code> color schemes. all convertible to each other using
+<code class="docutils literal notranslate"><span class="pre">Converter</span></code> utility.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Converter</span></code>: one-way conversion interface/struct where to
+conversion of type <code class="docutils literal notranslate"><span class="pre">T</span></code> to type <code class="docutils literal notranslate"><span class="pre">U</span></code> can be defined by writing a
+template specification of it and defining <code class="docutils literal notranslate"><span class="pre">convert</span></code> method which
+can be overloaded too.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">EnumHelper</span></code>: a reflection-like utility to get an enum value by its
+underlying value, field name, or index. also vice versa.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LambdaVisitor</span></code>: a simple utility that takes one or more lambda (or
+any struct/class based callable, not function) instances, and makes a
+single overloaded callable. it comes very handy when dealing with
+<code class="docutils literal notranslate"><span class="pre">std::variant</span></code> by <code class="docutils literal notranslate"><span class="pre">std::visit</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LambdaVisit</span></code>: takes a visitable and one or more callables that
+<code class="docutils literal notranslate"><span class="pre">LambdaVisitor</span></code> accepts and returns
+<code class="docutils literal notranslate"><span class="pre">std::visit(LambdaVisitor{</span> <span class="pre">callables...</span> <span class="pre">},</span> <span class="pre">visitable)</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">OptionalRef</span></code>: a <code class="docutils literal notranslate"><span class="pre">std::optional&lt;T&amp;&gt;</span></code>, taking a <code class="docutils literal notranslate"><span class="pre">T</span></code> and holding
+a pointer to its original address or <code class="docutils literal notranslate"><span class="pre">nulloptref</span></code> to hold a null
+pointer.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Contract</span></code>: a monad-like single container that holds a value that
+satisfies a given predicate. used as
+<code class="docutils literal notranslate"><span class="pre">Contract&lt;T,</span> <span class="pre">auto</span> <span class="pre">callable_predicate&gt;</span></code>.</p></li>
+</ul>
+</section>
+<section id="template-meta-programming-utilites">
+<h2>Template Meta-Programming utilites:<a class="headerlink" href="#template-meta-programming-utilites" title="Permalink to this headline"></a></h2>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_unique&lt;typename</span> <span class="pre">...Types&gt;</span></code>: checks each type <code class="docutils literal notranslate"><span class="pre">T</span></code> in
+<code class="docutils literal notranslate"><span class="pre">Types</span></code> against all other type <code class="docutils literal notranslate"><span class="pre">U</span></code> in <code class="docutils literal notranslate"><span class="pre">Types</span></code> by
+<code class="docutils literal notranslate"><span class="pre">!std::is_same_v&lt;T,</span> <span class="pre">U&gt;</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_unique&lt;typename</span> <span class="pre">Base,</span> <span class="pre">typename</span> <span class="pre">...Types&gt;</span></code>:</p>
+<p>all <code class="docutils literal notranslate"><span class="pre">T</span></code> from Types must satisfy <code class="docutils literal notranslate"><span class="pre">std::is_base_of&lt;Base,</span> <span class="pre">T&gt;</span></code></p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">always&lt;typename</span> <span class="pre">T&gt;</span></code>: having <code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">f</span> <span class="pre">=</span> <span class="pre">always&lt;int&gt;{42};</span></code>, calling
+f by any argument returns <code class="docutils literal notranslate"><span class="pre">42</span></code>, <code class="docutils literal notranslate"><span class="pre">f(x)</span> <span class="pre">==</span> <span class="pre">42</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Expandable&lt;typename</span> <span class="pre">...Ts&gt;</span></code>: provides
+<code class="docutils literal notranslate"><span class="pre">expand_for_t&lt;Consumer,</span> <span class="pre">...Us&gt;</span></code> which makes the type
+<code class="docutils literal notranslate"><span class="pre">Consumer&lt;Ts...,</span> <span class="pre">Us...&gt;</span></code>. similarly <code class="docutils literal notranslate"><span class="pre">rexpand_for_t</span></code> makes
+<code class="docutils literal notranslate"><span class="pre">Consumer&lt;Us...,</span> <span class="pre">Ts...&gt;</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">TypeInfo&lt;typename</span> <span class="pre">T,</span> <span class="pre">typename</span> <span class="pre">...Ts&gt;</span></code>: contains types
+<code class="docutils literal notranslate"><span class="pre">first</span> <span class="pre">=</span> <span class="pre">T</span></code> and constexpr static value
+<code class="docutils literal notranslate"><span class="pre">rest</span> <span class="pre">=</span> <span class="pre">TypeInfo&lt;Ts...&gt;{}</span></code>, along with
+<code class="docutils literal notranslate"><span class="pre">size</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">+</span> <span class="pre">sizeof...(Ts)</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">MixTypeInfo&lt;typename</span> <span class="pre">...TypeInfos&gt;</span></code>: combines several
+<code class="docutils literal notranslate"><span class="pre">TypeInfo&lt;...Ts&gt;</span></code> into a single <code class="docutils literal notranslate"><span class="pre">TypeInfo</span></code>. for example
+<code class="docutils literal notranslate"><span class="pre">MixTypeInfo&lt;TypeInfo&lt;A,</span> <span class="pre">B,</span> <span class="pre">C&gt;,</span> <span class="pre">TypeInfo&lt;D,</span> <span class="pre">E&gt;,</span> <span class="pre">TypeInfo&lt;F&gt;&gt;::type</span></code>
+is same as <code class="docutils literal notranslate"><span class="pre">TypeInfo&lt;A,</span> <span class="pre">B,</span> <span class="pre">C,</span> <span class="pre">D,</span> <span class="pre">E,</span> <span class="pre">F&gt;</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">PackDrop&lt;std::size_t</span> <span class="pre">I,</span> <span class="pre">typename</span> <span class="pre">...Ts&gt;</span></code>: drops <code class="docutils literal notranslate"><span class="pre">I</span></code> many types
+from <code class="docutils literal notranslate"><span class="pre">Ts...</span></code> and storing the rest as <code class="docutils literal notranslate"><span class="pre">type</span> <span class="pre">=</span> <span class="pre">TypeInfo&lt;Us...&gt;</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">find_type_index_in&lt;typename</span> <span class="pre">X,</span> <span class="pre">typename</span> <span class="pre">...Ts&gt;</span></code>: finds index of
+<code class="docutils literal notranslate"><span class="pre">X</span></code> in <code class="docutils literal notranslate"><span class="pre">Ts...</span></code> plus 1, having 0 reserved as not found.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">has_type_in&lt;typename</span> <span class="pre">X,</span> <span class="pre">typename</span> <span class="pre">...Ts&gt;</span></code>: checks if <code class="docutils literal notranslate"><span class="pre">X</span></code> is in
+<code class="docutils literal notranslate"><span class="pre">Ts...</span></code>.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="libgvizard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="demonstration.html" class="btn btn-neutral float-right" title="A Simple Usage Example (Complete Graph and Dot Generator)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

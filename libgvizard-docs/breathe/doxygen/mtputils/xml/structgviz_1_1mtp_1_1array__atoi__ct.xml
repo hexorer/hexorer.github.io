@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1array__atoi__ct" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::array_atoi_ct</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>std::size_t</type>
+        <declname>StartI</declname>
+        <defname>StartI</defname>
+      </param>
+      <param>
+        <type>std::size_t</type>
+        <declname>EndI</declname>
+        <defname>EndI</defname>
+      </param>
+      <param>
+        <type>std::size_t</type>
+        <declname>StepI</declname>
+        <defname>StepI</defname>
+        <defval>1</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1mtp_1_1array__atoi__ct_1a122a0dfe06c5015b9e6fcb8edc7d3af9" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::mtp::array_atoi_ct&lt; T, StartI, EndI, StepI &gt;::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>gviz::mtp::array_atoi_ct::size</qualifiedname>
+        <initializer>= (EndI - StartI) / StepI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="176" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1mtp_1_1array__atoi__ct_1af78c5d7a4db3135119ba7e79f4248181" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T gviz::mtp::array_atoi_ct&lt; T, StartI, EndI, StepI &gt;::array[size]</definition>
+        <argsstring>[size]</argsstring>
+        <name>array</name>
+        <qualifiedname>gviz::mtp::array_atoi_ct::array</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="178" column="5" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1mtp_1_1array__atoi__ct_1a5096c62a1873c3fc64d768cd287ad877" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::mtp::array_atoi_ct&lt; T, StartI, EndI, StepI &gt;::array_atoi_ct</definition>
+        <argsstring>()</argsstring>
+        <name>array_atoi_ct</name>
+        <qualifiedname>gviz::mtp::array_atoi_ct::array_atoi_ct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="180" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="180" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="175" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="175" bodyend="185"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1af78c5d7a4db3135119ba7e79f4248181" prot="public" virt="non-virtual"><scope>gviz::mtp::array_atoi_ct</scope><name>array</name></member>
+      <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1a5096c62a1873c3fc64d768cd287ad877" prot="public" virt="non-virtual"><scope>gviz::mtp::array_atoi_ct</scope><name>array_atoi_ct</name></member>
+      <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1a122a0dfe06c5015b9e6fcb8edc7d3af9" prot="public" virt="non-virtual"><scope>gviz::mtp::array_atoi_ct</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

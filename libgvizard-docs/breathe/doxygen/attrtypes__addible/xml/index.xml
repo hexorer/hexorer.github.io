@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_add_double" kind="struct"><name>gviz::attrtypes::AddDouble</name>
+    <member refid="structgviz_1_1attrtypes_1_1_add_double_1a5d4b13e2eebf7811196f3b8ed441d849" kind="function"><name>Addible</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_addible" kind="struct"><name>gviz::attrtypes::Addible</name>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1aa35e204ebdcd93a95f834f1e6e33eab3" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1add3d6526acd68b0468afaef9035001ad" kind="variable"><name>value</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1ae72fc6e80a8d196774d2d1edd0ac7cf4" kind="variable"><name>addible</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1a5d4b13e2eebf7811196f3b8ed441d849" kind="function"><name>Addible</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1ab603cb6d3cf9a8cbee274fb485c547d5" kind="function"><name>map</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1a90b4f230b0354cafb29560da00749ee1" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1a4c980334597be4eaa10ed22cc94db9b6" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1a7ccf12ad190ee7c49d7035568748b15e" kind="function"><name>operator value_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_addible_1a7e5e617b65703a36f94df22c29f7580c" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5dd" kind="enum"><name>AddibleSign</name></member>
+    <member refid="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5dda5da248ea6840aca1ae2b417b17982a89" kind="enumvalue"><name>neutral</name></member>
+    <member refid="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5ddad52916dd7b79d79e1fb9dcd7fe0163bd" kind="enumvalue"><name>addible</name></member>
+  </compound>
+  <compound refid="addible_8hpp" kind="file"><name>addible.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

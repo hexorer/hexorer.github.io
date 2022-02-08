@@ -1,0 +1,857 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="attrs_8hpp" kind="file" language="C++">
+    <compoundname>attrs.hpp</compoundname>
+    <includes local="no">gvizard/attrs/area.hpp</includes>
+    <includes local="no">gvizard/attrs/arrow_related.hpp</includes>
+    <includes local="no">gvizard/attrs/bgcolor.hpp</includes>
+    <includes local="no">gvizard/attrs/boundingbox.hpp</includes>
+    <includes local="no">gvizard/attrs/center.hpp</includes>
+    <includes local="no">gvizard/attrs/charset.hpp</includes>
+    <includes local="no">gvizard/attrs/clazz.hpp</includes>
+    <includes local="no">gvizard/attrs/clusterrank.hpp</includes>
+    <includes local="no">gvizard/attrs/color.hpp</includes>
+    <includes local="no">gvizard/attrs/colorscheme.hpp</includes>
+    <includes local="no">gvizard/attrs/comment.hpp</includes>
+    <includes local="no">gvizard/attrs/compound.hpp</includes>
+    <includes local="no">gvizard/attrs/concentrate.hpp</includes>
+    <includes local="no">gvizard/attrs/constraint.hpp</includes>
+    <includes local="no">gvizard/attrs/damping.hpp</includes>
+    <includes local="no">gvizard/attrs/decorate.hpp</includes>
+    <includes local="no">gvizard/attrs/defaultdist.hpp</includes>
+    <includes local="no">gvizard/attrs/dim.hpp</includes>
+    <includes local="no">gvizard/attrs/dimen.hpp</includes>
+    <includes local="no">gvizard/attrs/dir.hpp</includes>
+    <includes local="no">gvizard/attrs/distortion.hpp</includes>
+    <includes local="no">gvizard/attrs/dpi.hpp</includes>
+    <includes local="no">gvizard/attrs/edge_related.hpp</includes>
+    <includes local="no">gvizard/attrs/epsilon.hpp</includes>
+    <includes local="no">gvizard/attrs/esep.hpp</includes>
+    <includes local="no">gvizard/attrs/fillcolor.hpp</includes>
+    <includes local="no">gvizard/attrs/fixedsize.hpp</includes>
+    <includes local="no">gvizard/attrs/font_related.hpp</includes>
+    <includes local="no">gvizard/attrs/forcelabels.hpp</includes>
+    <includes local="no">gvizard/attrs/gradientangle.hpp</includes>
+    <includes local="no">gvizard/attrs/group.hpp</includes>
+    <includes local="no">gvizard/attrs/head_related.hpp</includes>
+    <includes local="no">gvizard/attrs/height.hpp</includes>
+    <includes local="no">gvizard/attrs/href.hpp</includes>
+    <includes local="no">gvizard/attrs/id.hpp</includes>
+    <includes local="no">gvizard/attrs/image_related.hpp</includes>
+    <includes local="no">gvizard/attrs/inputscale.hpp</includes>
+    <includes local="no">gvizard/attrs/k.hpp</includes>
+    <includes local="no">gvizard/attrs/label_related.hpp</includes>
+    <includes local="no">gvizard/attrs/landscape.hpp</includes>
+    <includes local="no">gvizard/attrs/layer_related.hpp</includes>
+    <includes local="no">gvizard/attrs/layout.hpp</includes>
+    <includes local="no">gvizard/attrs/len.hpp</includes>
+    <includes local="no">gvizard/attrs/level_related.hpp</includes>
+    <includes local="no">gvizard/attrs/logical_related.hpp</includes>
+    <includes local="no">gvizard/attrs/margin.hpp</includes>
+    <includes local="no">gvizard/attrs/maxiter.hpp</includes>
+    <includes local="no">gvizard/attrs/mclimit.hpp</includes>
+    <includes local="no">gvizard/attrs/mindist.hpp</includes>
+    <includes local="no">gvizard/attrs/minlen.hpp</includes>
+    <includes local="no">gvizard/attrs/mode.hpp</includes>
+    <includes local="no">gvizard/attrs/model.hpp</includes>
+    <includes local="no">gvizard/attrs/mosek.hpp</includes>
+    <includes local="no">gvizard/attrs/newrank.hpp</includes>
+    <includes local="no">gvizard/attrs/nodesep.hpp</includes>
+    <includes local="no">gvizard/attrs/nojustify.hpp</includes>
+    <includes local="no">gvizard/attrs/normalize.hpp</includes>
+    <includes local="no">gvizard/attrs/notranslate.hpp</includes>
+    <includes local="no">gvizard/attrs/nslimit.hpp</includes>
+    <includes local="no">gvizard/attrs/nslimit1.hpp</includes>
+    <includes local="no">gvizard/attrs/ordering.hpp</includes>
+    <includes local="no">gvizard/attrs/orientation.hpp</includes>
+    <includes local="no">gvizard/attrs/outputorder.hpp</includes>
+    <includes local="no">gvizard/attrs/overlap_related.hpp</includes>
+    <includes local="no">gvizard/attrs/pack.hpp</includes>
+    <includes local="no">gvizard/attrs/packmode.hpp</includes>
+    <includes local="no">gvizard/attrs/pad.hpp</includes>
+    <includes local="no">gvizard/attrs/page.hpp</includes>
+    <includes local="no">gvizard/attrs/pagedir.hpp</includes>
+    <includes local="no">gvizard/attrs/pencolor.hpp</includes>
+    <includes local="no">gvizard/attrs/penwidth.hpp</includes>
+    <includes local="no">gvizard/attrs/peripheries.hpp</includes>
+    <includes local="no">gvizard/attrs/pin.hpp</includes>
+    <includes local="no">gvizard/attrs/pos.hpp</includes>
+    <includes local="no">gvizard/attrs/quadtree.hpp</includes>
+    <includes local="no">gvizard/attrs/quantum.hpp</includes>
+    <includes local="no">gvizard/attrs/rank.hpp</includes>
+    <includes local="no">gvizard/attrs/rankdir.hpp</includes>
+    <includes local="no">gvizard/attrs/ranksep.hpp</includes>
+    <includes local="no">gvizard/attrs/ratio.hpp</includes>
+    <includes local="no">gvizard/attrs/rects.hpp</includes>
+    <includes local="no">gvizard/attrs/regular.hpp</includes>
+    <includes local="no">gvizard/attrs/remincross.hpp</includes>
+    <includes local="no">gvizard/attrs/repulsiveforce.hpp</includes>
+    <includes local="no">gvizard/attrs/resolution.hpp</includes>
+    <includes local="no">gvizard/attrs/root.hpp</includes>
+    <includes local="no">gvizard/attrs/rotate.hpp</includes>
+    <includes local="no">gvizard/attrs/rotation.hpp</includes>
+    <includes local="no">gvizard/attrs/samehead.hpp</includes>
+    <includes local="no">gvizard/attrs/sametail.hpp</includes>
+    <includes local="no">gvizard/attrs/samplepoints.hpp</includes>
+    <includes local="no">gvizard/attrs/scale.hpp</includes>
+    <includes local="no">gvizard/attrs/searchsize.hpp</includes>
+    <includes local="no">gvizard/attrs/sep.hpp</includes>
+    <includes local="no">gvizard/attrs/shadowboxes.hpp</includes>
+    <includes local="no">gvizard/attrs/shape.hpp</includes>
+    <includes local="no">gvizard/attrs/shapefile.hpp</includes>
+    <includes local="no">gvizard/attrs/sides.hpp</includes>
+    <includes local="no">gvizard/attrs/size.hpp</includes>
+    <includes local="no">gvizard/attrs/skew.hpp</includes>
+    <includes local="no">gvizard/attrs/smoothing.hpp</includes>
+    <includes local="no">gvizard/attrs/sortv.hpp</includes>
+    <includes local="no">gvizard/attrs/splines.hpp</includes>
+    <includes local="no">gvizard/attrs/start.hpp</includes>
+    <includes local="no">gvizard/attrs/style.hpp</includes>
+    <includes local="no">gvizard/attrs/stylesheet.hpp</includes>
+    <includes local="no">gvizard/attrs/tail_related.hpp</includes>
+    <includes local="no">gvizard/attrs/target.hpp</includes>
+    <includes local="no">gvizard/attrs/tooltip.hpp</includes>
+    <includes local="no">gvizard/attrs/truecolor.hpp</includes>
+    <includes local="no">gvizard/attrs/url.hpp</includes>
+    <includes local="no">gvizard/attrs/vertices.hpp</includes>
+    <includes local="no">gvizard/attrs/viewport.hpp</includes>
+    <includes local="no">gvizard/attrs/voro_margin.hpp</includes>
+    <includes local="no">gvizard/attrs/weight.hpp</includes>
+    <includes local="no">gvizard/attrs/width.hpp</includes>
+    <includes local="no">gvizard/attrs/xdotversion.hpp</includes>
+    <includes local="no">gvizard/attrs/xlabel.hpp</includes>
+    <includes local="no">gvizard/attrs/z.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs.hpp</label>
+        <link refid="attrs_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gvizard/attrs/area.hpp</label>
+      </node>
+      <node id="3">
+        <label>gvizard/attrs/arrow_related.hpp</label>
+      </node>
+      <node id="4">
+        <label>gvizard/attrs/bgcolor.hpp</label>
+      </node>
+      <node id="5">
+        <label>gvizard/attrs/boundingbox.hpp</label>
+      </node>
+      <node id="6">
+        <label>gvizard/attrs/center.hpp</label>
+      </node>
+      <node id="7">
+        <label>gvizard/attrs/charset.hpp</label>
+      </node>
+      <node id="8">
+        <label>gvizard/attrs/clazz.hpp</label>
+      </node>
+      <node id="9">
+        <label>gvizard/attrs/clusterrank.hpp</label>
+      </node>
+      <node id="10">
+        <label>gvizard/attrs/color.hpp</label>
+      </node>
+      <node id="11">
+        <label>gvizard/attrs/colorscheme.hpp</label>
+      </node>
+      <node id="12">
+        <label>gvizard/attrs/comment.hpp</label>
+      </node>
+      <node id="13">
+        <label>gvizard/attrs/compound.hpp</label>
+      </node>
+      <node id="14">
+        <label>gvizard/attrs/concentrate.hpp</label>
+      </node>
+      <node id="15">
+        <label>gvizard/attrs/constraint.hpp</label>
+      </node>
+      <node id="16">
+        <label>gvizard/attrs/damping.hpp</label>
+      </node>
+      <node id="17">
+        <label>gvizard/attrs/decorate.hpp</label>
+      </node>
+      <node id="18">
+        <label>gvizard/attrs/defaultdist.hpp</label>
+      </node>
+      <node id="19">
+        <label>gvizard/attrs/dim.hpp</label>
+      </node>
+      <node id="20">
+        <label>gvizard/attrs/dimen.hpp</label>
+      </node>
+      <node id="21">
+        <label>gvizard/attrs/dir.hpp</label>
+      </node>
+      <node id="22">
+        <label>gvizard/attrs/distortion.hpp</label>
+      </node>
+      <node id="23">
+        <label>gvizard/attrs/dpi.hpp</label>
+      </node>
+      <node id="24">
+        <label>gvizard/attrs/edge_related.hpp</label>
+      </node>
+      <node id="25">
+        <label>gvizard/attrs/epsilon.hpp</label>
+      </node>
+      <node id="26">
+        <label>gvizard/attrs/esep.hpp</label>
+      </node>
+      <node id="27">
+        <label>gvizard/attrs/fillcolor.hpp</label>
+      </node>
+      <node id="28">
+        <label>gvizard/attrs/fixedsize.hpp</label>
+      </node>
+      <node id="29">
+        <label>gvizard/attrs/font_related.hpp</label>
+      </node>
+      <node id="30">
+        <label>gvizard/attrs/forcelabels.hpp</label>
+      </node>
+      <node id="31">
+        <label>gvizard/attrs/gradientangle.hpp</label>
+      </node>
+      <node id="32">
+        <label>gvizard/attrs/group.hpp</label>
+      </node>
+      <node id="33">
+        <label>gvizard/attrs/head_related.hpp</label>
+      </node>
+      <node id="34">
+        <label>gvizard/attrs/height.hpp</label>
+      </node>
+      <node id="35">
+        <label>gvizard/attrs/href.hpp</label>
+      </node>
+      <node id="36">
+        <label>gvizard/attrs/id.hpp</label>
+      </node>
+      <node id="37">
+        <label>gvizard/attrs/image_related.hpp</label>
+      </node>
+      <node id="38">
+        <label>gvizard/attrs/inputscale.hpp</label>
+      </node>
+      <node id="39">
+        <label>gvizard/attrs/k.hpp</label>
+      </node>
+      <node id="40">
+        <label>gvizard/attrs/label_related.hpp</label>
+      </node>
+      <node id="41">
+        <label>gvizard/attrs/landscape.hpp</label>
+      </node>
+      <node id="42">
+        <label>gvizard/attrs/layer_related.hpp</label>
+      </node>
+      <node id="43">
+        <label>gvizard/attrs/layout.hpp</label>
+      </node>
+      <node id="44">
+        <label>gvizard/attrs/len.hpp</label>
+      </node>
+      <node id="45">
+        <label>gvizard/attrs/level_related.hpp</label>
+      </node>
+      <node id="46">
+        <label>gvizard/attrs/logical_related.hpp</label>
+      </node>
+      <node id="47">
+        <label>gvizard/attrs/margin.hpp</label>
+      </node>
+      <node id="48">
+        <label>gvizard/attrs/maxiter.hpp</label>
+      </node>
+      <node id="49">
+        <label>gvizard/attrs/mclimit.hpp</label>
+      </node>
+      <node id="50">
+        <label>gvizard/attrs/mindist.hpp</label>
+      </node>
+      <node id="51">
+        <label>gvizard/attrs/minlen.hpp</label>
+      </node>
+      <node id="52">
+        <label>gvizard/attrs/mode.hpp</label>
+      </node>
+      <node id="53">
+        <label>gvizard/attrs/model.hpp</label>
+      </node>
+      <node id="54">
+        <label>gvizard/attrs/mosek.hpp</label>
+      </node>
+      <node id="55">
+        <label>gvizard/attrs/newrank.hpp</label>
+      </node>
+      <node id="56">
+        <label>gvizard/attrs/nodesep.hpp</label>
+      </node>
+      <node id="57">
+        <label>gvizard/attrs/nojustify.hpp</label>
+      </node>
+      <node id="58">
+        <label>gvizard/attrs/normalize.hpp</label>
+      </node>
+      <node id="59">
+        <label>gvizard/attrs/notranslate.hpp</label>
+      </node>
+      <node id="60">
+        <label>gvizard/attrs/nslimit.hpp</label>
+      </node>
+      <node id="61">
+        <label>gvizard/attrs/nslimit1.hpp</label>
+      </node>
+      <node id="62">
+        <label>gvizard/attrs/ordering.hpp</label>
+      </node>
+      <node id="63">
+        <label>gvizard/attrs/orientation.hpp</label>
+      </node>
+      <node id="64">
+        <label>gvizard/attrs/outputorder.hpp</label>
+      </node>
+      <node id="65">
+        <label>gvizard/attrs/overlap_related.hpp</label>
+      </node>
+      <node id="66">
+        <label>gvizard/attrs/pack.hpp</label>
+      </node>
+      <node id="67">
+        <label>gvizard/attrs/packmode.hpp</label>
+      </node>
+      <node id="68">
+        <label>gvizard/attrs/pad.hpp</label>
+      </node>
+      <node id="69">
+        <label>gvizard/attrs/page.hpp</label>
+      </node>
+      <node id="70">
+        <label>gvizard/attrs/pagedir.hpp</label>
+      </node>
+      <node id="71">
+        <label>gvizard/attrs/pencolor.hpp</label>
+      </node>
+      <node id="72">
+        <label>gvizard/attrs/penwidth.hpp</label>
+      </node>
+      <node id="73">
+        <label>gvizard/attrs/peripheries.hpp</label>
+      </node>
+      <node id="74">
+        <label>gvizard/attrs/pin.hpp</label>
+      </node>
+      <node id="75">
+        <label>gvizard/attrs/pos.hpp</label>
+      </node>
+      <node id="76">
+        <label>gvizard/attrs/quadtree.hpp</label>
+      </node>
+      <node id="77">
+        <label>gvizard/attrs/quantum.hpp</label>
+      </node>
+      <node id="78">
+        <label>gvizard/attrs/rank.hpp</label>
+      </node>
+      <node id="79">
+        <label>gvizard/attrs/rankdir.hpp</label>
+      </node>
+      <node id="80">
+        <label>gvizard/attrs/ranksep.hpp</label>
+      </node>
+      <node id="81">
+        <label>gvizard/attrs/ratio.hpp</label>
+      </node>
+      <node id="82">
+        <label>gvizard/attrs/rects.hpp</label>
+      </node>
+      <node id="83">
+        <label>gvizard/attrs/regular.hpp</label>
+      </node>
+      <node id="84">
+        <label>gvizard/attrs/remincross.hpp</label>
+      </node>
+      <node id="85">
+        <label>gvizard/attrs/repulsiveforce.hpp</label>
+      </node>
+      <node id="86">
+        <label>gvizard/attrs/resolution.hpp</label>
+      </node>
+      <node id="87">
+        <label>gvizard/attrs/root.hpp</label>
+      </node>
+      <node id="88">
+        <label>gvizard/attrs/rotate.hpp</label>
+      </node>
+      <node id="89">
+        <label>gvizard/attrs/rotation.hpp</label>
+      </node>
+      <node id="90">
+        <label>gvizard/attrs/samehead.hpp</label>
+      </node>
+      <node id="91">
+        <label>gvizard/attrs/sametail.hpp</label>
+      </node>
+      <node id="92">
+        <label>gvizard/attrs/samplepoints.hpp</label>
+      </node>
+      <node id="93">
+        <label>gvizard/attrs/scale.hpp</label>
+      </node>
+      <node id="94">
+        <label>gvizard/attrs/searchsize.hpp</label>
+      </node>
+      <node id="95">
+        <label>gvizard/attrs/sep.hpp</label>
+      </node>
+      <node id="96">
+        <label>gvizard/attrs/shadowboxes.hpp</label>
+      </node>
+      <node id="97">
+        <label>gvizard/attrs/shape.hpp</label>
+      </node>
+      <node id="98">
+        <label>gvizard/attrs/shapefile.hpp</label>
+      </node>
+      <node id="99">
+        <label>gvizard/attrs/sides.hpp</label>
+      </node>
+      <node id="100">
+        <label>gvizard/attrs/size.hpp</label>
+      </node>
+      <node id="101">
+        <label>gvizard/attrs/skew.hpp</label>
+      </node>
+      <node id="102">
+        <label>gvizard/attrs/smoothing.hpp</label>
+      </node>
+      <node id="103">
+        <label>gvizard/attrs/sortv.hpp</label>
+      </node>
+      <node id="104">
+        <label>gvizard/attrs/splines.hpp</label>
+      </node>
+      <node id="105">
+        <label>gvizard/attrs/start.hpp</label>
+      </node>
+      <node id="106">
+        <label>gvizard/attrs/style.hpp</label>
+      </node>
+      <node id="107">
+        <label>gvizard/attrs/stylesheet.hpp</label>
+      </node>
+      <node id="108">
+        <label>gvizard/attrs/tail_related.hpp</label>
+      </node>
+      <node id="109">
+        <label>gvizard/attrs/target.hpp</label>
+      </node>
+      <node id="110">
+        <label>gvizard/attrs/tooltip.hpp</label>
+      </node>
+      <node id="111">
+        <label>gvizard/attrs/truecolor.hpp</label>
+      </node>
+      <node id="112">
+        <label>gvizard/attrs/url.hpp</label>
+      </node>
+      <node id="113">
+        <label>gvizard/attrs/vertices.hpp</label>
+      </node>
+      <node id="114">
+        <label>gvizard/attrs/viewport.hpp</label>
+      </node>
+      <node id="115">
+        <label>gvizard/attrs/voro_margin.hpp</label>
+      </node>
+      <node id="116">
+        <label>gvizard/attrs/weight.hpp</label>
+      </node>
+      <node id="117">
+        <label>gvizard/attrs/width.hpp</label>
+      </node>
+      <node id="118">
+        <label>gvizard/attrs/xdotversion.hpp</label>
+      </node>
+      <node id="119">
+        <label>gvizard/attrs/xlabel.hpp</label>
+      </node>
+      <node id="120">
+        <label>gvizard/attrs/z.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_ATTRS_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_ATTRS_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/area.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/arrow_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/bgcolor.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/boundingbox.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/center.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/charset.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/clazz.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/clusterrank.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/color.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/colorscheme.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/comment.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/compound.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/concentrate.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/constraint.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/damping.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/decorate.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/defaultdist.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/dim.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/dimen.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/dir.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/distortion.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/dpi.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/edge_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/epsilon.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/esep.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/fillcolor.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/fixedsize.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/font_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/forcelabels.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/gradientangle.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/group.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/head_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/height.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/href.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/id.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/image_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/inputscale.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/k.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/label_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/landscape.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/layer_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/layout.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/len.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/level_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/logical_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/margin.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/maxiter.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/mclimit.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/mindist.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/minlen.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/mode.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/model.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/mosek.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/newrank.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/nodesep.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/nojustify.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/normalize.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/notranslate.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/nslimit.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/nslimit1.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/ordering.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/orientation.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/outputorder.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/overlap_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pack.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/packmode.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pad.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/page.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pagedir.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pencolor.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/penwidth.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/peripheries.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pin.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/pos.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/quadtree.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/quantum.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/rank.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/rankdir.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/ranksep.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/ratio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/rects.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/regular.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/remincross.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/repulsiveforce.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/resolution.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/root.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/rotate.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/rotation.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/samehead.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/sametail.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/samplepoints.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/scale.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/searchsize.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/sep.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/shadowboxes.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/shape.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/shapefile.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/sides.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/size.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/skew.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/smoothing.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/sortv.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/splines.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/start.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/style.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/stylesheet.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/tail_related.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/target.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/tooltip.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/truecolor.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/url.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/vertices.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/viewport.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/voro_margin.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/weight.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/width.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/xdotversion.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/xlabel.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gvizard/attrs/z.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_ATTRS_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs.hpp"/>
+  </compounddef>
+</doxygen>

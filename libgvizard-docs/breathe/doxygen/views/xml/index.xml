@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1_callback_view" kind="class"><name>gviz::CallbackView</name>
+    <member refid="classgviz_1_1_callback_view_1a52657b745d2aa67925c203aee2d7bcc8" kind="typedef"><name>AdvanceCallback</name></member>
+    <member refid="classgviz_1_1_callback_view_1a9290bcdc6ac55c77a50bdaee6f6d28ab" kind="variable"><name>advance</name></member>
+    <member refid="classgviz_1_1_callback_view_1ae2e2f697c0dc40a311df71be0f81aba2" kind="variable"><name>init</name></member>
+    <member refid="classgviz_1_1_callback_view_1a42f23fabc6428ca99bfb03863b8dbc4d" kind="function"><name>CallbackView</name></member>
+    <member refid="classgviz_1_1_callback_view_1a66930da00b4d7397250d675029c410a9" kind="function"><name>CallbackView</name></member>
+    <member refid="classgviz_1_1_callback_view_1a096f6446e5863cfbab5b61a062098fec" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1_callback_view_1a2030234b842e7a04a3e4508b04bf7bdd" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1_callback_view_1a0fadf3e546e85cf1bc39800b17aca0ff" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1_callback_view_1a914af46f79029fb93553518b36ac3c5b" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1_callback_view_1a6795328e30c5f3bd1256f78d02a61415" kind="function"><name>end</name></member>
+  </compound>
+  <compound refid="classgviz_1_1_callback_view_iterator" kind="class"><name>gviz::CallbackViewIterator</name>
+    <member refid="classgviz_1_1_callback_view_iterator_1a06661875c0b41be5bb4f81f351b44d35" kind="typedef"><name>AdvanceCallback</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a9737c7fde3998e6490e0317b68fcde9c" kind="variable"><name>advance_</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a69fc5d3255ea451d6b85794b6cf6020a" kind="variable"><name>current_</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a36543eed8afd068e1c89a32365ac7ce6" kind="function"><name>CallbackViewIterator</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a3eb6c269062db906f636a7da003b21e8" kind="function"><name>CallbackViewIterator</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1aa48a7b5c743410e1900613e96f3ba07e" kind="function"><name>has_value</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a338fb23ff83b66798c233cda56d1a064" kind="function"><name>next</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1ab2cb30f261d0e1ecd610ce3679327bd9" kind="function"><name>next</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a2bb017316772f1d9ec097656e89d3214" kind="function"><name>operator++</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1acdfccb67ae250d69542d5e6b3bc5141e" kind="function"><name>operator++</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a9e9f19323476b7069318d22274bc5c33" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1a60918be0d5802790172a49d75c17cb95" kind="function"><name>operator*</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1aef749d82aae469bfb023e7968dd5d47d" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1aae95edb2b4b20f5856ae31cbab7f822b" kind="function"><name>operator!=</name></member>
+    <member refid="classgviz_1_1_callback_view_iterator_1ae7be5a4ea76d02b916d8efc4f415c7f3" kind="function"><name>operator bool</name></member>
+  </compound>
+  <compound refid="classgviz_1_1_iterator_view" kind="class"><name>gviz::IteratorView</name>
+    <member refid="classgviz_1_1_iterator_view_1afd91db35e58047c1d568531b08d14d7f" kind="typedef"><name>iter_t</name></member>
+    <member refid="classgviz_1_1_iterator_view_1a458a8d8d1223a167117fa01413cb14b4" kind="typedef"><name>sentinel_t</name></member>
+    <member refid="classgviz_1_1_iterator_view_1a50402825761ca78c8ae263633aa31f82" kind="variable"><name>iter_begin_</name></member>
+    <member refid="classgviz_1_1_iterator_view_1a11a796933db70a8b3b5b554d3ff710f6" kind="variable"><name>iter_end_</name></member>
+    <member refid="classgviz_1_1_iterator_view_1a680b6ade27eae51d1d18f834d7304c5c" kind="function"><name>IteratorView</name></member>
+    <member refid="classgviz_1_1_iterator_view_1a5977bfc708e1cec3532763980d3262c1" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1_iterator_view_1ab1c6761d677cc25295762a581764d3c1" kind="function"><name>end</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="views_8hpp" kind="file"><name>views.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

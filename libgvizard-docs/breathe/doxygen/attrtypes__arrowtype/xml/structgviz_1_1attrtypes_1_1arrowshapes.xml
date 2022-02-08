@@ -1,0 +1,818 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1arrowshapes" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::attrtypes::arrowshapes</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a0d44ca26c2f7ef44917f3fcf69e193b0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::none</definition>
+        <argsstring></argsstring>
+        <name>none</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::none</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::none
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="187" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1aac0979eb45182cc4e732a19c043b1e40" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::normal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="192" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a357f92086e5e23d7b731077403cc63bd" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::lnormal</definition>
+        <argsstring></argsstring>
+        <name>lnormal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::lnormal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="196" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ae4cd9a1d4528091e34532bf5c953addc" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rnormal</definition>
+        <argsstring></argsstring>
+        <name>rnormal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rnormal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="200" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ab4d3d06629dab0dedc0d7fa0b8b0a407" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::onormal</definition>
+        <argsstring></argsstring>
+        <name>onormal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::onormal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="204" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a7b8b0e62f9601c88f6c8bc405dd6d9a7" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::olnormal</definition>
+        <argsstring></argsstring>
+        <name>olnormal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::olnormal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="208" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a6091a0b8f31f2ed629249e80c23d530e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::ornormal</definition>
+        <argsstring></argsstring>
+        <name>ornormal</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::ornormal</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::normal, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="212" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a8d07a3ddf70f2c749151691fe490ed1d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::box</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="217" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a51ea187d7b9a3564f6b1884aa57cf66d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::lbox</definition>
+        <argsstring></argsstring>
+        <name>lbox</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::lbox</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="221" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1af59e87ec0eca6cf041e92df8410f3f61" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rbox</definition>
+        <argsstring></argsstring>
+        <name>rbox</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rbox</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="225" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a76c375d41c40eeb89070e0e9a3adc6c2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::obox</definition>
+        <argsstring></argsstring>
+        <name>obox</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::obox</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="229" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a9ae9c5d0a992a79fcd2a827bd4b0f06c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::olbox</definition>
+        <argsstring></argsstring>
+        <name>olbox</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::olbox</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box, { ArrowSide::left, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="233" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1adc115e461a0f1f16b8af45ac628aa08d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::orbox</definition>
+        <argsstring></argsstring>
+        <name>orbox</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::orbox</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::box, { ArrowSide::right, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="237" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a7d3cc88b37c2417b5c57c19f67f73a9e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::crow</definition>
+        <argsstring></argsstring>
+        <name>crow</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::crow</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::crow
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="242" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a14d5cf8ace36cb59d94f51c0ba274e16" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::lcrow</definition>
+        <argsstring></argsstring>
+        <name>lcrow</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::lcrow</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::crow, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="246" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ab3ba2159d8d55060b0c8699aea2eaf7f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rcrow</definition>
+        <argsstring></argsstring>
+        <name>rcrow</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rcrow</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::crow, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="250" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1abe29fdb65ade3be19b22e577805eb143" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::diamond</definition>
+        <argsstring></argsstring>
+        <name>diamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::diamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="255" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a3edffab7bd1413611f848839c00cfb5b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::ldiamond</definition>
+        <argsstring></argsstring>
+        <name>ldiamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::ldiamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="259" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a39d695716bf459d47a512d15e3cb0395" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rdiamond</definition>
+        <argsstring></argsstring>
+        <name>rdiamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rdiamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="263" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a9ff5aa556dd9c8407682159945ac94ef" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::odiamond</definition>
+        <argsstring></argsstring>
+        <name>odiamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::odiamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="267" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1aae7ed1b2f5a06de9621ac59a4b085562" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::oldiamond</definition>
+        <argsstring></argsstring>
+        <name>oldiamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::oldiamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond, { ArrowSide::left, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="271" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ac3493ada3ed07b92baf044a6ea849564" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::ordiamond</definition>
+        <argsstring></argsstring>
+        <name>ordiamond</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::ordiamond</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::diamond, { ArrowSide::right, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="275" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a328a4661a40fedcaba69ed82ae5ab2e0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::dot</definition>
+        <argsstring></argsstring>
+        <name>dot</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::dot</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::dot
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="280" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a3625a320452bec16db949ce034102b46" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::odot</definition>
+        <argsstring></argsstring>
+        <name>odot</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::odot</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::dot, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="284" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a3b7281c621bc9f67c3a25b3e65399f9a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::inv</definition>
+        <argsstring></argsstring>
+        <name>inv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::inv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="289" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a314dd5edea531a96d45a7e3f4637dcd4" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::linv</definition>
+        <argsstring></argsstring>
+        <name>linv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::linv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="293" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ae279c78ad437b57b6a57137dc95214ed" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rinv</definition>
+        <argsstring></argsstring>
+        <name>rinv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rinv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="297" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1aa57cff1b240a012d390bd088ae543b1a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::oinv</definition>
+        <argsstring></argsstring>
+        <name>oinv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::oinv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv, { ArrowSide::none, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="301" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a41a6b98f02caeb0f72dd4e26e6e5399b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::olinv</definition>
+        <argsstring></argsstring>
+        <name>olinv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::olinv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv, { ArrowSide::left, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="305" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1ab3f878b8a0b7789985070a9326010929" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::orinv</definition>
+        <argsstring></argsstring>
+        <name>orinv</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::orinv</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::inv, { ArrowSide::right, ArrowOpen::open }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="309" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a53d0e7ab178c7bb9f95af9e7075ca51a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::tee</definition>
+        <argsstring></argsstring>
+        <name>tee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::tee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::tee
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="314" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a3d31f3a99d21c63ad150e5ffb644c7f6" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::ltee</definition>
+        <argsstring></argsstring>
+        <name>ltee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::ltee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::tee, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="318" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a2e7223f3e8bcf445ce9a5c05f7a8b57f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rtee</definition>
+        <argsstring></argsstring>
+        <name>rtee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rtee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::tee, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="322" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a50f3121bd76bb97288f729c5eb005a4f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::vee</definition>
+        <argsstring></argsstring>
+        <name>vee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::vee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::vee
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="327" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a8cb30362cd6e832ecfff5746665894df" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::lvee</definition>
+        <argsstring></argsstring>
+        <name>lvee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::lvee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::vee, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="331" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a3d2cbd70fed94bc3fbff19ae1278637e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rvee</definition>
+        <argsstring></argsstring>
+        <name>rvee</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rvee</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::vee, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="335" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a12603f0d221d9170c21854ad49d619ad" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::curve</definition>
+        <argsstring></argsstring>
+        <name>curve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::curve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::curve
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="340" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a39253fd47e7603793e8e3788c1f42fe4" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::lcurve</definition>
+        <argsstring></argsstring>
+        <name>lcurve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::lcurve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::curve, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="344" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a6f77ec1a60312fe74896350ca99ec5ce" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::rcurve</definition>
+        <argsstring></argsstring>
+        <name>rcurve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::rcurve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::curve, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="348" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a7ac3c39ec976ece228151fbf4d13e3d5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::icurve</definition>
+        <argsstring></argsstring>
+        <name>icurve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::icurve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::icurve
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="353" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a7830b9a94b305cec93a1f7c629681d10" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::licurve</definition>
+        <argsstring></argsstring>
+        <name>licurve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::licurve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::icurve, { ArrowSide::left }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="357" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1arrowshapes_1a1dd1af53e7d3ce42f28bd2bc6f5c16e8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const <ref refid="structgviz_1_1attrtypes_1_1_arrow_shape" kindref="compound">ArrowShape</ref></type>
+        <definition>constexpr const ArrowShape gviz::attrtypes::arrowshapes::ricurve</definition>
+        <argsstring></argsstring>
+        <name>ricurve</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::ricurve</qualifiedname>
+        <initializer>= {
+    ArrowPrimaryShape::icurve, { ArrowSide::right }
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="361" column="44" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1arrowshapes_1ab7d92bd405cbd6a8db8e1d000872a0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrtypes::arrowshapes::arrowshapes</definition>
+        <argsstring>()=delete</argsstring>
+        <name>arrowshapes</name>
+        <qualifiedname>gviz::attrtypes::arrowshapes::arrowshapes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="184" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>gviz::attrtypes::ArrowModifier</label>
+        <link refid="structgviz_1_1attrtypes_1_1_arrow_modifier"/>
+      </node>
+      <node id="2">
+        <label>gviz::attrtypes::ArrowShape</label>
+        <link refid="structgviz_1_1attrtypes_1_1_arrow_shape"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>modifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gviz::attrtypes::arrowshapes</label>
+        <link refid="structgviz_1_1attrtypes_1_1arrowshapes"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>box</edgelabel>
+          <edgelabel>crow</edgelabel>
+          <edgelabel>curve</edgelabel>
+          <edgelabel>diamond</edgelabel>
+          <edgelabel>dot</edgelabel>
+          <edgelabel>icurve</edgelabel>
+          <edgelabel>inv</edgelabel>
+          <edgelabel>lbox</edgelabel>
+          <edgelabel>lcrow</edgelabel>
+          <edgelabel>lcurve</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" line="181" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/arrowtype.hpp" bodystart="181" bodyend="365"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab7d92bd405cbd6a8db8e1d000872a0b0" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>arrowshapes</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a8d07a3ddf70f2c749151691fe490ed1d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>box</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7d3cc88b37c2417b5c57c19f67f73a9e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>crow</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a12603f0d221d9170c21854ad49d619ad" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>curve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1abe29fdb65ade3be19b22e577805eb143" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>diamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a328a4661a40fedcaba69ed82ae5ab2e0" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>dot</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7ac3c39ec976ece228151fbf4d13e3d5" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>icurve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3b7281c621bc9f67c3a25b3e65399f9a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>inv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a51ea187d7b9a3564f6b1884aa57cf66d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>lbox</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a14d5cf8ace36cb59d94f51c0ba274e16" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>lcrow</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a39253fd47e7603793e8e3788c1f42fe4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>lcurve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3edffab7bd1413611f848839c00cfb5b" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>ldiamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7830b9a94b305cec93a1f7c629681d10" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>licurve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a314dd5edea531a96d45a7e3f4637dcd4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>linv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a357f92086e5e23d7b731077403cc63bd" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>lnormal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3d31f3a99d21c63ad150e5ffb644c7f6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>ltee</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a8cb30362cd6e832ecfff5746665894df" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>lvee</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a0d44ca26c2f7ef44917f3fcf69e193b0" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>none</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aac0979eb45182cc4e732a19c043b1e40" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>normal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a76c375d41c40eeb89070e0e9a3adc6c2" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>obox</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a9ff5aa556dd9c8407682159945ac94ef" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>odiamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3625a320452bec16db949ce034102b46" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>odot</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aa57cff1b240a012d390bd088ae543b1a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>oinv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a9ae9c5d0a992a79fcd2a827bd4b0f06c" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>olbox</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1aae7ed1b2f5a06de9621ac59a4b085562" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>oldiamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a41a6b98f02caeb0f72dd4e26e6e5399b" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>olinv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a7b8b0e62f9601c88f6c8bc405dd6d9a7" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>olnormal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab4d3d06629dab0dedc0d7fa0b8b0a407" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>onormal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1adc115e461a0f1f16b8af45ac628aa08d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>orbox</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ac3493ada3ed07b92baf044a6ea849564" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>ordiamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab3f878b8a0b7789985070a9326010929" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>orinv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a6091a0b8f31f2ed629249e80c23d530e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>ornormal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1af59e87ec0eca6cf041e92df8410f3f61" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rbox</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ab3ba2159d8d55060b0c8699aea2eaf7f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rcrow</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a6f77ec1a60312fe74896350ca99ec5ce" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rcurve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a39d695716bf459d47a512d15e3cb0395" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rdiamond</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a1dd1af53e7d3ce42f28bd2bc6f5c16e8" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>ricurve</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ae279c78ad437b57b6a57137dc95214ed" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rinv</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1ae4cd9a1d4528091e34532bf5c953addc" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rnormal</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a2e7223f3e8bcf445ce9a5c05f7a8b57f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rtee</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a3d2cbd70fed94bc3fbff19ae1278637e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>rvee</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a53d0e7ab178c7bb9f95af9e7075ca51a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>tee</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1arrowshapes_1a50f3121bd76bb97288f729c5eb005a4f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::arrowshapes</scope><name>vee</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

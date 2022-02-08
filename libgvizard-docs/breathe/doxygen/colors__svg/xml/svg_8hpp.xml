@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="svg_8hpp" kind="file" language="C++">
+    <compoundname>svg.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="yes">gvizard/utils.hpp</includes>
+    <includes local="yes">gvizard/colors/general.hpp</includes>
+    <includes local="yes">gvizard/colors/rgb.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp</label>
+        <link refid="svg_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="4">
+        <label>gvizard/colors/general.hpp</label>
+      </node>
+      <node id="5">
+        <label>gvizard/colors/rgb.hpp</label>
+      </node>
+      <node id="3">
+        <label>gvizard/utils.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgviz_1_1colors_1_1_s_v_g_color" prot="public">gviz::colors::SVGColor</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1colors">gviz::colors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_COLORS_SVG_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_COLORS_SVG_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/utils.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/general.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gvizard/colors/rgb.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::colors<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>SVGColorEnum<sp/>:<sp/>uint16_t<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>aliceblue,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>antiquewhite,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>aqua,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>aquamarine,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>azure,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>beige,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>bisque,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>black,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>blanchedalmond,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>blue,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>blueviolet,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>brown,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>burlywood,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>cadetblue,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>chartreuse,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>chocolate,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>coral,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>cornflowerblue,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>cornsilk,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>crimson,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>cyan,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>darkblue,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>darkcyan,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>darkgoldenrod,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>darkgray,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>darkgreen,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>darkgrey,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>darkkhaki,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>darkmagenta,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>darkolivegreen,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>darkorange,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>darkorchid,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>darkred,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>darksalmon,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>darkseagreen,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>darkslateblue,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>darkslategray,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>darkslategrey,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>darkturquoise,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>darkviolet,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>deeppink,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>deepskyblue,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>dimgray,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>dimgrey,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>dodgerblue,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>firebrick,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>floralwhite,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>forestgreen,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>fuchsia,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>gainsboro,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>ghostwhite,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>gold,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>goldenrod,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>gray,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>green,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>greenyellow,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>grey,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>honeydew,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>hotpink,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>indianred,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>indigo,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>ivory,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>khaki,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>lavender,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>lavenderblush,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>lawngreen,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>lemonchiffon,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>lightblue,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>lightcoral,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>lightcyan,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>lightgoldenrodyellow,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>lightgray,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>lightgreen,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>lightgrey,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>lightpink,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>lightsalmon,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>lightseagreen,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>lightskyblue,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>lightslategray,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>lightslategrey,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>lightsteelblue,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>lightyellow,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>lime,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>limegreen,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>linen,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>magenta,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>maroon,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>mediumaquamarine,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>mediumblue,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>mediumorchid,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>mediumpurple,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>mediumseagreen,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>mediumslateblue,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>mediumspringgreen,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>mediumturquoise,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>mediumvioletred,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>midnightblue,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>mintcream,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>mistyrose,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>moccasin,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>navajowhite,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>navy,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>oldlace,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>olive,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>olivedrab,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>orange,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>orangered,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>orchid,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>palegoldenrod,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>palegreen,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>paleturquoise,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>palevioletred,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>papayawhip,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>peachpuff,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>peru,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>pink,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>plum,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>powderblue,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>purple,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>red,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>rosybrown,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>royalblue,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>saddlebrown,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>salmon,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>sandybrown,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>seagreen,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>seashell,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>sienna,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>silver,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>skyblue,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>slateblue,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>slategray,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>slategrey,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>snow,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>springgreen,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>steelblue,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>tan,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>teal,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>thistle,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>tomato,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>turquoise,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>violet,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>wheat,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>white,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>whitesmoke,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>yellow,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>yellowgreen</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};<sp/><sp/></highlight><highlight class="comment">//<sp/>enum<sp/>class<sp/>SVGColorEnum<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163" refid="classgviz_1_1colors_1_1_s_v_g_color" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref><sp/>final<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>SVGColorEnum<sp/><sp/><sp/><sp/>index_;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>SchemeColor&lt;RGB&gt;<sp/>color_;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref>(SVGColorEnum<sp/>index)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>index_(index),<sp/>color_(list[uint16_t(index)])<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>{}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>SVGColorEnum<sp/><sp/><sp/><sp/><sp/>get_enum()<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index_;<sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>SchemeColor&lt;RGB&gt;<sp/>get_color()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>color_;<sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>SchemeColor&lt;RGB&gt;()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>color_;<sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_enum()<sp/>==<sp/>other.get_enum();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1colors_1_1_s_v_g_color" kindref="compound">SVGColor</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>get_enum()<sp/>!=<sp/>other.get_enum();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>SchemeColor&lt;RGB&gt;<sp/>list[]<sp/>=<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;aliceblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>240,248,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;antiquewhite&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>250,235,215<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;aqua&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,255,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;aquamarine&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>127,255,212<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;azure&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>240,255,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;beige&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>245,245,220<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;bisque&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,228,196<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;black&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,0<sp/><sp/>,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;blanchedalmond&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,235,205<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;blue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,0<sp/><sp/>,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;blueviolet&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>138,43<sp/>,226<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;brown&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>165,42<sp/>,42<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;burlywood&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>222,184,135<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cadetblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>95<sp/>,158,160<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;chartreuse&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>127,255,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;chocolate&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>210,105,30<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;coral&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,127,80<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cornflowerblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>100,149,237<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cornsilk&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,248,220<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;crimson&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>220,20<sp/>,60<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cyan&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,255,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,0<sp/><sp/>,139<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkcyan&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,139,139<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkgoldenrod&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>184,134,11<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkgray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>169,169,169<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,100,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkgrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>169,169,169<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkkhaki&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>189,183,107<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkmagenta&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>139,0<sp/><sp/>,139<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkolivegreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>85<sp/>,107,47<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkorange&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,140,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkorchid&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>153,50<sp/>,204<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkred&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>139,0<sp/><sp/>,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darksalmon&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>233,150,122<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkseagreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>143,188,143<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkslateblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>72<sp/>,61<sp/>,139<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkslategray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>47<sp/>,79<sp/>,79<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkslategrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>47<sp/>,79<sp/>,79<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkturquoise&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,206,209<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;darkviolet&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>148,0<sp/><sp/>,211<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deeppink&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,20<sp/>,147<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deepskyblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,191,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dimgray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>105,105,105<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dimgrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>105,105,105<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dodgerblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>30<sp/>,144,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;firebrick&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>178,34<sp/>,34<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;floralwhite&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,250,240<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;forestgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>34<sp/>,139,34<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;fuchsia&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,0<sp/><sp/>,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;gainsboro&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>220,220,220<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ghostwhite&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>248,248,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;gold&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,215,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;goldenrod&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>218,165,32<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;gray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>128,128,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;green&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,128,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;greenyellow&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>173,255,47<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;grey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>128,128,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;honeydew&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>240,255,240<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;hotpink&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,105,180<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;indianred&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>205,92<sp/>,92<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;indigo&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>75<sp/>,0<sp/><sp/>,130<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ivory&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,255,240<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;khaki&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>240,230,140<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lavender&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>230,230,250<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lavenderblush&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,240,245<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lawngreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>124,252,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lemonchiffon&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,250,205<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>173,216,230<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightcoral&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>240,128,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightcyan&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>224,255,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightgoldenrodyellow&quot;</highlight><highlight class="normal"><sp/>,<sp/>RGB{<sp/>250,250,210<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightgray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>211,211,211<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>144,238,144<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightgrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>211,211,211<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightpink&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,182,193<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightsalmon&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,160,122<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightseagreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>32<sp/>,178,170<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightskyblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>135,206,250<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightslategray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>119,136,153<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightslategrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>119,136,153<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightsteelblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>176,196,222<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lightyellow&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,255,224<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lime&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,255,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;limegreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>50<sp/>,205,50<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;linen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>250,240,230<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;magenta&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,0<sp/><sp/>,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;maroon&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>128,0<sp/><sp/>,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumaquamarine&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>102,205,170<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,0<sp/><sp/>,205<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumorchid&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>186,85<sp/>,211<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumpurple&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>147,112,219<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumseagreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>60<sp/>,179,113<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumslateblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>123,104,238<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumspringgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,250,154<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumturquoise&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>72<sp/>,209,204<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mediumvioletred&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>199,21<sp/>,133<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;midnightblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>25<sp/>,25<sp/>,112<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mintcream&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>245,255,250<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mistyrose&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,228,225<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;moccasin&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,228,181<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;navajowhite&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,222,173<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;navy&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,0<sp/><sp/>,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;oldlace&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>253,245,230<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;olive&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>128,128,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;olivedrab&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>107,142,35<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;orange&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,165,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;orangered&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,69<sp/>,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;orchid&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>218,112,214<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;palegoldenrod&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>238,232,170<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;palegreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>152,251,152<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;paleturquoise&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>175,238,238<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;palevioletred&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>219,112,147<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;papayawhip&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,239,213<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;peachpuff&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,218,185<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;peru&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>205,133,63<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;pink&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,192,203<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;plum&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>221,160,221<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;powderblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>176,224,230<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;purple&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>128,0<sp/><sp/>,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;red&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,0<sp/><sp/>,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;rosybrown&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>188,143,143<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;royalblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>65<sp/>,105,225<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;saddlebrown&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>139,69<sp/>,19<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;salmon&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>250,128,114<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sandybrown&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>244,164,96<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;seagreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>46<sp/>,139,87<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;seashell&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,245,238<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sienna&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>160,82<sp/>,45<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;silver&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>192,192,192<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;skyblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>135,206,235<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slateblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>106,90<sp/>,205<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slategray&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>112,128,144<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slategrey&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>112,128,144<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;snow&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,250,250<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;springgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,255,127<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;steelblue&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>70<sp/>,130,180<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tan&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>210,180,140<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;teal&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>0<sp/><sp/>,128,128<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;thistle&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>216,191,216<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tomato&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,99<sp/>,71<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;turquoise&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>64<sp/>,224,208<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;violet&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>238,130,238<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;wheat&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>245,222,179<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;white&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,255,255<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;whitesmoke&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>245,245,245<sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;yellow&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>255,255,0<sp/><sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>},</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;yellowgreen&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/>RGB{<sp/>154,205,50<sp/><sp/>},<sp/>SchemeEnum::SVG<sp/>}</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">};<sp/><sp/></highlight><highlight class="comment">//<sp/>struct<sp/>SVGColor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz::colors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_COLORS_SVG_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp"/>
+  </compounddef>
+</doxygen>

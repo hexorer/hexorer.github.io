@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="hsv_8hpp" kind="file" language="C++">
+    <compoundname>hsv.hpp</compoundname>
+    <includes local="no">stdexcept</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/hsv.hpp</label>
+        <link refid="hsv_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>optional</label>
+      </node>
+      <node id="2">
+        <label>stdexcept</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1colors_1_1_h_s_v" prot="public">gviz::colors::HSV</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1detail">gviz::detail</innernamespace>
+    <innernamespace refid="namespacegviz_1_1detail_1_1hsv">gviz::detail::hsv</innernamespace>
+    <innernamespace refid="namespacegviz_1_1colors">gviz::colors</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_COLORS_HSV_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_COLORS_HSV_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::detail::hsv<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>[[noreturn]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>invalid_argument(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*reason)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::invalid_argument(reason);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::colors<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structgviz_1_1colors_1_1_h_s_v" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>octet_t<sp/>=<sp/>double;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref>(octet_t<sp/>hue,<sp/>octet_t<sp/>saturation,<sp/>octet_t<sp/>value)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>h(hue),<sp/>s(saturation),<sp/>v(value)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(h<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>h)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detail::hsv::invalid_argument(</highlight><highlight class="stringliteral">&quot;hue<sp/>must<sp/>be<sp/>within<sp/>(0,<sp/>1)<sp/>range&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>s)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detail::hsv::invalid_argument(</highlight><highlight class="stringliteral">&quot;saturation<sp/>must<sp/>be<sp/>within<sp/>(0,<sp/>1)<sp/>range&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>v)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>detail::hsv::invalid_argument(</highlight><highlight class="stringliteral">&quot;value<sp/>must<sp/>be<sp/>within<sp/>(0,<sp/>1)<sp/>range&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::optional&lt;HSV&gt;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>make(octet_t<sp/>h,<sp/>octet_t<sp/>s,<sp/>octet_t<sp/>v)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(h<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>h)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nullopt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>s)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nullopt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v<sp/>&lt;<sp/>0.<sp/>||<sp/>1.<sp/>&lt;<sp/>v)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::nullopt;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref><sp/>hsv{};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>hsv.h<sp/>=<sp/>h;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>hsv.s<sp/>=<sp/>s;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>hsv.v<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hsv;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>octet_t<sp/>hue()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>h;<sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>octet_t<sp/>saturation()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>octet_t<sp/>value()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v;<sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>h<sp/>==<sp/>other.h<sp/>&amp;&amp;<sp/>s<sp/>==<sp/>other.s<sp/>&amp;&amp;<sp/>v<sp/>==<sp/>other.v;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>h<sp/>!=<sp/>other.h<sp/>||<sp/>s<sp/>!=<sp/>other.s<sp/>||<sp/>v<sp/>!=<sp/>other.v;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1colors_1_1_h_s_v" kindref="compound">HSV</ref>()<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>octet_t<sp/>h{};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>octet_t<sp/>s{};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>octet_t<sp/>v{};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz::colors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_COLORS_HSV_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/hsv.hpp"/>
+  </compounddef>
+</doxygen>

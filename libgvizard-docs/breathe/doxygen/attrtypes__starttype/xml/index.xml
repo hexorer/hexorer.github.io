@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_start_type" kind="struct"><name>gviz::attrtypes::StartType</name>
+    <member refid="structgviz_1_1attrtypes_1_1_start_type_1aa8394bbef4f392c744ed669edf49ff88" kind="variable"><name>style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_start_type_1abf949ab1d5254c2ef9f8df2a88390c19" kind="variable"><name>seed</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_start_type_1aff45310c822610c21a85772f0ae42d42" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_start_type_1a4cc3ea495a61be2f22178f1ec84968f4" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4d" kind="enum"><name>StartTypeStyle</name></member>
+    <member refid="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4daaf37d08ae228a87dc6b265fd1019c97d" kind="enumvalue"><name>regular</name></member>
+    <member refid="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da590f53e8699817c6fa498cc11a4cbe63" kind="enumvalue"><name>self</name></member>
+    <member refid="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da7ddf32e17a6ac5ce04a8ecbf782ca509" kind="enumvalue"><name>random</name></member>
+  </compound>
+  <compound refid="starttype_8hpp" kind="file"><name>starttype.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1attrtypes_1_1_rect" kind="class"><name>gviz::attrtypes::Rect</name>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a46d551b253167f62c8f8dac4dffe11d2" kind="variable"><name>llx_</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a1fe7874baec3f65b95d507520f901712" kind="variable"><name>lly_</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1ac5d4e8dfed0ad359786f6c109cede919" kind="variable"><name>urx_</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a5613d52240b705d0d29bbda84674e719" kind="variable"><name>ury_</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a26943ddc581dd55167354db48cec2749" kind="function"><name>Rect</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a42d0d2620d949fd052d59878c0d03057" kind="function"><name>llx</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a013315b0ca2224cef6e83d609b56bd94" kind="function"><name>lly</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1ad47720f45a0cfece0eb0550eef52050e" kind="function"><name>urx</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a61b9f2747a60e3ad20105ac8759054af" kind="function"><name>ury</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a200f18b90fd4fab26a7890d5981ed3dc" kind="function"><name>set_llx</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a22aa13a47691204abcc968bb6b9a2ed9" kind="function"><name>set_lly</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a3c6d8634afe97b0171752cd4fafe6a00" kind="function"><name>set_urx</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a6ae1bde5bc926221f05918142e36eddc" kind="function"><name>set_ury</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a5ea13f117f625f1cc18d75dbeda794b1" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a3a1c694850955c7e7fc173636a45e58f" kind="function"><name>operator!=</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a69f1ae4921a961e75ea4f9bbe8ac1e12" kind="function"><name>make</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1ad32311246ba3240863840585590a7c2d" kind="friend"><name>operator+</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1aa2a3eb59029f01c077f4ffb46178af3a" kind="friend"><name>operator-</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a29859df8840d9ed74aca6ace29687f15" kind="function"><name>Rect</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_rect_1a613a58d34f3ff528c4afcd83e8b42749" kind="function"><name>safe_set</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+  </compound>
+  <compound refid="rect_8hpp" kind="file"><name>rect.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

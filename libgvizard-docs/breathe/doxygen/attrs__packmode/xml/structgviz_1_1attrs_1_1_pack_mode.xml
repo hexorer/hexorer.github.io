@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_pack_mode" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::PackMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; PackMode, attrtypes::PackMode &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_pack_mode_1a2e238c4654d4b7b39a7494689466a029" prot="public" static="no">
+        <type>attrtypes::PackMode</type>
+        <definition>using gviz::attrs::PackMode::value_type =  attrtypes::PackMode</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::PackMode::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="12" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_pack_mode_1a7bcb961e16a9458317fc6bf0aac4d9d8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::PackMode::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::PackMode::name</qualifiedname>
+        <initializer>= &quot;packmode&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="14" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_mode_1a2117730018d8409fcb75deceb337c726" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PackMode::PackMode</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>PackMode</name>
+        <qualifiedname>gviz::attrs::PackMode::PackMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="16" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_mode_1a8149afc516378f02b6c7aeca842bfe29" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::PackMode::PackMode</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>PackMode</name>
+        <qualifiedname>gviz::attrs::PackMode::PackMode</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_mode_1a44acca0b19c68217169d1fdbd53c0106" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::PackMode::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::PackMode::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="21" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_mode_1aac77c00337e929364a0b8a6357293c41" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PackMode::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::PackMode::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_mode_1a0525e2054831318e6f51b5778014fcee" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::PackMode::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::PackMode::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; PackMode, attrtypes::PackMode &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PackMode</label>
+        <link refid="structgviz_1_1attrs_1_1_pack_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; PackMode, attrtypes::PackMode &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::PackMode</label>
+        <link refid="structgviz_1_1attrs_1_1_pack_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/packmode.hpp" bodystart="11" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a0525e2054831318e6f51b5778014fcee" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a44acca0b19c68217169d1fdbd53c0106" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1aac77c00337e929364a0b8a6357293c41" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a7bcb961e16a9458317fc6bf0aac4d9d8" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a2117730018d8409fcb75deceb337c726" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>PackMode</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a8149afc516378f02b6c7aeca842bfe29" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>PackMode</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_mode_1a2e238c4654d4b7b39a7494689466a029" prot="public" virt="non-virtual"><scope>gviz::attrs::PackMode</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1055 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1colors" kind="namespace" language="C++">
+    <compoundname>gviz::colors</compoundname>
+    <innerclass refid="classgviz_1_1colors_1_1_s_v_g_color" prot="public">gviz::colors::SVGColor</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893cca" prot="public" static="no" strong="yes">
+        <type>uint16_t</type>
+        <name>SVGColorEnum</name>
+        <qualifiedname>gviz::colors::SVGColorEnum</qualifiedname>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa0dccfe9c373d9f9edf4bde8bc83ec2d0" prot="public">
+          <name>aliceblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab8a9821d047caf2cb129bfffb5947a0b" prot="public">
+          <name>antiquewhite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa65cb59645b852c2394ba3ff8b295e83c" prot="public">
+          <name>aqua</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa39d8e1a1a14670b0a3be357c318867ac" prot="public">
+          <name>aquamarine</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacf04a02e37b774fc311a48f605c3c597" prot="public">
+          <name>azure</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaefc5f4b470619b932aed03953e50ce60" prot="public">
+          <name>beige</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac7357031b08389007e6da9f56ea145e0" prot="public">
+          <name>bisque</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1ffd9e753c8054cc61456ac7fac1ac89" prot="public">
+          <name>black</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa847121ab0da1e2b350c8fcbcb010cac6" prot="public">
+          <name>blanchedalmond</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa48d6215903dff56238e52e8891380c8f" prot="public">
+          <name>blue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacc28f4945fea3b8866fe4b653814e2eb" prot="public">
+          <name>blueviolet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6ff47afa5dc7daa42cc705a03fca8a9b" prot="public">
+          <name>brown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa36ca6792fd86e6880bf010d9dc980e44" prot="public">
+          <name>burlywood</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa7c3d240dfca9d7bd93f1ab170faecd73" prot="public">
+          <name>cadetblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3efea3cccdbed48be1f1db03de4fa20e" prot="public">
+          <name>chartreuse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac378985d629e99a4e86213db0cd5e70d" prot="public">
+          <name>chocolate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad2ebed4eaf58509dcc358e1782c38fea" prot="public">
+          <name>coral</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaada4a06b7a74d94538ad7da873f073f4c" prot="public">
+          <name>cornflowerblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaea26b11983535b3792d71954aa4d41d8" prot="public">
+          <name>cornsilk</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5fa3ccc64c973db27e9fcade0810423e" prot="public">
+          <name>crimson</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6411532ba4971f378391776a9db629d3" prot="public">
+          <name>cyan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaaf84d901acac3fd3dfdfc1d026f85220" prot="public">
+          <name>darkblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac844370b9a3693e59921580d3fe427ff" prot="public">
+          <name>darkcyan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1485725076cf6842d97c529df0b938f2" prot="public">
+          <name>darkgoldenrod</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadf3d32740b6229c55f6498f07bffafa1" prot="public">
+          <name>darkgray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa86124f7c52bd00a90c471f3cc2d575b7" prot="public">
+          <name>darkgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f02c389110a7b258ce507d30331bb4d" prot="public">
+          <name>darkgrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabbaf1c429c4e681dec050efdbcd71b55" prot="public">
+          <name>darkkhaki</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa16e4e9ec0a1ae4e66c1b6d4ae985724a" prot="public">
+          <name>darkmagenta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa36b1e2a5d1ab5518965ef07d776f1779" prot="public">
+          <name>darkolivegreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf969df3eba4d4bc4723870c807445541" prot="public">
+          <name>darkorange</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa137fae7a6f3e3ccbdb53e6870bdc85fb" prot="public">
+          <name>darkorchid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa72e1e496fa756e6652bb2ac60a877802" prot="public">
+          <name>darkred</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacc2b015ff2154274f90b7b4b345893fd" prot="public">
+          <name>darksalmon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4bebaa947133d2aac701a63705bb554c" prot="public">
+          <name>darkseagreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f4a563212ddae40719de71318cf9ecf" prot="public">
+          <name>darkslateblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa129b0ee9de7b03fcae50aa744b7992d6" prot="public">
+          <name>darkslategray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab26ba2bcf1ea4311be3d84a53c99dfa9" prot="public">
+          <name>darkslategrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab61606b5206f82dc4b2f5e05a4cccdba" prot="public">
+          <name>darkturquoise</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa732cc3c4a283e0fc022329fe24acee0b" prot="public">
+          <name>darkviolet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaef0ed9338a61e7a39b942e1b91e2cd15" prot="public">
+          <name>deeppink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa00b0e77fb6c36753442d4adf19b98b22" prot="public">
+          <name>deepskyblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa27b5924d51e25cac5892b4bf2d1cbdf6" prot="public">
+          <name>dimgray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafaf04492fd5f1fa35272644c7a282757" prot="public">
+          <name>dimgrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5b5dda33a0ba88dc48e289ae551b2c31" prot="public">
+          <name>dodgerblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa293bdec991862602079dcb56ca72dcfc" prot="public">
+          <name>firebrick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa464df9442ffaa9ed859ce764d95758c1" prot="public">
+          <name>floralwhite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6dea67df64be3cd8e04ab5388b8d7a72" prot="public">
+          <name>forestgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f370737a8ad22210a0dd6b1c8f00896" prot="public">
+          <name>fuchsia</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2ca891b27d02c8a2fea622359be7c4dd" prot="public">
+          <name>gainsboro</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf342a66932a827c55a49eb209393b2b5" prot="public">
+          <name>ghostwhite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae07e81c20cf5935f5225765f0af81755" prot="public">
+          <name>gold</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacf32f5cd9a11a837faccbbb96b3c8170" prot="public">
+          <name>goldenrod</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacda7a650c5856cf2f6738072447d7825" prot="public">
+          <name>gray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f27410725ab8cc8854a2769c7a516b8" prot="public">
+          <name>green</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadd675e7d49f43ce4437518439af03897" prot="public">
+          <name>greenyellow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaca50000a180a293de0b27acb67a695cb" prot="public">
+          <name>grey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaada14d88f265df4cf00b5d11f45559cb8" prot="public">
+          <name>honeydew</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2ed02e792f8ecd95b6570b687274afeb" prot="public">
+          <name>hotpink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa0bcd7a6c04f7d92f5c9a923f5c5c8f69" prot="public">
+          <name>indianred</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8a99d28c3c43cafed58cdbac5f4e9201" prot="public">
+          <name>indigo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac55c68625ca1da0e1d4a922fc8cb373e" prot="public">
+          <name>ivory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa12284913bfe16bebd8bc809573f0387a" prot="public">
+          <name>khaki</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa153fa52654465ad67f045dc293f3b16e" prot="public">
+          <name>lavender</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa300469c99650e3bcea985bebb51a67ae" prot="public">
+          <name>lavenderblush</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8bc9868eff968586101e0e57823085eb" prot="public">
+          <name>lawngreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3b5720926e81aca08b9343bb338f3583" prot="public">
+          <name>lemonchiffon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa6eed435cb5faa552a3117e7d60ebce8d" prot="public">
+          <name>lightblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5fae03de713a5454a5f049f2d305ea85" prot="public">
+          <name>lightcoral</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa27bc3fe7e0664191f0ffc2cffa3035ab" prot="public">
+          <name>lightcyan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafd3264ae8deb8e9eb0fb1685f3d4f99d" prot="public">
+          <name>lightgoldenrodyellow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa33ab79f7fc578194d82415ddfee833a" prot="public">
+          <name>lightgray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaefb23a2630c07ad5391c75a6c6a87eb9" prot="public">
+          <name>lightgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa680a7e93b520a05dd15827150ee96b1" prot="public">
+          <name>lightgrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa41d487d9c27fbd6e655470c3061eedf6" prot="public">
+          <name>lightpink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa9f2a029f042134a497ef445c486b3c26" prot="public">
+          <name>lightsalmon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad19e2e476f23014d551db8def7c70ff4" prot="public">
+          <name>lightseagreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa4fd560e81d368f625763cb684dd348c" prot="public">
+          <name>lightskyblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf932db6a00b4137a7027fb8818c9069d" prot="public">
+          <name>lightslategray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac7ae18d076ed463e997aa760913e3541" prot="public">
+          <name>lightslategrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaacaa8ae4449a666a15c3a5094688d2aed" prot="public">
+          <name>lightsteelblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad69c77f2ac538b9e2f62ebf25b7cd64b" prot="public">
+          <name>lightyellow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa67c0ecaf5a1b782b11146e9fbe80f016" prot="public">
+          <name>lime</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8a03233f60c05bc5c3161698a5f78a58" prot="public">
+          <name>limegreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa6ab62e9da89b20d720c70602624bfc2" prot="public">
+          <name>linen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4c2a4a7078da0ac6733464eacfd00f86" prot="public">
+          <name>magenta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa04a3da97880fcedeb087378f29c3a102" prot="public">
+          <name>maroon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac572cb15d610815a1a35f71bc98e87c1" prot="public">
+          <name>mediumaquamarine</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa56f0b1fbfc4968e21e0954555646a5b9" prot="public">
+          <name>mediumblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa025a653c5fc64110513169a13e797f77" prot="public">
+          <name>mediumorchid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3399bde7e469480b9c2b720ccf93354b" prot="public">
+          <name>mediumpurple</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3a694cc5ad6b28ce79189514c953b3b5" prot="public">
+          <name>mediumseagreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa83ecacb638da1965b258f66e89364ce3" prot="public">
+          <name>mediumslateblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaa6ddf4a2e773043413b1d7999d1345d6" prot="public">
+          <name>mediumspringgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafd636290518e4c317ab2da0a74d68648" prot="public">
+          <name>mediumturquoise</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaec5ec994747a587cc97b2e1d6be4b277" prot="public">
+          <name>mediumvioletred</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa90f16555d78362c17648d92c0f09a722" prot="public">
+          <name>midnightblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa41578fc60554cfd9a8bf59508992aa0f" prot="public">
+          <name>mintcream</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac97b2f86b1996e93ef5309ec64885d0b" prot="public">
+          <name>mistyrose</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadc8a6c38cc98a2c29859c34b26974bc7" prot="public">
+          <name>moccasin</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4f66b601b5bad722855550fb6d0175d3" prot="public">
+          <name>navajowhite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf3311d3d14c8437553bf3e3f90920736" prot="public">
+          <name>navy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf3e126bf2a84136aa8310055cff9195f" prot="public">
+          <name>oldlace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf431b0eea3c08186ed101e588bfb3a2f" prot="public">
+          <name>olive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad45de2d34108b74e8fa001c7036abf84" prot="public">
+          <name>olivedrab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafe01d67a002dfa0f3ac084298142eccd" prot="public">
+          <name>orange</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf942a5b0776d7b0b52ffbdc54df6a5d3" prot="public">
+          <name>orangered</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa93b1453c8ec5a548389c935052536ccb" prot="public">
+          <name>orchid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad18849594a68a3f8295f5772ed94c356" prot="public">
+          <name>palegoldenrod</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae2b963edf33112a83ed4d42118d24753" prot="public">
+          <name>palegreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2f8632e28af5e28a5e441e439164fc96" prot="public">
+          <name>paleturquoise</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf563b4203617143423a84a1936dfdd69" prot="public">
+          <name>palevioletred</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2d2ecb622215912c641188572973f85e" prot="public">
+          <name>papayawhip</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa8e611c133acffe7aa45f9fe60b22fb6d" prot="public">
+          <name>peachpuff</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa32e8419a7ecb8f918c70fdadf783e3d8" prot="public">
+          <name>peru</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa4a0b0dcedd48f780778d1cd1bb8f9877" prot="public">
+          <name>pink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3e042037287d6871eec3dbd48556b0b4" prot="public">
+          <name>plum</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaab1687e60d96154a3df2156a6e71d2bfa" prot="public">
+          <name>powderblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabb7aedfa61007447dd6efaf9f37641e3" prot="public">
+          <name>purple</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabda9643ac6601722a28f238714274da4" prot="public">
+          <name>red</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae4f435dd8f3888fa39067553139ab409" prot="public">
+          <name>rosybrown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa231f2b387a5d04315a8c8aff6e042ee7" prot="public">
+          <name>royalblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad8e2f64ce824268e85076de8ac2fbfa4" prot="public">
+          <name>saddlebrown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa180fd182f9a0742f483619781ccc36c4" prot="public">
+          <name>salmon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac6863403307399b5b900cbdc0aad36aa" prot="public">
+          <name>sandybrown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaf1309a260a8dbc81bf890cc79c644c12" prot="public">
+          <name>seagreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa1c2123d726ed9e6bc173b68f13915566" prot="public">
+          <name>seashell</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa91c001e5547439063fefe550d83533b6" prot="public">
+          <name>sienna</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa97f014516561ef487ec368d6158eb3f4" prot="public">
+          <name>silver</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaafcd8ce74755a0c1d53e1c4750251b22c" prot="public">
+          <name>skyblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaaad5f9b21b16873ccb3b71ffce804461d" prot="public">
+          <name>slateblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaae8fc5f9dd56e6031dbc45b25e7807707" prot="public">
+          <name>slategray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa167664a24ee7cbeef0c9e55d4692924d" prot="public">
+          <name>slategrey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa2b93fbdf27d43547bec8794054c28e00" prot="public">
+          <name>snow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5f6f0a07ae03bdbf4d6c26daf552dc87" prot="public">
+          <name>springgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa53f33c2424d2c6b5652d277d57b2d2c4" prot="public">
+          <name>steelblue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa5b2d4484498235e80d61a233a7c04991" prot="public">
+          <name>tan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa3c4184e82bb3be8fa32669800fb7373c" prot="public">
+          <name>teal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa94ec2b8d73527db3da316ad28195219e" prot="public">
+          <name>thistle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaa006f87892f47ef9aa60fa5ed01a440fb" prot="public">
+          <name>tomato</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaadcbb31fdf774bcd3f09d54c4487377c0" prot="public">
+          <name>turquoise</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad1d813a48d99f0e102f7d0a1b9068001" prot="public">
+          <name>violet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad29db4ac8712f5bdb343991281b26db1" prot="public">
+          <name>wheat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad508fe45cecaf653904a0e774084bb5c" prot="public">
+          <name>white</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaabbeb08cd5fe2d11b53259e35a4abef82" prot="public">
+          <name>whitesmoke</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaad487dd0b55dfcacdd920ccbdaeafa351" prot="public">
+          <name>yellow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="svg_8hpp_1aacb9ffabc7370b971f7d68b540893ccaac79f8970c1ee53c916bac8e6fee80055" prot="public">
+          <name>yellowgreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" bodystart="13" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/svg.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

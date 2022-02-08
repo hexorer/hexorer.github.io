@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_color" prot="public">gviz::attrs::Color</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="color_8hpp_1a652d67f6b58e26bab0c0fb56556604d4" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename ColorT</type>
+          </param>
+        </templateparamlist>
+        <type>std::variant&lt; ColorT, attrtypes::ColorList&lt; ColorT &gt; &gt;</type>
+        <definition>using gviz::attrs::ColorValType = typedef std::variant&lt;ColorT, attrtypes::ColorList&lt;ColorT&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>ColorValType</name>
+        <qualifiedname>gviz::attrs::ColorValType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/color.hpp" line="18" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/color.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/color.hpp" line="15" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="outputmode_8hpp_1a5242c002e25fd32716660c4b35e99802" kind="enum"><name>OutputMode</name></member>
+    <member refid="outputmode_8hpp_1a5242c002e25fd32716660c4b35e99802a3957239dd8f25ae2cdbebee6f0d3d964" kind="enumvalue"><name>breadthfirst</name></member>
+    <member refid="outputmode_8hpp_1a5242c002e25fd32716660c4b35e99802a15327f1bbcca68fd8d0055270829ee7d" kind="enumvalue"><name>nodesfirst</name></member>
+    <member refid="outputmode_8hpp_1a5242c002e25fd32716660c4b35e99802a0712378e7779ef01c65d7c97d0117c66" kind="enumvalue"><name>edgesfirst</name></member>
+  </compound>
+  <compound refid="outputmode_8hpp" kind="file"><name>outputmode.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

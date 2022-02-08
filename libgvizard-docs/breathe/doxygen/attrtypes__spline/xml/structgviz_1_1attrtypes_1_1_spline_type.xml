@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_spline_type" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::SplineType</compoundname>
+    <templateparamlist>
+      <param>
+        <type>template&lt; typename, typename ... &gt; typename</type>
+        <declname>Vec</declname>
+        <defname>Vec</defname>
+        <defval>std::vector</defval>
+      </param>
+      <param>
+        <type>typename SplineT</type>
+        <defval><ref refid="structgviz_1_1attrtypes_1_1_spline" kindref="compound">Spline</ref>&lt;std::vector&gt;</defval>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>VecArgs</declname>
+        <defname>VecArgs</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_spline_type_1a8e78f2fb0817565474245a337b593286" prot="public" static="no">
+        <type>SplineT</type>
+        <definition>using gviz::attrtypes::SplineType&lt; Vec, SplineT, VecArgs &gt;::spline_type =  SplineT</definition>
+        <argsstring></argsstring>
+        <name>spline_type</name>
+        <qualifiedname>gviz::attrtypes::SplineType::spline_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="73" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_spline_type_1acece4335f616eaa0c5cde943ef53d3e6" prot="public" static="no" mutable="no">
+        <type>Vec&lt; spline_type, VecArgs... &gt;</type>
+        <definition>Vec&lt;spline_type, VecArgs...&gt; gviz::attrtypes::SplineType&lt; Vec, SplineT, VecArgs &gt;::splines</definition>
+        <argsstring></argsstring>
+        <name>splines</name>
+        <qualifiedname>gviz::attrtypes::SplineType::splines</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="75" column="7" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_spline_type_1aef0a88f054d7b58a3af50889375c7ff6" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::SplineType&lt; Vec, SplineT, VecArgs &gt;::operator==</definition>
+        <argsstring>(const SplineType &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::SplineType::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_spline_type" kindref="compound">SplineType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="77" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_spline_type_1a59b050196410833d8d3b73fc4d9105c4" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::SplineType&lt; Vec, SplineT, VecArgs &gt;::operator!=</definition>
+        <argsstring>(const SplineType &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::SplineType::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_spline_type" kindref="compound">SplineType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="82" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_spline_type_1a8895c1b03e0f19ba8a696d0b2c11a249" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="structgviz_1_1attrtypes_1_1_spline_type" kindref="compound">SplineType</ref> &amp;</type>
+        <definition>constexpr SplineType &amp; gviz::attrtypes::SplineType&lt; Vec, SplineT, VecArgs &gt;::add_spline</definition>
+        <argsstring>(const spline_type &amp;spline)</argsstring>
+        <name>add_spline</name>
+        <qualifiedname>gviz::attrtypes::SplineType::add_spline</qualifiedname>
+        <param>
+          <type>const spline_type &amp;</type>
+          <declname>spline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="87" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="72" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="72" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a8895c1b03e0f19ba8a696d0b2c11a249" prot="public" virt="non-virtual"><scope>gviz::attrtypes::SplineType</scope><name>add_spline</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a59b050196410833d8d3b73fc4d9105c4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::SplineType</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_spline_type_1aef0a88f054d7b58a3af50889375c7ff6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::SplineType</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a8e78f2fb0817565474245a337b593286" prot="public" virt="non-virtual"><scope>gviz::attrtypes::SplineType</scope><name>spline_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_spline_type_1acece4335f616eaa0c5cde943ef53d3e6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::SplineType</scope><name>splines</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

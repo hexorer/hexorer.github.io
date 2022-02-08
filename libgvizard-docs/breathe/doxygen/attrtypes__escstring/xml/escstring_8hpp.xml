@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="escstring_8hpp" kind="file" language="C++">
+    <compoundname>escstring.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">string_view</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp</label>
+        <link refid="escstring_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>string_view</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" prot="public">gviz::attrtypes::EscNameSetRef</innerclass>
+    <innerclass refid="classgviz_1_1attrtypes_1_1_esc_string" prot="public">gviz::attrtypes::EscString</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences" prot="private">gviz::attrtypes::EscString::Occurences</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1attrtypes">gviz::attrtypes</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="escstring_8hpp_1a3e726de848b0ece4561598a14551f936" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>constexpr auto operator&quot;&quot;_escstr</definition>
+        <argsstring>(const char *str, std::size_t size)</argsstring>
+        <name>operator&quot;&quot;_escstr</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="221" column="16" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="221" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_ATTRTYPES_ESCSTRING_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_ATTRTYPES_ESCSTRING_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string_view&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::attrtypes<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref><sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>graph=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>node=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>edge=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>label=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>head=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view<sp/>tail=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>StringT<sp/>=<sp/>std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="19" refid="classgviz_1_1attrtypes_1_1_esc_string" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref><sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>iterator<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>StringT::iterator;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>const_iterator<sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>StringT::const_iterator;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>backslash_char_sv<sp/>=<sp/>std::string_view(</highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>StrT<sp/>=<sp/>std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::decay_t&lt;StrT(std::size_t)&gt;<sp/>default_outstring_init<sp/>=</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>+[](std::size_t<sp/>size)<sp/>-&gt;<sp/>StrT</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>StrT{};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ret.reserve(size);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>StrT<sp/>=<sp/>std::</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::decay_t&lt;void(StrT&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view&amp;)&gt;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>default_outstring_append<sp/>=</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>+[](StrT&amp;<sp/>lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view&amp;<sp/>rhs)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>+=<sp/>rhs;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Occurences<sp/>final<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>graph<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>edge<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>label<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>head<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>tail<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>requires<sp/>too<sp/>much<sp/>memory<sp/>to<sp/>overflow<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/>sum()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>graph<sp/>+<sp/>node<sp/>+<sp/>edge<sp/>+<sp/>label<sp/>+<sp/>head<sp/>+<sp/>tail;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Occurences&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="57"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>graph<sp/>==<sp/>other.graph<sp/>&amp;&amp;<sp/>node<sp/><sp/>==<sp/>other.node</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>edge<sp/><sp/>==<sp/>other.edge<sp/><sp/>&amp;&amp;<sp/>label<sp/>==<sp/>other.label</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>head<sp/><sp/>==<sp/>other.head<sp/><sp/>&amp;&amp;<sp/>tail<sp/><sp/>==<sp/>other.tail;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Occurences&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="64"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>graph<sp/>!=<sp/>other.graph<sp/>||<sp/>node<sp/><sp/>!=<sp/>other.node</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>edge<sp/><sp/>!=<sp/>other.edge<sp/><sp/>||<sp/>label<sp/>!=<sp/>other.label</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>head<sp/><sp/>!=<sp/>other.head<sp/><sp/>||<sp/>tail<sp/><sp/>!=<sp/>other.tail;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>Occurences<sp/>occurences{};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>StringT<sp/>format_{};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format,<sp/>std::size_t<sp/>size)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>format_(format,<sp/>size)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>occurences<sp/>=</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>count_occurences(std::cbegin(format_),<sp/>std::cend(format_));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref>(StringT<sp/>format)<sp/>:<sp/>format_(std::move(format))</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>occurences</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>count_occurences(std::cbegin(format_),<sp/>std::cend(format_));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>StringT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>get_format()</highlight><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>format_;<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>StringT&amp;<sp/>get_format_ref()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>format_;<sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>Occurences<sp/>get_occurences()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>occurences;<sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="94"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>occurences<sp/>==<sp/>other.occurences<sp/>&amp;&amp;<sp/>format_<sp/>==<sp/>other.format_;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">EscString</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="99"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>occurences<sp/>!=<sp/>other.occurences<sp/>||<sp/>format_<sp/>!=<sp/>other.format_;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/>apply_size(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref>&amp;<sp/>nameset)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="104"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>format_.size()<sp/>-<sp/>occurences.sum()<sp/>*<sp/>2</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.graph.size()<sp/>*<sp/>occurences.graph</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.node.size()<sp/><sp/>*<sp/>occurences.node</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.edge.size()<sp/><sp/>*<sp/>occurences.edge</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.label.size()<sp/>*<sp/>occurences.label</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.head.size()<sp/><sp/>*<sp/>occurences.head</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>nameset.tail.size()<sp/><sp/>*<sp/>occurences.tail;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Iterator&gt;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::size_t<sp/>apply(</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Iterator<sp/>dstbegin,<sp/>Iterator<sp/>dstend,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref>&amp;<sp/>nameset<sp/>=<sp/>{})<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>idx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>iterator_appender<sp/>=</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;dstbegin,<sp/>&amp;dstend,<sp/>&amp;idx](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string_view&amp;<sp/>rhs)<sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>src<sp/>=<sp/>std::begin(rhs);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dst<sp/>=<sp/>dstbegin<sp/>+<sp/>idx;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>end<sp/>=<sp/>dstend<sp/>-<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>NUL-termination</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;<sp/>src<sp/>!=<sp/>std::cend(rhs)<sp/>&amp;&amp;<sp/>dst<sp/>!=<sp/>end;<sp/>++src,<sp/>++dst,<sp/>++idx)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*dst<sp/>=<sp/>*src;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>apply&lt;char&gt;(</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>nameset,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>[](std::size_t)<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>},<sp/></highlight><highlight class="comment">//<sp/>dummy/unused...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;iterator_appender](</highlight><highlight class="keyword">auto</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>str)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>{<sp/>iterator_appender(str);<sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>idx;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>OutStringT<sp/>=<sp/>std::string,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Fappend<sp/>=<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(default_outstring_append&lt;OutStringT&gt;)&gt;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>OutStringT<sp/>apply_into(</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>OutStringT<sp/>output,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref>&amp;<sp/>nameset<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Fappend<sp/>append<sp/>=<sp/>default_outstring_append&lt;OutStringT&gt;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>apply&lt;OutStringT&gt;(</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nameset,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[&amp;]()<sp/>-&gt;<sp/>OutStringT<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;<sp/>},</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>append</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>OutStringT<sp/>=<sp/>std::string,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Finit<sp/>=<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(default_outstring_init&lt;OutStringT&gt;),</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Fappend<sp/>=<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(default_outstring_append&lt;OutStringT&gt;)&gt;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>OutStringT<sp/>apply(</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kindref="compound">EscNameSetRef</ref>&amp;<sp/>nameset<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Finit<sp/>init<sp/>=<sp/>default_outstring_init&lt;OutStringT&gt;,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Fappend<sp/>append<sp/>=<sp/>default_outstring_append&lt;OutStringT&gt;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>outsize<sp/>=<sp/>apply_size(nameset);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>output<sp/>=<sp/>init(outsize);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>str<sp/>=<sp/>std::cbegin(format_);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>end<sp/>=<sp/>std::cend(format_);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;<sp/>str<sp/>!=<sp/>end;<sp/>++str)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*str<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>append(output,<sp/>std::string_view(str,<sp/>1));</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(*++str)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.graph);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.node);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.edge);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.label);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;H&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.head);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">:<sp/><sp/>append(output,<sp/>nameset.tail);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">:<sp/>append(output,<sp/>backslash_char_sv);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>append(output,<sp/>backslash_char_sv);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>append(output,<sp/>std::string_view(str,<sp/>1));</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Occurences</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>count_occurences(const_iterator<sp/>str,<sp/>const_iterator<sp/>end)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>Occurences<sp/>ret;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;<sp/>str<sp/>!=<sp/>end;<sp/>++str)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*str<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(*++str)</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;G&apos;</highlight><highlight class="normal">:<sp/>++ret.graph;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">:<sp/>++ret.node;<sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">:<sp/>++ret.edge;<sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;L&apos;</highlight><highlight class="normal">:<sp/>++ret.label;<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;H&apos;</highlight><highlight class="normal">:<sp/>++ret.head;<sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">:<sp/>++ret.tail;<sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz::attrtypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>_escstr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>std::size_t<sp/>size)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classgviz_1_1attrtypes_1_1_esc_string" kindref="compound">gviz::attrtypes::EscString&lt;std::string_view&gt;</ref>(str,<sp/>size);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_ATTRTYPES_ESCSTRING_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp"/>
+  </compounddef>
+</doxygen>

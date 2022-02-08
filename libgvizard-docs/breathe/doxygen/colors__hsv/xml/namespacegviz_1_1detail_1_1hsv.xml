@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1detail_1_1hsv" kind="namespace" language="C++">
+    <compoundname>gviz::detail::hsv</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="hsv_8hpp_1a666d6c3ac5ce809e4026469e876acd7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gviz::detail::hsv::invalid_argument</definition>
+        <argsstring>(const char *reason)</argsstring>
+        <name>invalid_argument</name>
+        <qualifiedname>gviz::detail::hsv::invalid_argument</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/hsv.hpp" line="8" column="16" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/hsv.hpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/hsv.hpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

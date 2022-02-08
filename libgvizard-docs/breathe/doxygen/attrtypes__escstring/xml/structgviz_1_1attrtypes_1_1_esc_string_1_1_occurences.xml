@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences" kind="struct" language="C++" prot="private" final="yes">
+    <compoundname>gviz::attrtypes::EscString::Occurences</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ad5769a2f263c0c75b35aaef3bf533be6" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::graph</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="43" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1af0be6af1b47358d6f0603eda6f15a13e" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::node</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="44" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aacd4a80ddbfdb87432705625916b01e8" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::edge</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="45" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ac78718ca520ad935dc82dc26664a8633" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::label</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="46" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a69438b1f29602377bbbd4a599daa0832" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::head</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="47" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a9b8fb8b21b1d052f448970255607c327" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::tail</definition>
+        <argsstring></argsstring>
+        <name>tail</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::tail</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="48" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a65739f317616349db7072c31280f464d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::sum</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>sum</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="51" column="27" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aaa050edc73294a72d8f3b2b7d88bba30" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::operator==</definition>
+        <argsstring>(const Occurences &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::operator==</qualifiedname>
+        <param>
+          <type>const Occurences &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="56" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ae5aeb0782cc0a72c000dff03cd09bb21" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::EscString&lt; StringT &gt;::Occurences::operator!=</definition>
+        <argsstring>(const Occurences &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::EscString::Occurences::operator!=</qualifiedname>
+        <param>
+          <type>const Occurences &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="63" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="63" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" line="42" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/escstring.hpp" bodystart="42" bodyend="69"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aacd4a80ddbfdb87432705625916b01e8" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>edge</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ad5769a2f263c0c75b35aaef3bf533be6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>graph</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a69438b1f29602377bbbd4a599daa0832" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>head</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ac78718ca520ad935dc82dc26664a8633" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>label</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1af0be6af1b47358d6f0603eda6f15a13e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>node</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ae5aeb0782cc0a72c000dff03cd09bb21" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aaa050edc73294a72d8f3b2b7d88bba30" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a65739f317616349db7072c31280f464d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>sum</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a9b8fb8b21b1d052f448970255607c327" prot="public" virt="non-virtual"><scope>gviz::attrtypes::EscString::Occurences</scope><name>tail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

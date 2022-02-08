@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1graph_1_1_graph_1_1_edge_item" kind="struct" language="C++" prot="private" final="yes">
+    <compoundname>gviz::graph::Graph::EdgeItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_edge_item_1affa56d828ae7a43330c75bb18fc8f6b3" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeItem::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>gviz::graph::Graph::EdgeItem::n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="61" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_edge_item_1a84c9bb529e9d6b682bfdd51a20cd8dcc" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeItem::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <qualifiedname>gviz::graph::Graph::EdgeItem::m</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="62" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_edge_item_1a0155e744e65eb8608161872c48eac543" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeItem::node_a_id</definition>
+        <argsstring></argsstring>
+        <name>node_a_id</name>
+        <qualifiedname>gviz::graph::Graph::EdgeItem::node_a_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="64" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_edge_item_1aeab14810484adb1989149d26586b6633" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeItem::node_b_id</definition>
+        <argsstring></argsstring>
+        <name>node_b_id</name>
+        <qualifiedname>gviz::graph::Graph::EdgeItem::node_b_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="65" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="60" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="60" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_edge_item_1a84c9bb529e9d6b682bfdd51a20cd8dcc" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::EdgeItem</scope><name>m</name></member>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_edge_item_1affa56d828ae7a43330c75bb18fc8f6b3" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::EdgeItem</scope><name>n</name></member>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_edge_item_1a0155e744e65eb8608161872c48eac543" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::EdgeItem</scope><name>node_a_id</name></member>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_edge_item_1aeab14810484adb1989149d26586b6633" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::EdgeItem</scope><name>node_b_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

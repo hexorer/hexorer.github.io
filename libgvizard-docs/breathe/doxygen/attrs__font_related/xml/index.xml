@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_font_color" kind="struct"><name>gviz::attrs::FontColor</name>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1ab9330bff20cff21caba3dffbcd510cc9" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1a464711e3ad40df559c3307c5f6bce7eb" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1ae2a258f9f3a94759961dd21684139ebe" kind="function"><name>FontColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1a01e4b8dd17f41ec0a1710e1d608acd9a" kind="function"><name>FontColor</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1abe5850e88e07ad3076a743ee8d41d77c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1aaa2b1394ba5151f681ac3f5ba159206f" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_color_1a6de1d268104fdbdecdacb47546234fc1" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_font_name" kind="struct"><name>gviz::attrs::FontName</name>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1aaf5380d94deec66b22296b05a9b701aa" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a39297daeff0b70940d742bb6422c779d" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a10af769395a0ac4a364fd110ecb78ffe" kind="function"><name>FontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1ac5c92c09a4e6e431035a0f2771c67147" kind="function"><name>FontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a4bb474df2a6f63019a4f8d641ede16d3" kind="function"><name>FontName</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a74dac6260da7def74c48dcfcd431bf07" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a7a93f0bca7bdd32add05a1f4d9ad833b" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_name_1a16325d512607e50673a09ed7aa83ed21" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_font_names" kind="struct"><name>gviz::attrs::FontNames</name>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1a83b007ae38fc8137ae6d2368ba68224b" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1a7291d3c1f6ed5ad77a11e0cd9eb877b5" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1a4e67cc16fb241bcffe80f7974c32922a" kind="function"><name>FontNames</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1a272f169ffd9f9ba0c092b73cc3406566" kind="function"><name>FontNames</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1aafdba018acd01983d5d426c51ad07382" kind="function"><name>FontNames</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1ab22760405b10dfa6ec91f0c4ac68c452" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1a0d5529a008b3dfa2e451b3d3fbbe2a10" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_names_1ae2ab6ea30a192c9dbe790ae6b6e89bc6" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_font_path" kind="struct"><name>gviz::attrs::FontPath</name>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1ae122621c98df9cc967efa1a251ca7979" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1a011807c6dd5253574cbf4d16b2ae88ad" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1aba98d93da154b809e178a206d664a3b0" kind="function"><name>FontPath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1aac2b70f6506205bcf95168b000af451c" kind="function"><name>FontPath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1a90b39195d56391b1dd390b86e17b3a4b" kind="function"><name>FontPath</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1a5008a2a150cf4ef398dc004b6a6610a3" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1ab4bcf72a39197ef389873de794c807c1" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_path_1ac6d0f6f01d63665126dcd3c157d96a8e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_font_size" kind="struct"><name>gviz::attrs::FontSize</name>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1a7601987ad968074481c3fd4fc6c122cc" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1ae6ee7c29633dfe9a3c36631b433a6d85" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1aae61fe07c495298da73b0170b0920c7d" kind="function"><name>FontSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1a3f35207e4a92e3b95a5cda3a2a0363f3" kind="function"><name>FontSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1a7ef40eca04a666d6df8e72083caad04b" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1a9413db4849b300f536f506a468dbafd4" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_font_size_1a910409024f48ea019abea0159fa9b747" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="font__related_8hpp" kind="file"><name>font_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

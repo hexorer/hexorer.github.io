@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_len" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Len</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Len, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_len_1ae7e0506832559f31b78cdfd1e68e5d37" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::Len::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Len::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_len_1ab2cdbf2e94ace33b92a3c4d16149c958" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Len::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Len::name</qualifiedname>
+        <initializer>= &quot;len&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_len_1a682ff349155b1293d6044bd529d470af" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Len::Len</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Len</name>
+        <qualifiedname>gviz::attrs::Len::Len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_len_1a8b55fd4da52878b5448fbaf8675da404" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Len::Len</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Len</name>
+        <qualifiedname>gviz::attrs::Len::Len</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_len_1af4c34797f6223b715512e5b8a5b14bdb" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Len::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Len::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_len_1ae1ef2a36c586e8587ad6e69c813d33f9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Len::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Len::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_len_1a82471f4b90aab8e2b74cf65e47e7955a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Len::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Len::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Len, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Len</label>
+        <link refid="structgviz_1_1attrs_1_1_len"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Len, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Len</label>
+        <link refid="structgviz_1_1attrs_1_1_len"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/len.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_len_1a82471f4b90aab8e2b74cf65e47e7955a" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1af4c34797f6223b715512e5b8a5b14bdb" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1ae1ef2a36c586e8587ad6e69c813d33f9" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1a682ff349155b1293d6044bd529d470af" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>Len</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1a8b55fd4da52878b5448fbaf8675da404" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>Len</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1ab2cdbf2e94ace33b92a3c4d16149c958" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_len_1ae7e0506832559f31b78cdfd1e68e5d37" prot="public" virt="non-virtual"><scope>gviz::attrs::Len</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

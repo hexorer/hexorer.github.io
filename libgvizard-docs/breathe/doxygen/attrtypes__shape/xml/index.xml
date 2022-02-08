@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779" kind="enum"><name>ShapeType</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2ea558023e0395f98296b929dfdcfb05" kind="enumvalue"><name>ellipse</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a34be958a921e43d813a2075297d8e862" kind="enumvalue"><name>box</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae4fdf3290654756def4e6816fddce608" kind="enumvalue"><name>polygon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779adc66b8bf72021c7c6bd7106da212d92a" kind="enumvalue"><name>oval</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9b6ddeba5b33e577c07c35d8505c6072" kind="enumvalue"><name>circle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a78ee54aa8f813885fe2fe20d232518b9" kind="enumvalue"><name>point</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a0e9312087f58f367d001ec9bae8f325a" kind="enumvalue"><name>egg</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a56f700329ab32f0d939a4d468415c06b" kind="enumvalue"><name>traingle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779af2bc5b1d869870d7688f71b2d87030bd" kind="enumvalue"><name>plaintext</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aac7938d40cfc2307e2bf325d28e7884e" kind="enumvalue"><name>plain</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a75c6f03161d020201000414cd1501f9f" kind="enumvalue"><name>diamond</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aa08aa01da8b25b1b94ec78de3f142394" kind="enumvalue"><name>trapezium</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab5a1a40158713c4b0a11f81b766dfeae" kind="enumvalue"><name>parallelogram</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2ca63cddd54f9490efad22421891a9d1" kind="enumvalue"><name>house</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9f390d3c7eca88d5b8db183d23d2b4f0" kind="enumvalue"><name>pentagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779afcadedce5939367d6558b793607399d8" kind="enumvalue"><name>hexagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab94bddf57f68b935507b0d9de9f13b3d" kind="enumvalue"><name>septagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab9e4e5d82687447bb6f987665e3bb6ef" kind="enumvalue"><name>octagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a0bed3e9658204953871b6276a1ed271a" kind="enumvalue"><name>doublecircle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aec091b09130a390dd79d8e8a8a7d6e65" kind="enumvalue"><name>doubleoctagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad2c3d06d03d0d9809932dc221957a504" kind="enumvalue"><name>tripleoctagon</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a50289749cf40bf0d77e4210a0e2f4cb8" kind="enumvalue"><name>invtriangle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a64227a73fbdf797070467b215908b54c" kind="enumvalue"><name>invtrapezium</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a90d207c5d43638bf59adaa7ea5f8bff6" kind="enumvalue"><name>invhouse</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a8b1be1a7f4d7ac574859739012563adb" kind="enumvalue"><name>Mdiamond</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a92e8a5559846b9e45f5c1e14284967fb" kind="enumvalue"><name>Msquare</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2c4b9a2cccf8adbb6723ee1bf6e4b73a" kind="enumvalue"><name>Mcircle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2676d7b68ff2c97c5776c6e5da218c01" kind="enumvalue"><name>rect</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad98492c62533926b6961f41406756a4e" kind="enumvalue"><name>rectangle</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2fc01ec765ec0cb3dcc559126de20b30" kind="enumvalue"><name>square</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a8ff953dd97c4405234a04291dee39e0b" kind="enumvalue"><name>star</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a6dc7b4483f8c2c701a48e42db552806d" kind="enumvalue"><name>underline</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9c7cd9fc9aa15fae1e37885314637c36" kind="enumvalue"><name>cylinder</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aaad653ca3ee669635f2938b73098b6d7" kind="enumvalue"><name>note</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae7f8cbd87d347be881cba92dad128518" kind="enumvalue"><name>tab</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a851148b4fd8fd7ae74bd9100c5c0c898" kind="enumvalue"><name>folder</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a1495a0106c33eae0ad54570f4bba8b0f" kind="enumvalue"><name>box3d</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a700c216fb376666eaeda0c892e8bdc09" kind="enumvalue"><name>component</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a6bc51efa7ac81d91efb6db917422d039" kind="enumvalue"><name>promoter</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a83b861efd4ce3bb438dd07435c9e7044" kind="enumvalue"><name>cds</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9a85db6a0e0003fe1293737c39acc824" kind="enumvalue"><name>terminator</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aa4d9c9124d10730d396834871f7808e6" kind="enumvalue"><name>utr</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2bfc72e6563d87ed952f44508be6aec6" kind="enumvalue"><name>primersite</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae43ab73388ce44597711bad1ad4043e7" kind="enumvalue"><name>restrictionsite</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2d2aeccaedc8b6884974220c07580854" kind="enumvalue"><name>fivepoverhang</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a09aa30ae35517ddb971fe3575b1ec07d" kind="enumvalue"><name>threepoverhang</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a03decd4d90283e20b729b0094abc795a" kind="enumvalue"><name>noverhang</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a08d5f9e9048e2000531c3170f4b833b1" kind="enumvalue"><name>assembly</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aac201fd270c3b96beab24f2829780ab2" kind="enumvalue"><name>signature</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a765080594016a543c63eec80764787cb" kind="enumvalue"><name>insulator</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a62e44456906656ce9b12c9b2ffd31419" kind="enumvalue"><name>ribosite</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a7c129af6078314f97438d7bd316fbf93" kind="enumvalue"><name>rnastab</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a11797ef90a9c33e31cd2e2bd1a3430b5" kind="enumvalue"><name>proteasesite</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a50bc1bdead154d8715e38964ce75b343" kind="enumvalue"><name>proteinstab</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae7669fbde3d890008b167075ad2323ab" kind="enumvalue"><name>rpromoter</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab89e194288c7713676bda7e611d0ef05" kind="enumvalue"><name>rarrow</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad13f9148b665bf8c113cedb8c14af727" kind="enumvalue"><name>larrow</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a3393fd5d9217ad6bcafa53afacb790ca" kind="enumvalue"><name>lpromoter</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ade17f0f24b49f8364187891f8550ffbb" kind="enumvalue"><name>record</name></member>
+    <member refid="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779af52de1383492717bf6ba168acef102a9" kind="enumvalue"><name>Mrecord</name></member>
+  </compound>
+  <compound refid="shape_8hpp" kind="file"><name>shape.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_dir_edge_constraints" prot="public">gviz::attrs::DirEdgeConstraints</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_edge_href" prot="public">gviz::attrs::EdgeHref</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_edge_target" prot="public">gviz::attrs::EdgeTarget</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_edge_tooltip" prot="public">gviz::attrs::EdgeTooltip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_edge_u_r_l" prot="public">gviz::attrs::EdgeURL</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="edge__related_8hpp_1a8bfac2ef23917cd9bb172a866211a63b" prot="public" static="no">
+        <type>std::variant&lt; std::string, bool &gt;</type>
+        <definition>using gviz::attrs::DirEdgeConstraintsType = typedef std::variant&lt;std::string, bool&gt;</definition>
+        <argsstring></argsstring>
+        <name>DirEdgeConstraintsType</name>
+        <qualifiedname>gviz::attrs::DirEdgeConstraintsType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

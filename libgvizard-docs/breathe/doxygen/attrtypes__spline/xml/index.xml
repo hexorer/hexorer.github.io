@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_spline" kind="struct"><name>gviz::attrtypes::Spline</name>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1a96e251c4e1e366ed5f3c1c4853c3ab99" kind="variable"><name>point</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1ad1be29eaf8627b79aa6ea746e9d76e66" kind="variable"><name>endp</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1aacaf8a813cd3390d1e794afc7334fbca" kind="variable"><name>startp</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1a33fa48dc2fc1c13156b9a698a3ed1dde" kind="variable"><name>triples</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1a52749ac3e58ebe088e6a5afe75c557de" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1ab16a4d8e4c426e44c6ce9308040f1ed5" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1aea25f82e3cc6d089f64f68d6cd11125f" kind="function"><name>set_point</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1a341b8c68685e8600d637b91dc820ff98" kind="function"><name>set_endp</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1ae6e27a48656b2ee5930b047519313720" kind="function"><name>set_startp</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_1a1a4c065d4b7fddb75c928d024c2b45f4" kind="function"><name>add_triples</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_spline_type" kind="struct"><name>gviz::attrtypes::SplineType</name>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a8e78f2fb0817565474245a337b593286" kind="typedef"><name>spline_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_type_1acece4335f616eaa0c5cde943ef53d3e6" kind="variable"><name>splines</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_type_1aef0a88f054d7b58a3af50889375c7ff6" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a59b050196410833d8d3b73fc4d9105c4" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_spline_type_1a8895c1b03e0f19ba8a696d0b2c11a249" kind="function"><name>add_spline</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="spline_8hpp_1ab114340858869f969365d1347a020032" kind="typedef"><name>spline_point_type</name></member>
+    <member refid="spline_8hpp_1a15c73147fc88d18534dae1b28bbcd956" kind="typedef"><name>spline_triple_type</name></member>
+  </compound>
+  <compound refid="spline_8hpp" kind="file"><name>spline.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

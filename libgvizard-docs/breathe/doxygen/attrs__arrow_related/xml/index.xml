@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_arrow_head" kind="struct"><name>gviz::attrs::ArrowHead</name>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a41a0b45d495aa2febf12b8927a836bc1" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a0e146a8f8ffb162f4d70efdd01a0ee15" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a2e59d802f9b78c13b124e761c0a7dd78" kind="function"><name>ArrowHead</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1aacd691aefd936b21e06c426c6e110c07" kind="function"><name>ArrowHead</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a61398da94474e75b0bbe9c1785830c5d" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a1e890137eac2be9d08fe862e8d3afb1e" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_head_1a77f42b9a29231004218a46e4c160f30a" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_arrow_size" kind="struct"><name>gviz::attrs::ArrowSize</name>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1a3d08feb2d9abcb6b722986969d69dffb" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1a7ef3970e1cf266cb8f3ea267b93a301e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1acd7e4d7ed841e105caf1b214e9b76798" kind="function"><name>ArrowSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1a8f9a832de0569300dc145f7d658d24a2" kind="function"><name>ArrowSize</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1aff58d401f3320ef92c0c81a43973e4ac" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1a112bea2d6c03a4ca7ffc766250f6da80" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_size_1af65b13d94839cf94fec5429fab209ccd" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_arrow_tail" kind="struct"><name>gviz::attrs::ArrowTail</name>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a4ccc558cbce18f3687870024004e387c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a12ea4aa4f6044fb7a9dd4fae0f300287" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a26d1f2840c03aaf37678ae95352fc964" kind="function"><name>ArrowTail</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1ac3c79d7cf1d9c841d50a81677ad614c0" kind="function"><name>ArrowTail</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a8dfc5f203f129dbdedc3e77b626dcc20" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a35d9e01c5c67404bfa588b7298a9c441" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_arrow_tail_1a826c9bcffd4c11aeb7ef1a4c436d8276" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="arrow__related_8hpp" kind="file"><name>arrow_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_pen_width" kind="struct"><name>gviz::attrs::PenWidth</name>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1afddcefd9486d729e079bdb0c457eef12" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1a8e94a38cd47ac244bd46bfa013124f73" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1a1e43a708bda0850e915cbc0563b90771" kind="function"><name>PenWidth</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1a2275ce9dcba085b0b2a735087025c810" kind="function"><name>PenWidth</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1a9ad4188bf45879ee3d4e247ef86900f6" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1aeaf75bfb720d34c5ed410d8f2f846418" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pen_width_1a899f85d604ec55d18d9af80c9703f728" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="penwidth_8hpp" kind="file"><name>penwidth.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

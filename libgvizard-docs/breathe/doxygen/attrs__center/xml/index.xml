@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_center" kind="struct"><name>gviz::attrs::Center</name>
+    <member refid="structgviz_1_1attrs_1_1_center_1a5562013c3c21adf2e0b41e553895537c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1a7dc2d6e87df1b801d8da57121bf70543" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1ad172e654ea6823eabcec28eb7440a134" kind="function"><name>Center</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1ad5f4ccbf6cddc7de027b2f9ced77998a" kind="function"><name>Center</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1ab86b0c712931b54ed81082014e7a11de" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1ac5140be4bede38534c21c5a8aa74e6e0" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_center_1a5fbe608014bab4c04172a792c1b50ab2" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="center_8hpp" kind="file"><name>center.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

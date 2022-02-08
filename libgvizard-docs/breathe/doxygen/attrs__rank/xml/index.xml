@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_rank" kind="struct"><name>gviz::attrs::Rank</name>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a302785bee74b70cf83210cbfc8d1cc1a" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a07d4dd26b83e114f644cbf5896d256ae" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a4de46280bdb59db5bb83bd7f43e1bde6" kind="function"><name>Rank</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a13855782c85020013bd109d194807620" kind="function"><name>Rank</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a61ffb1dc2048fab2c5c7752b878cc516" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a7cb28c47fd4e5b305a17d7f7bf1f4347" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rank_1a15dd19273fb1895cc78c5aede56a9116" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="rank_8hpp" kind="file"><name>rank.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

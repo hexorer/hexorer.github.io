@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_sep" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Sep</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Sep, SepType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_sep_1ae52f9013ca0ffe43f14c52ab98007364" prot="public" static="no">
+        <type>SepType</type>
+        <definition>using gviz::attrs::Sep::value_type =  SepType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Sep::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="17" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_sep_1a714d51682900dafc617e37edf62b28bb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Sep::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Sep::name</qualifiedname>
+        <initializer>= &quot;sep&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="19" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1af49686e4224e31862dd9194306cc11cb" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Sep::Sep</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Sep</name>
+        <qualifiedname>gviz::attrs::Sep::Sep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="21" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1a8c237fd3393f3e4be812bbd3db27406b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Sep::Sep</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Sep</name>
+        <qualifiedname>gviz::attrs::Sep::Sep</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="22" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1a9379b96a0ba6db7b7f3c55e2443d5e46" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Sep::Sep</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Sep</name>
+        <qualifiedname>gviz::attrs::Sep::Sep</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="25" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1a55fd42ee3e410321efaca3d871a57a83" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Sep::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Sep::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="29" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1a5c1145708a514468d3e53b865f070772" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Sep::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Sep::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="34" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sep_1aa5d38d668f15b67cac93f5007eb487ce" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Sep::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Sep::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="39" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Sep, SepType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Sep</label>
+        <link refid="structgviz_1_1attrs_1_1_sep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Sep, SepType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Sep</label>
+        <link refid="structgviz_1_1attrs_1_1_sep"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" line="16" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/sep.hpp" bodystart="16" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_sep_1aa5d38d668f15b67cac93f5007eb487ce" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1a55fd42ee3e410321efaca3d871a57a83" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1a5c1145708a514468d3e53b865f070772" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1a714d51682900dafc617e37edf62b28bb" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1af49686e4224e31862dd9194306cc11cb" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>Sep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1a8c237fd3393f3e4be812bbd3db27406b" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>Sep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1a9379b96a0ba6db7b7f3c55e2443d5e46" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>Sep</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sep_1ae52f9013ca0ffe43f14c52ab98007364" prot="public" virt="non-virtual"><scope>gviz::attrs::Sep</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

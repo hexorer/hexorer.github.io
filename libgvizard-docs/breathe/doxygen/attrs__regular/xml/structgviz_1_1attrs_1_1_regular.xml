@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_regular" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Regular</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Regular, bool &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_regular_1a134012c514c4f869902da0384ece1a17" prot="public" static="no">
+        <type>bool</type>
+        <definition>using gviz::attrs::Regular::value_type =  bool</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Regular::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_regular_1aad34364e0f2ed8409b9309202cf3b3de" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Regular::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Regular::name</qualifiedname>
+        <initializer>= &quot;regular&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_regular_1a2817ed022e130bac326183e6dfbe1e7c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Regular::Regular</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Regular</name>
+        <qualifiedname>gviz::attrs::Regular::Regular</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_regular_1a4520cb2b5f610787bb4758fca853c29c" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Regular::Regular</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Regular</name>
+        <qualifiedname>gviz::attrs::Regular::Regular</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_regular_1a7ed88c6edda31c98b6dcb679cdca60c5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Regular::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Regular::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_regular_1a412690a75256fa016ba87e8ffc35a4d7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Regular::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Regular::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_regular_1a955bfba184b71da1c39e1ff8b53fdeb9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Regular::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Regular::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Regular, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Regular</label>
+        <link refid="structgviz_1_1attrs_1_1_regular"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Regular, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Regular</label>
+        <link refid="structgviz_1_1attrs_1_1_regular"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/regular.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a955bfba184b71da1c39e1ff8b53fdeb9" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a7ed88c6edda31c98b6dcb679cdca60c5" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a412690a75256fa016ba87e8ffc35a4d7" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1aad34364e0f2ed8409b9309202cf3b3de" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a2817ed022e130bac326183e6dfbe1e7c" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>Regular</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a4520cb2b5f610787bb4758fca853c29c" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>Regular</name></member>
+      <member refid="structgviz_1_1attrs_1_1_regular_1a134012c514c4f869902da0384ece1a17" prot="public" virt="non-virtual"><scope>gviz::attrs::Regular</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

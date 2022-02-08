@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1colors_1_1_x11_color" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gviz::colors::X11Color</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_x11_color_1a03030c14987fceb6f12acfd13c0b7d6e" prot="private" static="no" mutable="no">
+        <type>X11ColorEnum</type>
+        <definition>X11ColorEnum gviz::colors::X11Color::index_</definition>
+        <argsstring></argsstring>
+        <name>index_</name>
+        <qualifiedname>gviz::colors::X11Color::index_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="675" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_x11_color_1a162ccf838d4f214820baf06dedceb095" prot="private" static="no" mutable="no">
+        <type>SchemeColor&lt; RGB &gt;</type>
+        <definition>SchemeColor&lt;RGB&gt; gviz::colors::X11Color::color_</definition>
+        <argsstring></argsstring>
+        <name>color_</name>
+        <qualifiedname>gviz::colors::X11Color::color_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="676" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="676" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_x11_color_1affb272946fd2028f864eed8668f77465" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr SchemeColor&lt; RGB &gt;</type>
+        <definition>constexpr SchemeColor&lt;RGB&gt; gviz::colors::X11Color::list[]</definition>
+        <argsstring>[]</argsstring>
+        <name>list</name>
+        <qualifiedname>gviz::colors::X11Color::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="698" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1ae888927b650296850640aedd5da7338e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::colors::X11Color::X11Color</definition>
+        <argsstring>(X11ColorEnum index)</argsstring>
+        <name>X11Color</name>
+        <qualifiedname>gviz::colors::X11Color::X11Color</qualifiedname>
+        <param>
+          <type>X11ColorEnum</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="679" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="679" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1a0672fc83953f28922fd19b420d51dd7a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr X11ColorEnum</type>
+        <definition>constexpr X11ColorEnum gviz::colors::X11Color::get_enum</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_enum</name>
+        <qualifiedname>gviz::colors::X11Color::get_enum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="683" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="683" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1a26ca16ae59896ad3b4cea1237174de5c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr SchemeColor&lt; RGB &gt;</type>
+        <definition>constexpr SchemeColor&lt; RGB &gt; gviz::colors::X11Color::get_color</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_color</name>
+        <qualifiedname>gviz::colors::X11Color::get_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="684" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="684" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1a33ada1dae99315005a1eb8e4b87af9e8" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::colors::X11Color::operator SchemeColor&lt; RGB &gt;</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator SchemeColor&lt; RGB &gt;</name>
+        <qualifiedname>gviz::colors::X11Color::operator SchemeColor&lt; RGB &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="686" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="686" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1aa81cb55cbdf4aa87e67c5472135221e1" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::X11Color::operator==</definition>
+        <argsstring>(const X11Color &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::colors::X11Color::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_x11_color" kindref="compound">X11Color</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="688" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="688" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_x11_color_1a057ffd002e5e57b176b34028cc4146cd" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::X11Color::operator!=</definition>
+        <argsstring>(const X11Color &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::colors::X11Color::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_x11_color" kindref="compound">X11Color</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="693" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="693" bodyend="696"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" line="674" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/x11.hpp" bodystart="674" bodyend="1358"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a162ccf838d4f214820baf06dedceb095" prot="private" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>color_</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a26ca16ae59896ad3b4cea1237174de5c" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>get_color</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a0672fc83953f28922fd19b420d51dd7a" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>get_enum</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a03030c14987fceb6f12acfd13c0b7d6e" prot="private" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>index_</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1affb272946fd2028f864eed8668f77465" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>list</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a33ada1dae99315005a1eb8e4b87af9e8" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>operator SchemeColor&lt; RGB &gt;</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1a057ffd002e5e57b176b34028cc4146cd" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1aa81cb55cbdf4aa87e67c5472135221e1" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1colors_1_1_x11_color_1ae888927b650296850640aedd5da7338e" prot="public" virt="non-virtual"><scope>gviz::colors::X11Color</scope><name>X11Color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

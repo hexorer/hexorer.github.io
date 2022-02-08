@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_label_float" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LabelFloat</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LabelFloat, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_label_float_1ac0b960b1583bc380813bb2b37cfc733a" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::LabelFloat::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LabelFloat::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="107" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_label_float_1abab85fe6a6d59ebf3152140a8b02e628" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LabelFloat::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LabelFloat::name</qualifiedname>
+        <initializer>= &quot;labelfloat&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="109" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_float_1ad9597557e4895f089d8cf5918ffbf9d5" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelFloat::LabelFloat</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LabelFloat</name>
+        <qualifiedname>gviz::attrs::LabelFloat::LabelFloat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="111" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_float_1a2b4b2d97331ca41161ba259570d43249" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelFloat::LabelFloat</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>LabelFloat</name>
+        <qualifiedname>gviz::attrs::LabelFloat::LabelFloat</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="112" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="112" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_float_1a59b10bad81498d5849331929b1d17e31" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LabelFloat::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LabelFloat::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="114" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_float_1a2bd3c54e6224f5eba51804713e6f839d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelFloat::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LabelFloat::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="116" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_float_1a1519b72ce2c93899392382f7eefd7a88" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelFloat::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LabelFloat::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="121" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelFloat, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelFloat</label>
+        <link refid="structgviz_1_1attrs_1_1_label_float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelFloat, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelFloat</label>
+        <link refid="structgviz_1_1attrs_1_1_label_float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="106" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="106" bodyend="125"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1a1519b72ce2c93899392382f7eefd7a88" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1a59b10bad81498d5849331929b1d17e31" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1a2bd3c54e6224f5eba51804713e6f839d" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1ad9597557e4895f089d8cf5918ffbf9d5" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>LabelFloat</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1a2b4b2d97331ca41161ba259570d43249" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>LabelFloat</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1abab85fe6a6d59ebf3152140a8b02e628" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_float_1ac0b960b1583bc380813bb2b37cfc733a" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelFloat</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_add_double" prot="public">gviz::attrtypes::AddDouble</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_addible" prot="public">gviz::attrtypes::Addible</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5dd" prot="public" static="no" strong="yes">
+        <type>bool</type>
+        <name>AddibleSign</name>
+        <qualifiedname>gviz::attrtypes::AddibleSign</qualifiedname>
+        <enumvalue id="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5dda5da248ea6840aca1ae2b417b17982a89" prot="public">
+          <name>neutral</name>
+          <initializer>= false</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="addible_8hpp_1aa84fa78bf9933e080d71c9e890eab5ddad52916dd7b79d79e1fb9dcd7fe0163bd" prot="public">
+          <name>addible</name>
+          <initializer>= true</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

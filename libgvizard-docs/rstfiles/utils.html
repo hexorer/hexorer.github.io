@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>utils.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="views.hpp" href="views.html" />
+    <link rel="prev" title="mtputils.hpp" href="mtputils.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Reference Documentation</a> &raquo;</li>
+      <li>utils.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/rstfiles/utils.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="utils-hpp">
+<h1>utils.hpp<a class="headerlink" href="#utils-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz5utils9ConverterE">
+<span id="_CPPv3I00EN4gviz5utils9ConverterE"></span><span id="_CPPv2I00EN4gviz5utils9ConverterE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><a class="headerlink" href="#_CPPv4I00EN4gviz5utils9ConverterE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9Converter7convertERK1U">
+<span id="_CPPv3N4gviz5utils9Converter7convertERK1U"></span><span id="_CPPv2N4gviz5utils9Converter7convertERK1U"></span><span id="gviz::utils::Converter::convert__UCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_1a3123ab4d565a539cc0410c0b055017cc"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterE" title="gviz::utils::Converter::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterE" title="gviz::utils::Converter::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">obj</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9Converter7convertERK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9Converter7convertERR1U">
+<span id="_CPPv3N4gviz5utils9Converter7convertERR1U"></span><span id="_CPPv2N4gviz5utils9Converter7convertERR1U"></span><span id="gviz::utils::Converter::convert__URRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_1a42cc0e44d3493450410c5adcd72e09fe"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterE" title="gviz::utils::Converter::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterE" title="gviz::utils::Converter::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">obj</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9Converter7convertERR1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE">
+<span id="_CPPv3I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE"></span><span id="_CPPv2I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">underlying_type_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">enable_if_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">is_enum_v</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">true</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_enum_helper"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">EnumHelper</span></span></span><a class="headerlink" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper6to_strERK1T">
+<span id="_CPPv3N4gviz5utils10EnumHelper6to_strERK1T"></span><span id="_CPPv2N4gviz5utils10EnumHelper6to_strERK1T"></span><span id="gviz::utils::EnumHelper::to_str__TCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a2e88e6cf4a83f486298eb3921f5e2441"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">to_str</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper6to_strERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper10from_valueERK1U">
+<span id="_CPPv3N4gviz5utils10EnumHelper10from_valueERK1U"></span><span id="_CPPv2N4gviz5utils10EnumHelper10from_valueERK1U"></span><span id="gviz::utils::EnumHelper::from_value__UCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a38155fe251b74bf27f6e7f5d5eb035f9"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_value</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::U"><span class="n"><span class="pre">U</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper10from_valueERK1U" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper10from_indexENSt6size_tE">
+<span id="_CPPv3N4gviz5utils10EnumHelper10from_indexENSt6size_tE"></span><span id="_CPPv2N4gviz5utils10EnumHelper10from_indexENSt6size_tE"></span><span id="gviz::utils::EnumHelper::from_index__std::sCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a66619e26ea2f64fc61986bd4f7355ee2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_index</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">index</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper10from_indexENSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper8from_strEPKc">
+<span id="_CPPv3N4gviz5utils10EnumHelper8from_strEPKc"></span><span id="_CPPv2N4gviz5utils10EnumHelper8from_strEPKc"></span><span id="gviz::utils::EnumHelper::from_str__cCPCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a5059866aa2ea8e75200d056e17fe8c68"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_str</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">str</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper8from_strEPKc" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper8from_strEKNSt11string_viewE">
+<span id="_CPPv3N4gviz5utils10EnumHelper8from_strEKNSt11string_viewE"></span><span id="_CPPv2N4gviz5utils10EnumHelper8from_strEKNSt11string_viewE"></span><span id="gviz::utils::EnumHelper::from_str__std::string_viewCCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1ac906c486a55b6f6e6d256f3f89a9193c"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_str</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">str</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper8from_strEKNSt11string_viewE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper8from_strERKNSt6stringE">
+<span id="_CPPv3N4gviz5utils10EnumHelper8from_strERKNSt6stringE"></span><span id="_CPPv2N4gviz5utils10EnumHelper8from_strERKNSt6stringE"></span><span id="gviz::utils::EnumHelper::from_str__ssCR"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a60ee0342f5ab4e580e9ff10907102cab"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">from_str</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">str</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt9is_enum_vI1TEEbEEEN4gviz5utils10EnumHelperE" title="gviz::utils::EnumHelper::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper8from_strERKNSt6stringE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10EnumHelper4sizeEv">
+<span id="_CPPv3N4gviz5utils10EnumHelper4sizeEv"></span><span id="_CPPv2N4gviz5utils10EnumHelper4sizeEv"></span><span id="gviz::utils::EnumHelper::sizeCE"></span><span class="target" id="structgviz_1_1utils_1_1_enum_helper_1a638f8a73e9d6389faf073f79c472df08"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils10EnumHelper4sizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IDpEN4gviz5utils13LambdaVisitorE">
+<span id="_CPPv3IDpEN4gviz5utils13LambdaVisitorE"></span><span id="_CPPv2IDpEN4gviz5utils13LambdaVisitorE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Ts</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_lambda_visitor"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LambdaVisitor</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Ts</span></span><a class="headerlink" href="#_CPPv4IDpEN4gviz5utils13LambdaVisitorE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils11OptionalRefE">
+<span id="_CPPv3I0EN4gviz5utils11OptionalRefE"></span><span id="_CPPv2I0EN4gviz5utils11OptionalRefE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1utils_1_1_optional_ref"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">OptionalRef</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef10value_typeE">
+<span id="_CPPv3N4gviz5utils11OptionalRef10value_typeE"></span><span id="_CPPv2N4gviz5utils11OptionalRef10value_typeE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a4c0330feac1d347ec979030fe41afadb"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">remove_reference_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef14reference_typeE">
+<span id="_CPPv3N4gviz5utils11OptionalRef14reference_typeE"></span><span id="_CPPv2N4gviz5utils11OptionalRef14reference_typeE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1afbc8ca3cbc828a98165efae1f7c3eb27"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">reference_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef10value_typeE" title="gviz::utils::OptionalRef::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef14reference_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef20const_reference_typeE">
+<span id="_CPPv3N4gviz5utils11OptionalRef20const_reference_typeE"></span><span id="_CPPv2N4gviz5utils11OptionalRef20const_reference_typeE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a96ae635c037ab8b6d3c3c96b561c694b"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">const_reference_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef10value_typeE" title="gviz::utils::OptionalRef::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">&amp;</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef20const_reference_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef12pointer_typeE">
+<span id="_CPPv3N4gviz5utils11OptionalRef12pointer_typeE"></span><span id="_CPPv2N4gviz5utils11OptionalRef12pointer_typeE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a6de0c47320ae8d22c188d6cc5340424a"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pointer_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef10value_typeE" title="gviz::utils::OptionalRef::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">*</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef12pointer_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef18const_pointer_typeE">
+<span id="_CPPv3N4gviz5utils11OptionalRef18const_pointer_typeE"></span><span id="_CPPv2N4gviz5utils11OptionalRef18const_pointer_typeE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a60be60855ad91c907a9450ea29d3521c"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">const_pointer_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef10value_typeE" title="gviz::utils::OptionalRef::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="p"><span class="pre">*</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef18const_pointer_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef11OptionalRefEv">
+<span id="_CPPv3N4gviz5utils11OptionalRef11OptionalRefEv"></span><span id="_CPPv2N4gviz5utils11OptionalRef11OptionalRefEv"></span><span id="gviz::utils::OptionalRef::OptionalRef"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a4521828b86a84828033e64700b9bb3ce"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">OptionalRef</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef11OptionalRefEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef11OptionalRefE14reference_type">
+<span id="_CPPv3N4gviz5utils11OptionalRef11OptionalRefE14reference_type"></span><span id="_CPPv2N4gviz5utils11OptionalRef11OptionalRefE14reference_type"></span><span id="gviz::utils::OptionalRef::OptionalRef__reference_type"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a28cd985ecca29c9d1a0857976848e513"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">OptionalRef</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef14reference_typeE" title="gviz::utils::OptionalRef::reference_type"><span class="n"><span class="pre">reference_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ref</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef11OptionalRefE14reference_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef11OptionalRefE12pointer_type">
+<span id="_CPPv3N4gviz5utils11OptionalRef11OptionalRefE12pointer_type"></span><span id="_CPPv2N4gviz5utils11OptionalRef11OptionalRefE12pointer_type"></span><span id="gviz::utils::OptionalRef::OptionalRef__pointer_type"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1aace6ceb365754f704ece8534bae5fe57"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">OptionalRef</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef12pointer_typeE" title="gviz::utils::OptionalRef::pointer_type"><span class="n"><span class="pre">pointer_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">ptr</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef11OptionalRefE12pointer_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRef9has_valueEv">
+<span id="_CPPv3NK4gviz5utils11OptionalRef9has_valueEv"></span><span id="_CPPv2NK4gviz5utils11OptionalRef9has_valueEv"></span><span id="gviz::utils::OptionalRef::has_valueCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1aa95888e39b4af7da055f431048c4eeb9"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">has_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRef9has_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef5valueEv">
+<span id="_CPPv3N4gviz5utils11OptionalRef5valueEv"></span><span id="_CPPv2N4gviz5utils11OptionalRef5valueEv"></span><span id="gviz::utils::OptionalRef::valueCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a22078c5cd58c22faf9a412c2719c635e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef5valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRef5valueEv">
+<span id="_CPPv3NK4gviz5utils11OptionalRef5valueEv"></span><span id="_CPPv2NK4gviz5utils11OptionalRef5valueEv"></span><span id="gviz::utils::OptionalRef::valueCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1ab8d2928c7aef949a3e69656b8c42a53c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRef5valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef8value_orER1T">
+<span id="_CPPv3N4gviz5utils11OptionalRef8value_orER1T"></span><span id="_CPPv2N4gviz5utils11OptionalRef8value_orER1T"></span><span id="gviz::utils::OptionalRef::value_or__TRCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a428fa452a2d7b59ca2a5ab43d16e1fbc"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">value_or</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef8value_orER1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRef8value_orERK1T">
+<span id="_CPPv3NK4gviz5utils11OptionalRef8value_orERK1T"></span><span id="_CPPv2NK4gviz5utils11OptionalRef8value_orERK1T"></span><span id="gviz::utils::OptionalRef::value_or__TCRCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1acc5347775e843f3f13268f7260373e5a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">value_or</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRef8value_orERK1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRefmlEv">
+<span id="_CPPv3N4gviz5utils11OptionalRefmlEv"></span><span id="_CPPv2N4gviz5utils11OptionalRefmlEv"></span><span id="gviz::utils::OptionalRef::mul-operatorCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a09fb9490bf3ba9df968549c33e173071"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef14reference_typeE" title="gviz::utils::OptionalRef::reference_type"><span class="n"><span class="pre">reference_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">*</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRefmlEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRefmlEv">
+<span id="_CPPv3NK4gviz5utils11OptionalRefmlEv"></span><span id="_CPPv2NK4gviz5utils11OptionalRefmlEv"></span><span id="gviz::utils::OptionalRef::mul-operatorCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1aa7c8d7ed310739c752c16230d4ff8be8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef20const_reference_typeE" title="gviz::utils::OptionalRef::const_reference_type"><span class="n"><span class="pre">const_reference_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">*</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRefmlEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRefptEv">
+<span id="_CPPv3N4gviz5utils11OptionalRefptEv"></span><span id="_CPPv2N4gviz5utils11OptionalRefptEv"></span><span id="gviz::utils::OptionalRef::pointer-operatorCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1af6d16c307c9bc180680955893a15f5bd"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef12pointer_typeE" title="gviz::utils::OptionalRef::pointer_type"><span class="n"><span class="pre">pointer_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRefptEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRefptEv">
+<span id="_CPPv3NK4gviz5utils11OptionalRefptEv"></span><span id="_CPPv2NK4gviz5utils11OptionalRefptEv"></span><span id="gviz::utils::OptionalRef::pointer-operatorCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1aa6f384d14f9cb543f41d648f90130d2b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5utils11OptionalRef18const_pointer_typeE" title="gviz::utils::OptionalRef::const_pointer_type"><span class="n"><span class="pre">const_pointer_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRefptEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRefeqEK11OptionalRef">
+<span id="_CPPv3NK4gviz5utils11OptionalRefeqEK11OptionalRef"></span><span id="_CPPv2NK4gviz5utils11OptionalRefeqEK11OptionalRef"></span><span id="gviz::utils::OptionalRef::eq-operator__OptionalRefCCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a94dd8697fc5d04452f5ab9fc3c98694e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRefeqEK11OptionalRef" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRefneEK11OptionalRef">
+<span id="_CPPv3NK4gviz5utils11OptionalRefneEK11OptionalRef"></span><span id="_CPPv2NK4gviz5utils11OptionalRefneEK11OptionalRef"></span><span id="gviz::utils::OptionalRef::neq-operator__OptionalRefCCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a9ba10efcac8d5e66209ad4c68b4c58a3"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRefneEK11OptionalRef" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5utils11OptionalRefcvbEv">
+<span id="_CPPv3NK4gviz5utils11OptionalRefcvbEv"></span><span id="_CPPv2NK4gviz5utils11OptionalRefcvbEv"></span><span id="gviz::utils::OptionalRef::castto-b-operatorCCE"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a0645844e24edf93c219fd6fb214a1c62"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz5utils11OptionalRefcvbEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils11OptionalRef4ptr_E">
+<span id="_CPPv3N4gviz5utils11OptionalRef4ptr_E"></span><span id="_CPPv2N4gviz5utils11OptionalRef4ptr_E"></span><span id="gviz::utils::OptionalRef::ptr___TP"></span><span class="target" id="classgviz_1_1utils_1_1_optional_ref_1a50d0b5ef38d53d0c47d33bbf886b1720"></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">ptr_</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="k"><span class="pre">nullptr</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils11OptionalRef4ptr_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utilsE">
+<span id="_CPPv3N4gviz5utilsE"></span><span id="_CPPv2N4gviz5utilsE"></span><span id="gviz::utils"></span><span class="target" id="namespacegviz_1_1utils"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">utils</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-typedefs">Typedefs</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils3RefE">
+<span id="_CPPv3I0EN4gviz5utils3RefE"></span><span id="_CPPv2I0EN4gviz5utils3RefE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="utils_8hpp_1aab67a69b5afed6d85f3229244fb03cae"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Ref</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">shared_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils3RefE" title="gviz::utils::Ref::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils3RefE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4IDpEN4gviz5utils13LambdaVisitorE13LambdaVisitorIDp2TsEDp2Ts">
+<span id="_CPPv3IDpEN4gviz5utils13LambdaVisitorEDp2Ts"></span><span id="_CPPv2IDpEN4gviz5utils13LambdaVisitorEDp2Ts"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Ts</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="utils_8hpp_1a0a08993cc6b0fed8a6a0ff6cad65c462"></span><span class="sig-name descname"><span class="n"><span class="pre">LambdaVisitor</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4IDpEN4gviz5utils13LambdaVisitorE13LambdaVisitorIDp2TsEDp2Ts" title="gviz::utils::LambdaVisitor::Ts"><span class="n"><span class="pre">Ts</span></span></a><span class="p"><span class="pre">...</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4IDpEN4gviz5utils13LambdaVisitorE13LambdaVisitorIDp2TsEDp2Ts" title="gviz::utils::LambdaVisitor"><span class="n"><span class="pre">LambdaVisitor</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4IDpEN4gviz5utils13LambdaVisitorE13LambdaVisitorIDp2TsEDp2Ts" title="gviz::utils::LambdaVisitor::Ts"><span class="n"><span class="pre">Ts</span></span></a><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">&gt;</span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0DpEN4gviz5utils11LambdaVisitEDaRK1TDpRR2Fs">
+<span id="_CPPv3I0DpEN4gviz5utils11LambdaVisitERK1TDpRR2Fs"></span><span id="_CPPv2I0DpEN4gviz5utils11LambdaVisitERK1TDpRR2Fs"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Fs</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="utils_8hpp_1a32b9cffecd0d8d535062704a612510d6"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">LambdaVisit</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0DpEN4gviz5utils11LambdaVisitEDaRK1TDpRR2Fs" title="gviz::utils::LambdaVisit::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">arg</span></span>, <a class="reference internal" href="#_CPPv4I0DpEN4gviz5utils11LambdaVisitEDaRK1TDpRR2Fs" title="gviz::utils::LambdaVisit::Fs"><span class="n"><span class="pre">Fs</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">fs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0DpEN4gviz5utils11LambdaVisitEDaRK1TDpRR2Fs" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils10nulloptrefE">
+<span id="_CPPv3N4gviz5utils10nulloptrefE"></span><span id="_CPPv2N4gviz5utils10nulloptrefE"></span><span id="gviz::utils::nulloptref__auto"></span><span class="target" id="utils_8hpp_1ac74ec1497a25b8107e96950f3bc55c9a"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">nulloptref</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">nullptr</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils10nulloptrefE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="utils_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">utils.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="mtputils.html" class="btn btn-neutral float-left" title="mtputils.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="views.html" class="btn btn-neutral float-right" title="views.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/portpos.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/starttype.hpp" href="starttype.html" />
+    <link rel="prev" title="attrtypes/pagedir.hpp" href="pagedir.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/portpos.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/portpos.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-portpos-hpp">
+<h1>attrtypes/portpos.hpp<a class="headerlink" href="#attrtypes-portpos-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7PortPosE">
+<span id="_CPPv3I0EN4gviz9attrtypes7PortPosE"></span><span id="_CPPv2I0EN4gviz9attrtypes7PortPosE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">StrT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">PortPos</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7PortPosE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PortPos8str_typeE">
+<span id="_CPPv3N4gviz9attrtypes7PortPos8str_typeE"></span><span id="_CPPv2N4gviz9attrtypes7PortPos8str_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos_1ae4775a241a1b6252636f839ddd3166dc"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">str_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7PortPosE" title="gviz::attrtypes::PortPos::StrT"><span class="n"><span class="pre">StrT</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PortPos8str_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes7PortPoseqERK7PortPos">
+<span id="_CPPv3NK4gviz9attrtypes7PortPoseqERK7PortPos"></span><span id="_CPPv2NK4gviz9attrtypes7PortPoseqERK7PortPos"></span><span id="gviz::attrtypes::PortPos::eq-operator__PortPosCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos_1af45a5fc3974ce3c94770574c86f42d5f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7PortPosE" title="gviz::attrtypes::PortPos"><span class="n"><span class="pre">PortPos</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes7PortPoseqERK7PortPos" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes7PortPosneERK7PortPos">
+<span id="_CPPv3NK4gviz9attrtypes7PortPosneERK7PortPos"></span><span id="_CPPv2NK4gviz9attrtypes7PortPosneERK7PortPos"></span><span id="gviz::attrtypes::PortPos::neq-operator__PortPosCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos_1a6bfc1f403a98b9f82533a588c99cc405"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7PortPosE" title="gviz::attrtypes::PortPos"><span class="n"><span class="pre">PortPos</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes7PortPosneERK7PortPos" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PortPos4portE">
+<span id="_CPPv3N4gviz9attrtypes7PortPos4portE"></span><span id="_CPPv2N4gviz9attrtypes7PortPos4portE"></span><span id="gviz::attrtypes::PortPos::port__std::optional:str_type:"></span><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos_1a2f3f8d676513a023db60f83e53ef15b5"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes7PortPos8str_typeE" title="gviz::attrtypes::PortPos::str_type"><span class="n"><span class="pre">str_type</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">port</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">nullopt</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PortPos4portE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7PortPos7compassE">
+<span id="_CPPv3N4gviz9attrtypes7PortPos7compassE"></span><span id="_CPPv2N4gviz9attrtypes7PortPos7compassE"></span><span id="gviz::attrtypes::PortPos::compass__CompassPoint"></span><span class="target" id="structgviz_1_1attrtypes_1_1_port_pos_1abc4ff7f5d06bb549a28f05e9eec3dd56"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12CompassPointE" title="gviz::attrtypes::CompassPoint"><span class="n"><span class="pre">CompassPoint</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">compass</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12CompassPointE" title="gviz::attrtypes::CompassPoint"><span class="n"><span class="pre">CompassPoint</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes12CompassPoint8_defaultE" title="gviz::attrtypes::CompassPoint::_default"><span class="n"><span class="pre">_default</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7PortPos7compassE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-enums">Enums</p>
+<dl class="cpp enum-class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPointE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPointE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPointE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105"></span><span class="k"><span class="pre">enum</span></span><span class="w"> </span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">CompassPoint</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">uint8_t</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPointE" title="Permalink to this definition"></a><br /></dt>
+<dd><p><em>Values:</em></p>
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint8_defaultE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint8_defaultE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint8_defaultE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105af611271231707a44b6be19664cbe7c2c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">_default</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint8_defaultE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint6centerE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint6centerE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint6centerE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105aadb115059e28d960fa8badfac5516667"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">center</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint6centerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint5northE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint5northE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint5northE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a8d8d1437907bca79900ac5f0ea1f5c73"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">north</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint5northE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint5southE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint5southE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint5southE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a50fd76e33fe5b9617c5ca99008af8904"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">south</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint5southE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint4westE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint4westE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint4westE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ada4f0053a5c13882268852ae2da2e466"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">west</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint4westE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint4eastE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint4eastE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint4eastE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a320381dbf7cd2f31c04baa6b36e1c682"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">east</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint4eastE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint10north_eastE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint10north_eastE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint10north_eastE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ac4b09eb0cd1dcc00e18f23b41b69668f"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">north_east</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint10north_eastE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint10north_westE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint10north_westE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint10north_westE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105ac61480480503b38bc1314f019ac3af5c"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">north_west</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint10north_westE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint10south_eastE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint10south_eastE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint10south_eastE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a301acee0d8dc129fe2a27d269e8bc2c7"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">south_east</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint10south_eastE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp enumerator">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes12CompassPoint10south_westE">
+<span id="_CPPv3N4gviz9attrtypes12CompassPoint10south_westE"></span><span id="_CPPv2N4gviz9attrtypes12CompassPoint10south_westE"></span><span class="target" id="portpos_8hpp_1a322cd2895dd41b831f83aa20895c7105a58bb2bc0b0e903b87cf999e9c9d96927"></span><span class="k"><span class="pre">enumerator</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">south_west</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes12CompassPoint10south_westE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="portpos_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">portpos.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pagedir.html" class="btn btn-neutral float-left" title="attrtypes/pagedir.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="starttype.html" class="btn btn-neutral float-right" title="attrtypes/starttype.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_rotation" kind="struct"><name>gviz::attrs::Rotation</name>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1a515140b00d6c92c18482d00a12b767b7" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1acd9b75808339556f0925907a4a76da5f" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1ab43abe31f758df0a44de3001a87d468d" kind="function"><name>Rotation</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1a899f1ac7c5e344f370e9b35421bc5b7c" kind="function"><name>Rotation</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1ae4a07e1993537bea87c26b139e7c9d39" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1ac164b0404cb897c25c8990cf63bf1c80" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_rotation_1a9731d3793ecdbdc97702180424fedf0f" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="rotation_8hpp" kind="file"><name>rotation.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

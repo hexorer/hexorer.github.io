@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_start" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Start</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Start, attrtypes::StartType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_start_1a3473aab81d22f8c97d4b95c21e52b498" prot="public" static="no">
+        <type>attrtypes::StartType</type>
+        <definition>using gviz::attrs::Start::value_type =  attrtypes::StartType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Start::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_start_1a28b2460dcec6169a344bed1a95f64a9b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Start::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Start::name</qualifiedname>
+        <initializer>= &quot;start&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="12" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_start_1a0e5299bba9c930fab3e992e0bb42bb08" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Start::Start</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Start</name>
+        <qualifiedname>gviz::attrs::Start::Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="14" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_start_1a4788db9cca98c3812f52b80a73e1ed9e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Start::Start</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Start</name>
+        <qualifiedname>gviz::attrs::Start::Start</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="15" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_start_1ac1eb7ee76f87d8dfc387845bd6c50bee" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Start::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Start::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="17" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_start_1a47797dd8242daa184098224f6800b451" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Start::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Start::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_start_1a677fe5d002e714f600e86305c36e4d3d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Start::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Start::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Start, attrtypes::StartType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Start</label>
+        <link refid="structgviz_1_1attrs_1_1_start"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Start, attrtypes::StartType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Start</label>
+        <link refid="structgviz_1_1attrs_1_1_start"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/start.hpp" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_start_1a677fe5d002e714f600e86305c36e4d3d" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1ac1eb7ee76f87d8dfc387845bd6c50bee" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1a47797dd8242daa184098224f6800b451" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1a28b2460dcec6169a344bed1a95f64a9b" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1a0e5299bba9c930fab3e992e0bb42bb08" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>Start</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1a4788db9cca98c3812f52b80a73e1ed9e" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>Start</name></member>
+      <member refid="structgviz_1_1attrs_1_1_start_1a3473aab81d22f8c97d4b95c21e52b498" prot="public" virt="non-virtual"><scope>gviz::attrs::Start</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

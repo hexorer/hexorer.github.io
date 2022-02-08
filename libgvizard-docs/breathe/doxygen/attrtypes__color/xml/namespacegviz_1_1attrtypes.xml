@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="color_8hpp_1a81ad94be2b4bd0277f23985eebe6e062" prot="public" static="no">
+        <type>colors::Color</type>
+        <definition>using gviz::attrtypes::ColorType = typedef colors::Color</definition>
+        <argsstring></argsstring>
+        <name>ColorType</name>
+        <qualifiedname>gviz::attrtypes::ColorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/color.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/color.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="color_8hpp_1acded88d3bd3106f83229f1b5f2f16cf7" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename ColorT</type>
+            <defval>colors::RGB</defval>
+          </param>
+          <param>
+            <type>template&lt; typename, typename... &gt; typename</type>
+            <declname>Vec</declname>
+            <defname>Vec</defname>
+            <defval>std::vector</defval>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>VecArgs</declname>
+            <defname>VecArgs</defname>
+          </param>
+        </templateparamlist>
+        <type>Vec&lt; colors::WeightedColor&lt; ColorT &gt; &gt;</type>
+        <definition>using gviz::attrtypes::ColorList = typedef Vec&lt;colors::WeightedColor&lt;ColorT&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>ColorList</name>
+        <qualifiedname>gviz::attrtypes::ColorList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/color.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/color.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/color.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

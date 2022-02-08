@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_levels_gap" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LevelsGap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LevelsGap, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_levels_gap_1a3461deb31e9951b9aa9193aa28576d0c" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::LevelsGap::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LevelsGap::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="36" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_levels_gap_1ac08d1def6a92520e02328c526788767d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LevelsGap::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LevelsGap::name</qualifiedname>
+        <initializer>= &quot;levelsgap&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="38" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_levels_gap_1a1d419371531a157eeabcbacb46f7e19a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LevelsGap::LevelsGap</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LevelsGap</name>
+        <qualifiedname>gviz::attrs::LevelsGap::LevelsGap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="40" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_levels_gap_1a3e0d57e213fded421c84fa1701468ea8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LevelsGap::LevelsGap</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>LevelsGap</name>
+        <qualifiedname>gviz::attrs::LevelsGap::LevelsGap</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="41" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_levels_gap_1a4875ba08ef3a6db78ac291a71ac86687" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LevelsGap::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LevelsGap::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="43" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_levels_gap_1a4ea8adab387c628e714a97529949a144" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LevelsGap::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LevelsGap::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="45" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_levels_gap_1ac4df6ee7fd07a814e63f6a493e1b7755" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LevelsGap::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LevelsGap::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="50" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LevelsGap, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LevelsGap</label>
+        <link refid="structgviz_1_1attrs_1_1_levels_gap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LevelsGap, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LevelsGap</label>
+        <link refid="structgviz_1_1attrs_1_1_levels_gap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" line="35" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/level_related.hpp" bodystart="35" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1ac4df6ee7fd07a814e63f6a493e1b7755" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1a4875ba08ef3a6db78ac291a71ac86687" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1a4ea8adab387c628e714a97529949a144" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1a1d419371531a157eeabcbacb46f7e19a" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>LevelsGap</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1a3e0d57e213fded421c84fa1701468ea8" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>LevelsGap</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1ac08d1def6a92520e02328c526788767d" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_levels_gap_1a3461deb31e9951b9aa9193aa28576d0c" prot="public" virt="non-virtual"><scope>gviz::attrs::LevelsGap</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>ShapeType</name>
+        <qualifiedname>gviz::attrtypes::ShapeType</qualifiedname>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2ea558023e0395f98296b929dfdcfb05" prot="public">
+          <name>ellipse</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a34be958a921e43d813a2075297d8e862" prot="public">
+          <name>box</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae4fdf3290654756def4e6816fddce608" prot="public">
+          <name>polygon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779adc66b8bf72021c7c6bd7106da212d92a" prot="public">
+          <name>oval</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9b6ddeba5b33e577c07c35d8505c6072" prot="public">
+          <name>circle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a78ee54aa8f813885fe2fe20d232518b9" prot="public">
+          <name>point</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a0e9312087f58f367d001ec9bae8f325a" prot="public">
+          <name>egg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a56f700329ab32f0d939a4d468415c06b" prot="public">
+          <name>traingle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779af2bc5b1d869870d7688f71b2d87030bd" prot="public">
+          <name>plaintext</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aac7938d40cfc2307e2bf325d28e7884e" prot="public">
+          <name>plain</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a75c6f03161d020201000414cd1501f9f" prot="public">
+          <name>diamond</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aa08aa01da8b25b1b94ec78de3f142394" prot="public">
+          <name>trapezium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab5a1a40158713c4b0a11f81b766dfeae" prot="public">
+          <name>parallelogram</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2ca63cddd54f9490efad22421891a9d1" prot="public">
+          <name>house</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9f390d3c7eca88d5b8db183d23d2b4f0" prot="public">
+          <name>pentagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779afcadedce5939367d6558b793607399d8" prot="public">
+          <name>hexagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab94bddf57f68b935507b0d9de9f13b3d" prot="public">
+          <name>septagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab9e4e5d82687447bb6f987665e3bb6ef" prot="public">
+          <name>octagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a0bed3e9658204953871b6276a1ed271a" prot="public">
+          <name>doublecircle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aec091b09130a390dd79d8e8a8a7d6e65" prot="public">
+          <name>doubleoctagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad2c3d06d03d0d9809932dc221957a504" prot="public">
+          <name>tripleoctagon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a50289749cf40bf0d77e4210a0e2f4cb8" prot="public">
+          <name>invtriangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a64227a73fbdf797070467b215908b54c" prot="public">
+          <name>invtrapezium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a90d207c5d43638bf59adaa7ea5f8bff6" prot="public">
+          <name>invhouse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a8b1be1a7f4d7ac574859739012563adb" prot="public">
+          <name>Mdiamond</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a92e8a5559846b9e45f5c1e14284967fb" prot="public">
+          <name>Msquare</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2c4b9a2cccf8adbb6723ee1bf6e4b73a" prot="public">
+          <name>Mcircle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2676d7b68ff2c97c5776c6e5da218c01" prot="public">
+          <name>rect</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad98492c62533926b6961f41406756a4e" prot="public">
+          <name>rectangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2fc01ec765ec0cb3dcc559126de20b30" prot="public">
+          <name>square</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a8ff953dd97c4405234a04291dee39e0b" prot="public">
+          <name>star</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a6dc7b4483f8c2c701a48e42db552806d" prot="public">
+          <name>underline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9c7cd9fc9aa15fae1e37885314637c36" prot="public">
+          <name>cylinder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aaad653ca3ee669635f2938b73098b6d7" prot="public">
+          <name>note</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae7f8cbd87d347be881cba92dad128518" prot="public">
+          <name>tab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a851148b4fd8fd7ae74bd9100c5c0c898" prot="public">
+          <name>folder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a1495a0106c33eae0ad54570f4bba8b0f" prot="public">
+          <name>box3d</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a700c216fb376666eaeda0c892e8bdc09" prot="public">
+          <name>component</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a6bc51efa7ac81d91efb6db917422d039" prot="public">
+          <name>promoter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a83b861efd4ce3bb438dd07435c9e7044" prot="public">
+          <name>cds</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a9a85db6a0e0003fe1293737c39acc824" prot="public">
+          <name>terminator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aa4d9c9124d10730d396834871f7808e6" prot="public">
+          <name>utr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2bfc72e6563d87ed952f44508be6aec6" prot="public">
+          <name>primersite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae43ab73388ce44597711bad1ad4043e7" prot="public">
+          <name>restrictionsite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a2d2aeccaedc8b6884974220c07580854" prot="public">
+          <name>fivepoverhang</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a09aa30ae35517ddb971fe3575b1ec07d" prot="public">
+          <name>threepoverhang</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a03decd4d90283e20b729b0094abc795a" prot="public">
+          <name>noverhang</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a08d5f9e9048e2000531c3170f4b833b1" prot="public">
+          <name>assembly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779aac201fd270c3b96beab24f2829780ab2" prot="public">
+          <name>signature</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a765080594016a543c63eec80764787cb" prot="public">
+          <name>insulator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a62e44456906656ce9b12c9b2ffd31419" prot="public">
+          <name>ribosite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a7c129af6078314f97438d7bd316fbf93" prot="public">
+          <name>rnastab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a11797ef90a9c33e31cd2e2bd1a3430b5" prot="public">
+          <name>proteasesite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a50bc1bdead154d8715e38964ce75b343" prot="public">
+          <name>proteinstab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ae7669fbde3d890008b167075ad2323ab" prot="public">
+          <name>rpromoter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ab89e194288c7713676bda7e611d0ef05" prot="public">
+          <name>rarrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ad13f9148b665bf8c113cedb8c14af727" prot="public">
+          <name>larrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779a3393fd5d9217ad6bcafa53afacb790ca" prot="public">
+          <name>lpromoter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779ade17f0f24b49f8364187891f8550ffbb" prot="public">
+          <name>record</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="shape_8hpp_1a27ad9db3e768e06389e2366af0cd0779af52de1383492717bf6ba168acef102a9" prot="public">
+          <name>Mrecord</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape.hpp" bodystart="8" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

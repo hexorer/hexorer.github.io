@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_page" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Page</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Page, PageType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_page_1ae487326e78ec82decf046db78740ebcc" prot="public" static="no">
+        <type>PageType</type>
+        <definition>using gviz::attrs::Page::value_type =  PageType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Page::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="16" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_page_1a72e0376b8559c19be2d80dd675205aca" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Page::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Page::name</qualifiedname>
+        <initializer>= &quot;page&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="18" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_page_1a43441222f17ab947bdf515c87f9675a9" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Page::Page</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Page</name>
+        <qualifiedname>gviz::attrs::Page::Page</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="20" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_page_1a573df8de68b6ae33445755108fe33906" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Page::Page</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Page</name>
+        <qualifiedname>gviz::attrs::Page::Page</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="21" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_page_1a37c7520a936dc793620803615aa188c9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Page::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Page::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="23" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_page_1a16afa88c3cbef2b627410897cebe3277" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Page::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Page::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_page_1a71038b4abf7dc7ef4f919e7e04fd00be" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Page::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Page::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="33" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Page, PageType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Page</label>
+        <link refid="structgviz_1_1attrs_1_1_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Page, PageType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Page</label>
+        <link refid="structgviz_1_1attrs_1_1_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" line="15" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/page.hpp" bodystart="15" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_page_1a71038b4abf7dc7ef4f919e7e04fd00be" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1a37c7520a936dc793620803615aa188c9" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1a16afa88c3cbef2b627410897cebe3277" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1a72e0376b8559c19be2d80dd675205aca" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1a43441222f17ab947bdf515c87f9675a9" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>Page</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1a573df8de68b6ae33445755108fe33906" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>Page</name></member>
+      <member refid="structgviz_1_1attrs_1_1_page_1ae487326e78ec82decf046db78740ebcc" prot="public" virt="non-virtual"><scope>gviz::attrs::Page</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

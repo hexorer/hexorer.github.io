@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ClusterMode</name>
+        <qualifiedname>gviz::attrtypes::ClusterMode</qualifiedname>
+        <enumvalue id="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7ea334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7eaf5ddaf0ca7929578b408c909429f68f2" prot="public">
+          <name>local</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="clustermode_8hpp_1a02fdad98b4f98ebaf351cee772e57e7ea9c70933aff6b2a6d08c687a6cbb6b765" prot="public">
+          <name>global</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/clustermode.hpp" line="6" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/clustermode.hpp" bodystart="6" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/clustermode.hpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

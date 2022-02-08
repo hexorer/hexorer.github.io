@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_pad" kind="struct"><name>gviz::attrs::Pad</name>
+    <member refid="structgviz_1_1attrs_1_1_pad_1af0c6ab1e73e979adacf296f46a568a57" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1afd8534d79a63bd3c1a801631d0547cf5" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1adfa044cc7bc60981149c4bf8196531b1" kind="function"><name>Pad</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1a51ac6ff4a66b450af6638cd357b4351e" kind="function"><name>Pad</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1a1601a17ed01f8780c925a02f0f258f37" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1ab989c614e37695456317ff8fcaa8aa74" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_pad_1ac565bd2d6f9457a911e685fb236703cc" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="pad_8hpp_1a8b16f17e6aa966cea13edcf390a24175" kind="typedef"><name>PadType</name></member>
+  </compound>
+  <compound refid="pad_8hpp" kind="file"><name>pad.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

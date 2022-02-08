@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_fixed_size" prot="public">gviz::attrs::FixedSize</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="fixedsize_8hpp_1a84534dfed1ccaeb9b05c8ada0a74730a" prot="public" static="no">
+        <type>std::variant&lt; bool, std::string &gt;</type>
+        <definition>using gviz::attrs::FixedSizeType = typedef std::variant&lt;bool, std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>FixedSizeType</name>
+        <qualifiedname>gviz::attrs::FixedSizeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fixedsize.hpp" line="11" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fixedsize.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fixedsize.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

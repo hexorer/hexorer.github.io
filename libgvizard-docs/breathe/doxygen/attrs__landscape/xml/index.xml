@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_landscape" kind="struct"><name>gviz::attrs::Landscape</name>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1a90397db54b98ff3cfd2236bd89372333" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1ae41997fe091fb70d34564f22ba658312" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1af1c3cce8621481de4afbbc5a15ed0ba9" kind="function"><name>Landscape</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1a4f08e5d02505151f0a3f0ef22c667c48" kind="function"><name>Landscape</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1af6fee5cb45822f97debb28ec99334fe1" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1a4be241ab00576736f5e6ad72ba732341" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_landscape_1a03ef61288adfcf4d4934738cdfdae09f" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="landscape_8hpp" kind="file"><name>landscape.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

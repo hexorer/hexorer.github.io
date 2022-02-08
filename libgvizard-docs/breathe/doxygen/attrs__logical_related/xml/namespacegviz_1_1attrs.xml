@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_l_head" prot="public">gviz::attrs::LHead</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_l_height" prot="public">gviz::attrs::LHeight</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_l_position" prot="public">gviz::attrs::LPosition</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_l_tail" prot="public">gviz::attrs::LTail</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_l_width" prot="public">gviz::attrs::LWidth</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="logical__related_8hpp_1a1e6518e019a9f7319230a67cc7cd5aac" prot="public" static="no">
+        <type>std::optional&lt; attrtypes::PointType&lt; double &gt; &gt;</type>
+        <definition>using gviz::attrs::LPositionType = typedef std::optional&lt;attrtypes::PointType&lt;double&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>LPositionType</name>
+        <qualifiedname>gviz::attrs::LPositionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/logical_related.hpp" line="100" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/logical_related.hpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/logical_related.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_clip" prot="public">gviz::attrs::TailClip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_href" prot="public">gviz::attrs::TailHref</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_label" prot="public">gviz::attrs::TailLabel</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_l_p" prot="public">gviz::attrs::TailLP</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_port" prot="public">gviz::attrs::TailPort</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_target" prot="public">gviz::attrs::TailTarget</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_tooltip" prot="public">gviz::attrs::TailTooltip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_tail_u_r_l" prot="public">gviz::attrs::TailURL</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="tail__related_8hpp_1abcb875f9fd33df153067df6d1444599b" prot="public" static="no">
+        <type>std::optional&lt; attrtypes::PointType&lt; double &gt; &gt;</type>
+        <definition>using gviz::attrs::TailLPType = typedef std::optional&lt;attrtypes::PointType&lt;double&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>TailLPType</name>
+        <qualifiedname>gviz::attrs::TailLPType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="15" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/tail_related.hpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

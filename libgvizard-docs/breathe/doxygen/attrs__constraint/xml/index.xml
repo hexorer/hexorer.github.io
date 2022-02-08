@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_constraint" kind="struct"><name>gviz::attrs::Constraint</name>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1a05606eaa3f4809121c0e22c548c36cf0" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1a33c5f1bf33b93027b64e7473273e5202" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1ad4db9d765a4da279aab7969ed71e0070" kind="function"><name>Constraint</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1abd7c0642f950055c95569e3565a8bfad" kind="function"><name>Constraint</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1ad940267ce0fd05a6682e576bed379ff1" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1a3ca7d0d26f9e148c14fca8f3b280af4b" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_constraint_1aa1e5a5d70f4e5e109bf5a8758ab6c29c" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="constraint_8hpp" kind="file"><name>constraint.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

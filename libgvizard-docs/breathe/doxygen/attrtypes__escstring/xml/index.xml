@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref" kind="struct"><name>gviz::attrtypes::EscNameSetRef</name>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a1d89cabcd62c85301aea268dc174634f" kind="variable"><name>graph</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a18f151c60a154c06b6ce7bc3db092532" kind="variable"><name>node</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1aa9cdb1323a652abb2318c77f40dbd920" kind="variable"><name>edge</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a94198fa0428f30bc61800cefe7e27331" kind="variable"><name>label</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a7efb90445074346dca1797cf2eeabef7" kind="variable"><name>head</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1ad3cf8f7adb7f9b9f9472a5d9add3a327" kind="variable"><name>tail</name></member>
+  </compound>
+  <compound refid="classgviz_1_1attrtypes_1_1_esc_string" kind="class"><name>gviz::attrtypes::EscString</name>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aefb56557804fb5b5f833deb1109eda44" kind="typedef"><name>iterator</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a9b5389553739efc2a9670ef464e3ab1a" kind="typedef"><name>const_iterator</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ae730fb87a5ff5b5a45b76970caad4337" kind="variable"><name>backslash_char_sv</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a56f9c8c3f32bf72e82dbc8f1178c41ff" kind="variable"><name>default_outstring_init</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1515f1fb0a1fbd01c5ee8cbb7a955943" kind="variable"><name>default_outstring_append</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1274d735b2b1b5f45217234e0399caa7" kind="variable"><name>occurences</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ae065bea3f2af0624d42c60cdbfd0bf46" kind="variable"><name>format_</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ac441b8eafdb0b1a40217b244b4ef16c0" kind="function"><name>EscString</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a69aac80f33143e4d0fec8b2066a29e11" kind="function"><name>EscString</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a0c44f78548ef1bcad166ccc6dbd20bb1" kind="function"><name>get_format</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a1e1b6ac1b35abea62a0269f705e9414d" kind="function"><name>get_format_ref</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a797a9489591f5a87844f9bc3a0e1cfb3" kind="function"><name>get_occurences</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa55f55c6ddffd95f12273dbd3961d5d9" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1ac3786113743dc34e37cb74e0ca7a1bbf" kind="function"><name>operator!=</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a3e271d5f284d8ef17ad213b816bbf2e2" kind="function"><name>apply_size</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a3919e197133b36a1e9ce06ae0b4e7370" kind="function"><name>apply</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1a7862cdd7e7604af344887d9e9c95509e" kind="function"><name>apply_into</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa78b8952f0c9465aef5a23416414074f" kind="function"><name>apply</name></member>
+    <member refid="classgviz_1_1attrtypes_1_1_esc_string_1aa72ae5d0a39c7061058e3a0b31f8113f" kind="function"><name>count_occurences</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences" kind="struct"><name>gviz::attrtypes::EscString::Occurences</name>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ad5769a2f263c0c75b35aaef3bf533be6" kind="variable"><name>graph</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1af0be6af1b47358d6f0603eda6f15a13e" kind="variable"><name>node</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aacd4a80ddbfdb87432705625916b01e8" kind="variable"><name>edge</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ac78718ca520ad935dc82dc26664a8633" kind="variable"><name>label</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a69438b1f29602377bbbd4a599daa0832" kind="variable"><name>head</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a9b8fb8b21b1d052f448970255607c327" kind="variable"><name>tail</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a65739f317616349db7072c31280f464d" kind="function"><name>sum</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aaa050edc73294a72d8f3b2b7d88bba30" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ae5aeb0782cc0a72c000dff03cd09bb21" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+  </compound>
+  <compound refid="escstring_8hpp" kind="file"><name>escstring.hpp</name>
+    <member refid="escstring_8hpp_1a3e726de848b0ece4561598a14551f936" kind="function"><name>operator&quot;&quot;_escstr</name></member>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

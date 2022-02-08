@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_view_port_s" kind="struct"><name>gviz::attrtypes::ViewPortS</name>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a90d5b6de0eb16801c8613f960f054ac9" kind="variable"><name>size</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1aae2bdb84723e2914e55880bfa2652c2b" kind="variable"><name>zoom</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a61b3b6dfb1541c0addd9cc1ed60998a0" kind="variable"><name>center</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a552772d719329c12ede38f468c359cae" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1ac618ce059a9d7f4e532f59151c515208" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_view_port_x_y" kind="struct"><name>gviz::attrtypes::ViewPortXY</name>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_x_y_1a828a9f815754d7cebc98f003df94b917" kind="variable"><name>size</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_x_y_1a62b9b24ec1aa94b2616a58423bafdbff" kind="variable"><name>zoom</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_x_y_1ac10008bd0a651129c2d40be7805acd5d" kind="variable"><name>center</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_x_y_1a1baa87a0d06dcd06393c3f6b6748a44c" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_view_port_x_y_1af32058ca2bce119b8b0e6c5d5df494fd" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="viewport_8hpp_1ae5d85a8c8cdec5d781d689d896fdceb7" kind="typedef"><name>ViewPortType</name></member>
+  </compound>
+  <compound refid="viewport_8hpp" kind="file"><name>viewport.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

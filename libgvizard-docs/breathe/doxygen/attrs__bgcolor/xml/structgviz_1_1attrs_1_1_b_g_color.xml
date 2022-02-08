@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_b_g_color" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::BGColor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; BGColor, BGColorValueType&lt; attrtypes::ColorType &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_b_g_color_1a3d08ae61b69ffb324c6677d94b6d40da" prot="public" static="no">
+        <type>BGColorValueType&lt; attrtypes::ColorType &gt;</type>
+        <definition>using gviz::attrs::BGColor::value_type =  BGColorValueType&lt;attrtypes::ColorType&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::BGColor::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="19" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_b_g_color_1aa56b3073fa194d82260fb9028b758b85" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::BGColor::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::BGColor::name</qualifiedname>
+        <initializer>= &quot;bgcolor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="21" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a7f78d4f7695da328c4c2c778e40dd6bf" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::BGColor::BGColor</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>BGColor</name>
+        <qualifiedname>gviz::attrs::BGColor::BGColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="23" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a4d40f57afc4e14df631dbb8234fd3f4f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::BGColor::BGColor</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>BGColor</name>
+        <qualifiedname>gviz::attrs::BGColor::BGColor</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="24" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a5c29a5218dbaaa93854b780422b8dd6b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::BGColor::BGColor</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>BGColor</name>
+        <qualifiedname>gviz::attrs::BGColor::BGColor</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="27" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a99eaadff779c51370da20d45c9e2a715" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::BGColor::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::BGColor::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="31" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a5b4d6da3c4b7b2bc5a3813c3f8db2616" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::BGColor::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::BGColor::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="36" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_b_g_color_1a9f1180b8e84acd0d6d276e6e82b87962" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::BGColor::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::BGColor::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="41" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; BGColor, BGColorValueType&lt; attrtypes::ColorType &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::BGColor</label>
+        <link refid="structgviz_1_1attrs_1_1_b_g_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; BGColor, BGColorValueType&lt; attrtypes::ColorType &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::BGColor</label>
+        <link refid="structgviz_1_1attrs_1_1_b_g_color"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" line="16" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/bgcolor.hpp" bodystart="18" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a7f78d4f7695da328c4c2c778e40dd6bf" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>BGColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a4d40f57afc4e14df631dbb8234fd3f4f" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>BGColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a5c29a5218dbaaa93854b780422b8dd6b" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>BGColor</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a9f1180b8e84acd0d6d276e6e82b87962" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a99eaadff779c51370da20d45c9e2a715" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a5b4d6da3c4b7b2bc5a3813c3f8db2616" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1aa56b3073fa194d82260fb9028b758b85" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_b_g_color_1a3d08ae61b69ffb324c6677d94b6d40da" prot="public" virt="non-virtual"><scope>gviz::attrs::BGColor</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

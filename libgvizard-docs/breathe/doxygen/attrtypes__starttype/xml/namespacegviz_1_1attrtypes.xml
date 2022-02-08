@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_start_type" prot="public">gviz::attrtypes::StartType</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4d" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>StartTypeStyle</name>
+        <qualifiedname>gviz::attrtypes::StartTypeStyle</qualifiedname>
+        <enumvalue id="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da334c4a4c42fdb79d7ebc3e73b517e6f8" prot="public">
+          <name>none</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4daaf37d08ae228a87dc6b265fd1019c97d" prot="public">
+          <name>regular</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da590f53e8699817c6fa498cc11a4cbe63" prot="public">
+          <name>self</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="starttype_8hpp_1a8b2b62ece8398e051a39b1c98f81be4da7ddf32e17a6ac5ce04a8ecbf782ca509" prot="public">
+          <name>random</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/starttype.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/starttype.hpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/starttype.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

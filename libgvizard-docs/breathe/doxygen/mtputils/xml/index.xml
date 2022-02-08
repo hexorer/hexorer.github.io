@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1mtp_1_1all__derive__from" kind="struct"><name>gviz::mtp::all_derive_from</name>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1all__unique" kind="struct"><name>gviz::mtp::all_unique</name>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1always" kind="struct"><name>gviz::mtp::always</name>
+    <member refid="structgviz_1_1mtp_1_1always_1ac67745779cb6f0f8713f475bbce473e9" kind="variable"><name>value</name></member>
+    <member refid="structgviz_1_1mtp_1_1always_1a8ee801cd0d96c0cdd7897a5a22438444" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1always__ct" kind="struct"><name>gviz::mtp::always_ct</name>
+    <member refid="structgviz_1_1mtp_1_1always__ct_1a95fd69c0b08c2995816060146c6fbbba" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1array__atoi__ct" kind="struct"><name>gviz::mtp::array_atoi_ct</name>
+    <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1a122a0dfe06c5015b9e6fcb8edc7d3af9" kind="variable"><name>size</name></member>
+    <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1af78c5d7a4db3135119ba7e79f4248181" kind="variable"><name>array</name></member>
+    <member refid="structgviz_1_1mtp_1_1array__atoi__ct_1a5096c62a1873c3fc64d768cd287ad877" kind="function"><name>array_atoi_ct</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_expandable" kind="struct"><name>gviz::mtp::Expandable</name>
+    <member refid="structgviz_1_1mtp_1_1_expandable_1af8cc09a0e4147b1a710b91d10db93d4a" kind="typedef"><name>expand_for_t</name></member>
+    <member refid="structgviz_1_1mtp_1_1_expandable_1aa4a7d789aa0073b78b702a26a068dd97" kind="typedef"><name>rexpand_for_t</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1find__type__index__in" kind="struct"><name>gviz::mtp::find_type_index_in</name>
+    <member refid="structgviz_1_1mtp_1_1find__type__index__in_1afe379c17590208c2c3494f6e4b893f4f" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl" kind="struct"><name>gviz::mtp::impl::find_type_index_in_impl</name>
+    <member refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl_1a72074816a8801fd50a800b1a085ae6a7" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl_3_01_i_00_01_x_00_01_t_00_01_ts_8_8_8_01_4" kind="struct"><name>gviz::mtp::impl::find_type_index_in_impl&lt; I, X, T, Ts... &gt;</name>
+    <member refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl_3_01_i_00_01_x_00_01_t_00_01_ts_8_8_8_01_4_1a027d39db9906c05f349dd8be43918683" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1has__type__in" kind="struct"><name>gviz::mtp::has_type_in</name>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1identity" kind="struct"><name>gviz::mtp::identity</name>
+    <member refid="structgviz_1_1mtp_1_1identity_1ab18df3cf91429d6f93e111b5c93a8e49" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner" kind="struct"><name>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer::inner</name>
+    <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner_1a2127d109717684231d5e38c1ee9612b2" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer" kind="struct"><name>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer</name>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info" kind="struct"><name>gviz::mtp::MixTypeInfo</name>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_01_4" kind="struct"><name>gviz::mtp::MixTypeInfo&lt; TI &gt;</name>
+    <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_01_4_1a0df696dfd0547cf2e723d5544552ebf1" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4" kind="struct"><name>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;</name>
+    <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1a3e5a43e2b2f4301ced26b76997662fd9" kind="typedef"><name>mixer_type</name></member>
+    <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1af2295aaf9f06ebd89e9ad9661057053a" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_mix_type_info_3_4" kind="struct"><name>gviz::mtp::MixTypeInfo&lt;&gt;</name>
+    <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_4_1a31cecddb2dd79b1bd0764decbd817d80" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_pack_drop" kind="struct"><name>gviz::mtp::PackDrop</name>
+    <member refid="structgviz_1_1mtp_1_1_pack_drop_1a82d94024572c0b76e85086e65d8092cc" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_pack_drop_3_01_i_00_01_t_00_01_ts_8_8_8_01_4" kind="struct"><name>gviz::mtp::PackDrop&lt; I, T, Ts... &gt;</name>
+    <member refid="structgviz_1_1mtp_1_1_pack_drop_3_01_i_00_01_t_00_01_ts_8_8_8_01_4_1afe8b04c03f0cadb0feee497f5ca00065" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1staticptr__caster" kind="struct"><name>gviz::mtp::staticptr_caster</name>
+    <member refid="structgviz_1_1mtp_1_1staticptr__caster_1a4fa5e4e4bff1df0e0994ed24d730e393" kind="typedef"><name>pointer_type</name></member>
+    <member refid="structgviz_1_1mtp_1_1staticptr__caster_1a7203b91bd7754960a3138454dbada7dc" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_type_info" kind="struct"><name>gviz::mtp::TypeInfo</name>
+    <member refid="structgviz_1_1mtp_1_1_type_info_1a77251e4feba5a1975cf5d8874d24f857" kind="variable"><name>size</name></member>
+  </compound>
+  <compound refid="structgviz_1_1mtp_1_1_type_info_3_01_t_00_01_ts_8_8_8_01_4" kind="struct"><name>gviz::mtp::TypeInfo&lt; T, Ts... &gt;</name>
+    <member refid="structgviz_1_1mtp_1_1_type_info_3_01_t_00_01_ts_8_8_8_01_4_1acf82c979a6a368a86fadb82a3d286a32" kind="typedef"><name>first</name></member>
+    <member refid="structgviz_1_1mtp_1_1_type_info_3_01_t_00_01_ts_8_8_8_01_4_1a6d2a2c7aecb855f93539ace2592ddccc" kind="variable"><name>rest</name></member>
+    <member refid="structgviz_1_1mtp_1_1_type_info_3_01_t_00_01_ts_8_8_8_01_4_1a9228da3088f2da1099fcbab2cc9b4a65" kind="variable"><name>size</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1mtp" kind="namespace"><name>gviz::mtp</name>
+    <member refid="mtputils_8hpp_1ab3a72687b51f95e46deee60b58ad755c" kind="typedef"><name>mix_typeinfo_t</name></member>
+    <member refid="mtputils_8hpp_1a7432dc74696daede749555f4b2c9ad10" kind="variable"><name>all_unique_v</name></member>
+    <member refid="mtputils_8hpp_1a559100065295d694dc58e8b8b0f906cf" kind="variable"><name>all_derive_from_v</name></member>
+    <member refid="mtputils_8hpp_1a97d5401c5ff5c285d06241dadfdb10fb" kind="variable"><name>find_type_index_in_v</name></member>
+    <member refid="mtputils_8hpp_1a78dcc7358a3c77701a1f07879183135b" kind="variable"><name>has_type_in_v</name></member>
+  </compound>
+  <compound refid="namespacegviz_1_1mtp_1_1impl" kind="namespace"><name>gviz::mtp::impl</name>
+    <member refid="mtputils_8hpp_1ac03d8deabf8e2e5a5136525d5c59e561" kind="variable"><name>unique_in</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="mtputils_8hpp" kind="file"><name>mtputils.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1attrs_1_1_attribute_base" kind="class"><name>gviz::attrs::AttributeBase</name>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a95ef6d9fd4a9b3148658cb338fdc600e" kind="typedef"><name>value_type</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a9ac4073e2c60b39b75f6da7a096b30d5" kind="variable"><name>value_</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a5ce5b8dfced94d8287862c939c4a07f6" kind="function"><name>AttributeBase</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1af42e4668b8375cc05cb08962695045a3" kind="function"><name>AttributeBase</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1aa975a79cde1958a456b39189bea10fa2" kind="function"><name>get_name</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a246c0003046905de62543c6c69ced6f0" kind="function"><name>is_default</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a7b329cd575f834ccd8a65e5198b77b11" kind="function"><name>reset</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1ae2dcbfd38546535567dca12a294a55a5" kind="function"><name>get_value</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a3530b4c6731e8d0882a70dfdf44ed6c9" kind="function"><name>get_value</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a397e8cfef664a1075c9905d8b366f5cc" kind="function"><name>get_value</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a5688567fe17b514d18e95ad8baf0d87f" kind="function"><name>get_value</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a82d35b7802db61d0d0d6747ec8bd30fb" kind="function"><name>get_default</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a879b9b79c9e1d0315e99dbd2b2b3a52b" kind="function"><name>set_value</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1a132813b30502667454c0da1a01a93d40" kind="function"><name>operator value_type</name></member>
+    <member refid="classgviz_1_1attrs_1_1_attribute_base_1aaa1190ebae693f4b449bf613c36037c1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgviz_1_1attrs_1_1_i_attribute" kind="class"><name>gviz::attrs::IAttribute</name>
+    <member refid="classgviz_1_1attrs_1_1_i_attribute_1a3fd9e632db01736deeba4aaf31aa534b" kind="function"><name>get_name</name></member>
+    <member refid="classgviz_1_1attrs_1_1_i_attribute_1a25a4bbb388ec0618fcbd85974cce4bdd" kind="function"><name>is_default</name></member>
+    <member refid="classgviz_1_1attrs_1_1_i_attribute_1a0cde4e432bbb11a048fa55e4e0fbad65" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="attribute_8hpp" kind="file"><name>attribute.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

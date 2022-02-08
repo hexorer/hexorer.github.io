@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_pack" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Pack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Pack, PackType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_pack_1ab48726f3ec76496199ecc64608475f26" prot="public" static="no">
+        <type>PackType</type>
+        <definition>using gviz::attrs::Pack::value_type =  PackType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Pack::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_pack_1a33a614cbb20ff55fb62d5eef5e233448" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Pack::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Pack::name</qualifiedname>
+        <initializer>= &quot;pack&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_1aa9b31274d0192d6762d0ccf26bf4fc5b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Pack::Pack</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Pack</name>
+        <qualifiedname>gviz::attrs::Pack::Pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_1a4a56e87f3fcf998afb830506f226f3f3" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Pack::Pack</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Pack</name>
+        <qualifiedname>gviz::attrs::Pack::Pack</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_1aa9235e23b1fc94de7c519cc7821b9058" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Pack::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Pack::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_1a4a715423fd7806ab31a41593559ce0c6" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Pack::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Pack::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pack_1a6cd71d43b472af1a7a609ab4cee0ad3a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Pack::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Pack::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Pack, PackType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Pack</label>
+        <link refid="structgviz_1_1attrs_1_1_pack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Pack, PackType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Pack</label>
+        <link refid="structgviz_1_1attrs_1_1_pack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pack.hpp" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_pack_1a6cd71d43b472af1a7a609ab4cee0ad3a" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1aa9235e23b1fc94de7c519cc7821b9058" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1a4a715423fd7806ab31a41593559ce0c6" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1a33a614cbb20ff55fb62d5eef5e233448" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1aa9b31274d0192d6762d0ccf26bf4fc5b" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>Pack</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1a4a56e87f3fcf998afb830506f226f3f3" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>Pack</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pack_1ab48726f3ec76496199ecc64608475f26" prot="public" virt="non-virtual"><scope>gviz::attrs::Pack</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

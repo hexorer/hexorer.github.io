@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1mtp_1_1impl" kind="namespace" language="C++">
+    <compoundname>gviz::mtp::impl</compoundname>
+    <innerclass refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl" prot="public">gviz::mtp::impl::find_type_index_in_impl</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl_3_01_i_00_01_x_00_01_t_00_01_ts_8_8_8_01_4" prot="public">gviz::mtp::impl::find_type_index_in_impl&lt; I, X, T, Ts... &gt;</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mtputils_8hpp_1ac03d8deabf8e2e5a5136525d5c59e561" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::mtp::impl::unique_in</definition>
+        <argsstring></argsstring>
+        <name>unique_in</name>
+        <qualifiedname>gviz::mtp::impl::unique_in</qualifiedname>
+        <initializer>= (0 + ... + std::is_same_v&lt;T, Ts&gt;) == 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="13" column="27" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

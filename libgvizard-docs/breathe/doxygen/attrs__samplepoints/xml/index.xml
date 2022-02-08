@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_sample_points" kind="struct"><name>gviz::attrs::SamplePoints</name>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1a8da30a934595125456481bffb8bbac0c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1a1238d193452d842040fd97a5c01d4118" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1a9f3cc97f00a8f5e4126a8dc7f7703c05" kind="function"><name>SamplePoints</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1abdb2252087e837e410457bceb6ecd509" kind="function"><name>SamplePoints</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1aefc6371032006cd9a5072adb16deccd1" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1acc3d12aefe5dc0b5570d2687a392dbdf" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_sample_points_1a51741d53dcf4a023e7165faf820e7a9e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="samplepoints_8hpp" kind="file"><name>samplepoints.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

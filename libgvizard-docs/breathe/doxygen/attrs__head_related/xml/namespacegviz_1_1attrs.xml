@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_clip" prot="public">gviz::attrs::HeadClip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_href" prot="public">gviz::attrs::HeadHref</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_label" prot="public">gviz::attrs::HeadLabel</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_l_p" prot="public">gviz::attrs::HeadLP</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_port" prot="public">gviz::attrs::HeadPort</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_target" prot="public">gviz::attrs::HeadTarget</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_tooltip" prot="public">gviz::attrs::HeadTooltip</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_head_u_r_l" prot="public">gviz::attrs::HeadURL</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/head_related.hpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

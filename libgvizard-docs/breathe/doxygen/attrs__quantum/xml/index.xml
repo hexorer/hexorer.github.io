@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_quantum" kind="struct"><name>gviz::attrs::Quantum</name>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1adbfaf3f3b7e2ea57ebcf28601b8f6e99" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1a70eee2d3e3b0ff58cf6e2bbc16d3482e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1a7b85fbc16c3ab85a158a3d0ab12cba34" kind="function"><name>Quantum</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1a3d91957eed04f59764f9d68ca80c90b1" kind="function"><name>Quantum</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1a463b59dac0d391dd900345ad238de23c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1abf236419b5718fb935e00aed2804793a" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_quantum_1ae995f8f554587cdd54b39c2f1e2a943a" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="quantum_8hpp" kind="file"><name>quantum.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

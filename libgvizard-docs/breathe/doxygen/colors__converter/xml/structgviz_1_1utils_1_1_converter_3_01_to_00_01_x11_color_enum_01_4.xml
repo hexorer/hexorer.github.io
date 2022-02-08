@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; To, X11ColorEnum &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename To</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4_1ad25ceb5d1725f675d092d6b90c7bde75" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr To</type>
+        <definition>static constexpr To gviz::utils::Converter&lt; To, X11ColorEnum &gt;::convert</definition>
+        <argsstring>(X11ColorEnum color)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; To, X11ColorEnum &gt;::convert</qualifiedname>
+        <param>
+          <type>X11ColorEnum</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="165" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="165" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="164" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="164" bodyend="169"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4_1ad25ceb5d1725f675d092d6b90c7bde75" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; To, X11ColorEnum &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

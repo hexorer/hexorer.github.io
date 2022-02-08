@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/escstring.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/outputmode.hpp" href="outputmode.html" />
+    <link rel="prev" title="attrtypes/smoothtype.hpp" href="smoothtype.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/escstring.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/escstring.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-escstring-hpp">
+<h1>attrtypes/escstring.hpp<a class="headerlink" href="#attrtypes-escstring-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRefE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRefE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRefE"></span><span id="gviz::attrtypes::EscNameSetRef"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">EscNameSetRef</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRefE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef5graphE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef5graphE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef5graphE"></span><span id="gviz::attrtypes::EscNameSetRef::graph__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a1d89cabcd62c85301aea268dc174634f"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">graph</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef5graphE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef4nodeE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef4nodeE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef4nodeE"></span><span id="gviz::attrtypes::EscNameSetRef::node__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a18f151c60a154c06b6ce7bc3db092532"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">node</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef4nodeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef4edgeE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef4edgeE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef4edgeE"></span><span id="gviz::attrtypes::EscNameSetRef::edge__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1aa9cdb1323a652abb2318c77f40dbd920"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">edge</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef4edgeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef5labelE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef5labelE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef5labelE"></span><span id="gviz::attrtypes::EscNameSetRef::label__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a94198fa0428f30bc61800cefe7e27331"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">label</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef5labelE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef4headE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef4headE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef4headE"></span><span id="gviz::attrtypes::EscNameSetRef::head__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1a7efb90445074346dca1797cf2eeabef7"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">head</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef4headE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13EscNameSetRef4tailE">
+<span id="_CPPv3N4gviz9attrtypes13EscNameSetRef4tailE"></span><span id="_CPPv2N4gviz9attrtypes13EscNameSetRef4tailE"></span><span id="gviz::attrtypes::EscNameSetRef::tail__std::string_viewC"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_name_set_ref_1ad3cf8f7adb7f9b9f9472a5d9add3a327"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tail</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13EscNameSetRef4tailE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes9EscStringE">
+<span id="_CPPv3I0EN4gviz9attrtypes9EscStringE"></span><span id="_CPPv2I0EN4gviz9attrtypes9EscStringE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">StringT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">EscString</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString9EscStringEPKcNSt6size_tE">
+<span id="_CPPv3N4gviz9attrtypes9EscString9EscStringEPKcNSt6size_tE"></span><span id="_CPPv2N4gviz9attrtypes9EscString9EscStringEPKcNSt6size_tE"></span><span id="gviz::attrtypes::EscString::EscString__cCP.std::sCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1ac441b8eafdb0b1a40217b244b4ef16c0"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">EscString</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">format</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">size</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString9EscStringEPKcNSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString9EscStringE7StringT">
+<span id="_CPPv3N4gviz9attrtypes9EscString9EscStringE7StringT"></span><span id="_CPPv2N4gviz9attrtypes9EscString9EscStringE7StringT"></span><span id="gviz::attrtypes::EscString::EscString__StringTCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a69aac80f33143e4d0fec8b2066a29e11"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">EscString</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">format</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString9EscStringE7StringT" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString10get_formatEv">
+<span id="_CPPv3NK4gviz9attrtypes9EscString10get_formatEv"></span><span id="_CPPv2NK4gviz9attrtypes9EscString10get_formatEv"></span><span id="gviz::attrtypes::EscString::get_formatCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a0c44f78548ef1bcad166ccc6dbd20bb1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_format</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString10get_formatEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString14get_format_refEv">
+<span id="_CPPv3NK4gviz9attrtypes9EscString14get_format_refEv"></span><span id="_CPPv2NK4gviz9attrtypes9EscString14get_format_refEv"></span><span id="gviz::attrtypes::EscString::get_format_refCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a1e1b6ac1b35abea62a0269f705e9414d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">get_format_ref</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString14get_format_refEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString14get_occurencesEv">
+<span id="_CPPv3NK4gviz9attrtypes9EscString14get_occurencesEv"></span><span id="_CPPv2NK4gviz9attrtypes9EscString14get_occurencesEv"></span><span id="gviz::attrtypes::EscString::get_occurencesCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a797a9489591f5a87844f9bc3a0e1cfb3"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">Occurences</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_occurences</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString14get_occurencesEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscStringeqERK9EscString">
+<span id="_CPPv3NK4gviz9attrtypes9EscStringeqERK9EscString"></span><span id="_CPPv2NK4gviz9attrtypes9EscStringeqERK9EscString"></span><span id="gviz::attrtypes::EscString::eq-operator__EscStringCRCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1aa55f55c6ddffd95f12273dbd3961d5d9"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscStringeqERK9EscString" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscStringneERK9EscString">
+<span id="_CPPv3NK4gviz9attrtypes9EscStringneERK9EscString"></span><span id="_CPPv2NK4gviz9attrtypes9EscStringneERK9EscString"></span><span id="gviz::attrtypes::EscString::neq-operator__EscStringCRCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1ac3786113743dc34e37cb74e0ca7a1bbf"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscStringneERK9EscString" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString10apply_sizeERK13EscNameSetRef">
+<span id="_CPPv3NK4gviz9attrtypes9EscString10apply_sizeERK13EscNameSetRef"></span><span id="_CPPv2NK4gviz9attrtypes9EscString10apply_sizeERK13EscNameSetRef"></span><span id="gviz::attrtypes::EscString::apply_size__EscNameSetRefCRCCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a3e271d5f284d8ef17ad213b816bbf2e2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">apply_size</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13EscNameSetRefE" title="gviz::attrtypes::EscNameSetRef"><span class="n"><span class="pre">EscNameSetRef</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">nameset</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString10apply_sizeERK13EscNameSetRef" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz9attrtypes9EscString5applyENSt6size_tE8Iterator8IteratorRK13EscNameSetRef">
+<span id="_CPPv3I0ENK4gviz9attrtypes9EscString5applyE8Iterator8IteratorRK13EscNameSetRef"></span><span id="_CPPv2I0ENK4gviz9attrtypes9EscString5applyE8Iterator8IteratorRK13EscNameSetRef"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Iterator</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a3919e197133b36a1e9ce06ae0b4e7370"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">apply</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0ENK4gviz9attrtypes9EscString5applyENSt6size_tE8Iterator8IteratorRK13EscNameSetRef" title="gviz::attrtypes::EscString::apply::Iterator"><span class="n"><span class="pre">Iterator</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">dstbegin</span></span>, <a class="reference internal" href="#_CPPv4I0ENK4gviz9attrtypes9EscString5applyENSt6size_tE8Iterator8IteratorRK13EscNameSetRef" title="gviz::attrtypes::EscString::apply::Iterator"><span class="n"><span class="pre">Iterator</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">dstend</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13EscNameSetRefE" title="gviz::attrtypes::EscNameSetRef"><span class="n"><span class="pre">EscNameSetRef</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">nameset</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz9attrtypes9EscString5applyENSt6size_tE8Iterator8IteratorRK13EscNameSetRef" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend">
+<span id="_CPPv3I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringTRK13EscNameSetRef7Fappend"></span><span id="_CPPv2I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringTRK13EscNameSetRef7Fappend"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">OutStringT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Fappend</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">decltype</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="gviz::attrtypes::EscString::default_outstring_append"><span class="n"><span class="pre">default_outstring_append</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="gviz::attrtypes::EscString::apply_into::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a7862cdd7e7604af344887d9e9c95509e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="gviz::attrtypes::EscString::apply_into::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">apply_into</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="gviz::attrtypes::EscString::apply_into::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">output</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13EscNameSetRefE" title="gviz::attrtypes::EscNameSetRef"><span class="n"><span class="pre">EscNameSetRef</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">nameset</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span>, <a class="reference internal" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="gviz::attrtypes::EscString::apply_into::Fappend"><span class="n"><span class="pre">Fappend</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">append</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="gviz::attrtypes::EscString::default_outstring_append"><span class="n"><span class="pre">default_outstring_append</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="gviz::attrtypes::EscString::apply_into::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I00ENK4gviz9attrtypes9EscString10apply_intoE10OutStringT10OutStringTRK13EscNameSetRef7Fappend" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend">
+<span id="_CPPv3I000ENK4gviz9attrtypes9EscString5applyERK13EscNameSetRef5Finit7Fappend"></span><span id="_CPPv2I000ENK4gviz9attrtypes9EscString5applyERK13EscNameSetRef5Finit7Fappend"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">OutStringT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Finit</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">decltype</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString22default_outstring_initE" title="gviz::attrtypes::EscString::default_outstring_init"><span class="n"><span class="pre">default_outstring_init</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Fappend</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">decltype</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="gviz::attrtypes::EscString::default_outstring_append"><span class="n"><span class="pre">default_outstring_append</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1aa78b8952f0c9465aef5a23416414074f"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">apply</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13EscNameSetRefE" title="gviz::attrtypes::EscNameSetRef"><span class="n"><span class="pre">EscNameSetRef</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">nameset</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span>, <a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::Finit"><span class="n"><span class="pre">Finit</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">init</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString22default_outstring_initE" title="gviz::attrtypes::EscString::default_outstring_init"><span class="n"><span class="pre">default_outstring_init</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span>, <a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::Fappend"><span class="n"><span class="pre">Fappend</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">append</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="gviz::attrtypes::EscString::default_outstring_append"><span class="n"><span class="pre">default_outstring_append</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="gviz::attrtypes::EscString::apply::OutStringT"><span class="n"><span class="pre">OutStringT</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I000ENK4gviz9attrtypes9EscString5applyE10OutStringTRK13EscNameSetRef5Finit7Fappend" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-types">Private Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString8iteratorE">
+<span id="_CPPv3N4gviz9attrtypes9EscString8iteratorE"></span><span id="_CPPv2N4gviz9attrtypes9EscString8iteratorE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1aefb56557804fb5b5f833deb1109eda44"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">iterator</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">iterator</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString8iteratorE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString14const_iteratorE">
+<span id="_CPPv3N4gviz9attrtypes9EscString14const_iteratorE"></span><span id="_CPPv2N4gviz9attrtypes9EscString14const_iteratorE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a9b5389553739efc2a9670ef464e3ab1a"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">const_iterator</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">const_iterator</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString14const_iteratorE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10occurencesE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10occurencesE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10occurencesE"></span><span id="gviz::attrtypes::EscString::occurences__Occurences"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a1274d735b2b1b5f45217234e0399caa7"></span><span class="n"><span class="pre">Occurences</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">occurences</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10occurencesE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString7format_E">
+<span id="_CPPv3N4gviz9attrtypes9EscString7format_E"></span><span id="_CPPv2N4gviz9attrtypes9EscString7format_E"></span><span id="gviz::attrtypes::EscString::format___StringT"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1ae065bea3f2af0624d42c60cdbfd0bf46"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString::StringT"><span class="n"><span class="pre">StringT</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">format_</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString7format_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-static-functions">Private Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString16count_occurencesE14const_iterator14const_iterator">
+<span id="_CPPv3N4gviz9attrtypes9EscString16count_occurencesE14const_iterator14const_iterator"></span><span id="_CPPv2N4gviz9attrtypes9EscString16count_occurencesE14const_iterator14const_iterator"></span><span id="gviz::attrtypes::EscString::count_occurences__const_iterator.const_iteratorCE"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1aa72ae5d0a39c7061058e3a0b31f8113f"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">Occurences</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">count_occurences</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes9EscString14const_iteratorE" title="gviz::attrtypes::EscString::const_iterator"><span class="n"><span class="pre">const_iterator</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">str</span></span>, <a class="reference internal" href="#_CPPv4N4gviz9attrtypes9EscString14const_iteratorE" title="gviz::attrtypes::EscString::const_iterator"><span class="n"><span class="pre">const_iterator</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">end</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString16count_occurencesE14const_iterator14const_iterator" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-static-attributes">Private Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString17backslash_char_svE">
+<span id="_CPPv3N4gviz9attrtypes9EscString17backslash_char_svE"></span><span id="_CPPv2N4gviz9attrtypes9EscString17backslash_char_svE"></span><span id="gviz::attrtypes::EscString::backslash_char_sv__auto"></span><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1ae730fb87a5ff5b5a45b76970caad4337"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">backslash_char_sv</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><code class="docutils literal notranslate"><span class="pre">std::string_view(&quot;\\&quot;,</span> <span class="pre">1)</span></code><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString17backslash_char_svE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes9EscString22default_outstring_initE">
+<span id="_CPPv3I0EN4gviz9attrtypes9EscString22default_outstring_initE"></span><span id="_CPPv2I0EN4gviz9attrtypes9EscString22default_outstring_initE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">StrT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a56f9c8c3f32bf72e82dbc8f1178c41ff"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">decay_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString22default_outstring_initE" title="gviz::attrtypes::EscString::default_outstring_init::StrT"><span class="n"><span class="pre">StrT</span></span></a><span class="p"><span class="pre">(</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">default_outstring_init</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><code class="docutils literal notranslate"><span class="pre">+[](std::size_t</span> <span class="pre">size)</span> <span class="pre">-&gt;</span> <span class="pre">StrT{auto</span> <span class="pre">ret</span> <span class="pre">=</span> <span class="pre">StrT{};ret.reserve(size);return</span> <span class="pre">ret;}</span></code><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes9EscString22default_outstring_initE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE">
+<span id="_CPPv3I0EN4gviz9attrtypes9EscString24default_outstring_appendE"></span><span id="_CPPv2I0EN4gviz9attrtypes9EscString24default_outstring_appendE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">StrT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1attrtypes_1_1_esc_string_1a1515f1fb0a1fbd01c5ee8cbb7a955943"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">decay_t</span></span><span class="p"><span class="pre">&lt;</span></span><span class="kt"><span class="pre">void</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="gviz::attrtypes::EscString::default_outstring_append::StrT"><span class="n"><span class="pre">StrT</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string_view</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">default_outstring_append</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><code class="docutils literal notranslate"><span class="pre">+[](StrT&amp;</span> <span class="pre">lhs,</span> <span class="pre">const</span> <span class="pre">std::string_view&amp;</span> <span class="pre">rhs){lhs</span> <span class="pre">+=</span> <span class="pre">rhs;}</span></code><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes9EscString24default_outstring_appendE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10OccurencesE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10OccurencesE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10OccurencesE"></span><span id="gviz::attrtypes::EscString::Occurences"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9EscStringE" title="gviz::attrtypes::EscString"><span class="n"><span class="pre">EscString</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Occurences</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10OccurencesE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString10Occurences3sumEv">
+<span id="_CPPv3NK4gviz9attrtypes9EscString10Occurences3sumEv"></span><span id="_CPPv2NK4gviz9attrtypes9EscString10Occurences3sumEv"></span><span id="gviz::attrtypes::EscString::Occurences::sumCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a65739f317616349db7072c31280f464d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sum</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString10Occurences3sumEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString10OccurenceseqERK10Occurences">
+<span id="_CPPv3NK4gviz9attrtypes9EscString10OccurenceseqERK10Occurences"></span><span id="_CPPv2NK4gviz9attrtypes9EscString10OccurenceseqERK10Occurences"></span><span id="gviz::attrtypes::EscString::Occurences::eq-operator__OccurencesCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aaa050edc73294a72d8f3b2b7d88bba30"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes9EscString10OccurencesE" title="gviz::attrtypes::EscString::Occurences"><span class="n"><span class="pre">Occurences</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString10OccurenceseqERK10Occurences" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9EscString10OccurencesneERK10Occurences">
+<span id="_CPPv3NK4gviz9attrtypes9EscString10OccurencesneERK10Occurences"></span><span id="_CPPv2NK4gviz9attrtypes9EscString10OccurencesneERK10Occurences"></span><span id="gviz::attrtypes::EscString::Occurences::neq-operator__OccurencesCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ae5aeb0782cc0a72c000dff03cd09bb21"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes9EscString10OccurencesE" title="gviz::attrtypes::EscString::Occurences"><span class="n"><span class="pre">Occurences</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9EscString10OccurencesneERK10Occurences" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences5graphE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences5graphE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences5graphE"></span><span id="gviz::attrtypes::EscString::Occurences::graph__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ad5769a2f263c0c75b35aaef3bf533be6"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">graph</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences5graphE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences4nodeE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences4nodeE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences4nodeE"></span><span id="gviz::attrtypes::EscString::Occurences::node__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1af0be6af1b47358d6f0603eda6f15a13e"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">node</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences4nodeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences4edgeE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences4edgeE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences4edgeE"></span><span id="gviz::attrtypes::EscString::Occurences::edge__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1aacd4a80ddbfdb87432705625916b01e8"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">edge</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences4edgeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences5labelE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences5labelE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences5labelE"></span><span id="gviz::attrtypes::EscString::Occurences::label__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1ac78718ca520ad935dc82dc26664a8633"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">label</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences5labelE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences4headE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences4headE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences4headE"></span><span id="gviz::attrtypes::EscString::Occurences::head__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a69438b1f29602377bbbd4a599daa0832"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">head</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences4headE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9EscString10Occurences4tailE">
+<span id="_CPPv3N4gviz9attrtypes9EscString10Occurences4tailE"></span><span id="_CPPv2N4gviz9attrtypes9EscString10Occurences4tailE"></span><span id="gviz::attrtypes::EscString::Occurences::tail__std::s"></span><span class="target" id="structgviz_1_1attrtypes_1_1_esc_string_1_1_occurences_1a9b8fb8b21b1d052f448970255607c327"></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tail</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9EscString10Occurences4tailE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="escstring_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">escstring.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4li7_escstrPKcNSt6size_tE">
+<span id="_CPPv3li7_escstrPKcNSt6size_tE"></span><span id="_CPPv2li7_escstrPKcNSt6size_tE"></span><span class="target" id="escstring_8hpp_1a3e726de848b0ece4561598a14551f936"></span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="s"><span class="pre">&quot;&quot;</span></span><span class="n"><span class="pre">_escstr</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">str</span></span>, <a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">size</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4li7_escstrPKcNSt6size_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="smoothtype.html" class="btn btn-neutral float-left" title="attrtypes/smoothtype.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="outputmode.html" class="btn btn-neutral float-right" title="attrtypes/outputmode.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

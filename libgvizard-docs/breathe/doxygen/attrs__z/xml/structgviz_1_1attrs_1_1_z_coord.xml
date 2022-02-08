@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_z_coord" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::ZCoord</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; ZCoord, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_z_coord_1af41922b49ea09f1dc0e57b18e65f6a57" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::ZCoord::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::ZCoord::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_z_coord_1a04d12637e83e0f3d026da90eb1e4aa3d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::ZCoord::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::ZCoord::name</qualifiedname>
+        <initializer>= &quot;z&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_z_coord_1a82856e059b3ba0ad80966a541167476d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ZCoord::ZCoord</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>ZCoord</name>
+        <qualifiedname>gviz::attrs::ZCoord::ZCoord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="15" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_z_coord_1a8a124b981d0aa8dffc9665f29fdaa420" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ZCoord::ZCoord</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>ZCoord</name>
+        <qualifiedname>gviz::attrs::ZCoord::ZCoord</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="16" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_z_coord_1a517623165832051a500d6e914f03a55b" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::ZCoord::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::ZCoord::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="18" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_z_coord_1a32c9b96fa5bdffcce0ca6f3d0247bacd" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ZCoord::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::ZCoord::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="20" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_z_coord_1a494c5d1a30fb330a2bfba41c237f3813" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ZCoord::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::ZCoord::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; ZCoord, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ZCoord</label>
+        <link refid="structgviz_1_1attrs_1_1_z_coord"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; ZCoord, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ZCoord</label>
+        <link refid="structgviz_1_1attrs_1_1_z_coord"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/z.hpp" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a494c5d1a30fb330a2bfba41c237f3813" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a517623165832051a500d6e914f03a55b" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a32c9b96fa5bdffcce0ca6f3d0247bacd" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a04d12637e83e0f3d026da90eb1e4aa3d" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1af41922b49ea09f1dc0e57b18e65f6a57" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>value_type</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a82856e059b3ba0ad80966a541167476d" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>ZCoord</name></member>
+      <member refid="structgviz_1_1attrs_1_1_z_coord_1a8a124b981d0aa8dffc9665f29fdaa420" prot="public" virt="non-virtual"><scope>gviz::attrs::ZCoord</scope><name>ZCoord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

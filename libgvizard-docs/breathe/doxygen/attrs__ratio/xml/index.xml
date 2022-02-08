@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_ratio" kind="struct"><name>gviz::attrs::Ratio</name>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1afb028527dfd8c1b4234c5f146b6f9faf" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1a93b63ea00edae5e7990d2ddc1227b695" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1ab2cb3aa44582bff89734de47cd0c8d5d" kind="function"><name>Ratio</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1a1fb253d785c5b3f893765bde876b77d0" kind="function"><name>Ratio</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1a1f7bcc3277b5999261f63dcaff0fabd3" kind="function"><name>Ratio</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1ae12c1401a267da4f9e401837b4647293" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1a4e0f717060a7fcda94af1b027f8f2ff3" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_ratio_1a9ea08535f679d03e96805dcaa63d00c0" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="ratio_8hpp_1a2e161f92e8ee163f2ba6e4cd4ea14c4f" kind="typedef"><name>RatioType</name></member>
+  </compound>
+  <compound refid="ratio_8hpp" kind="file"><name>ratio.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

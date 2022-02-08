@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_point_type" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::PointType</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_point_type_1ad1d28544ea2db6a79fe84022190005c8" prot="public" static="no">
+        <type>std::variant&lt; <ref refid="structgviz_1_1attrtypes_1_1_point2_d" kindref="compound">Point2D</ref>&lt; T &gt;, <ref refid="structgviz_1_1attrtypes_1_1_point3_d" kindref="compound">Point3D</ref>&lt; T &gt; &gt;</type>
+        <definition>using gviz::attrtypes::PointType&lt; T &gt;::point_type =  std::variant&lt;Point2D&lt;T&gt;, Point3D&lt;T&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>point_type</name>
+        <qualifiedname>gviz::attrtypes::PointType::point_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="101" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_point_type_1a0317353f108d8f8888f4c51ea175e046" prot="public" static="no" mutable="no">
+        <type>point_type</type>
+        <definition>point_type gviz::attrtypes::PointType&lt; T &gt;::point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>gviz::attrtypes::PointType::point</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="103" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1ace5007f15c406828240973a4b718cda4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::PointType</definition>
+        <argsstring>()</argsstring>
+        <name>PointType</name>
+        <qualifiedname>gviz::attrtypes::PointType::PointType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="105" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1af0edee68e5b0c0bee3d74db4ae5ca154" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::PointType</definition>
+        <argsstring>(T x, T y)</argsstring>
+        <name>PointType</name>
+        <qualifiedname>gviz::attrtypes::PointType::PointType</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="106" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a62237b2d30beb0935885d6db678b36b4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::PointType</definition>
+        <argsstring>(T x, T y, T z)</argsstring>
+        <name>PointType</name>
+        <qualifiedname>gviz::attrtypes::PointType::PointType</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="110" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a2f817be40e6144580cd7bdb24d5d1be8" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::PointType</definition>
+        <argsstring>(point_type p)</argsstring>
+        <name>PointType</name>
+        <qualifiedname>gviz::attrtypes::PointType::PointType</qualifiedname>
+        <param>
+          <type>point_type</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="114" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a2075e7e45a6013a46663682ee465ee6a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::PointType&lt; T &gt;::operator==</definition>
+        <argsstring>(const PointType &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_point_type" kindref="compound">PointType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="116" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="116" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1acc3244f71a26312d82e012431b821fac" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::PointType&lt; T &gt;::operator!=</definition>
+        <argsstring>(const PointType &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_point_type" kindref="compound">PointType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="125" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a16476ab12782d771b59af46e6b516e18" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::PointType&lt; T &gt;::operator+</definition>
+        <argsstring>(const PointType &amp;other) const</argsstring>
+        <name>operator+</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_point_type" kindref="compound">PointType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="134" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a8451296a8e4ee11fb7f250bf9d3151bd" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::PointType&lt; T &gt;::operator-</definition>
+        <argsstring>(const PointType &amp;other) const</argsstring>
+        <name>operator-</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_point_type" kindref="compound">PointType</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="143" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a09bf56240e18344b2b2caa76ad75472d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::operator Point2D&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Point2D&lt; T &gt;</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator Point2D&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="152" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="152" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_point_type_1a335f886db47d1dde853affc76e7e8eec" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::PointType&lt; T &gt;::operator Point3D&lt; T &gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Point3D&lt; T &gt;</name>
+        <qualifiedname>gviz::attrtypes::PointType::operator Point3D&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="161" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="161" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" line="100" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/point.hpp" bodystart="100" bodyend="169"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a09bf56240e18344b2b2caa76ad75472d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator Point2D&lt; T &gt;</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a335f886db47d1dde853affc76e7e8eec" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator Point3D&lt; T &gt;</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1acc3244f71a26312d82e012431b821fac" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a16476ab12782d771b59af46e6b516e18" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator+</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a8451296a8e4ee11fb7f250bf9d3151bd" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator-</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a2075e7e45a6013a46663682ee465ee6a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a0317353f108d8f8888f4c51ea175e046" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>point</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1ad1d28544ea2db6a79fe84022190005c8" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>point_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1ace5007f15c406828240973a4b718cda4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>PointType</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1af0edee68e5b0c0bee3d74db4ae5ca154" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>PointType</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a62237b2d30beb0935885d6db678b36b4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>PointType</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_point_type_1a2f817be40e6144580cd7bdb24d5d1be8" prot="public" virt="non-virtual"><scope>gviz::attrtypes::PointType</scope><name>PointType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

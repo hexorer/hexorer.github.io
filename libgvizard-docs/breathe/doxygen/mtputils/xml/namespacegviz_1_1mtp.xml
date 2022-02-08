@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1mtp" kind="namespace" language="C++">
+    <compoundname>gviz::mtp</compoundname>
+    <innerclass refid="structgviz_1_1mtp_1_1all__derive__from" prot="public">gviz::mtp::all_derive_from</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1all__unique" prot="public">gviz::mtp::all_unique</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1always" prot="public">gviz::mtp::always</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1always__ct" prot="public">gviz::mtp::always_ct</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1array__atoi__ct" prot="public">gviz::mtp::array_atoi_ct</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_expandable" prot="public">gviz::mtp::Expandable</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1find__type__index__in" prot="public">gviz::mtp::find_type_index_in</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1has__type__in" prot="public">gviz::mtp::has_type_in</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1identity" prot="public">gviz::mtp::identity</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info" prot="public">gviz::mtp::MixTypeInfo</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_01_4" prot="public">gviz::mtp::MixTypeInfo&lt; TI &gt;</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4" prot="public">gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_mix_type_info_3_4" prot="public">gviz::mtp::MixTypeInfo&lt;&gt;</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_pack_drop" prot="public">gviz::mtp::PackDrop</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_pack_drop_3_01_i_00_01_t_00_01_ts_8_8_8_01_4" prot="public">gviz::mtp::PackDrop&lt; I, T, Ts... &gt;</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1staticptr__caster" prot="public">gviz::mtp::staticptr_caster</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_type_info" prot="public">gviz::mtp::TypeInfo</innerclass>
+    <innerclass refid="structgviz_1_1mtp_1_1_type_info_3_01_t_00_01_ts_8_8_8_01_4" prot="public">gviz::mtp::TypeInfo&lt; T, Ts... &gt;</innerclass>
+    <innernamespace refid="namespacegviz_1_1mtp_1_1impl">gviz::mtp::impl</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="mtputils_8hpp_1ab3a72687b51f95e46deee60b58ad755c" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structgviz_1_1mtp_1_1_mix_type_info" kindref="compound">MixTypeInfo</ref>&lt; Ts... &gt;::type</type>
+        <definition>using gviz::mtp::mix_typeinfo_t = typedef typename MixTypeInfo&lt;Ts...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>mix_typeinfo_t</name>
+        <qualifiedname>gviz::mtp::mix_typeinfo_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="122" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mtputils_8hpp_1a7432dc74696daede749555f4b2c9ad10" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::mtp::all_unique_v</definition>
+        <argsstring></argsstring>
+        <name>all_unique_v</name>
+        <qualifiedname>gviz::mtp::all_unique_v</qualifiedname>
+        <initializer>= <ref refid="structgviz_1_1mtp_1_1all__unique" kindref="compound">all_unique</ref>&lt;Ts...&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="21" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mtputils_8hpp_1a559100065295d694dc58e8b8b0f906cf" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::mtp::all_derive_from_v</definition>
+        <argsstring></argsstring>
+        <name>all_derive_from_v</name>
+        <qualifiedname>gviz::mtp::all_derive_from_v</qualifiedname>
+        <initializer>= <ref refid="structgviz_1_1mtp_1_1all__derive__from" kindref="compound">all_derive_from</ref>&lt;Ts...&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="29" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mtputils_8hpp_1a97d5401c5ff5c285d06241dadfdb10fb" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename X</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::mtp::find_type_index_in_v</definition>
+        <argsstring></argsstring>
+        <name>find_type_index_in_v</name>
+        <qualifiedname>gviz::mtp::find_type_index_in_v</qualifiedname>
+        <initializer>=
+                                <ref refid="structgviz_1_1mtp_1_1find__type__index__in" kindref="compound">find_type_index_in</ref>&lt;X, Ts...&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="162" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mtputils_8hpp_1a78dcc7358a3c77701a1f07879183135b" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename X</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::mtp::has_type_in_v</definition>
+        <argsstring></argsstring>
+        <name>has_type_in_v</name>
+        <qualifiedname>gviz::mtp::has_type_in_v</qualifiedname>
+        <initializer>= <ref refid="structgviz_1_1mtp_1_1has__type__in" kindref="compound">has_type_in</ref>&lt;X, Ts...&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="171" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1colors_1_1_weighted_color" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gviz::colors::WeightedColor</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename ColorT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgviz_1_1colors_1_1_weighted_color_1a36917c7ba2087b5af21e9b0ef19b3bf5" prot="public" static="no">
+        <type>ColorT</type>
+        <definition>using gviz::colors::WeightedColor&lt; ColorT &gt;::color_type =  ColorT</definition>
+        <argsstring></argsstring>
+        <name>color_type</name>
+        <qualifiedname>gviz::colors::WeightedColor::color_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="43" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_weighted_color_1a59602a23b711cdf6540adb25f6d6afd9" prot="private" static="no" mutable="no">
+        <type>color_type</type>
+        <definition>color_type gviz::colors::WeightedColor&lt; ColorT &gt;::color_</definition>
+        <argsstring></argsstring>
+        <name>color_</name>
+        <qualifiedname>gviz::colors::WeightedColor::color_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="46" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1colors_1_1_weighted_color_1a338c1113472e88d26198dc71b9a68dc3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::colors::WeightedColor&lt; ColorT &gt;::weight_</definition>
+        <argsstring></argsstring>
+        <name>weight_</name>
+        <qualifiedname>gviz::colors::WeightedColor::weight_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="47" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1abfccde464f48b7636456e5657a0b0cbe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::colors::WeightedColor&lt; ColorT &gt;::WeightedColor</definition>
+        <argsstring>(ColorT color, double weight)</argsstring>
+        <name>WeightedColor</name>
+        <qualifiedname>gviz::colors::WeightedColor::WeightedColor</qualifiedname>
+        <param>
+          <type>ColorT</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="50" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1aea901344b0fe29c3853fc5a3cea4c1c5" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::colors::WeightedColor&lt; ColorT &gt;::get_color</definition>
+        <argsstring>() const noexcept(noexcept(color_type(color_)))</argsstring>
+        <name>get_color</name>
+        <qualifiedname>gviz::colors::WeightedColor::get_color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="57" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1ab0ce7fc4a66483186ef78b0fc99cf282" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::colors::WeightedColor&lt; ColorT &gt;::get_weight</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_weight</name>
+        <qualifiedname>gviz::colors::WeightedColor::get_weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="62" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1ae4fc6ee0f775bf432e39ca52915764ae" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1colors_1_1_weighted_color" kindref="compound">WeightedColor</ref> &amp;</type>
+        <definition>constexpr WeightedColor &amp; gviz::colors::WeightedColor&lt; ColorT &gt;::set_color</definition>
+        <argsstring>(const color_type &amp;color)</argsstring>
+        <name>set_color</name>
+        <qualifiedname>gviz::colors::WeightedColor::set_color</qualifiedname>
+        <param>
+          <type>const color_type &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="64" column="27" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1af2fe9087bdaa1999fa9ca220afae5470" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1colors_1_1_weighted_color" kindref="compound">WeightedColor</ref> &amp;</type>
+        <definition>constexpr WeightedColor &amp; gviz::colors::WeightedColor&lt; ColorT &gt;::set_weight</definition>
+        <argsstring>(double weight)</argsstring>
+        <name>set_weight</name>
+        <qualifiedname>gviz::colors::WeightedColor::set_weight</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="69" column="27" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1ae0e2569761641a9dde0d9e247f178288" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::WeightedColor&lt; ColorT &gt;::operator==</definition>
+        <argsstring>(const WeightedColor &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::colors::WeightedColor::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_weighted_color" kindref="compound">WeightedColor</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="77" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1colors_1_1_weighted_color_1a7bae6f3eea95296e787c19a8813ca499" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::colors::WeightedColor&lt; ColorT &gt;::operator!=</definition>
+        <argsstring>(const WeightedColor &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::colors::WeightedColor::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1colors_1_1_weighted_color" kindref="compound">WeightedColor</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="82" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="41" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="41" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1a59602a23b711cdf6540adb25f6d6afd9" prot="private" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>color_</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1a36917c7ba2087b5af21e9b0ef19b3bf5" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>color_type</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1aea901344b0fe29c3853fc5a3cea4c1c5" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>get_color</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1ab0ce7fc4a66483186ef78b0fc99cf282" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>get_weight</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1a7bae6f3eea95296e787c19a8813ca499" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1ae0e2569761641a9dde0d9e247f178288" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1ae4fc6ee0f775bf432e39ca52915764ae" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>set_color</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1af2fe9087bdaa1999fa9ca220afae5470" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>set_weight</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1a338c1113472e88d26198dc71b9a68dc3" prot="private" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>weight_</name></member>
+      <member refid="classgviz_1_1colors_1_1_weighted_color_1abfccde464f48b7636456e5657a0b0cbe" prot="public" virt="non-virtual"><scope>gviz::colors::WeightedColor</scope><name>WeightedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

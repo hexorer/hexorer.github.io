@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_damping" kind="struct"><name>gviz::attrs::Damping</name>
+    <member refid="structgviz_1_1attrs_1_1_damping_1aa9ca83dd87c64bc3c3ef67d301f53637" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1a3393290643823721fb98acb0d5d5f820" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1af2fc5d832567c7901b334591c2909672" kind="function"><name>Damping</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1a91ab9ba3d4ab52a61fdec29ab2586c01" kind="function"><name>Damping</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1ab8d79f00381267029bd481f025aa3c78" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1a61ebe280b28ca6645f1a1b953e1d6842" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_damping_1a417ded661166218431d967ea122ba509" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="damping_8hpp" kind="file"><name>damping.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

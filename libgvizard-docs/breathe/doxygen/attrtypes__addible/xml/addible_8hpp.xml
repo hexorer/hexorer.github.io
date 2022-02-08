@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="addible_8hpp" kind="file" language="C++">
+    <compoundname>addible.hpp</compoundname>
+    <includes local="no">utility</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp</label>
+        <link refid="addible_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_addible" prot="public">gviz::attrtypes::Addible</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_add_double" prot="public">gviz::attrtypes::AddDouble</innerclass>
+    <innernamespace refid="namespacegviz">gviz</innernamespace>
+    <innernamespace refid="namespacegviz_1_1attrtypes">gviz::attrtypes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GVIZARD_ATTRTYPES_ADDIBLE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GVIZARD_ATTRTYPES_ADDIBLE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gviz::attrtypes<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>AddibleSign<sp/>:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>neutral<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>addible<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="14" refid="structgviz_1_1attrtypes_1_1_addible" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>value_type<sp/>=<sp/>T;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/>T<sp/>value{};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>AddibleSign<sp/>addible<sp/>=<sp/>AddibleSign::neutral;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref>(T<sp/>value,<sp/>AddibleSign<sp/>sign<sp/>=<sp/>AddibleSign::neutral)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>value(std::move(value))</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>addible(sign)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>make(T<sp/>value,<sp/>AddibleSign<sp/>sign<sp/>=<sp/>AddibleSign::neutral)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref>(std::move(value),<sp/>sign);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>T<sp/>map(T<sp/>other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="31"><highlight class="keyword"><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bool(addible)<sp/>?<sp/>(value<sp/>+<sp/>std::move(other))<sp/>:<sp/>other;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>==<sp/>other.value<sp/>&amp;&amp;<sp/>addible<sp/>==<sp/>other.addible;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator!=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref>&amp;<sp/>other)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value<sp/>!=<sp/>other.value<sp/>||<sp/>addible<sp/>!=<sp/>other.addible;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>value_type()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structgviz_1_1attrtypes_1_1_add_double" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structgviz_1_1attrtypes_1_1_add_double" kindref="compound">AddDouble</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="structgviz_1_1attrtypes_1_1_addible" kindref="compound">Addible</ref>&lt;double&gt;<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Addible::Addible;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gviz::attrtypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>GVIZARD_ATTRTYPES_ADDIBLE_HPP_</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp"/>
+  </compounddef>
+</doxygen>

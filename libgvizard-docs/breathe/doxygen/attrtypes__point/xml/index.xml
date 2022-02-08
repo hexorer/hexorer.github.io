@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_point2_d" kind="struct"><name>gviz::attrtypes::Point2D</name>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a53d776b709b1a9ca5bb7619c4cb693a3" kind="typedef"><name>list_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a4277af8cf5eac2257975ab3ce64b44f6" kind="variable"><name>x</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a2b1eac2113c42543695bf5ee01d1fce1" kind="variable"><name>y</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a336c4298c3eba42a4262ab350bc65632" kind="function"><name>Point2D</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1ae4cb6844d2f9d8660b82b9c971a1cdc2" kind="function"><name>Point2D</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1acfc2c18b7d780cc721e9dfdf2be3c058" kind="friend"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a0d9ab2ca6bd019141a4cdbb217037817" kind="friend"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1a4ccfd738c6908944d69208dc8fde2c7b" kind="friend"><name>operator+</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point2_d_1ab02f8fb1a0f647b1e568b790f3030c17" kind="friend"><name>operator-</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_point3_d" kind="struct"><name>gviz::attrtypes::Point3D</name>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a0b9af3fcb6cdd6827d21036a5d091f15" kind="typedef"><name>list_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a67f38ece79ac895b9f77377ae7c1692f" kind="variable"><name>x</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a29312729a1c002185a367bbd7d9980a4" kind="variable"><name>y</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a1e77f45212e7d8c05f5c73c51711ca78" kind="variable"><name>z</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a63e2cc35bb7f1c4d24d6dee13cfdb76d" kind="function"><name>Point3D</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a773a25d3b7dd7cf0b29701b6075ce4c6" kind="function"><name>Point3D</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a55f66cc1da3b2e18c420f639efd82ece" kind="friend"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1aaf8d35b49bd365fd911297ddf5f73785" kind="friend"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1a05f75167e5a8c59694925bedb977fdb9" kind="friend"><name>operator+</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point3_d_1af867add2dc4876f530782372f47840aa" kind="friend"><name>operator-</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_point_type" kind="struct"><name>gviz::attrtypes::PointType</name>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1ad1d28544ea2db6a79fe84022190005c8" kind="typedef"><name>point_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a0317353f108d8f8888f4c51ea175e046" kind="variable"><name>point</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1ace5007f15c406828240973a4b718cda4" kind="function"><name>PointType</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1af0edee68e5b0c0bee3d74db4ae5ca154" kind="function"><name>PointType</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a62237b2d30beb0935885d6db678b36b4" kind="function"><name>PointType</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a2f817be40e6144580cd7bdb24d5d1be8" kind="function"><name>PointType</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a2075e7e45a6013a46663682ee465ee6a" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1acc3244f71a26312d82e012431b821fac" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a16476ab12782d771b59af46e6b516e18" kind="function"><name>operator+</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a8451296a8e4ee11fb7f250bf9d3151bd" kind="function"><name>operator-</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a09bf56240e18344b2b2caa76ad75472d" kind="function"><name>operator Point2D&lt; T &gt;</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_point_type_1a335f886db47d1dde853affc76e7e8eec" kind="function"><name>operator Point3D&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+  </compound>
+  <compound refid="point_8hpp" kind="file"><name>point.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

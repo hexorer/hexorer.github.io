@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1graph_1_1_graph_1_1_node_item" kind="struct" language="C++" prot="private" final="yes">
+    <compoundname>gviz::graph::Graph::NodeItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_node_item_1a604e6488324440e30e3c988f66a6205a" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::NodeItem::idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <qualifiedname>gviz::graph::Graph::NodeItem::idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="56" column="30" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1graph_1_1_graph_1_1_node_item_1a699ca3fa74da9a2785af6cdd575fab9d" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; <ref refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" kindref="member">ClusterId</ref> &gt;</type>
+        <definition>std::optional&lt;ClusterId&gt; gviz::graph::Graph&lt; Registry, DirV &gt;::NodeItem::cluster_id</definition>
+        <argsstring></argsstring>
+        <name>cluster_id</name>
+        <qualifiedname>gviz::graph::Graph::NodeItem::cluster_id</qualifiedname>
+        <initializer>= std::nullopt</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="57" column="19" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>always convertible to entity_type </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="55" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="55" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_node_item_1a699ca3fa74da9a2785af6cdd575fab9d" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::NodeItem</scope><name>cluster_id</name></member>
+      <member refid="structgviz_1_1graph_1_1_graph_1_1_node_item_1a604e6488324440e30e3c988f66a6205a" prot="public" virt="non-virtual"><scope>gviz::graph::Graph::NodeItem</scope><name>idx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

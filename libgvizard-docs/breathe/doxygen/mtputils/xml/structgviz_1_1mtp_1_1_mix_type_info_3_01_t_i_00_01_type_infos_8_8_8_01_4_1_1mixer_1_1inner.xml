@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer::inner</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Us</declname>
+        <defname>Us</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner_1a2127d109717684231d5e38c1ee9612b2" prot="public" static="no">
+        <type><ref refid="structgviz_1_1mtp_1_1_type_info" kindref="compound">TypeInfo</ref>&lt; Ts..., Us... &gt;</type>
+        <definition>using gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer&lt; Ts &gt;::inner&lt; Us &gt;::type =  TypeInfo&lt;Ts..., Us...&gt;</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer::inner::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="110" column="7" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="109" column="5" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="109" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1mtp_1_1_mix_type_info_3_01_t_i_00_01_type_infos_8_8_8_01_4_1_1mixer_1_1inner_1a2127d109717684231d5e38c1ee9612b2" prot="public" virt="non-virtual"><scope>gviz::mtp::MixTypeInfo&lt; TI, TypeInfos... &gt;::mixer::inner</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

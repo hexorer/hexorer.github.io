@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_ordering" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Ordering</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Ordering, std::string &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_ordering_1a7b00126f6cdb8959cb092ce91180cadc" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using gviz::attrs::Ordering::value_type =  std::string</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Ordering::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_ordering_1ae76eb98d51f3af8b51392ad2fdaed9c4" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Ordering::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Ordering::name</qualifiedname>
+        <initializer>= &quot;ordering&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1a513d8d6934bdb8a852934340b5a07fbe" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Ordering::Ordering</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Ordering</name>
+        <qualifiedname>gviz::attrs::Ordering::Ordering</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="15" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1a0f4f9c4bc70d248644dd03a9b23abd4d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Ordering::Ordering</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Ordering</name>
+        <qualifiedname>gviz::attrs::Ordering::Ordering</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="16" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1a0a9e3df3872333416465363c57ea6328" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::Ordering::Ordering</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>Ordering</name>
+        <qualifiedname>gviz::attrs::Ordering::Ordering</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="17" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1acf7d63b1f831d9456c595508c92b2c48" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::Ordering::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Ordering::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="19" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1a3796e20d3b7832e41c69710277e49b2f" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::Ordering::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Ordering::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="21" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_ordering_1a39e3e049d21c481ffa704fcf23456710" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::Ordering::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Ordering::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="26" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Ordering, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Ordering</label>
+        <link refid="structgviz_1_1attrs_1_1_ordering"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Ordering, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Ordering</label>
+        <link refid="structgviz_1_1attrs_1_1_ordering"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/ordering.hpp" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a39e3e049d21c481ffa704fcf23456710" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1acf7d63b1f831d9456c595508c92b2c48" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a3796e20d3b7832e41c69710277e49b2f" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1ae76eb98d51f3af8b51392ad2fdaed9c4" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a513d8d6934bdb8a852934340b5a07fbe" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>Ordering</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a0f4f9c4bc70d248644dd03a9b23abd4d" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>Ordering</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a0a9e3df3872333416465363c57ea6328" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>Ordering</name></member>
+      <member refid="structgviz_1_1attrs_1_1_ordering_1a7b00126f6cdb8959cb092ce91180cadc" prot="public" virt="non-virtual"><scope>gviz::attrs::Ordering</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_orientation" kind="struct"><name>gviz::attrs::Orientation</name>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1ab76fb9334f5e3136a375cebe3f81105b" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1aba6c0fd81b0e74e66fc98f1caf5b3c8b" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1a70a24dd2d860796bab5c9911c9e283a6" kind="function"><name>Orientation</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1a412b904df3475ae167103f3fff2a61db" kind="function"><name>Orientation</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1aa02baef7198235858bb25cebeea0d5ec" kind="function"><name>Orientation</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1a89656afd45f4137b15eae2a0fb16eec7" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1a46926e8e46c0914507232a1eb45f66de" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_orientation_1ab035840d87e10245470636b375142826" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="orientation_8hpp_1a5fe3e5ed53c7b9b8309248cb6d307d1e" kind="typedef"><name>OrientationType</name></member>
+  </compound>
+  <compound refid="orientation_8hpp" kind="file"><name>orientation.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_epsilon" kind="struct"><name>gviz::attrs::Epsilon</name>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1a217ba39e757ca52ba2831892f7bc2123" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1a32938be17b6a0e137ce87750ced57fdd" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1ad2c47ca345630e987491d73bc60d5bbe" kind="function"><name>Epsilon</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1aceb2fbf6bb50409b083d2edfb8bf7688" kind="function"><name>Epsilon</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1ac7fd75268fe1346371d1d4060ac6de14" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1a41985b1f7b901046936dc153b0f79415" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_epsilon_1a609ec5b70d9719dc8b3dc2077af109f7" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="epsilon_8hpp" kind="file"><name>epsilon.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

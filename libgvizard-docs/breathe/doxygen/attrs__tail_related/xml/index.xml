@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_tail_clip" kind="struct"><name>gviz::attrs::TailClip</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1a189261f047aed7d3b2b616cc7c18fddd" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1a4bcc24a826e182cd225f95d4f991d483" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1afe86f57d4bde2196c0f2db2652a7a41e" kind="function"><name>TailClip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1a0f37cda0469909d051bf30f1d9ada2a8" kind="function"><name>TailClip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1aca6ec20ea2e381b58e204fe98d22fc65" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1a59d9b213097de13c22473902520d5b60" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_clip_1a70766a4c7f58fdad30686a7fa1e53017" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_href" kind="struct"><name>gviz::attrs::TailHref</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1ac85ed0af9821c500a492fe1db61bfed2" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1ae0596be62596ce347306de0701842672" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1a0c6afbef61a05eeb74d7f1c6f5a7d1ea" kind="function"><name>TailHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1a4fcf72f88c093cb3239476dca94e5b3c" kind="function"><name>TailHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1a68303bb05a152359d7ecd4d3014b7df7" kind="function"><name>TailHref</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1a2c15441045875e15450a5c08731c3e2c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1a925ccd0938393168e48d723fbc7dc419" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_href_1ae5a6320e3c2c59efb5033cc23265ded0" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_label" kind="struct"><name>gviz::attrs::TailLabel</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a0d36dbc7ae657148f634b17bbda1f721" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1add7a9905244ce9b8da6bb59149d8b2bd" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a9211dd23c2bc5412723090a77964a747" kind="function"><name>TailLabel</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a03e1e6235f75973ef1983dfc5e40fa82" kind="function"><name>TailLabel</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a42740618e8253bdfea0d65518f7357cd" kind="function"><name>TailLabel</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a3edc6143dd9bf9c1a53a65fbf64cbf1f" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a0ce786327fc3fa1fba6aeb2614b87198" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_label_1a130fc3e6ae6eae61d9880e78dd44270b" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_l_p" kind="struct"><name>gviz::attrs::TailLP</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1a916b788da4b7c1e2585254b8832c2b91" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1a581a48cb716560627e78a1e2cd491b8f" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1a5075420fed6296f52048b3db50c414b4" kind="function"><name>TailLP</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1a0532e0c2ef6162a67148e135578c4b7c" kind="function"><name>TailLP</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1af86a9a5d6ede303acf58b8af65aa95bf" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1aaa1f8b950fd5afda3fef9b89c5e2b251" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_l_p_1ac1180d41df2b75cadc3cb11bac9917ed" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_port" kind="struct"><name>gviz::attrs::TailPort</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1a0ff371267668510af269b72d232ecad6" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1adb54cc42c25c74159d7f15b20b722f39" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1a80215eeec22b2160cd44ac3c1f342618" kind="function"><name>TailPort</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1ae0492a16b4fd491c2e8b2b8ffa1ae58d" kind="function"><name>TailPort</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1a7b0f4767d4333b7ddace831c8f736fac" kind="function"><name>TailPort</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1a43b1c754908dd255f7e9cab0bbb26374" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1aab37ff5f94f664eb98700dd1bf16188a" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_port_1a4003dcd222bfafec3c251a7e68fea40e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_target" kind="struct"><name>gviz::attrs::TailTarget</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1ab014a24b78170622fe8ce4ba31f433a3" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1a9fde56eb0e20fee1dc768bbd4ff0c57b" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1afcf294ecdfb6b41d8d9ad65679dc3c33" kind="function"><name>TailTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1a97adf9cfd739a17b93f5373930b3fd80" kind="function"><name>TailTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1a483324237c818f37d4600ca4aa9c1245" kind="function"><name>TailTarget</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1a407fa5f18e10d5bb33ecb8ff43e41464" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1a7e359a833548e6c60d83bcad869b7956" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_target_1aa237a1087c726c83ab770f2c449f7154" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_tooltip" kind="struct"><name>gviz::attrs::TailTooltip</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a6aae7e2273fb86240c04cbc44afcb90d" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1aff53887a4bbb1a7d4bd29ef0182df803" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a63b1edeb5976bc8c11c307238aeb93ea" kind="function"><name>TailTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a1df357de9239a7604588d2b4d5764619" kind="function"><name>TailTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a752b7a20273502ef10c49d5e603816e3" kind="function"><name>TailTooltip</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a1d0b8959adc9307ebc8a14093c7bf014" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1a7d8dc581da44e7802ca5e378953b4cee" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_tooltip_1ab5452f351e5ebdbe0214773ff7831ac3" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_tail_u_r_l" kind="struct"><name>gviz::attrs::TailURL</name>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1ac66acdafb133c57a753355e93e979b3f" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1a17a0146a68be9f8c8126af464119a16f" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1ac3277e02eefb51af479635dfd1ac69d5" kind="function"><name>TailURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1a50b2da49b4b2c8815e10caee6a2e5fe1" kind="function"><name>TailURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1a83fe27fcf6cc2c5e44a05ff0ee826a5c" kind="function"><name>TailURL</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1ab7283c279d093c795b3f1b70f7cf0647" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1ab2b9ebac3c9de7281084bef888bc875b" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_tail_u_r_l_1a83e6ea4a3824e41a5163a25d3a605c4f" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="tail__related_8hpp_1abcb875f9fd33df153067df6d1444599b" kind="typedef"><name>TailLPType</name></member>
+  </compound>
+  <compound refid="tail__related_8hpp" kind="file"><name>tail_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

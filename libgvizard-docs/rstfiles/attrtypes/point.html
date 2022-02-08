@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/point.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/colorschemes.hpp" href="colorschemes.html" />
+    <link rel="prev" title="attrtypes/shape.hpp" href="shape.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/point.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/point.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-point-hpp">
+<h1>attrtypes/point.hpp<a class="headerlink" href="#attrtypes-point-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point2DE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point2DE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point2DE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Point2D</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point2D9list_typeE">
+<span id="_CPPv3N4gviz9attrtypes7Point2D9list_typeE"></span><span id="_CPPv2N4gviz9attrtypes7Point2D9list_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a53d776b709b1a9ca5bb7619c4cb693a3"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">list_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">vector</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point2D9list_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point2D7Point2DEv">
+<span id="_CPPv3N4gviz9attrtypes7Point2D7Point2DEv"></span><span id="_CPPv2N4gviz9attrtypes7Point2D7Point2DEv"></span><span id="gviz::attrtypes::Point2D::Point2DCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a336c4298c3eba42a4262ab350bc65632"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Point2D</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point2D7Point2DEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point2D7Point2DE1T1T">
+<span id="_CPPv3N4gviz9attrtypes7Point2D7Point2DE1T1T"></span><span id="_CPPv2N4gviz9attrtypes7Point2D7Point2DE1T1T"></span><span id="gviz::attrtypes::Point2D::Point2D__T.TCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1ae4cb6844d2f9d8660b82b9c971a1cdc2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Point2D</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">x</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">y</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point2D7Point2DE1T1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point2D1xE">
+<span id="_CPPv3N4gviz9attrtypes7Point2D1xE"></span><span id="_CPPv2N4gviz9attrtypes7Point2D1xE"></span><span id="gviz::attrtypes::Point2D::x__T"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a4277af8cf5eac2257975ab3ce64b44f6"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point2D1xE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point2D1yE">
+<span id="_CPPv3N4gviz9attrtypes7Point2D1yE"></span><span id="_CPPv2N4gviz9attrtypes7Point2D1yE"></span><span id="gviz::attrtypes::Point2D::y__T"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a2b1eac2113c42543695bf5ee01d1fce1"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point2D1yE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-friends">Friends</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point2DeqEbRK7Point2DRK7Point2DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point2DeqERK7Point2DRK7Point2DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point2DeqERK7Point2DRK7Point2DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1acfc2c18b7d780cc721e9dfdf2be3c058"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DeqEbRK7Point2DRK7Point2DI1UE" title="gviz::attrtypes::Point2D::operator==::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point2DeqEbRK7Point2DRK7Point2DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point2DneEbRK7Point2DRK7Point2DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point2DneERK7Point2DRK7Point2DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point2DneERK7Point2DRK7Point2DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a0d9ab2ca6bd019141a4cdbb217037817"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DneEbRK7Point2DRK7Point2DI1UE" title="gviz::attrtypes::Point2D::operator!=::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point2DneEbRK7Point2DRK7Point2DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point2DplE7Point2DRK7Point2DRK7Point2DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point2DplERK7Point2DRK7Point2DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point2DplERK7Point2DRK7Point2DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1a4ccfd738c6908944d69208dc8fde2c7b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">+</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DplE7Point2DRK7Point2DRK7Point2DI1UE" title="gviz::attrtypes::Point2D::operator+::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point2DplE7Point2DRK7Point2DRK7Point2DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point2DmiE7Point2DRK7Point2DRK7Point2DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point2DmiERK7Point2DRK7Point2DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point2DmiERK7Point2DRK7Point2DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point2_d_1ab02f8fb1a0f647b1e568b790f3030c17"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DmiE7Point2DRK7Point2DRK7Point2DI1UE" title="gviz::attrtypes::Point2D::operator-::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point2DmiE7Point2DRK7Point2DRK7Point2DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point3DE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point3DE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point3DE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Point3D</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D9list_typeE">
+<span id="_CPPv3N4gviz9attrtypes7Point3D9list_typeE"></span><span id="_CPPv2N4gviz9attrtypes7Point3D9list_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a0b9af3fcb6cdd6827d21036a5d091f15"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">list_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">vector</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D9list_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D7Point3DEv">
+<span id="_CPPv3N4gviz9attrtypes7Point3D7Point3DEv"></span><span id="_CPPv2N4gviz9attrtypes7Point3D7Point3DEv"></span><span id="gviz::attrtypes::Point3D::Point3DCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a63e2cc35bb7f1c4d24d6dee13cfdb76d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Point3D</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D7Point3DEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D7Point3DE1T1T1T">
+<span id="_CPPv3N4gviz9attrtypes7Point3D7Point3DE1T1T1T"></span><span id="_CPPv2N4gviz9attrtypes7Point3D7Point3DE1T1T1T"></span><span id="gviz::attrtypes::Point3D::Point3D__T.T.TCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a773a25d3b7dd7cf0b29701b6075ce4c6"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Point3D</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">x</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">y</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">z</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D7Point3DE1T1T1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D1xE">
+<span id="_CPPv3N4gviz9attrtypes7Point3D1xE"></span><span id="_CPPv2N4gviz9attrtypes7Point3D1xE"></span><span id="gviz::attrtypes::Point3D::x__T"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a67f38ece79ac895b9f77377ae7c1692f"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D1xE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D1yE">
+<span id="_CPPv3N4gviz9attrtypes7Point3D1yE"></span><span id="_CPPv2N4gviz9attrtypes7Point3D1yE"></span><span id="gviz::attrtypes::Point3D::y__T"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a29312729a1c002185a367bbd7d9980a4"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D1yE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes7Point3D1zE">
+<span id="_CPPv3N4gviz9attrtypes7Point3D1zE"></span><span id="_CPPv2N4gviz9attrtypes7Point3D1zE"></span><span id="gviz::attrtypes::Point3D::z__T"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a1e77f45212e7d8c05f5c73c51711ca78"></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">z</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes7Point3D1zE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-friends">Friends</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point3DeqEbRK7Point3DRK7Point3DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point3DeqERK7Point3DRK7Point3DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point3DeqERK7Point3DRK7Point3DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a55f66cc1da3b2e18c420f639efd82ece"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DeqEbRK7Point3DRK7Point3DI1UE" title="gviz::attrtypes::Point3D::operator==::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point3DeqEbRK7Point3DRK7Point3DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point3DneEbRK7Point3DRK7Point3DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point3DneERK7Point3DRK7Point3DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point3DneERK7Point3DRK7Point3DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1aaf8d35b49bd365fd911297ddf5f73785"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DneEbRK7Point3DRK7Point3DI1UE" title="gviz::attrtypes::Point3D::operator!=::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point3DneEbRK7Point3DRK7Point3DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point3DplE7Point3DRK7Point3DRK7Point3DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point3DplERK7Point3DRK7Point3DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point3DplERK7Point3DRK7Point3DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1a05f75167e5a8c59694925bedb977fdb9"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">+</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DplE7Point3DRK7Point3DRK7Point3DI1UE" title="gviz::attrtypes::Point3D::operator+::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point3DplE7Point3DRK7Point3DRK7Point3DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes7Point3DmiE7Point3DRK7Point3DRK7Point3DI1UE">
+<span id="_CPPv3I0EN4gviz9attrtypes7Point3DmiERK7Point3DRK7Point3DI1UE"></span><span id="_CPPv2I0EN4gviz9attrtypes7Point3DmiERK7Point3DRK7Point3DI1UE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point3_d_1af867add2dc4876f530782372f47840aa"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">friend</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">lhs</span></span>, <span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DmiE7Point3DRK7Point3DRK7Point3DI1UE" title="gviz::attrtypes::Point3D::operator-::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rhs</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes7Point3DmiE7Point3DRK7Point3DRK7Point3DI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz9attrtypes9PointTypeE">
+<span id="_CPPv3I0EN4gviz9attrtypes9PointTypeE"></span><span id="_CPPv2I0EN4gviz9attrtypes9PointTypeE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_point_type"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">PointType</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType10point_typeE">
+<span id="_CPPv3N4gviz9attrtypes9PointType10point_typeE"></span><span id="_CPPv2N4gviz9attrtypes9PointType10point_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1ad1d28544ea2db6a79fe84022190005c8"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">point_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">variant</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType10point_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType9PointTypeEv">
+<span id="_CPPv3N4gviz9attrtypes9PointType9PointTypeEv"></span><span id="_CPPv2N4gviz9attrtypes9PointType9PointTypeEv"></span><span id="gviz::attrtypes::PointType::PointTypeCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1ace5007f15c406828240973a4b718cda4"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PointType</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType9PointTypeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType9PointTypeE1T1T">
+<span id="_CPPv3N4gviz9attrtypes9PointType9PointTypeE1T1T"></span><span id="_CPPv2N4gviz9attrtypes9PointType9PointTypeE1T1T"></span><span id="gviz::attrtypes::PointType::PointType__T.TCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1af0edee68e5b0c0bee3d74db4ae5ca154"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PointType</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">x</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">y</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType9PointTypeE1T1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType9PointTypeE1T1T1T">
+<span id="_CPPv3N4gviz9attrtypes9PointType9PointTypeE1T1T1T"></span><span id="_CPPv2N4gviz9attrtypes9PointType9PointTypeE1T1T1T"></span><span id="gviz::attrtypes::PointType::PointType__T.T.TCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a62237b2d30beb0935885d6db678b36b4"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PointType</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">x</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">y</span></span>, <a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">z</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType9PointTypeE1T1T1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType9PointTypeE10point_type">
+<span id="_CPPv3N4gviz9attrtypes9PointType9PointTypeE10point_type"></span><span id="_CPPv2N4gviz9attrtypes9PointType9PointTypeE10point_type"></span><span id="gviz::attrtypes::PointType::PointType__point_typeCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a2f817be40e6144580cd7bdb24d5d1be8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PointType</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes9PointType10point_typeE" title="gviz::attrtypes::PointType::point_type"><span class="n"><span class="pre">point_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">p</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType9PointTypeE10point_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypeeqERK9PointType">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypeeqERK9PointType"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypeeqERK9PointType"></span><span id="gviz::attrtypes::PointType::eq-operator__PointTypeCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a2075e7e45a6013a46663682ee465ee6a"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType"><span class="n"><span class="pre">PointType</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypeeqERK9PointType" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypeneERK9PointType">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypeneERK9PointType"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypeneERK9PointType"></span><span id="gviz::attrtypes::PointType::neq-operator__PointTypeCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1acc3244f71a26312d82e012431b821fac"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType"><span class="n"><span class="pre">PointType</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypeneERK9PointType" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypeplERK9PointType">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypeplERK9PointType"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypeplERK9PointType"></span><span id="gviz::attrtypes::PointType::add-operator__PointTypeCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a16476ab12782d771b59af46e6b516e18"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">+</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType"><span class="n"><span class="pre">PointType</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypeplERK9PointType" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypemiERK9PointType">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypemiERK9PointType"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypemiERK9PointType"></span><span id="gviz::attrtypes::PointType::sub-operator__PointTypeCRCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a8451296a8e4ee11fb7f250bf9d3151bd"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType"><span class="n"><span class="pre">PointType</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypemiERK9PointType" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypecv7Point2DI1TEEv">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypecv7Point2DI1TEEv"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypecv7Point2DI1TEEv"></span><span id="gviz::attrtypes::PointType::castto-Point2D:T:-operatorCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a09bf56240e18344b2b2caa76ad75472d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point2DE" title="gviz::attrtypes::Point2D"><span class="n"><span class="pre">Point2D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypecv7Point2DI1TEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz9attrtypes9PointTypecv7Point3DI1TEEv">
+<span id="_CPPv3NK4gviz9attrtypes9PointTypecv7Point3DI1TEEv"></span><span id="_CPPv2NK4gviz9attrtypes9PointTypecv7Point3DI1TEEv"></span><span id="gviz::attrtypes::PointType::castto-Point3D:T:-operatorCCE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a335f886db47d1dde853affc76e7e8eec"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes7Point3DE" title="gviz::attrtypes::Point3D"><span class="n"><span class="pre">Point3D</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz9attrtypes9PointTypeE" title="gviz::attrtypes::PointType::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz9attrtypes9PointTypecv7Point3DI1TEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes9PointType5pointE">
+<span id="_CPPv3N4gviz9attrtypes9PointType5pointE"></span><span id="_CPPv2N4gviz9attrtypes9PointType5pointE"></span><span id="gviz::attrtypes::PointType::point__point_type"></span><span class="target" id="structgviz_1_1attrtypes_1_1_point_type_1a0317353f108d8f8888f4c51ea175e046"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes9PointType10point_typeE" title="gviz::attrtypes::PointType::point_type"><span class="n"><span class="pre">point_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">point</span></span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes9PointType5pointE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="point_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">point.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="shape.html" class="btn btn-neutral float-left" title="attrtypes/shape.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="colorschemes.html" class="btn btn-neutral float-right" title="attrtypes/colorschemes.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

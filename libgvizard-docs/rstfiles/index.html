@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reference Documentation &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="attribute.hpp" href="attribute.html" />
+    <link rel="prev" title="A Simple Usage Example (Complete Graph and Dot Generator)" href="../demonstration.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reference Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Reference Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/rstfiles/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="reference-documentation">
+<h1>Reference Documentation<a class="headerlink" href="#reference-documentation" title="Permalink to this headline"></a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contracts.html">contracts.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utils.html">utils.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">views.hpp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrs/index.html">attrs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="attrs/sortv.html">attrs/sortv.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/height.html">attrs/height.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/target.html">attrs/target.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pencolor.html">attrs/pencolor.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/searchsize.html">attrs/searchsize.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/epsilon.html">attrs/epsilon.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/clusterrank.html">attrs/clusterrank.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/scale.html">attrs/scale.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pos.html">attrs/pos.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/ordering.html">attrs/ordering.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/landscape.html">attrs/landscape.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/boundingbox.html">attrs/boundingbox.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/area.html">attrs/area.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/page.html">attrs/page.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/repulsiveforce.html">attrs/repulsiveforce.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/mindist.html">attrs/mindist.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/dim.html">attrs/dim.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/xdotversion.html">attrs/xdotversion.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pin.html">attrs/pin.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/tooltip.html">attrs/tooltip.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/sep.html">attrs/sep.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/layout.html">attrs/layout.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/group.html">attrs/group.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/minlen.html">attrs/minlen.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/center.html">attrs/center.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pad.html">attrs/pad.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/charset.html">attrs/charset.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/quantum.html">attrs/quantum.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/dimen.html">attrs/dimen.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pagedir.html">attrs/pagedir.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/fixedsize.html">attrs/fixedsize.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/mosek.html">attrs/mosek.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/sametail.html">attrs/sametail.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/colorscheme.html">attrs/colorscheme.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/tail_related.html">attrs/tail_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/size.html">attrs/size.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/xlabel.html">attrs/xlabel.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/stylesheet.html">attrs/stylesheet.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/gradientangle.html">attrs/gradientangle.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/mclimit.html">attrs/mclimit.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/font_related.html">attrs/font_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/label_related.html">attrs/label_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/style.html">attrs/style.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/level_related.html">attrs/level_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/quadtree.html">attrs/quadtree.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/pack.html">attrs/pack.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/viewport.html">attrs/viewport.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/peripheries.html">attrs/peripheries.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/bgcolor.html">attrs/bgcolor.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/remincross.html">attrs/remincross.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/voro_margin.html">attrs/voro_margin.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/compound.html">attrs/compound.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/comment.html">attrs/comment.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/shapefile.html">attrs/shapefile.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/notranslate.html">attrs/notranslate.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/rotation.html">attrs/rotation.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/z.html">attrs/z.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/concentrate.html">attrs/concentrate.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/splines.html">attrs/splines.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/nslimit1.html">attrs/nslimit1.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/resolution.html">attrs/resolution.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/len.html">attrs/len.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/ratio.html">attrs/ratio.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/clazz.html">attrs/clazz.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/samehead.html">attrs/samehead.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/dpi.html">attrs/dpi.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/model.html">attrs/model.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/packmode.html">attrs/packmode.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/orientation.html">attrs/orientation.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/normalize.html">attrs/normalize.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/truecolor.html">attrs/truecolor.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/href.html">attrs/href.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/decorate.html">attrs/decorate.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/shape.html">attrs/shape.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/nslimit.html">attrs/nslimit.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/margin.html">attrs/margin.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/nodesep.html">attrs/nodesep.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/root.html">attrs/root.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/esep.html">attrs/esep.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/head_related.html">attrs/head_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/width.html">attrs/width.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/forcelabels.html">attrs/forcelabels.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/arrow_related.html">attrs/arrow_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/k.html">attrs/k.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/logical_related.html">attrs/logical_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/outputorder.html">attrs/outputorder.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/inputscale.html">attrs/inputscale.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/regular.html">attrs/regular.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/maxiter.html">attrs/maxiter.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/smoothing.html">attrs/smoothing.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/edge_related.html">attrs/edge_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/defaultdist.html">attrs/defaultdist.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/color.html">attrs/color.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/dir.html">attrs/dir.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/vertices.html">attrs/vertices.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/start.html">attrs/start.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/damping.html">attrs/damping.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/constraint.html">attrs/constraint.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/samplepoints.html">attrs/samplepoints.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/rects.html">attrs/rects.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/skew.html">attrs/skew.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/id.html">attrs/id.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/nojustify.html">attrs/nojustify.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/ranksep.html">attrs/ranksep.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/rotate.html">attrs/rotate.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/weight.html">attrs/weight.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/distortion.html">attrs/distortion.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/shadowboxes.html">attrs/shadowboxes.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/url.html">attrs/url.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/image_related.html">attrs/image_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/mode.html">attrs/mode.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/layer_related.html">attrs/layer_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/rank.html">attrs/rank.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/rankdir.html">attrs/rankdir.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/newrank.html">attrs/newrank.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/fillcolor.html">attrs/fillcolor.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/penwidth.html">attrs/penwidth.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/overlap_related.html">attrs/overlap_related.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/sides.html">attrs/sides.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="attrtypes/index.html">attrtypes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/shape_record.html">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="colors/index.html">colors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="colors/rgba.html">colors/rgba.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/rgb.html">colors/rgb.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/converter.html">colors/converter.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/svg.html">colors/svg.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/general.html">colors/general.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/color.html">colors/color.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/x11.html">colors/x11.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/hsv.html">colors/hsv.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="graph/index.html">graph</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="graph/graph.html">graph/graph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/dynamic_square_matrix.html">graph/dynamic_square_matrix.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/dynamic_half_square_matrix.html">graph/dynamic_half_square_matrix.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="registry/index.html">registry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="registry/entt_registry.html">registry/entt_registry.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/registry_entity_proxy.html">registry/registry_entity_proxy.hpp</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../demonstration.html" class="btn btn-neutral float-left" title="A Simple Usage Example (Complete Graph and Dot Generator)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="attribute.html" class="btn btn-neutral float-right" title="attribute.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

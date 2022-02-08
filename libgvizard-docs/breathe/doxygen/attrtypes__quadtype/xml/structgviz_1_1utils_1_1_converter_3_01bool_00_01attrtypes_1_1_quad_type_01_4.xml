@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4_1ac2cdcecefe01e1f5f57092ee0884cf07" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;::convert</definition>
+        <argsstring>(attrtypes::QuadType qtype)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;::convert</qualifiedname>
+        <param>
+          <type>attrtypes::QuadType</type>
+          <declname>qtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp" line="36" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp" line="35" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/quadtype.hpp" bodystart="35" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4_1ac2cdcecefe01e1f5f57092ee0884cf07" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_record_shape" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::RecordShape</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename FieldIdT</type>
+        <defval><ref refid="structgviz_1_1attrtypes_1_1_record_field_id" kindref="compound">RecordFieldId</ref>&lt;std::string, std::string&gt;</defval>
+      </param>
+      <param>
+        <type>template&lt; typename, typename... &gt; typename</type>
+        <declname>Vec</declname>
+        <defname>Vec</defname>
+        <defval>std::vector</defval>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>VecArgs</declname>
+        <defname>VecArgs</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_record_shape_1a6b633acf873a941e897d7686090d41f6" prot="public" static="no">
+        <type>FieldIdT</type>
+        <definition>using gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::fieldid_type =  FieldIdT</definition>
+        <argsstring></argsstring>
+        <name>fieldid_type</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::fieldid_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="23" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_record_shape_1a3586d6b5c90410bc93e2028d8c700a2e" prot="public" static="no">
+        <type>Vec&lt; fieldid_type, VecArgs... &gt;</type>
+        <definition>using gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::fieldid_list_type =  Vec&lt;fieldid_type, VecArgs...&gt;</definition>
+        <argsstring></argsstring>
+        <name>fieldid_list_type</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::fieldid_list_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="24" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structgviz_1_1attrtypes_1_1_record_shape_1a77fc846cd49016ff67bb7a4dddbf531f" prot="public" static="no">
+        <type>std::variant&lt; fieldid_type, fieldid_list_type &gt;</type>
+        <definition>using gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::field_type =  std::variant&lt;fieldid_type, fieldid_list_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>field_type</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::field_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="25" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_record_shape_1ac13b57c9c35891378b7393d4a7ff5601" prot="public" static="no" mutable="no">
+        <type>Vec&lt; field_type, VecArgs... &gt;</type>
+        <definition>Vec&lt;field_type, VecArgs...&gt; gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::fields</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="27" column="7" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_record_shape_1a1e03539a2fcf3e7abc8c5a899546e5e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::RecordShape</definition>
+        <argsstring>(const field_type &amp;first, Args &amp;&amp;...args)</argsstring>
+        <name>RecordShape</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::RecordShape</qualifiedname>
+        <param>
+          <type>const field_type &amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="30" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_record_shape_1af5d99aef56ffaca7cf21d7c9d3d4dd42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>gviz::attrtypes::RecordShape&lt; FieldIdT, Vec, VecArgs &gt;::RecordShape</definition>
+        <argsstring>(field_type &amp;&amp;first, Args &amp;&amp;...args)</argsstring>
+        <name>RecordShape</name>
+        <qualifiedname>gviz::attrtypes::RecordShape::RecordShape</qualifiedname>
+        <param>
+          <type>field_type &amp;&amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="35" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" line="22" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/shape_record.hpp" bodystart="22" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a77fc846cd49016ff67bb7a4dddbf531f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>field_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a3586d6b5c90410bc93e2028d8c700a2e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>fieldid_list_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a6b633acf873a941e897d7686090d41f6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>fieldid_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1ac13b57c9c35891378b7393d4a7ff5601" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>fields</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1a1e03539a2fcf3e7abc8c5a899546e5e5" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>RecordShape</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_record_shape_1af5d99aef56ffaca7cf21d7c9d3d4dd42" prot="public" virt="non-virtual"><scope>gviz::attrtypes::RecordShape</scope><name>RecordShape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

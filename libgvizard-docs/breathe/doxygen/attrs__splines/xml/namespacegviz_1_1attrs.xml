@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_splines" prot="public">gviz::attrs::Splines</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="splines_8hpp_1af2bc0a4962b2c876b934bab773659571" prot="public" static="no">
+        <type>std::optional&lt; std::variant&lt; bool, std::string &gt; &gt;</type>
+        <definition>using gviz::attrs::SplinesType = typedef std::optional&lt;std::variant&lt;bool, std::string&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>SplinesType</name>
+        <qualifiedname>gviz::attrs::SplinesType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/splines.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/splines.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/splines.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

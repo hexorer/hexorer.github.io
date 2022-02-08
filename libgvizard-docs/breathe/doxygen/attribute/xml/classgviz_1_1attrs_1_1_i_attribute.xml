@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1attrs_1_1_i_attribute" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gviz::attrs::IAttribute</compoundname>
+    <derivedcompoundref refid="classgviz_1_1attrs_1_1_attribute_base" prot="public" virt="non-virtual">gviz::attrs::AttributeBase&lt; Derived, Value &gt;</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1attrs_1_1_i_attribute_1a3fd9e632db01736deeba4aaf31aa534b" prot="public" static="no" const="yes" explicit="no" inline="no" noexcept="yes" virt="pure-virtual">
+        <type>auto</type>
+        <definition>virtual auto gviz::attrs::IAttribute::get_name</definition>
+        <argsstring>() const noexcept -&gt; const std::string_view=0</argsstring>
+        <name>get_name</name>
+        <qualifiedname>gviz::attrs::IAttribute::get_name</qualifiedname>
+        <reimplementedby refid="classgviz_1_1attrs_1_1_attribute_base_1aa975a79cde1958a456b39189bea10fa2">get_name</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attribute.hpp" line="12" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrs_1_1_i_attribute_1a25a4bbb388ec0618fcbd85974cce4bdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool gviz::attrs::IAttribute::is_default</definition>
+        <argsstring>() const =0</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::IAttribute::is_default</qualifiedname>
+        <reimplementedby refid="classgviz_1_1attrs_1_1_attribute_base_1a246c0003046905de62543c6c69ced6f0">is_default</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attribute.hpp" line="13" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrs_1_1_i_attribute_1a0cde4e432bbb11a048fa55e4e0fbad65" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gviz::attrs::IAttribute::reset</definition>
+        <argsstring>()=0</argsstring>
+        <name>reset</name>
+        <qualifiedname>gviz::attrs::IAttribute::reset</qualifiedname>
+        <reimplementedby refid="classgviz_1_1attrs_1_1_attribute_base_1a7b329cd575f834ccd8a65e5198b77b11">reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attribute.hpp" line="14" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gviz::attrs::AttributeBase&lt; Derived, Value &gt;</label>
+        <link refid="classgviz_1_1attrs_1_1_attribute_base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::IAttribute</label>
+        <link refid="classgviz_1_1attrs_1_1_i_attribute"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attribute.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attribute.hpp" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1attrs_1_1_i_attribute_1a3fd9e632db01736deeba4aaf31aa534b" prot="public" virt="pure-virtual"><scope>gviz::attrs::IAttribute</scope><name>get_name</name></member>
+      <member refid="classgviz_1_1attrs_1_1_i_attribute_1a25a4bbb388ec0618fcbd85974cce4bdd" prot="public" virt="pure-virtual"><scope>gviz::attrs::IAttribute</scope><name>is_default</name></member>
+      <member refid="classgviz_1_1attrs_1_1_i_attribute_1a0cde4e432bbb11a048fa55e4e0fbad65" prot="public" virt="pure-virtual"><scope>gviz::attrs::IAttribute</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

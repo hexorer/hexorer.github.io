@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_distortion" kind="struct"><name>gviz::attrs::Distortion</name>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1ae49205ba9972cb49e44e700910905a4e" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1a0728a7112b91a53543756bc295e68efe" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1a9df68a6d1676b6bde418d98a1e13e33b" kind="function"><name>Distortion</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1a03a36b3966b0d34848bfa4b20bcacb94" kind="function"><name>Distortion</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1a25b95b17f3d7b94d62018918bd1fba28" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1abbc58118869c26e0b0f3b83b17435d2d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_distortion_1a487e3603e899f297e42b018ad904e07e" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="distortion_8hpp" kind="file"><name>distortion.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

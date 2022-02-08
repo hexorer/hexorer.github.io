@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_fill_color" prot="public">gviz::attrs::FillColor</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="fillcolor_8hpp_1a492231979c34e0464328cead1e7e4373" prot="public" static="no">
+        <type>std::variant&lt; attrtypes::ColorType, attrtypes::ColorList&lt; attrtypes::ColorType &gt; &gt;</type>
+        <definition>using gviz::attrs::FillColorType = typedef std::variant&lt; attrtypes::ColorType, attrtypes::ColorList&lt;attrtypes::ColorType&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>FillColorType</name>
+        <qualifiedname>gviz::attrs::FillColorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fillcolor.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fillcolor.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/fillcolor.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

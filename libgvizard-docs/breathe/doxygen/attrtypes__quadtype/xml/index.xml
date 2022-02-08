@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1utils_1_1_converter_3_01attrtypes_1_1_quad_type_00_01bool_01_4" kind="struct"><name>gviz::utils::Converter&lt; attrtypes::QuadType, bool &gt;</name>
+    <member refid="structgviz_1_1utils_1_1_converter_3_01attrtypes_1_1_quad_type_00_01bool_01_4_1a7c824879022144d85852578701dc1895" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4" kind="struct"><name>gviz::utils::Converter&lt; bool, attrtypes::QuadType &gt;</name>
+    <member refid="structgviz_1_1utils_1_1_converter_3_01bool_00_01attrtypes_1_1_quad_type_01_4_1ac2cdcecefe01e1f5f57092ee0884cf07" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="quadtype_8hpp_1a4eb15f4fe12bfb15141f837e7c0efa5e" kind="enum"><name>QuadType</name></member>
+    <member refid="quadtype_8hpp_1a4eb15f4fe12bfb15141f837e7c0efa5ea334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="quadtype_8hpp_1a4eb15f4fe12bfb15141f837e7c0efa5eafea087517c26fadd409bd4b9dc642555" kind="enumvalue"><name>normal</name></member>
+    <member refid="quadtype_8hpp_1a4eb15f4fe12bfb15141f837e7c0efa5ea31d4541b8e926a24f0c9b835b68cfdf3" kind="enumvalue"><name>fast</name></member>
+    <member refid="quadtype_8hpp_1a1826ffca055388e5f87fa8ead1137e3e" kind="function"><name>quadtype_from_bool</name></member>
+  </compound>
+  <compound refid="namespacegviz_1_1utils" kind="namespace"><name>gviz::utils</name>
+  </compound>
+  <compound refid="quadtype_8hpp" kind="file"><name>quadtype.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

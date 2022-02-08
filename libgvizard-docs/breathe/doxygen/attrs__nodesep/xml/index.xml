@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_node_sep" kind="struct"><name>gviz::attrs::NodeSep</name>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a045748be981e9b9909da791f549494e8" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a2c4f0df632517d9486f5f2f33002b5a7" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a2e819f0385251a42ed581f467a39fbc6" kind="function"><name>NodeSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a67388b1b4e5df38f2a96c6b6e5e1a17e" kind="function"><name>NodeSep</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a9a41ca0ed65014b5313ea44b17c2ee82" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1aa1ebb2b3d9070e54f095759aa525f9dc" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_node_sep_1a4f609e538d0f03d20498d2ff4a5de7a4" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="nodesep_8hpp" kind="file"><name>nodesep.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

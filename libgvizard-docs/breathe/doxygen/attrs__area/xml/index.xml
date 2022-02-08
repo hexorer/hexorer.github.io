@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_area" kind="struct"><name>gviz::attrs::Area</name>
+    <member refid="structgviz_1_1attrs_1_1_area_1a6705f33d3155c7e6f19862629b817467" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1a3f2df7c183d36c66fc4beb359200275a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1aa71e5b0fb232fa3554511b7d5ef73833" kind="function"><name>Area</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1abcfc2c438cb63d7feb348d8f14c5ffec" kind="function"><name>Area</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1a75a89bf1e99f7cdbb04c5e21b97bbe1d" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1a821b2aedbdea9c66f842e88600076d4d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_area_1adc61a5c58dad9fea153544b85e376241" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="area_8hpp" kind="file"><name>area.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_spline" prot="public">gviz::attrtypes::Spline</innerclass>
+    <innerclass refid="structgviz_1_1attrtypes_1_1_spline_type" prot="public">gviz::attrtypes::SplineType</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="spline_8hpp_1ab114340858869f969365d1347a020032" prot="public" static="no">
+        <type>PointType&lt; double &gt;</type>
+        <definition>using gviz::attrtypes::spline_point_type = typedef PointType&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>spline_point_type</name>
+        <qualifiedname>gviz::attrtypes::spline_point_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="spline_8hpp_1a15c73147fc88d18534dae1b28bbcd956" prot="public" static="no">
+        <type>std::tuple&lt; spline_point_type, spline_point_type, spline_point_type &gt;</type>
+        <definition>using gviz::attrtypes::spline_triple_type = typedef std::tuple&lt;spline_point_type, spline_point_type, spline_point_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>spline_triple_type</name>
+        <qualifiedname>gviz::attrtypes::spline_triple_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/spline.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

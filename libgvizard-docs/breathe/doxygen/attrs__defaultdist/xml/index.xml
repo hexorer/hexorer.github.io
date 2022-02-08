@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_default_dist" kind="struct"><name>gviz::attrs::DefaultDist</name>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1a589b2ffa7928516f236a38de84c02566" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1ad5f514edf8f3f33bccea7fee1934a94a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1ae13c2840518e091a5f5724a40be65daf" kind="function"><name>DefaultDist</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1a9e8dd633688744cbec7bd99da658c1a2" kind="function"><name>DefaultDist</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1ae5b529e12f9a185d5bc17311951fb14c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1abe1fd23e918dd3a90ccfa8a5dd2f8262" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_default_dist_1aa5c3a5be88e95c6c620918cb9e892c78" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="defaultdist_8hpp" kind="file"><name>defaultdist.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

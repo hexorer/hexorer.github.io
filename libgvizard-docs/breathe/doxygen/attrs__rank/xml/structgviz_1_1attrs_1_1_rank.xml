@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_rank" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Rank</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Rank, attrtypes::RankType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_rank_1a302785bee74b70cf83210cbfc8d1cc1a" prot="public" static="no">
+        <type>attrtypes::RankType</type>
+        <definition>using gviz::attrs::Rank::value_type =  attrtypes::RankType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Rank::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_rank_1a07d4dd26b83e114f644cbf5896d256ae" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Rank::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Rank::name</qualifiedname>
+        <initializer>= &quot;rank&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="12" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rank_1a4de46280bdb59db5bb83bd7f43e1bde6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rank::Rank</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Rank</name>
+        <qualifiedname>gviz::attrs::Rank::Rank</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="14" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rank_1a13855782c85020013bd109d194807620" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rank::Rank</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Rank</name>
+        <qualifiedname>gviz::attrs::Rank::Rank</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="15" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rank_1a61ffb1dc2048fab2c5c7752b878cc516" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Rank::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Rank::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="17" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rank_1a7cb28c47fd4e5b305a17d7f7bf1f4347" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rank::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Rank::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rank_1a15dd19273fb1895cc78c5aede56a9116" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rank::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Rank::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rank, attrtypes::RankType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rank</label>
+        <link refid="structgviz_1_1attrs_1_1_rank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rank, attrtypes::RankType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rank</label>
+        <link refid="structgviz_1_1attrs_1_1_rank"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rank.hpp" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a15dd19273fb1895cc78c5aede56a9116" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a61ffb1dc2048fab2c5c7752b878cc516" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a7cb28c47fd4e5b305a17d7f7bf1f4347" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a07d4dd26b83e114f644cbf5896d256ae" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a4de46280bdb59db5bb83bd7f43e1bde6" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>Rank</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a13855782c85020013bd109d194807620" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>Rank</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rank_1a302785bee74b70cf83210cbfc8d1cc1a" prot="public" virt="non-virtual"><scope>gviz::attrs::Rank</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

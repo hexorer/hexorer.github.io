@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_x_label" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::XLabel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; XLabel, std::string &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_x_label_1ab934444ca1ee5571bb7922a368149aa2" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using gviz::attrs::XLabel::value_type =  std::string</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::XLabel::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_x_label_1afe477bb1ec3f06e2b0b694825ff7775a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::XLabel::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::XLabel::name</qualifiedname>
+        <initializer>= &quot;xlabel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1add8e3457e477ae4c79dcb48a8c02728e" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::XLabel::XLabel</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>XLabel</name>
+        <qualifiedname>gviz::attrs::XLabel::XLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="15" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1a649fb42c45596b8f338fcf014b19fa8d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::XLabel::XLabel</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>XLabel</name>
+        <qualifiedname>gviz::attrs::XLabel::XLabel</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="16" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1abeb6b92cc1988682a09f72adbb6bc700" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::XLabel::XLabel</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>XLabel</name>
+        <qualifiedname>gviz::attrs::XLabel::XLabel</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="17" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1a29b2d47a8bf583ef63310845b54be466" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::XLabel::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::XLabel::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="19" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1a878ce26237895126c2a787e4a65e801e" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::XLabel::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::XLabel::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="21" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_x_label_1a3afbbc66c4bc8b0fe11c6560c97b659f" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::XLabel::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::XLabel::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="26" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; XLabel, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::XLabel</label>
+        <link refid="structgviz_1_1attrs_1_1_x_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; XLabel, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::XLabel</label>
+        <link refid="structgviz_1_1attrs_1_1_x_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/xlabel.hpp" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1a3afbbc66c4bc8b0fe11c6560c97b659f" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1a29b2d47a8bf583ef63310845b54be466" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1a878ce26237895126c2a787e4a65e801e" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1afe477bb1ec3f06e2b0b694825ff7775a" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1ab934444ca1ee5571bb7922a368149aa2" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>value_type</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1add8e3457e477ae4c79dcb48a8c02728e" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>XLabel</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1a649fb42c45596b8f338fcf014b19fa8d" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>XLabel</name></member>
+      <member refid="structgviz_1_1attrs_1_1_x_label_1abeb6b92cc1988682a09f72adbb6bc700" prot="public" virt="non-virtual"><scope>gviz::attrs::XLabel</scope><name>XLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

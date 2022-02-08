@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_dir" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Dir</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Dir, attrtypes::DirType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_dir_1a9a9a0db5d6b866a995b5b51298e6cc80" prot="public" static="no">
+        <type>attrtypes::DirType</type>
+        <definition>using gviz::attrs::Dir::value_type =  attrtypes::DirType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Dir::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_dir_1a5ea54eead77e04a45db2772d647c9f18" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Dir::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Dir::name</qualifiedname>
+        <initializer>= &quot;dir&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="12" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dir_1a3f40b4976d3c1a68bd01ce8b6acf2a14" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Dir::Dir</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Dir</name>
+        <qualifiedname>gviz::attrs::Dir::Dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="14" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dir_1ae6514326f051db674454ac077127a3d2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Dir::Dir</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Dir</name>
+        <qualifiedname>gviz::attrs::Dir::Dir</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="15" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dir_1ac46aef8709a576ade5d2fdf0c5c62a23" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Dir::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Dir::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="17" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dir_1a3d506c210c5f46a618aab55dce235621" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Dir::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Dir::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_dir_1aa23134b6b842bc03643bb71c70efab02" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Dir::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Dir::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Dir, attrtypes::DirType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Dir</label>
+        <link refid="structgviz_1_1attrs_1_1_dir"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Dir, attrtypes::DirType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Dir</label>
+        <link refid="structgviz_1_1attrs_1_1_dir"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/dir.hpp" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_dir_1aa23134b6b842bc03643bb71c70efab02" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1a3f40b4976d3c1a68bd01ce8b6acf2a14" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>Dir</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1ae6514326f051db674454ac077127a3d2" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>Dir</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1ac46aef8709a576ade5d2fdf0c5c62a23" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1a3d506c210c5f46a618aab55dce235621" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1a5ea54eead77e04a45db2772d647c9f18" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_dir_1a9a9a0db5d6b866a995b5b51298e6cc80" prot="public" virt="non-virtual"><scope>gviz::attrs::Dir</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_decorate" kind="struct"><name>gviz::attrs::Decorate</name>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1a4a838a39d0aee2108c160787627bfc1b" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1a007b3458e3674ea8836f2822d0078fca" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1a4f1657052cb1437b6542890af40ff453" kind="function"><name>Decorate</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1acb470fbe89c800f2912b6738256f10ad" kind="function"><name>Decorate</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1a97bd07ea42b61d9c25f35dfc4fe17e6b" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1af4248c5f3d662666776b7444194107ed" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_decorate_1a0804cccf050876df2fd18baae9bf64d1" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="decorate_8hpp" kind="file"><name>decorate.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

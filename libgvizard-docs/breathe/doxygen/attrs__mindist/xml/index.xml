@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_min_dist" kind="struct"><name>gviz::attrs::MinDist</name>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1a2284320e8fb0fce5e60212c87a6e92db" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1a56329d42e77f41528d421cd682c1f9b6" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1a580f2182bdbc32b49ab00a012ae66f65" kind="function"><name>MinDist</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1adad97be695a0783c7121d0209b9e7599" kind="function"><name>MinDist</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1ab750fed2cf0c8974854ddf65a9f9219d" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1a68de81937832ea01a16b6416b349ffbc" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_min_dist_1a0b6b614fa30fe261883203603720c818" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="mindist_8hpp" kind="file"><name>mindist.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

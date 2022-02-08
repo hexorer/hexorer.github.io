@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_smoothing" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Smoothing</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Smoothing, attrtypes::SmoothType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_smoothing_1a7bc2b709dfa6885d30343d8c7541c281" prot="public" static="no">
+        <type>attrtypes::SmoothType</type>
+        <definition>using gviz::attrs::Smoothing::value_type =  attrtypes::SmoothType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Smoothing::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="12" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_smoothing_1af51cc84ac9e6ff4d7729904a2e3d3d4a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Smoothing::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Smoothing::name</qualifiedname>
+        <initializer>= &quot;smoothing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="14" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_smoothing_1a436842ca6814e701aaab7cd7b9d8ccfb" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Smoothing::Smoothing</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Smoothing</name>
+        <qualifiedname>gviz::attrs::Smoothing::Smoothing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="16" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_smoothing_1a647659dc157ee3d2fb93ff1505aeb73d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Smoothing::Smoothing</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Smoothing</name>
+        <qualifiedname>gviz::attrs::Smoothing::Smoothing</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="17" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_smoothing_1a6bd55000b178fc2978be629ce5b0e244" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Smoothing::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Smoothing::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="19" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_smoothing_1af9d9cd1155fc8f61504428238be89c25" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Smoothing::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Smoothing::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="24" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_smoothing_1a2e57b4f5a6fe019b006e86ea0dbd92fe" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Smoothing::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Smoothing::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="29" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Smoothing, attrtypes::SmoothType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Smoothing</label>
+        <link refid="structgviz_1_1attrs_1_1_smoothing"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Smoothing, attrtypes::SmoothType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Smoothing</label>
+        <link refid="structgviz_1_1attrs_1_1_smoothing"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/smoothing.hpp" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1a2e57b4f5a6fe019b006e86ea0dbd92fe" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1a6bd55000b178fc2978be629ce5b0e244" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1af9d9cd1155fc8f61504428238be89c25" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1af51cc84ac9e6ff4d7729904a2e3d3d4a" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1a436842ca6814e701aaab7cd7b9d8ccfb" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>Smoothing</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1a647659dc157ee3d2fb93ff1505aeb73d" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>Smoothing</name></member>
+      <member refid="structgviz_1_1attrs_1_1_smoothing_1a7bc2b709dfa6885d30343d8c7541c281" prot="public" virt="non-virtual"><scope>gviz::attrs::Smoothing</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

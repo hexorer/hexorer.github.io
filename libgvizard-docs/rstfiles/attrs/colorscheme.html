@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrs/colorscheme.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrs/tail_related.hpp" href="tail_related.html" />
+    <link rel="prev" title="attrs/sametail.hpp" href="sametail.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrs</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="sortv.html">attrs/sortv.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="height.html">attrs/height.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="target.html">attrs/target.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pencolor.html">attrs/pencolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="searchsize.html">attrs/searchsize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="epsilon.html">attrs/epsilon.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clusterrank.html">attrs/clusterrank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scale.html">attrs/scale.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pos.html">attrs/pos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ordering.html">attrs/ordering.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="landscape.html">attrs/landscape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boundingbox.html">attrs/boundingbox.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="area.html">attrs/area.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="page.html">attrs/page.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="repulsiveforce.html">attrs/repulsiveforce.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mindist.html">attrs/mindist.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dim.html">attrs/dim.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xdotversion.html">attrs/xdotversion.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pin.html">attrs/pin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tooltip.html">attrs/tooltip.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sep.html">attrs/sep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layout.html">attrs/layout.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="group.html">attrs/group.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="minlen.html">attrs/minlen.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="center.html">attrs/center.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pad.html">attrs/pad.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="charset.html">attrs/charset.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quantum.html">attrs/quantum.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dimen.html">attrs/dimen.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrs/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fixedsize.html">attrs/fixedsize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mosek.html">attrs/mosek.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sametail.html">attrs/sametail.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrs/colorscheme.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tail_related.html">attrs/tail_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="size.html">attrs/size.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xlabel.html">attrs/xlabel.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="stylesheet.html">attrs/stylesheet.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gradientangle.html">attrs/gradientangle.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mclimit.html">attrs/mclimit.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="font_related.html">attrs/font_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label_related.html">attrs/label_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrs/style.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="level_related.html">attrs/level_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtree.html">attrs/quadtree.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pack.html">attrs/pack.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrs/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="peripheries.html">attrs/peripheries.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="bgcolor.html">attrs/bgcolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="remincross.html">attrs/remincross.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="voro_margin.html">attrs/voro_margin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="compound.html">attrs/compound.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="comment.html">attrs/comment.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shapefile.html">attrs/shapefile.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="notranslate.html">attrs/notranslate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rotation.html">attrs/rotation.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="z.html">attrs/z.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="concentrate.html">attrs/concentrate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="splines.html">attrs/splines.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nslimit1.html">attrs/nslimit1.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="resolution.html">attrs/resolution.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="len.html">attrs/len.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ratio.html">attrs/ratio.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clazz.html">attrs/clazz.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="samehead.html">attrs/samehead.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dpi.html">attrs/dpi.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="model.html">attrs/model.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrs/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="orientation.html">attrs/orientation.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="normalize.html">attrs/normalize.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="truecolor.html">attrs/truecolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="href.html">attrs/href.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="decorate.html">attrs/decorate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrs/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nslimit.html">attrs/nslimit.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="margin.html">attrs/margin.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nodesep.html">attrs/nodesep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="root.html">attrs/root.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="esep.html">attrs/esep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="head_related.html">attrs/head_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="width.html">attrs/width.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="forcelabels.html">attrs/forcelabels.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrow_related.html">attrs/arrow_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="k.html">attrs/k.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="logical_related.html">attrs/logical_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputorder.html">attrs/outputorder.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="inputscale.html">attrs/inputscale.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="regular.html">attrs/regular.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxiter.html">attrs/maxiter.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="smoothing.html">attrs/smoothing.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="edge_related.html">attrs/edge_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="defaultdist.html">attrs/defaultdist.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrs/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dir.html">attrs/dir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="vertices.html">attrs/vertices.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="start.html">attrs/start.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="damping.html">attrs/damping.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="constraint.html">attrs/constraint.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="samplepoints.html">attrs/samplepoints.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rects.html">attrs/rects.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="skew.html">attrs/skew.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="id.html">attrs/id.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nojustify.html">attrs/nojustify.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ranksep.html">attrs/ranksep.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rotate.html">attrs/rotate.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="weight.html">attrs/weight.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="distortion.html">attrs/distortion.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shadowboxes.html">attrs/shadowboxes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="url.html">attrs/url.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="image_related.html">attrs/image_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mode.html">attrs/mode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layer_related.html">attrs/layer_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrs/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rankdir.html">attrs/rankdir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="newrank.html">attrs/newrank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fillcolor.html">attrs/fillcolor.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="penwidth.html">attrs/penwidth.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="overlap_related.html">attrs/overlap_related.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sides.html">attrs/sides.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrs</a> &raquo;</li>
+      <li>attrs/colorscheme.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrs/colorscheme.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrs-colorscheme-hpp">
+<h1>attrs/colorscheme.hpp<a class="headerlink" href="#attrs-colorscheme-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorSchemeE">
+<span id="_CPPv3N4gviz5attrs11ColorSchemeE"></span><span id="_CPPv2N4gviz5attrs11ColorSchemeE"></span><span id="gviz::attrs::ColorScheme"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attribute.html#_CPPv4N4gviz5attrsE" title="gviz::attrs"><span class="n"><span class="pre">attrs</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">ColorScheme</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><a class="reference internal" href="../attribute.html#_CPPv4I00EN4gviz5attrs13AttributeBaseE" title="gviz::attrs::AttributeBase"><span class="n"><span class="pre">AttributeBase</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz5attrs11ColorSchemeE" title="gviz::attrs::ColorScheme"><span class="n"><span class="pre">ColorScheme</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../colors/color.html#_CPPv4N4gviz6colorsE" title="gviz::colors"><span class="n"><span class="pre">colors</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../colors/general.html#_CPPv4N4gviz6colors10SchemeEnumE" title="gviz::colors::SchemeEnum"><span class="n"><span class="pre">SchemeEnum</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorSchemeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme10value_typeE">
+<span id="_CPPv3N4gviz5attrs11ColorScheme10value_typeE"></span><span id="_CPPv2N4gviz5attrs11ColorScheme10value_typeE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1a7a9194a2437aa838ab0cec7ef1b7be0e"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">value_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../colors/color.html#_CPPv4N4gviz6colorsE" title="gviz::colors"><span class="n"><span class="pre">colors</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../colors/general.html#_CPPv4N4gviz6colors10SchemeEnumE" title="gviz::colors::SchemeEnum"><span class="n"><span class="pre">SchemeEnum</span></span></a><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme10value_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme11ColorSchemeEv">
+<span id="_CPPv3N4gviz5attrs11ColorScheme11ColorSchemeEv"></span><span id="_CPPv2N4gviz5attrs11ColorScheme11ColorSchemeEv"></span><span id="gviz::attrs::ColorScheme::ColorSchemeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1a83eb24713cae1e66554170f6b7e81b4e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ColorScheme</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme11ColorSchemeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme11ColorSchemeE10value_type">
+<span id="_CPPv3N4gviz5attrs11ColorScheme11ColorSchemeE10value_type"></span><span id="_CPPv2N4gviz5attrs11ColorScheme11ColorSchemeE10value_type"></span><span id="gviz::attrs::ColorScheme::ColorScheme__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1a8dfcca968434ebc4d759a580bdf6bb28"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ColorScheme</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11ColorScheme10value_typeE" title="gviz::attrs::ColorScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme11ColorSchemeE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz5attrs11ColorSchemecvNSt6stringEEv">
+<span id="_CPPv3NK4gviz5attrs11ColorSchemecvNSt6stringEEv"></span><span id="_CPPv2NK4gviz5attrs11ColorSchemecvNSt6stringEEv"></span><span id="gviz::attrs::ColorScheme::castto-ss-operatorC"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1ae95de3d6401e83aa81b80f47b15902a1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz5attrs11ColorSchemecvNSt6stringEEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme17get_default_valueEv">
+<span id="_CPPv3N4gviz5attrs11ColorScheme17get_default_valueEv"></span><span id="_CPPv2N4gviz5attrs11ColorScheme17get_default_valueEv"></span><span id="gviz::attrs::ColorScheme::get_default_valueCE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1adbdd6f56fa6081155adc034b481aa0b5"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz5attrs11ColorScheme10value_typeE" title="gviz::attrs::ColorScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get_default_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme17get_default_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme10is_defaultE10value_type">
+<span id="_CPPv3N4gviz5attrs11ColorScheme10is_defaultE10value_type"></span><span id="_CPPv2N4gviz5attrs11ColorScheme10is_defaultE10value_type"></span><span id="gviz::attrs::ColorScheme::is_default__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1ae9164bdda4cf877743d656ba8bb04aba"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_default</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11ColorScheme10value_typeE" title="gviz::attrs::ColorScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme10is_defaultE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme10constraintE10value_type">
+<span id="_CPPv3N4gviz5attrs11ColorScheme10constraintE10value_type"></span><span id="_CPPv2N4gviz5attrs11ColorScheme10constraintE10value_type"></span><span id="gviz::attrs::ColorScheme::constraint__value_typeCE"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1a7ec61be2036cdf8cb7dad9a67c930405"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">constraint</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz5attrs11ColorScheme10value_typeE" title="gviz::attrs::ColorScheme::value_type"><span class="n"><span class="pre">value_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme10constraintE10value_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-attributes">Public Static Attributes</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrs11ColorScheme4nameE">
+<span id="_CPPv3N4gviz5attrs11ColorScheme4nameE"></span><span id="_CPPv2N4gviz5attrs11ColorScheme4nameE"></span><span id="gviz::attrs::ColorScheme::name__cCPC"></span><span class="target" id="structgviz_1_1attrs_1_1_color_scheme_1a555cc34ec6f6abd0ac72e47cd0d225b2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="s"><span class="pre">&quot;colorscheme&quot;</span></span><a class="headerlink" href="#_CPPv4N4gviz5attrs11ColorScheme4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5attrsE">
+<span id="_CPPv3N4gviz5attrsE"></span><span id="_CPPv2N4gviz5attrsE"></span><span id="gviz::attrs"></span><span class="target" id="namespacegviz_1_1attrs"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">attrs</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="colorscheme_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">colorscheme.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_c4d11457176417effc161a5f95a647eb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="sametail.html" class="btn btn-neutral float-left" title="attrs/sametail.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tail_related.html" class="btn btn-neutral float-right" title="attrs/tail_related.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

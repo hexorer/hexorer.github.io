@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_l_head" kind="struct"><name>gviz::attrs::LHead</name>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1ac0fe3cd5dc332c35490a326de82bcdd3" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1af66ea3aa97f511e5680065b46b3f1ea0" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1aa4cc725feb4a63e0c516680233d7c1a9" kind="function"><name>LHead</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1af1efd26992ea126afe271e7e22ddf194" kind="function"><name>LHead</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1a9d2ebbc642454ddcc6a7872aceddef8e" kind="function"><name>LHead</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1a64b82ded50eb5367aef0182a3839d1e6" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1a4f9e4a2fa07b09c91e41a02018891e89" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_head_1a27666f8867543ab839de883f83926b10" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_l_height" kind="struct"><name>gviz::attrs::LHeight</name>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1ad26d8c17e0ac6bd376442f3fb5caa628" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1acd178bc42ec002a544167c83f425a523" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1a606b961f2e3402b709bbc2f2918c92f8" kind="function"><name>LHeight</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1a119bcc35d76b165a6cb53e28d4ddb09e" kind="function"><name>LHeight</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1a3af817a727f3efad53ffb6eddf78e978" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1ab59238ddd3c7cd311b2d6ccde5704960" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_height_1a19f7c599274b5a1f03ccba1b004601ff" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_l_position" kind="struct"><name>gviz::attrs::LPosition</name>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1adae21da0feb4db3a5c86faa734865bd0" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1ae76a81bb9caefed5d3e5798e5ce3149d" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1ad54e7538a4be36902694366843775c91" kind="function"><name>LPosition</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1aeaa5b18cc7662b56621e3160c19d176f" kind="function"><name>LPosition</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1aa0114c26dbcabb2f16704def00da9385" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1af397117d0436ec7386409435a4b3c5fa" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_position_1a7e45e5291462a3cfba2b11a5e22f52d0" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_l_tail" kind="struct"><name>gviz::attrs::LTail</name>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1aa746f3cfe7bf539ccddc09f3b8dc4923" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1adfdef96b3fca0a2e0195d82ae06b977c" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1a7ce49e29cc76a7cc10d417c5da71e2ee" kind="function"><name>LTail</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1ade188b7b14005a92ba09227e41d062b0" kind="function"><name>LTail</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1aeb96dc4952a482bd92471ebd8a7dc493" kind="function"><name>LTail</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1a0fc5ae92937a445e7c56afd038ebe6a3" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1ab6e3dcfab04b771a61f4706d6c83b99d" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_tail_1a06f1ab384d3c51a951aa0116c27df0a3" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_l_width" kind="struct"><name>gviz::attrs::LWidth</name>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a8b2fdc57029c29f50e23163a978891ea" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a12e446e3bbf574318943ec70f4f6b9d7" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a710268c8b85dabe74faabf0e86cf58ff" kind="function"><name>LWidth</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1ac241a73123f58eda00e381d52fde2786" kind="function"><name>LWidth</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a0cd09e2af18cc3e75a3abe4ba0018572" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a988a643b36c16f5cb6c4e92c23fbde03" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_l_width_1a3a78b471a20f30d5914cc8d27af0eed5" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+    <member refid="logical__related_8hpp_1a1e6518e019a9f7319230a67cc7cd5aac" kind="typedef"><name>LPositionType</name></member>
+  </compound>
+  <compound refid="logical__related_8hpp" kind="file"><name>logical_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

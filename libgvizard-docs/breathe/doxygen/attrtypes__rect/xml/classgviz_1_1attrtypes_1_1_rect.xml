@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1attrtypes_1_1_rect" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::Rect</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_rect_1a46d551b253167f62c8f8dac4dffe11d2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::attrtypes::Rect::llx_</definition>
+        <argsstring></argsstring>
+        <name>llx_</name>
+        <qualifiedname>gviz::attrtypes::Rect::llx_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="10" column="10" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_rect_1a1fe7874baec3f65b95d507520f901712" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::attrtypes::Rect::lly_</definition>
+        <argsstring></argsstring>
+        <name>lly_</name>
+        <qualifiedname>gviz::attrtypes::Rect::lly_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="11" column="10" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_rect_1ac5d4e8dfed0ad359786f6c109cede919" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::attrtypes::Rect::urx_</definition>
+        <argsstring></argsstring>
+        <name>urx_</name>
+        <qualifiedname>gviz::attrtypes::Rect::urx_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="12" column="10" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1attrtypes_1_1_rect_1a5613d52240b705d0d29bbda84674e719" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::attrtypes::Rect::ury_</definition>
+        <argsstring></argsstring>
+        <name>ury_</name>
+        <qualifiedname>gviz::attrtypes::Rect::ury_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="13" column="10" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a26943ddc581dd55167354db48cec2749" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::Rect::Rect</definition>
+        <argsstring>(double llx, double lly, double urx, double ury)</argsstring>
+        <name>Rect</name>
+        <qualifiedname>gviz::attrtypes::Rect::Rect</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>llx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>urx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ury</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="16" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="16" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a42d0d2620d949fd052d59878c0d03057" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::attrtypes::Rect::llx</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>llx</name>
+        <qualifiedname>gviz::attrtypes::Rect::llx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="39" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a013315b0ca2224cef6e83d609b56bd94" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::attrtypes::Rect::lly</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>lly</name>
+        <qualifiedname>gviz::attrtypes::Rect::lly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="40" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1ad47720f45a0cfece0eb0550eef52050e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::attrtypes::Rect::urx</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>urx</name>
+        <qualifiedname>gviz::attrtypes::Rect::urx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="41" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a61b9f2747a60e3ad20105ac8759054af" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr double</type>
+        <definition>constexpr double gviz::attrtypes::Rect::ury</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>ury</name>
+        <qualifiedname>gviz::attrtypes::Rect::ury</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="42" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a200f18b90fd4fab26a7890d5981ed3dc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>constexpr Rect &amp; gviz::attrtypes::Rect::set_llx</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_llx</name>
+        <qualifiedname>gviz::attrtypes::Rect::set_llx</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="44" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a22aa13a47691204abcc968bb6b9a2ed9" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>constexpr Rect &amp; gviz::attrtypes::Rect::set_lly</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_lly</name>
+        <qualifiedname>gviz::attrtypes::Rect::set_lly</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="45" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a3c6d8634afe97b0171752cd4fafe6a00" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>constexpr Rect &amp; gviz::attrtypes::Rect::set_urx</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_urx</name>
+        <qualifiedname>gviz::attrtypes::Rect::set_urx</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="46" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a6ae1bde5bc926221f05918142e36eddc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>constexpr Rect &amp; gviz::attrtypes::Rect::set_ury</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_ury</name>
+        <qualifiedname>gviz::attrtypes::Rect::set_ury</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="47" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a5ea13f117f625f1cc18d75dbeda794b1" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::Rect::operator==</definition>
+        <argsstring>(const Rect &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::Rect::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="71" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a3a1c694850955c7e7fc173636a45e58f" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::Rect::operator!=</definition>
+        <argsstring>(const Rect &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::Rect::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="77" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a69f1ae4921a961e75ea4f9bbe8ac1e12" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr std::optional&lt; <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &gt;</type>
+        <definition>static constexpr std::optional&lt; Rect &gt; gviz::attrtypes::Rect::make</definition>
+        <argsstring>(double llx, double lly, double urx, double ury)</argsstring>
+        <name>make</name>
+        <qualifiedname>gviz::attrtypes::Rect::make</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>llx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>urx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ury</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="25" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="25" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classgviz_1_1attrtypes_1_1_rect_1ad32311246ba3240863840585590a7c2d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>constexpr Rect operator+</definition>
+        <argsstring>(const Rect &amp;lhs, const Rect &amp;rhs) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>gviz::attrtypes::Rect::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="50" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="50" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="friend" id="classgviz_1_1attrtypes_1_1_rect_1aa2a3eb59029f01c077f4ffb46178af3a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref></type>
+        <definition>constexpr Rect operator-</definition>
+        <argsstring>(const Rect &amp;lhs, const Rect &amp;rhs)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>gviz::attrtypes::Rect::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="61" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="61" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a29859df8840d9ed74aca6ace29687f15" prot="private" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::Rect::Rect</definition>
+        <argsstring>()</argsstring>
+        <name>Rect</name>
+        <qualifiedname>gviz::attrtypes::Rect::Rect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="84" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1attrtypes_1_1_rect_1a613a58d34f3ff528c4afcd83e8b42749" prot="private" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr <ref refid="classgviz_1_1attrtypes_1_1_rect" kindref="compound">Rect</ref> &amp;</type>
+        <definition>constexpr Rect &amp; gviz::attrtypes::Rect::safe_set</definition>
+        <argsstring>(double &amp;dest, double value)</argsstring>
+        <name>safe_set</name>
+        <qualifiedname>gviz::attrtypes::Rect::safe_set</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="86" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="86" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/rect.hpp" bodystart="9" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a42d0d2620d949fd052d59878c0d03057" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>llx</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a46d551b253167f62c8f8dac4dffe11d2" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>llx_</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a013315b0ca2224cef6e83d609b56bd94" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>lly</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a1fe7874baec3f65b95d507520f901712" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>lly_</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a69f1ae4921a961e75ea4f9bbe8ac1e12" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>make</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a3a1c694850955c7e7fc173636a45e58f" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1ad32311246ba3240863840585590a7c2d" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>operator+</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1aa2a3eb59029f01c077f4ffb46178af3a" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>operator-</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a5ea13f117f625f1cc18d75dbeda794b1" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a26943ddc581dd55167354db48cec2749" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>Rect</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a29859df8840d9ed74aca6ace29687f15" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>Rect</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a613a58d34f3ff528c4afcd83e8b42749" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>safe_set</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a200f18b90fd4fab26a7890d5981ed3dc" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>set_llx</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a22aa13a47691204abcc968bb6b9a2ed9" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>set_lly</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a3c6d8634afe97b0171752cd4fafe6a00" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>set_urx</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a6ae1bde5bc926221f05918142e36eddc" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>set_ury</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1ad47720f45a0cfece0eb0550eef52050e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>urx</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1ac5d4e8dfed0ad359786f6c109cede919" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>urx_</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a61b9f2747a60e3ad20105ac8759054af" prot="public" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>ury</name></member>
+      <member refid="classgviz_1_1attrtypes_1_1_rect_1a5613d52240b705d0d29bbda84674e719" prot="private" virt="non-virtual"><scope>gviz::attrtypes::Rect</scope><name>ury_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

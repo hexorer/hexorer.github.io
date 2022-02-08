@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_input_scale" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::InputScale</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; InputScale, std::optional&lt; double &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_input_scale_1a815c3eee3644d4e75325b5fd6fc81b30" prot="public" static="no">
+        <type>std::optional&lt; double &gt;</type>
+        <definition>using gviz::attrs::InputScale::value_type =  std::optional&lt;double&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::InputScale::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_input_scale_1a8a83fe4058ce8d64b4e1ee30b29d23b5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::InputScale::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::InputScale::name</qualifiedname>
+        <initializer>= &quot;inputscale&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_input_scale_1a99f81776b88819c6b31c039252b8a540" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::InputScale::InputScale</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>InputScale</name>
+        <qualifiedname>gviz::attrs::InputScale::InputScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_input_scale_1a7bb0ce5de4ad14d88e7f07238cb67ea5" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::InputScale::InputScale</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>InputScale</name>
+        <qualifiedname>gviz::attrs::InputScale::InputScale</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_input_scale_1ac8a4332aedc8c7c97608b905fe8984af" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::InputScale::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::InputScale::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_input_scale_1ab1ddcec2d2faed678f920157347d36bb" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::InputScale::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::InputScale::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_input_scale_1ae60a4c21fae95aa9da57879e4e4dcc0a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::InputScale::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::InputScale::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; InputScale, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::InputScale</label>
+        <link refid="structgviz_1_1attrs_1_1_input_scale"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; InputScale, std::optional&lt; double &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::InputScale</label>
+        <link refid="structgviz_1_1attrs_1_1_input_scale"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/inputscale.hpp" bodystart="12" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1ae60a4c21fae95aa9da57879e4e4dcc0a" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1ac8a4332aedc8c7c97608b905fe8984af" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1a99f81776b88819c6b31c039252b8a540" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>InputScale</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1a7bb0ce5de4ad14d88e7f07238cb67ea5" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>InputScale</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1ab1ddcec2d2faed678f920157347d36bb" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1a8a83fe4058ce8d64b4e1ee30b29d23b5" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_input_scale_1a815c3eee3644d4e75325b5fd6fc81b30" prot="public" virt="non-virtual"><scope>gviz::attrs::InputScale</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

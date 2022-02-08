@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_n_s_limit" kind="struct"><name>gviz::attrs::NSLimit</name>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1a78fb54ed2b084bb6325cad71d8778efc" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1aae2efe744ada309ce092f22f5fa3c580" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1acde3881c5d624f7a377f1f979b61c1ee" kind="function"><name>NSLimit</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1a288339db5db182ccc21feb9e648ea894" kind="function"><name>NSLimit</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1accad48eeb8efa8433e81f0b36514508c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1a7b68dbad925dde0ba7e223554952e392" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit_1a58a406359f70f19fa5930b3f3b21c688" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="nslimit_8hpp" kind="file"><name>nslimit.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_rotate" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Rotate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Rotate, int &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_rotate_1a54547f75af90269dd38be8bda4a4d9d2" prot="public" static="no">
+        <type>int</type>
+        <definition>using gviz::attrs::Rotate::value_type =  int</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Rotate::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_rotate_1aadbd3c7149f155c67dd4678a477d1db8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Rotate::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Rotate::name</qualifiedname>
+        <initializer>= &quot;rotate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rotate_1a9efdf079c78e1a38e0e41b2257dd98f4" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rotate::Rotate</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Rotate</name>
+        <qualifiedname>gviz::attrs::Rotate::Rotate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rotate_1a9f6a59a8208abe747869656a49d0afef" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Rotate::Rotate</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Rotate</name>
+        <qualifiedname>gviz::attrs::Rotate::Rotate</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rotate_1a002f9153f1aa1fe5ba8be93c3594ca0d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Rotate::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Rotate::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="16" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rotate_1a9c59cc36f3a6834387cbf3d8ee55a6c9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rotate::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Rotate::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="18" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_rotate_1ac4f5a88c43318db17e20640f459281d7" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Rotate::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Rotate::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rotate, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rotate</label>
+        <link refid="structgviz_1_1attrs_1_1_rotate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Rotate, int &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Rotate</label>
+        <link refid="structgviz_1_1attrs_1_1_rotate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/rotate.hpp" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1ac4f5a88c43318db17e20640f459281d7" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1a002f9153f1aa1fe5ba8be93c3594ca0d" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1a9c59cc36f3a6834387cbf3d8ee55a6c9" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1aadbd3c7149f155c67dd4678a477d1db8" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1a9efdf079c78e1a38e0e41b2257dd98f4" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>Rotate</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1a9f6a59a8208abe747869656a49d0afef" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>Rotate</name></member>
+      <member refid="structgviz_1_1attrs_1_1_rotate_1a54547f75af90269dd38be8bda4a4d9d2" prot="public" virt="non-virtual"><scope>gviz::attrs::Rotate</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>colors/converter.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="colors/svg.hpp" href="svg.html" />
+    <link rel="prev" title="colors/rgb.hpp" href="rgb.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">colors</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rgba.html">colors/rgba.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rgb.html">colors/rgb.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">colors/converter.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="svg.html">colors/svg.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="general.html">colors/general.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">colors/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="x11.html">colors/x11.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hsv.html">colors/hsv.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">colors</a> &raquo;</li>
+      <li>colors/converter.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/colors/converter.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="colors-converter-hpp">
+<h1>colors/converter.hpp<a class="headerlink" href="#colors-converter-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz6colors22ColorConverterCallableE">
+<span id="_CPPv3I0EN4gviz6colors22ColorConverterCallableE"></span><span id="_CPPv2I0EN4gviz6colors22ColorConverterCallableE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">To</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1colors_1_1_color_converter_callable"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="color.html#_CPPv4N4gviz6colorsE" title="gviz::colors"><span class="n"><span class="pre">colors</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">ColorConverterCallable</span></span></span><a class="headerlink" href="#_CPPv4I0EN4gviz6colors22ColorConverterCallableE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz6colors22ColorConverterCallableclE2ToRK4From">
+<span id="_CPPv3I0ENK4gviz6colors22ColorConverterCallableclERK4From"></span><span id="_CPPv2I0ENK4gviz6colors22ColorConverterCallableclERK4From"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">From</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1colors_1_1_color_converter_callable_1a465868482fbb8385accef6c3bff9a1c1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz6colors22ColorConverterCallableE" title="gviz::colors::ColorConverterCallable::To"><span class="n"><span class="pre">To</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">()</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz6colors22ColorConverterCallableclE2ToRK4From" title="gviz::colors::ColorConverterCallable::operator()::From"><span class="n"><span class="pre">From</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz6colors22ColorConverterCallableclE2ToRK4From" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI3HSV3RGBEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI3HSV3RGBEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI3HSV3RGBEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">HSV</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI3HSV3RGBEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI3HSV3RGBE7convertERK3RGB">
+<span id="_CPPv3N4gviz5utils9ConverterI3HSV3RGBE7convertERK3RGB"></span><span id="_CPPv2N4gviz5utils9ConverterI3HSV3RGBE7convertERK3RGB"></span><span id="gviz::utils::Converter:HSV.RGB:::convert__RGBCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_01_4_1af928959e8c45bcbf6162e3caf2067ff3"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">rgb</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI3HSV3RGBE7convertERK3RGB" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI3HSV4RGBAEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI3HSV4RGBAEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI3HSV4RGBAEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_a_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">HSV</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI3HSV4RGBAEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI3HSV4RGBAE7convertERK4RGBA">
+<span id="_CPPv3N4gviz5utils9ConverterI3HSV4RGBAE7convertERK4RGBA"></span><span id="_CPPv2N4gviz5utils9ConverterI3HSV4RGBAE7convertERK4RGBA"></span><span id="gviz::utils::Converter:HSV.RGBA:::convert__RGBACRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_h_s_v_00_01_r_g_b_a_01_4_1a0966ea2a10b006075397f3d5b8dd0355"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI3HSV4RGBAE7convertERK4RGBA" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI3RGB3HSVEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI3RGB3HSVEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI3RGB3HSVEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">RGB</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI3RGB3HSVEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI3RGB3HSVE7convertERK3HSV">
+<span id="_CPPv3N4gviz5utils9ConverterI3RGB3HSVE7convertERK3HSV"></span><span id="_CPPv2N4gviz5utils9ConverterI3RGB3HSVE7convertERK3HSV"></span><span id="gviz::utils::Converter:RGB.HSV:::convert__HSVCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_h_s_v_01_4_1a2cb26be87c05f26052b3c51ab24570fc"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">hsv</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI3RGB3HSVE7convertERK3HSV" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI3RGB4RGBAEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI3RGB4RGBAEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI3RGB4RGBAEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">RGB</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI3RGB4RGBAEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI3RGB4RGBAE7convertERK4RGBA">
+<span id="_CPPv3N4gviz5utils9ConverterI3RGB4RGBAE7convertERK4RGBA"></span><span id="_CPPv2N4gviz5utils9ConverterI3RGB4RGBAE7convertERK4RGBA"></span><span id="gviz::utils::Converter:RGB.RGBA:::convert__RGBACRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_00_01_r_g_b_a_01_4_1a773804911e08bc7738f97f27095e1d84"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI3RGB4RGBAE7convertERK4RGBA" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI4RGBA3HSVEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI4RGBA3HSVEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI4RGBA3HSVEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_h_s_v_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">RGBA</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI4RGBA3HSVEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI4RGBA3HSVE7convertERK3HSV">
+<span id="_CPPv3N4gviz5utils9ConverterI4RGBA3HSVE7convertERK3HSV"></span><span id="_CPPv2N4gviz5utils9ConverterI4RGBA3HSVE7convertERK3HSV"></span><span id="gviz::utils::Converter:RGBA.HSV:::convert__HSVCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_h_s_v_01_4_1a2c357c9b252db8ff81d15f234c636bf6"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI4RGBA3HSVE7convertERK3HSV" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI4RGBA3RGBEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI4RGBA3RGBEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI4RGBA3RGBEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_r_g_b_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">RGBA</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI4RGBA3RGBEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI4RGBA3RGBE7convertERK3RGB">
+<span id="_CPPv3N4gviz5utils9ConverterI4RGBA3RGBE7convertERK3RGB"></span><span id="_CPPv2N4gviz5utils9ConverterI4RGBA3RGBE7convertERK3RGB"></span><span id="gviz::utils::Converter:RGBA.RGB:::convert__RGBCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_r_g_b_a_00_01_r_g_b_01_4_1af3abf7b63a07e21e70e21d945ee57f70"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">RGBA</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">RGB</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI4RGBA3RGBE7convertERK3RGB" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE">
+<span id="_CPPv3I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE"></span><span id="_CPPv2I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SchemeColor&lt;U&gt;&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SchemeColor&lt;U&gt;&gt;::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEE7convertERK11SchemeColorI1UE">
+<span id="_CPPv3N4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEE7convertERK11SchemeColorI1UE"></span><span id="_CPPv2N4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEE7convertERK11SchemeColorI1UE"></span><span id="gviz::utils::Converter:SchemeColor:T:.SchemeColor:U::::convert__SchemeColor:U:CRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_scheme_color_3_01_u_01_4_01_4_1a4f559a91f3720c6d07573b3fa8e643f2"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SchemeColor&lt;U&gt;&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SchemeColor&lt;U&gt;&gt;::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE11SchemeColorI1UEE7convertERK11SchemeColorI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_s_v_g_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SVGColorEnum&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumE7convertE12SVGColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="gviz::utils::Converter:SchemeColor:T:.SVGColorEnum:::convert__SVGColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_s_v_g_color_enum_01_4_1add82a84a95ec122c83e27642dc5300cd"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, SVGColorEnum&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE12SVGColorEnumE7convertE12SVGColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, X11ColorEnum&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumE7convertE12X11ColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumE7convertE12X11ColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumE7convertE12X11ColorEnum"></span><span id="gviz::utils::Converter:SchemeColor:T:.X11ColorEnum:::convert__X11ColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4_1ab2151ede274b336b78329fd7f9cbb6ac"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumEE" title="gviz::utils::Converter&lt;SchemeColor&lt;T&gt;, X11ColorEnum&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI11SchemeColorI1TE12X11ColorEnumE7convertE12X11ColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI8SVGColor12SVGColorEnumEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI8SVGColor12SVGColorEnumEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI8SVGColor12SVGColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_00_01_s_v_g_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">SVGColor</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI8SVGColor12SVGColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI8SVGColor12SVGColorEnumE7convertE12SVGColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI8SVGColor12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI8SVGColor12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="gviz::utils::Converter:SVGColor.SVGColorEnum:::convert__SVGColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_00_01_s_v_g_color_enum_01_4_1a11dcf685230d980daa7c8d8af63fb136"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColor</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI8SVGColor12SVGColorEnumE7convertE12SVGColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI12SVGColorEnum8SVGColorEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI12SVGColorEnum8SVGColorEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI12SVGColorEnum8SVGColorEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_enum_00_01_s_v_g_color_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColor</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI12SVGColorEnum8SVGColorEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI12SVGColorEnum8SVGColorE7convertERK8SVGColor">
+<span id="_CPPv3N4gviz5utils9ConverterI12SVGColorEnum8SVGColorE7convertERK8SVGColor"></span><span id="_CPPv2N4gviz5utils9ConverterI12SVGColorEnum8SVGColorE7convertERK8SVGColor"></span><span id="gviz::utils::Converter:SVGColorEnum.SVGColor:::convert__SVGColorCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_s_v_g_color_enum_00_01_s_v_g_color_01_4_1a93ceedd99ec3d5285e635bb09f71b1cc"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColor</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI12SVGColorEnum8SVGColorE7convertERK8SVGColor" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE">
+<span id="_CPPv3I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE"></span><span id="_CPPv2I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">U</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_t_00_01_scheme_color_3_01_u_01_4_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;T, SchemeColor&lt;U&gt;&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;T, SchemeColor&lt;U&gt;&gt;::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI1T11SchemeColorI1UEE7convertERK11SchemeColorI1UE">
+<span id="_CPPv3N4gviz5utils9ConverterI1T11SchemeColorI1UEE7convertERK11SchemeColorI1UE"></span><span id="_CPPv2N4gviz5utils9ConverterI1T11SchemeColorI1UEE7convertERK11SchemeColorI1UE"></span><span id="gviz::utils::Converter:T.SchemeColor:U::::convert__SchemeColor:U:CRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_t_00_01_scheme_color_3_01_u_01_4_01_4_1a0e76b5346c93c7de75e1ae14bc91722e"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;T, SchemeColor&lt;U&gt;&gt;::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">SchemeColor</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz5utils9ConverterI1T11SchemeColorI1UEEE" title="gviz::utils::Converter&lt;T, SchemeColor&lt;U&gt;&gt;::U"><span class="n"><span class="pre">U</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI1T11SchemeColorI1UEE7convertERK11SchemeColorI1UE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI2To8SVGColorEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI2To8SVGColorEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI2To8SVGColorEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">To</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8SVGColorEE" title="gviz::utils::Converter&lt;To, SVGColor&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColor</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8SVGColorEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI2To8SVGColorE7convertERK8SVGColor">
+<span id="_CPPv3N4gviz5utils9ConverterI2To8SVGColorE7convertERK8SVGColor"></span><span id="_CPPv2N4gviz5utils9ConverterI2To8SVGColorE7convertERK8SVGColor"></span><span id="gviz::utils::Converter:To.SVGColor:::convert__SVGColorCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4_1a92b7e995b158332812a6a524eea5d904"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8SVGColorEE" title="gviz::utils::Converter&lt;To, SVGColor&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColor</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI2To8SVGColorE7convertERK8SVGColor" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">To</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE" title="gviz::utils::Converter&lt;To, SVGColorEnum&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI2To12SVGColorEnumE7convertE12SVGColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI2To12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI2To12SVGColorEnumE7convertE12SVGColorEnum"></span><span id="gviz::utils::Converter:To.SVGColorEnum:::convert__SVGColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_enum_01_4_1af46763a63e820c12d36eaea059fbfdfd"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12SVGColorEnumEE" title="gviz::utils::Converter&lt;To, SVGColorEnum&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI2To12SVGColorEnumE7convertE12SVGColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI2To8X11ColorEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI2To8X11ColorEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI2To8X11ColorEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">To</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8X11ColorEE" title="gviz::utils::Converter&lt;To, X11Color&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">X11Color</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8X11ColorEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI2To8X11ColorE7convertERK8X11Color">
+<span id="_CPPv3N4gviz5utils9ConverterI2To8X11ColorE7convertERK8X11Color"></span><span id="_CPPv2N4gviz5utils9ConverterI2To8X11ColorE7convertERK8X11Color"></span><span id="gviz::utils::Converter:To.X11Color:::convert__X11ColorCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_01_4_1afab494a825e5cc4ee55f2fbfc195ae71"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To8X11ColorEE" title="gviz::utils::Converter&lt;To, X11Color&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">X11Color</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI2To8X11ColorE7convertERK8X11Color" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE">
+<span id="_CPPv3I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE"></span><span id="_CPPv2I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">To</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE" title="gviz::utils::Converter&lt;To, X11ColorEnum&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI2To12X11ColorEnumE7convertE12X11ColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI2To12X11ColorEnumE7convertE12X11ColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI2To12X11ColorEnumE7convertE12X11ColorEnum"></span><span id="gviz::utils::Converter:To.X11ColorEnum:::convert__X11ColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_x11_color_enum_01_4_1ad25ceb5d1725f675d092d6b90c7bde75"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN4gviz5utils9ConverterI2To12X11ColorEnumEE" title="gviz::utils::Converter&lt;To, X11ColorEnum&gt;::To"><span class="n"><span class="pre">To</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI2To12X11ColorEnumE7convertE12X11ColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI8X11Color12SVGColorEnumEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI8X11Color12SVGColorEnumEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI8X11Color12SVGColorEnumEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_x11_color_00_01_s_v_g_color_enum_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">X11Color</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">SVGColorEnum</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI8X11Color12SVGColorEnumEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI8X11Color12SVGColorEnumE7convertE12X11ColorEnum">
+<span id="_CPPv3N4gviz5utils9ConverterI8X11Color12SVGColorEnumE7convertE12X11ColorEnum"></span><span id="_CPPv2N4gviz5utils9ConverterI8X11Color12SVGColorEnumE7convertE12X11ColorEnum"></span><span id="gviz::utils::Converter:X11Color.SVGColorEnum:::convert__X11ColorEnumCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_x11_color_00_01_s_v_g_color_enum_01_4_1a29ea6ca00e263079484c9587b020a7aa"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">X11Color</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI8X11Color12SVGColorEnumE7convertE12X11ColorEnum" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4IEN4gviz5utils9ConverterI12X11ColorEnum8X11ColorEE">
+<span id="_CPPv3IEN4gviz5utils9ConverterI12X11ColorEnum8X11ColorEE"></span><span id="_CPPv2IEN4gviz5utils9ConverterI12X11ColorEnum8X11ColorEE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_x11_color_enum_00_01_x11_color_01_4"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Converter</span></span></span><span class="p"><span class="pre">&lt;</span></span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="n"><span class="pre">X11Color</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4IEN4gviz5utils9ConverterI12X11ColorEnum8X11ColorEE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-static-functions">Public Static Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utils9ConverterI12X11ColorEnum8X11ColorE7convertERK8X11Color">
+<span id="_CPPv3N4gviz5utils9ConverterI12X11ColorEnum8X11ColorE7convertERK8X11Color"></span><span id="_CPPv2N4gviz5utils9ConverterI12X11ColorEnum8X11ColorE7convertERK8X11Color"></span><span id="gviz::utils::Converter:X11ColorEnum.X11Color:::convert__X11ColorCRCE"></span><span class="target" id="structgviz_1_1utils_1_1_converter_3_01_x11_color_enum_00_01_x11_color_01_4_1a307ae52527cb670f8905b523ba0247a7"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="n"><span class="pre">X11ColorEnum</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">convert</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">X11Color</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">color</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz5utils9ConverterI12X11ColorEnum8X11ColorE7convertERK8X11Color" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz6colorsE">
+<span id="_CPPv3N4gviz6colorsE"></span><span id="_CPPv2N4gviz6colorsE"></span><span id="gviz::colors"></span><span class="target" id="namespacegviz_1_1colors"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">colors</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz5utilsE">
+<span id="_CPPv3N4gviz5utilsE"></span><span id="_CPPv2N4gviz5utilsE"></span><span id="gviz::utils"></span><span class="target" id="namespacegviz_1_1utils"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">utils</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="converter_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">converter.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv416hsv_zero_default">
+<span id="_CPPv316hsv_zero_default"></span><span id="_CPPv216hsv_zero_default"></span><span id="hsv_zero_default__HSVC"></span><span class="target" id="converter_8hpp_1a566992582a3f84033aed195fe674c208"></span><span class="k"><span class="pre">static</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">HSV</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">hsv_zero_default</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="m"><span class="pre">0.</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="m"><span class="pre">0.</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="m"><span class="pre">0.</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv416hsv_zero_default" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_0c172d4549410538c67f1e8c5f2bc6fb"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="rgb.html" class="btn btn-neutral float-left" title="colors/rgb.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="svg.html" class="btn btn-neutral float-right" title="colors/svg.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

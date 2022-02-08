@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_dpi" kind="struct"><name>gviz::attrs::Dpi</name>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a4370bd06da36a29383ad896687917a8a" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1aab6c541f18bb0a19063e921c1360fc9b" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a72dcf8396fff2ddef1027196a9cbe1fa" kind="function"><name>Dpi</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a031f56c38fdd8d170e1940d982c47f75" kind="function"><name>Dpi</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a4440a16a81c8ed2576a5b69a6966e8cb" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a2aadf7beaa776865b985d8f8bcd98aa9" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_dpi_1a3339b2624ea9b296118a55f5bceebb37" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="dpi_8hpp" kind="file"><name>dpi.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

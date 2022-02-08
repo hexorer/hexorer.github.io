@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>views.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="attrs" href="attrs/index.html" />
+    <link rel="prev" title="utils.hpp" href="utils.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">utils.hpp</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Reference Documentation</a> &raquo;</li>
+      <li>views.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/rstfiles/views.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="views-hpp">
+<h1>views.hpp<a class="headerlink" href="#views-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE">
+<span id="_CPPv3I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE"></span><span id="_CPPv2I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">F</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">enable_if_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">is_invocable_v</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">true</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1_callback_view"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">CallbackView</span></span></span><a class="headerlink" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView12CallbackViewE15AdvanceCallback">
+<span id="_CPPv3N4gviz12CallbackView12CallbackViewE15AdvanceCallback"></span><span id="_CPPv2N4gviz12CallbackView12CallbackViewE15AdvanceCallback"></span><span id="gviz::CallbackView::CallbackView__AdvanceCallback"></span><span class="target" id="classgviz_1_1_callback_view_1a42f23fabc6428ca99bfb03863b8dbc4d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">CallbackView</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz12CallbackView15AdvanceCallbackE" title="gviz::CallbackView::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">callback</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz12CallbackView12CallbackViewE15AdvanceCallback" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView12CallbackViewE15AdvanceCallback1T">
+<span id="_CPPv3N4gviz12CallbackView12CallbackViewE15AdvanceCallback1T"></span><span id="_CPPv2N4gviz12CallbackView12CallbackViewE15AdvanceCallback1T"></span><span id="gviz::CallbackView::CallbackView__AdvanceCallback.T"></span><span class="target" id="classgviz_1_1_callback_view_1a66930da00b4d7397250d675029c410a9"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">CallbackView</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz12CallbackView15AdvanceCallbackE" title="gviz::CallbackView::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">callback</span></span>, <a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">init</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz12CallbackView12CallbackViewE15AdvanceCallback1T" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NR4gviz12CallbackView5beginEv">
+<span id="_CPPv3NR4gviz12CallbackView5beginEv"></span><span id="_CPPv2NR4gviz12CallbackView5beginEv"></span><span id="gviz::CallbackView::beginR"></span><span class="target" id="classgviz_1_1_callback_view_1a096f6446e5863cfbab5b61a062098fec"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4NR4gviz12CallbackView5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NO4gviz12CallbackView5beginEv">
+<span id="_CPPv3NO4gviz12CallbackView5beginEv"></span><span id="_CPPv2NO4gviz12CallbackView5beginEv"></span><span id="gviz::CallbackView::beginO"></span><span class="target" id="classgviz_1_1_callback_view_1a2030234b842e7a04a3e4508b04bf7bdd"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="p"><span class="pre">&amp;&amp;</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4NO4gviz12CallbackView5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NKR4gviz12CallbackView5beginEv">
+<span id="_CPPv3NKR4gviz12CallbackView5beginEv"></span><span id="_CPPv2NKR4gviz12CallbackView5beginEv"></span><span id="gviz::CallbackView::beginCR"></span><span class="target" id="classgviz_1_1_callback_view_1a0fadf3e546e85cf1bc39800b17aca0ff"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4NKR4gviz12CallbackView5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NKO4gviz12CallbackView5beginEv">
+<span id="_CPPv3NKO4gviz12CallbackView5beginEv"></span><span id="_CPPv2NKO4gviz12CallbackView5beginEv"></span><span id="gviz::CallbackView::beginCO"></span><span class="target" id="classgviz_1_1_callback_view_1a914af46f79029fb93553518b36ac3c5b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;&amp;</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4NKO4gviz12CallbackView5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView3endEv">
+<span id="_CPPv3N4gviz12CallbackView3endEv"></span><span id="_CPPv2N4gviz12CallbackView3endEv"></span><span id="gviz::CallbackView::end"></span><span class="target" id="classgviz_1_1_callback_view_1a6795328e30c5f3bd1256f78d02a61415"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">end</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz12CallbackView3endEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-types">Private Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView15AdvanceCallbackE">
+<span id="_CPPv3N4gviz12CallbackView15AdvanceCallbackE"></span><span id="_CPPv2N4gviz12CallbackView15AdvanceCallbackE"></span><span class="target" id="classgviz_1_1_callback_view_1a52657b745d2aa67925c203aee2d7bcc8"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">AdvanceCallback</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::F"><span class="n"><span class="pre">F</span></span></a><a class="headerlink" href="#_CPPv4N4gviz12CallbackView15AdvanceCallbackE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView7advanceE">
+<span id="_CPPv3N4gviz12CallbackView7advanceE"></span><span id="_CPPv2N4gviz12CallbackView7advanceE"></span><span id="gviz::CallbackView::advance__AdvanceCallback"></span><span class="target" id="classgviz_1_1_callback_view_1a9290bcdc6ac55c77a50bdaee6f6d28ab"></span><a class="reference internal" href="#_CPPv4N4gviz12CallbackView15AdvanceCallbackE" title="gviz::CallbackView::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">advance</span></span></span><a class="headerlink" href="#_CPPv4N4gviz12CallbackView7advanceE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12CallbackView4initE">
+<span id="_CPPv3N4gviz12CallbackView4initE"></span><span id="_CPPv2N4gviz12CallbackView4initE"></span><span id="gviz::CallbackView::init__std::optional:T:"></span><span class="target" id="classgviz_1_1_callback_view_1ae2e2f697c0dc40a311df71be0f81aba2"></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz12CallbackViewE" title="gviz::CallbackView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">init</span></span></span><a class="headerlink" href="#_CPPv4N4gviz12CallbackView4initE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE">
+<span id="_CPPv3I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE"></span><span id="_CPPv2I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">F</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">enable_if_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">is_invocable_v</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator::F"><span class="n"><span class="pre">F</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">true</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1_callback_view_iterator"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">CallbackViewIterator</span></span></span><a class="headerlink" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator15AdvanceCallbackE">
+<span id="_CPPv3N4gviz20CallbackViewIterator15AdvanceCallbackE"></span><span id="_CPPv2N4gviz20CallbackViewIterator15AdvanceCallbackE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a06661875c0b41be5bb4f81f351b44d35"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">AdvanceCallback</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator::F"><span class="n"><span class="pre">F</span></span></a><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator15AdvanceCallbackE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallback">
+<span id="_CPPv3N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallback"></span><span id="_CPPv2N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallback"></span><span id="gviz::CallbackViewIterator::CallbackViewIterator__AdvanceCallbackCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a36543eed8afd068e1c89a32365ac7ce6"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">CallbackViewIterator</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz20CallbackViewIterator15AdvanceCallbackE" title="gviz::CallbackViewIterator::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">callback</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallback" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallbackNSt8optionalI1TEE">
+<span id="_CPPv3N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallbackNSt8optionalI1TEE"></span><span id="_CPPv2N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallbackNSt8optionalI1TEE"></span><span id="gviz::CallbackViewIterator::CallbackViewIterator__AdvanceCallback.std::optional:T:CE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a3eb6c269062db906f636a7da003b21e8"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">explicit</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">CallbackViewIterator</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz20CallbackViewIterator15AdvanceCallbackE" title="gviz::CallbackViewIterator::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">callback</span></span>, <a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">init</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator20CallbackViewIteratorE15AdvanceCallbackNSt8optionalI1TEE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator9has_valueEv">
+<span id="_CPPv3N4gviz20CallbackViewIterator9has_valueEv"></span><span id="_CPPv2N4gviz20CallbackViewIterator9has_valueEv"></span><span id="gviz::CallbackViewIterator::has_valueCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1aa48a7b5c743410e1900613e96f3ba07e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">has_value</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator9has_valueEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator4nextEv">
+<span id="_CPPv3N4gviz20CallbackViewIterator4nextEv"></span><span id="_CPPv2N4gviz20CallbackViewIterator4nextEv"></span><span id="gviz::CallbackViewIterator::nextCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a338fb23ff83b66798c233cda56d1a064"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">next</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator4nextEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz20CallbackViewIterator4nextEv">
+<span id="_CPPv3NK4gviz20CallbackViewIterator4nextEv"></span><span id="_CPPv2NK4gviz20CallbackViewIterator4nextEv"></span><span id="gviz::CallbackViewIterator::nextCCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1ab2cb30f261d0e1ecd610ce3679327bd9"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">next</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><a class="headerlink" href="#_CPPv4NK4gviz20CallbackViewIterator4nextEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratorppEv">
+<span id="_CPPv3N4gviz20CallbackViewIteratorppEv"></span><span id="_CPPv2N4gviz20CallbackViewIteratorppEv"></span><span id="gviz::CallbackViewIterator::inc-operatorCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a2bb017316772f1d9ec097656e89d3214"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">++</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratorppEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratorppEi">
+<span id="_CPPv3N4gviz20CallbackViewIteratorppEi"></span><span id="_CPPv2N4gviz20CallbackViewIteratorppEi"></span><span id="gviz::CallbackViewIterator::inc-operator__iCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1acdfccb67ae250d69542d5e6b3bc5141e"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">++</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratorppEi" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratorptEv">
+<span id="_CPPv3N4gviz20CallbackViewIteratorptEv"></span><span id="_CPPv2N4gviz20CallbackViewIteratorptEv"></span><span id="gviz::CallbackViewIterator::pointer-operatorCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a9e9f19323476b7069318d22274bc5c33"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">-&gt;</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratorptEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz20CallbackViewIteratormlEv">
+<span id="_CPPv3NK4gviz20CallbackViewIteratormlEv"></span><span id="_CPPv2NK4gviz20CallbackViewIteratormlEv"></span><span id="gviz::CallbackViewIterator::mul-operatorCCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a60918be0d5802790172a49d75c17cb95"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">*</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK4gviz20CallbackViewIteratormlEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratoreqERK20CallbackViewIterator">
+<span id="_CPPv3N4gviz20CallbackViewIteratoreqERK20CallbackViewIterator"></span><span id="_CPPv2N4gviz20CallbackViewIteratoreqERK20CallbackViewIterator"></span><span id="gviz::CallbackViewIterator::eq-operator__CallbackViewIteratorCRCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1aef749d82aae469bfb023e7968dd5d47d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">==</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratoreqERK20CallbackViewIterator" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratorneERK20CallbackViewIterator">
+<span id="_CPPv3N4gviz20CallbackViewIteratorneERK20CallbackViewIterator"></span><span id="_CPPv2N4gviz20CallbackViewIteratorneERK20CallbackViewIterator"></span><span id="gviz::CallbackViewIterator::neq-operator__CallbackViewIteratorCRCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1aae95edb2b4b20f5856ae31cbab7f822b"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="o"><span class="pre">!=</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator"><span class="n"><span class="pre">CallbackViewIterator</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">other</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratorneERK20CallbackViewIterator" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIteratorcvbEv">
+<span id="_CPPv3N4gviz20CallbackViewIteratorcvbEv"></span><span id="_CPPv2N4gviz20CallbackViewIteratorcvbEv"></span><span id="gviz::CallbackViewIterator::castto-b-operatorCE"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1ae7be5a4ea76d02b916d8efc4f415c7f3"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="k"><span class="pre">operator</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIteratorcvbEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator8advance_E">
+<span id="_CPPv3N4gviz20CallbackViewIterator8advance_E"></span><span id="_CPPv2N4gviz20CallbackViewIterator8advance_E"></span><span id="gviz::CallbackViewIterator::advance___AdvanceCallback"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a9737c7fde3998e6490e0317b68fcde9c"></span><a class="reference internal" href="#_CPPv4N4gviz20CallbackViewIterator15AdvanceCallbackE" title="gviz::CallbackViewIterator::AdvanceCallback"><span class="n"><span class="pre">AdvanceCallback</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">advance_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator8advance_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz20CallbackViewIterator8current_E">
+<span id="_CPPv3N4gviz20CallbackViewIterator8current_E"></span><span id="_CPPv2N4gviz20CallbackViewIterator8current_E"></span><span id="gviz::CallbackViewIterator::current___std::optional:T:"></span><span class="target" id="classgviz_1_1_callback_view_iterator_1a69fc5d3255ea451d6b85794b6cf6020a"></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">optional</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00_NSt11enable_if_tINSt14is_invocable_vI1F1TEEbEEEN4gviz20CallbackViewIteratorE" title="gviz::CallbackViewIterator::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">current_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz20CallbackViewIterator8current_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I000_bEN4gviz12IteratorViewE">
+<span id="_CPPv3I000_bEN4gviz12IteratorViewE"></span><span id="_CPPv2I000_bEN4gviz12IteratorViewE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">T</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Iter</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">decltype</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">begin</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">declval</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Sentinel</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">decltype</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">end</span></span><span class="p"><span class="pre">(</span></span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">declval</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::T"><span class="n"><span class="pre">T</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">(</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">)</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Const</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">false</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1_iterator_view"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">IteratorView</span></span></span><a class="headerlink" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView6iter_tE">
+<span id="_CPPv3N4gviz12IteratorView6iter_tE"></span><span id="_CPPv2N4gviz12IteratorView6iter_tE"></span><span class="target" id="classgviz_1_1_iterator_view_1afd91db35e58047c1d568531b08d14d7f"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">iter_t</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">conditional_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Const"><span class="n"><span class="pre">Const</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Iter"><span class="n"><span class="pre">Iter</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Iter"><span class="n"><span class="pre">Iter</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz12IteratorView6iter_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView10sentinel_tE">
+<span id="_CPPv3N4gviz12IteratorView10sentinel_tE"></span><span id="_CPPv2N4gviz12IteratorView10sentinel_tE"></span><span class="target" id="classgviz_1_1_iterator_view_1a458a8d8d1223a167117fa01413cb14b4"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">sentinel_t</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">conditional_t</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Const"><span class="n"><span class="pre">Const</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Sentinel"><span class="n"><span class="pre">Sentinel</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I000_bEN4gviz12IteratorViewE" title="gviz::IteratorView::Sentinel"><span class="n"><span class="pre">Sentinel</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz12IteratorView10sentinel_tE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView12IteratorViewE6iter_t10sentinel_t">
+<span id="_CPPv3N4gviz12IteratorView12IteratorViewE6iter_t10sentinel_t"></span><span id="_CPPv2N4gviz12IteratorView12IteratorViewE6iter_t10sentinel_t"></span><span id="gviz::IteratorView::IteratorView__iter_t.sentinel_tCE"></span><span class="target" id="classgviz_1_1_iterator_view_1a680b6ade27eae51d1d18f834d7304c5c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">IteratorView</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz12IteratorView6iter_tE" title="gviz::IteratorView::iter_t"><span class="n"><span class="pre">iter_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">iter_begin</span></span>, <a class="reference internal" href="#_CPPv4N4gviz12IteratorView10sentinel_tE" title="gviz::IteratorView::sentinel_t"><span class="n"><span class="pre">sentinel_t</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">iter_end</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz12IteratorView12IteratorViewE6iter_t10sentinel_t" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView5beginEv">
+<span id="_CPPv3N4gviz12IteratorView5beginEv"></span><span id="_CPPv2N4gviz12IteratorView5beginEv"></span><span id="gviz::IteratorView::beginCE"></span><span class="target" id="classgviz_1_1_iterator_view_1a5977bfc708e1cec3532763980d3262c1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">begin</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz12IteratorView6iter_tE" title="gviz::IteratorView::iter_t"><span class="n"><span class="pre">iter_t</span></span></a><a class="headerlink" href="#_CPPv4N4gviz12IteratorView5beginEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView3endEv">
+<span id="_CPPv3N4gviz12IteratorView3endEv"></span><span id="_CPPv2N4gviz12IteratorView3endEv"></span><span id="gviz::IteratorView::endCE"></span><span class="target" id="classgviz_1_1_iterator_view_1ab1c6761d677cc25295762a581764d3c1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">end</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz12IteratorView10sentinel_tE" title="gviz::IteratorView::sentinel_t"><span class="n"><span class="pre">sentinel_t</span></span></a><a class="headerlink" href="#_CPPv4N4gviz12IteratorView3endEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView11iter_begin_E">
+<span id="_CPPv3N4gviz12IteratorView11iter_begin_E"></span><span id="_CPPv2N4gviz12IteratorView11iter_begin_E"></span><span id="gviz::IteratorView::iter_begin___iter_t"></span><span class="target" id="classgviz_1_1_iterator_view_1a50402825761ca78c8ae263633aa31f82"></span><a class="reference internal" href="#_CPPv4N4gviz12IteratorView6iter_tE" title="gviz::IteratorView::iter_t"><span class="n"><span class="pre">iter_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">iter_begin_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz12IteratorView11iter_begin_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz12IteratorView9iter_end_E">
+<span id="_CPPv3N4gviz12IteratorView9iter_end_E"></span><span id="_CPPv2N4gviz12IteratorView9iter_end_E"></span><span id="gviz::IteratorView::iter_end___sentinel_t"></span><span class="target" id="classgviz_1_1_iterator_view_1a11a796933db70a8b3b5b554d3ff710f6"></span><a class="reference internal" href="#_CPPv4N4gviz12IteratorView10sentinel_tE" title="gviz::IteratorView::sentinel_t"><span class="n"><span class="pre">sentinel_t</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">iter_end_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz12IteratorView9iter_end_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="views_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">views.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="utils.html" class="btn btn-neutral float-left" title="utils.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="attrs/index.html" class="btn btn-neutral float-right" title="attrs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

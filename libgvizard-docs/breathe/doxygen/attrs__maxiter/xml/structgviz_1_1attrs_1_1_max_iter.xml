@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_max_iter" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::MaxIter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; MaxIter, std::optional&lt; int &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_max_iter_1adbe88a7741c05d274ed9cdb7c2629001" prot="public" static="no">
+        <type>std::optional&lt; int &gt;</type>
+        <definition>using gviz::attrs::MaxIter::value_type =  std::optional&lt;int&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::MaxIter::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_max_iter_1a10ab8fc9197adeef0831d8f86d3f4d42" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::MaxIter::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::MaxIter::name</qualifiedname>
+        <initializer>= &quot;maxiter&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_max_iter_1af07f114673be7dd675dbcf722f60b611" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::MaxIter::MaxIter</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>MaxIter</name>
+        <qualifiedname>gviz::attrs::MaxIter::MaxIter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_max_iter_1aa5fac97116fc72a08f6ede34c93a0b7d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::MaxIter::MaxIter</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>MaxIter</name>
+        <qualifiedname>gviz::attrs::MaxIter::MaxIter</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_max_iter_1a89280df13bb30f24127d0d1b045dca7c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::MaxIter::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::MaxIter::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_max_iter_1a7bb3a206192e066cee9d608282990b4c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::MaxIter::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::MaxIter::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_max_iter_1a9bebba5ec5e0ea74c84b6f71e2bf4046" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::MaxIter::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::MaxIter::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="30" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; MaxIter, std::optional&lt; int &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::MaxIter</label>
+        <link refid="structgviz_1_1attrs_1_1_max_iter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; MaxIter, std::optional&lt; int &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::MaxIter</label>
+        <link refid="structgviz_1_1attrs_1_1_max_iter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/maxiter.hpp" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1a9bebba5ec5e0ea74c84b6f71e2bf4046" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1a89280df13bb30f24127d0d1b045dca7c" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1a7bb3a206192e066cee9d608282990b4c" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1af07f114673be7dd675dbcf722f60b611" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>MaxIter</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1aa5fac97116fc72a08f6ede34c93a0b7d" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>MaxIter</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1a10ab8fc9197adeef0831d8f86d3f4d42" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_max_iter_1adbe88a7741c05d274ed9cdb7c2629001" prot="public" virt="non-virtual"><scope>gviz::attrs::MaxIter</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_input_scale" kind="struct"><name>gviz::attrs::InputScale</name>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1a815c3eee3644d4e75325b5fd6fc81b30" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1a8a83fe4058ce8d64b4e1ee30b29d23b5" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1a99f81776b88819c6b31c039252b8a540" kind="function"><name>InputScale</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1a7bb0ce5de4ad14d88e7f07238cb67ea5" kind="function"><name>InputScale</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1ac8a4332aedc8c7c97608b905fe8984af" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1ab1ddcec2d2faed678f920157347d36bb" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_input_scale_1ae60a4c21fae95aa9da57879e4e4dcc0a" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="inputscale_8hpp" kind="file"><name>inputscale.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

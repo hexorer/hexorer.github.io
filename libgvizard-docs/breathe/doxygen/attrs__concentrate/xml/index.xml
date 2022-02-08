@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_concentrate" kind="struct"><name>gviz::attrs::Concentrate</name>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1a1ce677820d84db0a9c0a40503a5fcd9b" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1a3adec623f1f875c4b9ddb564360aaf67" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1aa7c0debe39caa041f94cf0a5c9ddb017" kind="function"><name>Concentrate</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1a7e1a7d530d16e28d3c7de60d73bb4fd7" kind="function"><name>Concentrate</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1aeb825a966dff2fa9654f2e395e48dfa8" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1a9c18c3cbdd7702ac6a049504b3c91687" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_concentrate_1a1ee877728b3d532075dd3b8f5b929a38" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="concentrate_8hpp" kind="file"><name>concentrate.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

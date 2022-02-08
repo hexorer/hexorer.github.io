@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1colors_1_1_r_g_b" kind="struct"><name>gviz::colors::RGB</name>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a2d73970f6a544e387f11bba051821ff5" kind="typedef"><name>octet_t</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1ad4f2fd1a9213a6a49c220c06fdd7352f" kind="variable"><name>r</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a82ed60944f3794ab4c3aebca507abe80" kind="variable"><name>g</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a4f808372989cabe227c39b0ec1433d87" kind="variable"><name>b</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a0ab375c05292e49f83eaa998a6b122e4" kind="function"><name>make</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1aa1ae305d3b77d3a5ce0cd2e7bd0c2125" kind="function"><name>from_binary</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a015142090ee55dadf7bd79773f3a7b38" kind="function"><name>min</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1afd1e44970280b74fa82796b89cf56af2" kind="function"><name>max</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a9f5f35f78301d5ac54d024be55409dfa" kind="function"><name>to_binary</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a7f60c743fc9ac26ea5a54a9b77033b65" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1colors_1_1_r_g_b_1a62fe10dac26e31b0395c02f960eb841c" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1colors" kind="namespace"><name>gviz::colors</name>
+  </compound>
+  <compound refid="rgb_8hpp" kind="file"><name>rgb.hpp</name>
+  </compound>
+  <compound refid="dir_0c172d4549410538c67f1e8c5f2bc6fb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_style_sheet" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::StyleSheet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; StyleSheet, std::string &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_style_sheet_1ae1fc0bb4ed84e634b2e2136e4029c427" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using gviz::attrs::StyleSheet::value_type =  std::string</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::StyleSheet::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="11" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_style_sheet_1ab3db58f7a4a10e675a31a081e768c94e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::StyleSheet::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::StyleSheet::name</qualifiedname>
+        <initializer>= &quot;stylesheet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="13" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1a31e515a232255c802dbe8e743df80ad5" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::StyleSheet::StyleSheet</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>StyleSheet</name>
+        <qualifiedname>gviz::attrs::StyleSheet::StyleSheet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="15" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1a5547e565ed2390d300907c0acd21a00c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::StyleSheet::StyleSheet</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>StyleSheet</name>
+        <qualifiedname>gviz::attrs::StyleSheet::StyleSheet</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="16" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1a45a554efc21de4d46119e6547aeb23d5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::StyleSheet::StyleSheet</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>StyleSheet</name>
+        <qualifiedname>gviz::attrs::StyleSheet::StyleSheet</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="17" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1a9828b056755aa58be4a3d0d8c8b0a28c" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::StyleSheet::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::StyleSheet::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="21" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1ae49ee5b9eead3881d0cd02684fa41f9e" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::StyleSheet::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::StyleSheet::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="23" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_style_sheet_1a4d81d4c3d90f0c3beb33c153118b7a5c" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::StyleSheet::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::StyleSheet::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="28" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; StyleSheet, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::StyleSheet</label>
+        <link refid="structgviz_1_1attrs_1_1_style_sheet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; StyleSheet, std::string &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::StyleSheet</label>
+        <link refid="structgviz_1_1attrs_1_1_style_sheet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/stylesheet.hpp" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1a4d81d4c3d90f0c3beb33c153118b7a5c" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1a9828b056755aa58be4a3d0d8c8b0a28c" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1ae49ee5b9eead3881d0cd02684fa41f9e" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1ab3db58f7a4a10e675a31a081e768c94e" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1a31e515a232255c802dbe8e743df80ad5" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>StyleSheet</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1a5547e565ed2390d300907c0acd21a00c" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>StyleSheet</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1a45a554efc21de4d46119e6547aeb23d5" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>StyleSheet</name></member>
+      <member refid="structgviz_1_1attrs_1_1_style_sheet_1ae1fc0bb4ed84e634b2e2136e4029c427" prot="public" virt="non-virtual"><scope>gviz::attrs::StyleSheet</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_edge_href" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::EdgeHref</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; EdgeHref, attrtypes::EscString&lt; std::string &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_edge_href_1a3de1f0dd037d516fa5e96f935b05854d" prot="public" static="no">
+        <type>attrtypes::EscString&lt; std::string &gt;</type>
+        <definition>using gviz::attrs::EdgeHref::value_type =  attrtypes::EscString&lt;std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::EdgeHref::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="39" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_edge_href_1a5f6aefb6859a8188096a0d8ee6d63b7e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::EdgeHref::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::EdgeHref::name</qualifiedname>
+        <initializer>= &quot;edgehref&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="41" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1a7475a366391d10f552f290be2e79e5a6" prot="public" static="no" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::EdgeHref::EdgeHref</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>EdgeHref</name>
+        <qualifiedname>gviz::attrs::EdgeHref::EdgeHref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="43" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1a49ca72ad19edef5ff2d6d1a3b8ef894b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::EdgeHref::EdgeHref</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>EdgeHref</name>
+        <qualifiedname>gviz::attrs::EdgeHref::EdgeHref</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="44" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1a4d22db6312f475fa6f1e10030a5f681e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::attrs::EdgeHref::EdgeHref</definition>
+        <argsstring>(value_type &amp;&amp;value)</argsstring>
+        <name>EdgeHref</name>
+        <qualifiedname>gviz::attrs::EdgeHref::EdgeHref</qualifiedname>
+        <param>
+          <type>value_type &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="45" column="12" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="45" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1ae7a44b15cb31d948d8b777c958ba3649" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>value_type</type>
+        <definition>static value_type gviz::attrs::EdgeHref::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::EdgeHref::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="47" column="21" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1a4305e48cdf849fed367d9cf43c8ee211" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::EdgeHref::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::EdgeHref::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="49" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_edge_href_1af57cb68d0ab16afafa259c60d06e3850" prot="public" static="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool gviz::attrs::EdgeHref::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::EdgeHref::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="54" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; EdgeHref, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::EdgeHref</label>
+        <link refid="structgviz_1_1attrs_1_1_edge_href"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; EdgeHref, attrtypes::EscString&lt; std::string &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::EdgeHref</label>
+        <link refid="structgviz_1_1attrs_1_1_edge_href"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" line="36" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/edge_related.hpp" bodystart="38" bodyend="55"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1af57cb68d0ab16afafa259c60d06e3850" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a7475a366391d10f552f290be2e79e5a6" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>EdgeHref</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a49ca72ad19edef5ff2d6d1a3b8ef894b" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>EdgeHref</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a4d22db6312f475fa6f1e10030a5f681e" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>EdgeHref</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1ae7a44b15cb31d948d8b777c958ba3649" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a4305e48cdf849fed367d9cf43c8ee211" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a5f6aefb6859a8188096a0d8ee6d63b7e" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_edge_href_1a3de1f0dd037d516fa5e96f935b05854d" prot="public" virt="non-virtual"><scope>gviz::attrs::EdgeHref</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

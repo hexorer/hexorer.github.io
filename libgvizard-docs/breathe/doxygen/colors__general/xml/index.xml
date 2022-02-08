@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1colors_1_1_scheme_color" kind="struct"><name>gviz::colors::SchemeColor</name>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1a7c72a8dc36ca1a401a65864ce216b473" kind="typedef"><name>color_type</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1a8367de3531ae2c4da826a9a1d419355c" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1ad6ed7f75a919684e47c776a727262be0" kind="variable"><name>color</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1ae732c4fcb822817d2dba370193887fc7" kind="variable"><name>scheme</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1aa219d75a206ae345ace5f49358ade709" kind="function"><name>operator color_type</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1aa45d37e16ccfa13b84770e4b7e27840a" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1colors_1_1_scheme_color_1a9c452fd207625e8026e811ae8eab7345" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="classgviz_1_1colors_1_1_weighted_color" kind="class"><name>gviz::colors::WeightedColor</name>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1a36917c7ba2087b5af21e9b0ef19b3bf5" kind="typedef"><name>color_type</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1a59602a23b711cdf6540adb25f6d6afd9" kind="variable"><name>color_</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1a338c1113472e88d26198dc71b9a68dc3" kind="variable"><name>weight_</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1abfccde464f48b7636456e5657a0b0cbe" kind="function"><name>WeightedColor</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1aea901344b0fe29c3853fc5a3cea4c1c5" kind="function"><name>get_color</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1ab0ce7fc4a66483186ef78b0fc99cf282" kind="function"><name>get_weight</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1ae4fc6ee0f775bf432e39ca52915764ae" kind="function"><name>set_color</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1af2fe9087bdaa1999fa9ca220afae5470" kind="function"><name>set_weight</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1ae0e2569761641a9dde0d9e247f178288" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1colors_1_1_weighted_color_1a7bae6f3eea95296e787c19a8813ca499" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1colors" kind="namespace"><name>gviz::colors</name>
+    <member refid="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328" kind="enum"><name>SchemeEnum</name></member>
+    <member refid="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328ad21ab1ce30c9c7735c0591317f50ab85" kind="enumvalue"><name>X11</name></member>
+    <member refid="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328acd15a75c26008696647b31a3f0de43b3" kind="enumvalue"><name>SVG</name></member>
+  </compound>
+  <compound refid="general_8hpp" kind="file"><name>general.hpp</name>
+  </compound>
+  <compound refid="dir_0c172d4549410538c67f1e8c5f2bc6fb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

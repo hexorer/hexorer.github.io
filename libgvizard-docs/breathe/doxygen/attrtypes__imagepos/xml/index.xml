@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3" kind="enum"><name>ImagePosEnum</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3ad6fd0924e324f50669ae0295adf59567" kind="enumvalue"><name>mc</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3a313a21d5badc6f5632238ebf8c7690f6" kind="enumvalue"><name>tl</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3a5c4fefda27cfe84c3999be13e6b8608a" kind="enumvalue"><name>tc</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3ae7d707a26e7f7b6ff52c489c60e429b1" kind="enumvalue"><name>tr</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3a9830e1f81f623b33106acc186b93374e" kind="enumvalue"><name>ml</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3ad9394066970e44ae252fd0347e58c03e" kind="enumvalue"><name>mr</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3afd18772cbac19277b20dcccc1b90efb9" kind="enumvalue"><name>bl</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3a5360af35bde9ebd8f01f492dc059593c" kind="enumvalue"><name>bc</name></member>
+    <member refid="imagepos_8hpp_1a6d2f29e51f17531165f8bc491e45d0d3adc634e2072827fe0b5be9a2063390544" kind="enumvalue"><name>br</name></member>
+  </compound>
+  <compound refid="imagepos_8hpp" kind="file"><name>imagepos.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

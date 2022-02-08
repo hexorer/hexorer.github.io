@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_voro_margin" kind="struct"><name>gviz::attrs::VoroMargin</name>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1a1b19ce401720b714bfdbf544b37363fb" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1a646db78c4b7cfa12c8a1f4769e551873" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1acb7ec7cfb537547b6e200a34cf65dabb" kind="function"><name>VoroMargin</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1ad6cb152471add40be2d87372bf40bcf6" kind="function"><name>VoroMargin</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1a2de7527f9f5f10358aeea4b0fccc81ff" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1a4fb5c3469f3a01586b9faf70a64c5007" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_voro_margin_1a4e48ff4b31749a90033968dd8a560546" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="voro__margin_8hpp" kind="file"><name>voro_margin.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

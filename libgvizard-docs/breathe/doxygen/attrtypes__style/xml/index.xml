@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrtypes_1_1_builtin_style_item" kind="struct"><name>gviz::attrtypes::BuiltinStyleItem</name>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad85696c7a875e9200900029e1e817997" kind="typedef"><name>builtin_style_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1ad3a09755515a27275db8a72eafcca4d7" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a404dde0e8c239d12d387e6dc3353a37a" kind="variable"><name>args</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a3edae0fd66c1fd8fbf5b65a5401ec4c5" kind="function"><name>BuiltinStyleItem</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1aac0d9666c04cb5ed999748b58bfabaa5" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a53a87732f06c5a39b94279afa3a0ad9d" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_builtin_style_item_1a8a39367f7969371682db349dc1760fab" kind="function"><name>to_style_item</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_style" kind="struct"><name>gviz::attrtypes::Style</name>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a30401bcea046dfd14b074dcad32a6089" kind="typedef"><name>item_type</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a244b5fa3314d06ce72600437b13041fd" kind="variable"><name>to_style_item</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a569b46a26f3a1c3135324c490fc42b93" kind="variable"><name>items</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1afafcc069f3af2cad69cf5ff303fbf956" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1adfa6df577bdb6ad94d14e6db1b8abda4" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1aeccd51ebca25c3bdcb046365a694f70f" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a6ad9dc95461b9721952cb0254f87e26a" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a1a1eee2882f60812ff0252b5dbbd7ed4" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1aa123bbc4821ed7562a545aaf4e241f6e" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a83347fedb073b50359405620086eee73" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1aa9f4a789a2ea6354b0e2ae1cf8e81bec" kind="function"><name>Style</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1a9df09b95a8ce2374422a01df6c0df7f6" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1aa2b4fcbd21db1f4e0aa5dbf81b81b7e4" kind="function"><name>operator!=</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1acb04e8c6bf448b728cb176d523ce3016" kind="function"><name>all_style_items</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_1add38a66ad721f30c261f813f5210c242" kind="function"><name>to_style_item_vector</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrtypes_1_1_style_item" kind="struct"><name>gviz::attrtypes::StyleItem</name>
+    <member refid="structgviz_1_1attrtypes_1_1_style_item_1a00297bfa48969c76a4e896635df7bee3" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_item_1a2f411578c5b181c714014db1a35cfc60" kind="variable"><name>args</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_item_1aacbffe116a9173f4ec15486ac9f1ccf5" kind="function"><name>operator==</name></member>
+    <member refid="structgviz_1_1attrtypes_1_1_style_item_1a0b6bee7fc6e9f659cb0348b019ed4418" kind="function"><name>operator!=</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrtypes" kind="namespace"><name>gviz::attrtypes</name>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72" kind="enum"><name>CommonStyle</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72ac0f6b39bf695638238b0a81992cc8c73" kind="enumvalue"><name>dashed</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72ae9cfe8505332b52c2fcaf80c6a2c1251" kind="enumvalue"><name>dotted</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72aec03f91ae56e478455e3786e91559194" kind="enumvalue"><name>solid</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a10d739c5546fab1edb1b1d1857bd805b" kind="enumvalue"><name>invis</name></member>
+    <member refid="style_8hpp_1a9fc5770e159cc95dc8bcdd0a9fc79e72a69dcab4a73aeec2113f69b61e6263da8" kind="enumvalue"><name>bold</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4af" kind="enum"><name>NodeStyleOnly</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa9aa76d8a9f8e25e87dbcafc7aaf556fc" kind="enumvalue"><name>filled</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa615226bc5d8900fdde32c7907f4aa96b" kind="enumvalue"><name>striped</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa20ce7def80719dd409707f688c20ba24" kind="enumvalue"><name>wedged</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afad68c12a51f40d9feac821fc0e61c78bf" kind="enumvalue"><name>diagonals</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa990fcd0ba3c5c9e322c930c83a93be48" kind="enumvalue"><name>rounded</name></member>
+    <member refid="style_8hpp_1a01d160d18f4f8723efb1db184633b4afa869836a44b607137a7e094cf8a308938" kind="enumvalue"><name>radial</name></member>
+    <member refid="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5" kind="enum"><name>EdgeStyleOnly</name></member>
+    <member refid="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="style_8hpp_1a3e1aeec59ca39a9e960602576d9e71c5a4c6737890eeff46eb8dd48dc0b94b563" kind="enumvalue"><name>tapered</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4" kind="enum"><name>ClusterStyleOnly</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a334c4a4c42fdb79d7ebc3e73b517e6f8" kind="enumvalue"><name>none</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a9aa76d8a9f8e25e87dbcafc7aaf556fc" kind="enumvalue"><name>filled</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a615226bc5d8900fdde32c7907f4aa96b" kind="enumvalue"><name>striped</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a990fcd0ba3c5c9e322c930c83a93be48" kind="enumvalue"><name>rounded</name></member>
+    <member refid="style_8hpp_1a2a4198416a3cd65eabd2546088167ce4a869836a44b607137a7e094cf8a308938" kind="enumvalue"><name>radial</name></member>
+  </compound>
+  <compound refid="style_8hpp" kind="file"><name>style.hpp</name>
+  </compound>
+  <compound refid="dir_8f1f3da1bee06e25d585412137025c95" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_skew" kind="struct"><name>gviz::attrs::Skew</name>
+    <member refid="structgviz_1_1attrs_1_1_skew_1a04f273b665e4e7be158258270203ce8e" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1ac4860c5cde53fe37a3171611949a8f58" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1a687004b5941e022852dd8ea9e3d99836" kind="function"><name>Skew</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1a813f31d23f62d2494e78f8ea8bc1b42f" kind="function"><name>Skew</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1afb68952924ffd08a2a25e669f765bad5" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1aa51de8b41f16aa6493cd636e2319f468" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_skew_1a32a61fd770e1588b6e3d814d22c60de8" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="skew_8hpp" kind="file"><name>skew.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,1201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1graph_1_1_graph" kind="class" language="C++" prot="public">
+    <compoundname>gviz::graph::Graph</compoundname>
+    <includes refid="graph_8hpp" local="no">graph.hpp</includes>
+    <innerclass refid="structgviz_1_1graph_1_1_graph_1_1_cluster_item" prot="private">gviz::graph::Graph::ClusterItem</innerclass>
+    <innerclass refid="structgviz_1_1graph_1_1_graph_1_1_edge_item" prot="private">gviz::graph::Graph::EdgeItem</innerclass>
+    <innerclass refid="classgviz_1_1graph_1_1_graph_1_1_item" prot="private">gviz::graph::Graph::Item</innerclass>
+    <innerclass refid="structgviz_1_1graph_1_1_graph_1_1_node_item" prot="private">gviz::graph::Graph::NodeItem</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Registry</type>
+      </param>
+      <param>
+        <type>GraphDir</type>
+        <declname>DirV</declname>
+        <defname>DirV</defname>
+        <defval>GraphDir::undirected</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1a12e1686e075133a63b110fb09aa9aded" prot="public" static="no">
+        <type>typename Registry::entity_type</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::entity_type =  typename Registry::entity_type</definition>
+        <argsstring></argsstring>
+        <name>entity_type</name>
+        <qualifiedname>gviz::graph::Graph::entity_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="46" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1a360be47e1ccf68fd6ef673703c5932cd" prot="public" static="no">
+        <type>Registry</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::registry_type =  Registry</definition>
+        <argsstring></argsstring>
+        <name>registry_type</name>
+        <qualifiedname>gviz::graph::Graph::registry_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="48" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1ad6db323ab64722ececdd179a45deabf6" prot="public" static="no">
+        <type>entity_type</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::NodeId =  entity_type</definition>
+        <argsstring></argsstring>
+        <name>NodeId</name>
+        <qualifiedname>gviz::graph::Graph::NodeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="50" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1aff441d52c191427aa364e754cd3222df" prot="public" static="no">
+        <type>entity_type</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::EdgeId =  entity_type</definition>
+        <argsstring></argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>gviz::graph::Graph::EdgeId</qualifiedname>
+        <briefdescription>
+<para>always convertible to entity_type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="51" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" prot="public" static="no">
+        <type>entity_type</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::ClusterId =  entity_type</definition>
+        <argsstring></argsstring>
+        <name>ClusterId</name>
+        <qualifiedname>gviz::graph::Graph::ClusterId</qualifiedname>
+        <briefdescription>
+<para>always convertible to entity_type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="52" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1ae473ac8848977b3b83b2cd20834a3cd3" prot="private" static="no">
+        <type>std::optional&lt; entity_type &gt;</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::optional_entity_type =  std::optional&lt;entity_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>optional_entity_type</name>
+        <qualifiedname>gviz::graph::Graph::optional_entity_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="123" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1a93b217feed11b1b442d13ff78e2178a2" prot="private" static="no">
+        <type>std::conditional_t&lt; is_undirected, detail::DynamicSquareMatrix&lt; optional_entity_type &gt;, detail::DynamicHalfSquareMatrix&lt; optional_entity_type &gt; &gt;</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::matrix_type =  std::conditional_t&lt; is_undirected, detail::DynamicSquareMatrix&lt;optional_entity_type&gt;, detail::DynamicHalfSquareMatrix&lt;optional_entity_type&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>matrix_type</name>
+        <qualifiedname>gviz::graph::Graph::matrix_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="125" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1graph_1_1_graph_1a560308bbb3b0df648f44e60ff549ba37" prot="private" static="no">
+        <type>std::map&lt; entity_type, Item &gt;</type>
+        <definition>using gviz::graph::Graph&lt; Registry, DirV &gt;::map_type =  std::map&lt;entity_type, Item&gt;</definition>
+        <argsstring></argsstring>
+        <name>map_type</name>
+        <qualifiedname>gviz::graph::Graph::map_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="131" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a78c15e7f07d9bf1b4d2c9426b495ef1b" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::is_undirected</definition>
+        <argsstring></argsstring>
+        <name>is_undirected</name>
+        <qualifiedname>gviz::graph::Graph::is_undirected</qualifiedname>
+        <initializer>= DirV == GraphDir::undirected</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="121" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a63d4e867f58454413741b1b5e195c440" prot="private" static="no" mutable="no">
+        <type>matrix_type</type>
+        <definition>matrix_type gviz::graph::Graph&lt; Registry, DirV &gt;::matrix_</definition>
+        <argsstring></argsstring>
+        <name>matrix_</name>
+        <qualifiedname>gviz::graph::Graph::matrix_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="133" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1abb5039e5ce45e88f77e3531a1f048283" prot="private" static="no" mutable="no">
+        <type>map_type</type>
+        <definition>map_type gviz::graph::Graph&lt; Registry, DirV &gt;::entities_map_</definition>
+        <argsstring></argsstring>
+        <name>entities_map_</name>
+        <qualifiedname>gviz::graph::Graph::entities_map_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="134" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a1d083b38c9e553ebdbd4a7d085f4902f" prot="private" static="no" mutable="no">
+        <type>registry_type</type>
+        <definition>registry_type gviz::graph::Graph&lt; Registry, DirV &gt;::registry_</definition>
+        <argsstring></argsstring>
+        <name>registry_</name>
+        <qualifiedname>gviz::graph::Graph::registry_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="135" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a6eef947f6be1906df407d77e73744491" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::nodes_count_</definition>
+        <argsstring></argsstring>
+        <name>nodes_count_</name>
+        <qualifiedname>gviz::graph::Graph::nodes_count_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="137" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a3f6f74f84d4312440948fd12ccdf9adc" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::edges_count_</definition>
+        <argsstring></argsstring>
+        <name>edges_count_</name>
+        <qualifiedname>gviz::graph::Graph::edges_count_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="138" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1graph_1_1_graph_1a191a834bee3f2d16a99c65923e5c1b07" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::clusters_count_</definition>
+        <argsstring></argsstring>
+        <name>clusters_count_</name>
+        <qualifiedname>gviz::graph::Graph::clusters_count_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="139" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aac66afb4c46a931936cccd37e5992c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::get_raw_registry</definition>
+        <argsstring>()</argsstring>
+        <name>get_raw_registry</name>
+        <qualifiedname>gviz::graph::Graph::get_raw_registry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="142" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aad5615391b054dc83abc5100c1997984" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto &amp; gviz::graph::Graph&lt; Registry, DirV &gt;::get_raw_registry</definition>
+        <argsstring>() const</argsstring>
+        <name>get_raw_registry</name>
+        <qualifiedname>gviz::graph::Graph::get_raw_registry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="143" column="14" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aa230180d9cbb4918a50e8483712fe08d" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::is_directed_graph</definition>
+        <argsstring>() const</argsstring>
+        <name>is_directed_graph</name>
+        <qualifiedname>gviz::graph::Graph::is_directed_graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="145" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a24eb823d59fe8c09926c44060d0bba50" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::graph::Graph&lt; Registry, DirV &gt;::is_undirected_graph</definition>
+        <argsstring>() const</argsstring>
+        <name>is_undirected_graph</name>
+        <qualifiedname>gviz::graph::Graph::is_undirected_graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="146" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a324d936d80b155804565db6e8d5917c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_entity_attr</definition>
+        <argsstring>(entity_type entity_id) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>get_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::get_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get an <computeroutput>entity_id</computeroutput> entity&apos;s attribute <computeroutput>Attr</computeroutput></para>
+<para><simplesect kind="return"><para>an optional reference to <computeroutput>Attr</computeroutput> of <computeroutput>entity_id</computeroutput> if <computeroutput>entity_id</computeroutput> exists and <computeroutput>Attr</computeroutput> is set or otherwise <computeroutput>utils::nulloptref</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="157" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a25a640c0a02b31e3568bab91c49a5b39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_entity_attr</definition>
+        <argsstring>(entity_type entity_id) const -&gt; utils::OptionalRef&lt; const Attr &gt;</argsstring>
+        <name>get_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::get_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get an <computeroutput>entity_id</computeroutput> entity&apos;s attribute <computeroutput>Attr</computeroutput></para>
+<para><simplesect kind="return"><para>a const optional reference to <computeroutput>Attr</computeroutput> of <computeroutput>entity_id</computeroutput> if <computeroutput>entity_id</computeroutput> exists and <computeroutput>Attr</computeroutput> is set or otherwise <computeroutput>utils::nulloptref</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="169" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a7526bc2e0f873c1123fbf00e92809d55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::has_entity_attr</definition>
+        <argsstring>(entity_type entity_id) const</argsstring>
+        <name>has_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::has_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks if <computeroutput>entity_id</computeroutput> is valid and has its attribute <computeroutput>Attr</computeroutput> set.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>entity&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>entity_id</computeroutput> exists and <computeroutput>Attr</computeroutput> is set, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="181" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a4dec531343c1d20edf8e0921a41a63c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+          <param>
+            <type>typename ValT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::set_entity_attr</definition>
+        <argsstring>(entity_type entity_id, ValT &amp;&amp;value) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>set_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::set_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <param>
+          <type>ValT &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets an entity&apos;s attribute if <computeroutput>entity_id</computeroutput> is valid.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>entity&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the value to be set, it&apos;ll be converted to <computeroutput>Attr</computeroutput> explicitly. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>utils::nulloptref if <computeroutput>entity_id</computeroutput> is invalid, otherwise an optional reference to the residing <computeroutput>Attr</computeroutput> which was set in registry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="195" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="195" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1ae92c96d3df7465a982005cd3ff1c8ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::emplace_entity_attr</definition>
+        <argsstring>(entity_type entity_id, Args &amp;&amp;... args) -&gt; utils::OptionalRef&lt; Attr &gt;</argsstring>
+        <name>emplace_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::emplace_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>constructs an entity&apos;s attribute in-place by given <computeroutput>args</computeroutput> if <computeroutput>entity_id</computeroutput> is valid.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>entity&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arguments to be passed to <computeroutput>Attr</computeroutput> constructor. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>utils::nulloptref if <computeroutput>entity_id</computeroutput> is invalid, otherwise an optional reference to the constructed <computeroutput>Attr</computeroutput> which was placed in registry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="211" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1afd0b5de629af35455a75ced43556321b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attr</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::remove_entity_attr</definition>
+        <argsstring>(entity_type entity_id)</argsstring>
+        <name>remove_entity_attr</name>
+        <qualifiedname>gviz::graph::Graph::remove_entity_attr</qualifiedname>
+        <param>
+          <type>entity_type</type>
+          <declname>entity_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unsets/removes <computeroutput>Attr</computeroutput> attribute of entity if <computeroutput>entity_id</computeroutput> is valid and has <computeroutput>Attr</computeroutput>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entity_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>entity&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arguments to be passed to <computeroutput>Attr</computeroutput> constructor. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>entity_id</computeroutput> is valid or has <computeroutput>Attr</computeroutput>, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="228" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1abdaa575bc2532927cfb0ea210745c258" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::create_cluster</definition>
+        <argsstring>() -&gt; ClusterId</argsstring>
+        <name>create_cluster</name>
+        <qualifiedname>gviz::graph::Graph::create_cluster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a new cluster.</para>
+<para><simplesect kind="return"><para>id of created cluster. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="239" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="239" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a73c0a49ccd86d0da178dcb51e8f57320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::add_to_cluster</definition>
+        <argsstring>(ClusterId cluster_id, NodeId node_id)</argsstring>
+        <name>add_to_cluster</name>
+        <qualifiedname>gviz::graph::Graph::add_to_cluster</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" kindref="member">ClusterId</ref></type>
+          <declname>cluster_id</declname>
+        </param>
+        <param>
+          <type>NodeId</type>
+          <declname>node_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds a node to a cluster.</para>
+<para>if node was already in a cluster, it&apos;ll be detached and added to given cluster.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cluster_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target cluster&apos;s id to add node to. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>node&apos;s id to add to cluster. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>cluster_id</computeroutput> and <computeroutput>node_id</computeroutput> are both valid, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="258" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="258" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a86098ad667ff57d6c643e75519fe9099" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::create_node</definition>
+        <argsstring>() -&gt; NodeId</argsstring>
+        <name>create_node</name>
+        <qualifiedname>gviz::graph::Graph::create_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a new node.</para>
+<para><simplesect kind="return"><para>id of the created node. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="278" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="278" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a1b78550bc9beee6179b38ab1c8f09fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::create_node_in</definition>
+        <argsstring>(ClusterId cluster_id) -&gt; std::optional&lt; NodeId &gt;</argsstring>
+        <name>create_node_in</name>
+        <qualifiedname>gviz::graph::Graph::create_node_in</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" kindref="member">ClusterId</ref></type>
+          <declname>cluster_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates a node in the given cluster.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cluster_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster&apos;s id to create node in. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an optional containing NodeId if <computeroutput>cluster_id</computeroutput> is valid, otherwise std::nullopt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="295" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="295" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1ab910b27ef73436cbdb5964718119436b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::create_edge</definition>
+        <argsstring>(NodeId node_a_id, NodeId node_b_id) -&gt; std::optional&lt; EdgeId &gt;</argsstring>
+        <name>create_edge</name>
+        <qualifiedname>gviz::graph::Graph::create_edge</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_a_id</declname>
+        </param>
+        <param>
+          <type>NodeId</type>
+          <declname>node_b_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates an edge between two given nodes.</para>
+<para>if graph is directed, first node is source and second is dest.</para>
+<para>if the same edge existed between these two nodes, the id of existing edge will be returned.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_a_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first (or source) node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node_b_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second (or dest) node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an optional containing EdgeId if both nodes&apos; id are valid, otherwise std::nullopt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="322" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="322" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a988b0ae0d4c3741cb10323d0c20bb86f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_cluster_nodes</definition>
+        <argsstring>(ClusterId cluster_id) const</argsstring>
+        <name>get_cluster_nodes</name>
+        <qualifiedname>gviz::graph::Graph::get_cluster_nodes</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" kindref="member">ClusterId</ref></type>
+          <declname>cluster_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns an iterable view to node ids of given cluster.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cluster_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target cluster&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an iterable view to cluster&apos;s nodes. if <computeroutput>cluster_id</computeroutput> is invalid, the view will be empty. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="376" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="376" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a38fec63681d21a1a84b12374aa447419" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_edge_id</definition>
+        <argsstring>(NodeId node_a_id, NodeId node_b_id) const -&gt; std::optional&lt; EdgeId &gt;</argsstring>
+        <name>get_edge_id</name>
+        <qualifiedname>gviz::graph::Graph::get_edge_id</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_a_id</declname>
+        </param>
+        <param>
+          <type>NodeId</type>
+          <declname>node_b_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>retrieves given two nodes&apos; edge. direction is determined by order of given arguments.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_a_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node_b_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an optional containing EdgeId if both nodes&apos; id are valid and an edge (desired direction) is between them, otherwise std::nullopt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="416" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="416" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a2ebe7cb7d0f87545287782a169962e39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_edge_nodes</definition>
+        <argsstring>(EdgeId edge_id) const -&gt; std::optional&lt; std::pair&lt; NodeId, NodeId &gt; &gt;</argsstring>
+        <name>get_edge_nodes</name>
+        <qualifiedname>gviz::graph::Graph::get_edge_nodes</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1aff441d52c191427aa364e754cd3222df" kindref="member">EdgeId</ref></type>
+          <declname>edge_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>retrieves given edge&apos;s pair of nodes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>edge_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target edge&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an optional containing a pair of NodeId if <computeroutput>edge_id</computeroutput> is valid, otherwise std::nullopt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="452" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="452" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1ae9ff007566a596b8be37738492d63329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::remove_cluster</definition>
+        <argsstring>(ClusterId cluster_id)</argsstring>
+        <name>remove_cluster</name>
+        <qualifiedname>gviz::graph::Graph::remove_cluster</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" kindref="member">ClusterId</ref></type>
+          <declname>cluster_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>detaches given cluster&apos;s nodes from it, and then removes the cluster.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cluster_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target cluster&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>cluster_id</computeroutput> is valid, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="471" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="471" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a82e34665a26bf282c628e2d0306597cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::remove_node</definition>
+        <argsstring>(NodeId node_id)</argsstring>
+        <name>remove_node</name>
+        <qualifiedname>gviz::graph::Graph::remove_node</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes a node.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>node_id</computeroutput> is valid, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="495" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="495" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a6079369c37090380382b400d419e57c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::detach_clustered_node</definition>
+        <argsstring>(NodeId node_id)</argsstring>
+        <name>detach_clustered_node</name>
+        <qualifiedname>gviz::graph::Graph::detach_clustered_node</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>detaches a node from its cluster if it is attached to one.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>node_id</computeroutput> is valid, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="523" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="523" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aad8a1ea39f2211e74c9d7e0bf4444154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::remove_edge</definition>
+        <argsstring>(NodeId node_a_id, NodeId node_b_id)</argsstring>
+        <name>remove_edge</name>
+        <qualifiedname>gviz::graph::Graph::remove_edge</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_a_id</declname>
+        </param>
+        <param>
+          <type>NodeId</type>
+          <declname>node_b_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes an edge between given two nodes.</para>
+<para>if directed graph, first node is source and second is dest of the edge.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_a_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first (source) node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node_b_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second (dest) node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if both nodes&apos; id are valid and an edge exists between, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="543" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="543" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a8c19d44be0bfeb8b4b16d222a22d38ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gviz::graph::Graph&lt; Registry, DirV &gt;::remove_edge</definition>
+        <argsstring>(EdgeId edge_id)</argsstring>
+        <name>remove_edge</name>
+        <qualifiedname>gviz::graph::Graph::remove_edge</qualifiedname>
+        <param>
+          <type><ref refid="classgviz_1_1graph_1_1_graph_1aff441d52c191427aa364e754cd3222df" kindref="member">EdgeId</ref></type>
+          <declname>edge_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes an edge by given id.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>edge_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target edge&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>edge_id</computeroutput> is valid, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="566" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="566" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aa8abd54822d26a7f49930a3d56a784a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_degree</definition>
+        <argsstring>(NodeId node_id, EdgeDir dir=EdgeDir::inout) const -&gt; std::optional&lt; std::size_t &gt;</argsstring>
+        <name>get_degree</name>
+        <qualifiedname>gviz::graph::Graph::get_degree</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_id</declname>
+        </param>
+        <param>
+          <type>EdgeDir</type>
+          <declname>dir</declname>
+          <defval>EdgeDir::inout</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>count of edges of given node&apos;s <computeroutput>node_id</computeroutput> in given direction <computeroutput>dir</computeroutput>.</para>
+<para>direction <computeroutput>dir</computeroutput> is irrelevant when graph is undirected.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an optional containing size_t count number if <computeroutput>node_id</computeroutput> is valid, otherwise std::nullopt. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="592" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="592" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a22913c1609be4b758724514085a01574" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::get_edges_of</definition>
+        <argsstring>(NodeId node_id, EdgeDir dir=EdgeDir::inout) const</argsstring>
+        <name>get_edges_of</name>
+        <qualifiedname>gviz::graph::Graph::get_edges_of</qualifiedname>
+        <param>
+          <type>NodeId</type>
+          <declname>node_id</declname>
+        </param>
+        <param>
+          <type>EdgeDir</type>
+          <declname>dir</declname>
+          <defval>EdgeDir::inout</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns view of edges of a given node&apos;s <computeroutput>node_id</computeroutput> in direction <computeroutput>dir</computeroutput>.</para>
+<para>to get 1st order neighbours of a node, combine this with get_edge_nodes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>target node&apos;s id. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a CallbackView to edges of target node, if <computeroutput>node_id</computeroutput> is valid, otherwise an empty CallbackView. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="638" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="638" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aa39f4d2a3ee09b2b2b845ae81d07f418" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::nodes_view</definition>
+        <argsstring>() const</argsstring>
+        <name>nodes_view</name>
+        <qualifiedname>gviz::graph::Graph::nodes_view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>view of all nodes in graph.</para>
+<para><simplesect kind="return"><para>a CallbackView to all nodes in graph. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="710" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="710" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1ac16017467aba01feb381feadc1de439d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::edges_view</definition>
+        <argsstring>() const</argsstring>
+        <name>edges_view</name>
+        <qualifiedname>gviz::graph::Graph::edges_view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>view of all edges in graph.</para>
+<para><simplesect kind="return"><para>a CallbackView to all edges in graph. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="733" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="733" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a5fbba8ee10be0bc370516637ca165ce9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::graph::Graph&lt; Registry, DirV &gt;::clusters_view</definition>
+        <argsstring>() const</argsstring>
+        <name>clusters_view</name>
+        <qualifiedname>gviz::graph::Graph::clusters_view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>view of all clusters in graph.</para>
+<para><simplesect kind="return"><para>a CallbackView to all clusters in graph. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="756" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="756" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aed579632023a0ba3bd558764b954ecf0" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::node_count</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>node_count</name>
+        <qualifiedname>gviz::graph::Graph::node_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="775" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="775" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1a5a16d079ceacf50e46099981f0eed5f3" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::edge_count</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>edge_count</name>
+        <qualifiedname>gviz::graph::Graph::edge_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="776" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="776" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1graph_1_1_graph_1aaa5aa34fa7b2a2d4bb78be660df0da64" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t gviz::graph::Graph&lt; Registry, DirV &gt;::cluster_count</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>cluster_count</name>
+        <qualifiedname>gviz::graph::Graph::cluster_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="777" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="777" bodyend="777"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>an adjancency-matrix implementation of graph using registry for id generation and attribute management, with support of clustering nodes.</para>
+<para>node, edge, and cluster are called entity.</para>
+<para>creating any kind of entity returns a unqiue id of type NodeId, EdgeId, ClusterId respectively for node, edge, cluster. using a removed id results in undefined behavior.</para>
+<para>NOTE: use proxy methods to get/set/emplace/remove an entity&apos;s attribute instead of get_raw_registry. </para>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" line="44" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph/graph.hpp" bodystart="44" bodyend="778"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1graph_1_1_graph_1a73c0a49ccd86d0da178dcb51e8f57320" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>add_to_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aaa5aa34fa7b2a2d4bb78be660df0da64" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>cluster_count</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ab9e27bbfdf47054cb0c82b5f37545fcb" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>ClusterId</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a191a834bee3f2d16a99c65923e5c1b07" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>clusters_count_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a5fbba8ee10be0bc370516637ca165ce9" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>clusters_view</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1abdaa575bc2532927cfb0ea210745c258" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>create_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ab910b27ef73436cbdb5964718119436b" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>create_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a86098ad667ff57d6c643e75519fe9099" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>create_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a1b78550bc9beee6179b38ab1c8f09fb3" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>create_node_in</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a6079369c37090380382b400d419e57c1" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>detach_clustered_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a5a16d079ceacf50e46099981f0eed5f3" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>edge_count</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aff441d52c191427aa364e754cd3222df" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>EdgeId</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a3f6f74f84d4312440948fd12ccdf9adc" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>edges_count_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ac16017467aba01feb381feadc1de439d" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>edges_view</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ae92c96d3df7465a982005cd3ff1c8ca0" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>emplace_entity_attr</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1abb5039e5ce45e88f77e3531a1f048283" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>entities_map_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a12e1686e075133a63b110fb09aa9aded" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>entity_type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a988b0ae0d4c3741cb10323d0c20bb86f" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_cluster_nodes</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aa8abd54822d26a7f49930a3d56a784a8" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_degree</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a38fec63681d21a1a84b12374aa447419" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_edge_id</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a2ebe7cb7d0f87545287782a169962e39" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_edge_nodes</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a22913c1609be4b758724514085a01574" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_edges_of</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a324d936d80b155804565db6e8d5917c2" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_entity_attr</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a25a640c0a02b31e3568bab91c49a5b39" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_entity_attr</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aac66afb4c46a931936cccd37e5992c89" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_raw_registry</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aad5615391b054dc83abc5100c1997984" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>get_raw_registry</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a7526bc2e0f873c1123fbf00e92809d55" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>has_entity_attr</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aa230180d9cbb4918a50e8483712fe08d" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>is_directed_graph</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a78c15e7f07d9bf1b4d2c9426b495ef1b" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>is_undirected</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a24eb823d59fe8c09926c44060d0bba50" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>is_undirected_graph</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a560308bbb3b0df648f44e60ff549ba37" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>map_type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a63d4e867f58454413741b1b5e195c440" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>matrix_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a93b217feed11b1b442d13ff78e2178a2" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>matrix_type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aed579632023a0ba3bd558764b954ecf0" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>node_count</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ad6db323ab64722ececdd179a45deabf6" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>NodeId</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a6eef947f6be1906df407d77e73744491" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>nodes_count_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aa39f4d2a3ee09b2b2b845ae81d07f418" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>nodes_view</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ae473ac8848977b3b83b2cd20834a3cd3" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>optional_entity_type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a1d083b38c9e553ebdbd4a7d085f4902f" prot="private" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>registry_</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a360be47e1ccf68fd6ef673703c5932cd" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>registry_type</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1ae9ff007566a596b8be37738492d63329" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>remove_cluster</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1aad8a1ea39f2211e74c9d7e0bf4444154" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>remove_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a8c19d44be0bfeb8b4b16d222a22d38ab" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>remove_edge</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1afd0b5de629af35455a75ced43556321b" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>remove_entity_attr</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a82e34665a26bf282c628e2d0306597cd" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>remove_node</name></member>
+      <member refid="classgviz_1_1graph_1_1_graph_1a4dec531343c1d20edf8e0921a41a63c0" prot="public" virt="non-virtual"><scope>gviz::graph::Graph</scope><name>set_entity_attr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

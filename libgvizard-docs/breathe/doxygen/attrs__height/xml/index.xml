@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_height" kind="struct"><name>gviz::attrs::Height</name>
+    <member refid="structgviz_1_1attrs_1_1_height_1a210a708d53a0c4506f95a19c8dfc9d3c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1a1a7de5af457c13a3409ae9dc9d2b9594" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1a9d719367bff107991acad972742c0213" kind="function"><name>Height</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1a021a18f547c6ab3b5b1a151a0cec9302" kind="function"><name>Height</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1ab471bc2d057b09f30b74fa6e4f12145d" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1a63181ec09994dd5a8e46b0ff8ffa32ed" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_height_1a3f466c799059509acc9ddec99632eaec" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="height_8hpp" kind="file"><name>height.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

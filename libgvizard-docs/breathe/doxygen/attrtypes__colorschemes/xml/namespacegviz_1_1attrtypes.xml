@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrtypes" kind="namespace" language="C++">
+    <compoundname>gviz::attrtypes</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="colorschemes_8hpp_1a3cf1de3b040de774164380488bc389cd" prot="public" static="no">
+        <type>colors::SchemeEnum</type>
+        <definition>using gviz::attrtypes::ColorSchemeType = typedef colors::SchemeEnum</definition>
+        <argsstring></argsstring>
+        <name>ColorSchemeType</name>
+        <qualifiedname>gviz::attrtypes::ColorSchemeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/colorschemes.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/colorschemes.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/colorschemes.hpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_levels" kind="struct"><name>gviz::attrs::Levels</name>
+    <member refid="structgviz_1_1attrs_1_1_levels_1a3564a8acc3abc8714e7d50f65ce55190" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1a76bbd3af346ff255880341e7ed5ae9d7" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1a91b203b10d429721b26fee28e7770767" kind="function"><name>Levels</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1aefafbafa6c98ce404abc03d473e264bf" kind="function"><name>Levels</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1a0a4669999f600e3a5d3905988b966719" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1ad1513b1e098535d0ad3f4ee34b245fa1" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_1a75d6e44d16068660d9c338ae7b1a2a03" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="structgviz_1_1attrs_1_1_levels_gap" kind="struct"><name>gviz::attrs::LevelsGap</name>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1a3461deb31e9951b9aa9193aa28576d0c" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1ac08d1def6a92520e02328c526788767d" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1a1d419371531a157eeabcbacb46f7e19a" kind="function"><name>LevelsGap</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1a3e0d57e213fded421c84fa1701468ea8" kind="function"><name>LevelsGap</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1a4875ba08ef3a6db78ac291a71ac86687" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1a4ea8adab387c628e714a97529949a144" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_levels_gap_1ac4df6ee7fd07a814e63f6a493e1b7755" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="level__related_8hpp" kind="file"><name>level_related.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

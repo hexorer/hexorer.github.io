@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>attrtypes/shape_record.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="attrtypes/viewport.hpp" href="viewport.html" />
+    <link rel="prev" title="attrtypes/style.hpp" href="style.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">attrtypes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="smoothtype.html">attrtypes/smoothtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="escstring.html">attrtypes/escstring.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="outputmode.html">attrtypes/outputmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spline.html">attrtypes/spline.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pagedir.html">attrtypes/pagedir.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="portpos.html">attrtypes/portpos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="starttype.html">attrtypes/starttype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imagepos.html">attrtypes/imagepos.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="layers.html">attrtypes/layers.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="style.html">attrtypes/style.hpp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">attrtypes/shape_record.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="viewport.html">attrtypes/viewport.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="arrowtype.html">attrtypes/arrowtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="clustermode.html">attrtypes/clustermode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rect.html">attrtypes/rect.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="addible.html">attrtypes/addible.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="label.html">attrtypes/label.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="packmode.html">attrtypes/packmode.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shape.html">attrtypes/shape.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="point.html">attrtypes/point.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="colorschemes.html">attrtypes/colorschemes.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="color.html">attrtypes/color.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rank.html">attrtypes/rank.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dirtype.html">attrtypes/dirtype.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="quadtype.html">attrtypes/quadtype.hpp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../registry/index.html">registry</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">attrtypes</a> &raquo;</li>
+      <li>attrtypes/shape_record.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/attrtypes/shape_record.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="attrtypes-shape-record-hpp">
+<h1>attrtypes/shape_record.hpp<a class="headerlink" href="#attrtypes-shape-record-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz9attrtypes13RecordFieldIdE">
+<span id="_CPPv3I00EN4gviz9attrtypes13RecordFieldIdE"></span><span id="_CPPv2I00EN4gviz9attrtypes13RecordFieldIdE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">NameT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PortT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_record_field_id"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">RecordFieldId</span></span></span><a class="headerlink" href="#_CPPv4I00EN4gviz9attrtypes13RecordFieldIdE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13RecordFieldId9name_typeE">
+<span id="_CPPv3N4gviz9attrtypes13RecordFieldId9name_typeE"></span><span id="_CPPv2N4gviz9attrtypes13RecordFieldId9name_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_field_id_1a03c4d8d569a00ac0284e78182f9eddb8"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz9attrtypes13RecordFieldIdE" title="gviz::attrtypes::RecordFieldId::NameT"><span class="n"><span class="pre">NameT</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13RecordFieldId9name_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13RecordFieldId9port_typeE">
+<span id="_CPPv3N4gviz9attrtypes13RecordFieldId9port_typeE"></span><span id="_CPPv2N4gviz9attrtypes13RecordFieldId9port_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_field_id_1ad28d3f712e61d6b0f6a50d0f3cdc8be3"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">port_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz9attrtypes13RecordFieldIdE" title="gviz::attrtypes::RecordFieldId::PortT"><span class="n"><span class="pre">PortT</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13RecordFieldId9port_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13RecordFieldId4nameE">
+<span id="_CPPv3N4gviz9attrtypes13RecordFieldId4nameE"></span><span id="_CPPv2N4gviz9attrtypes13RecordFieldId4nameE"></span><span id="gviz::attrtypes::RecordFieldId::name__name_type"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_field_id_1a75222f90805eeea58074721d52101749"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13RecordFieldId9name_typeE" title="gviz::attrtypes::RecordFieldId::name_type"><span class="n"><span class="pre">name_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">name</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13RecordFieldId4nameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes13RecordFieldId4portE">
+<span id="_CPPv3N4gviz9attrtypes13RecordFieldId4portE"></span><span id="_CPPv2N4gviz9attrtypes13RecordFieldId4portE"></span><span id="gviz::attrtypes::RecordFieldId::port__port_type"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_field_id_1a3565dba0395648b8462be6692b58df00"></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes13RecordFieldId9port_typeE" title="gviz::attrtypes::RecordFieldId::port_type"><span class="n"><span class="pre">port_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">port</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes13RecordFieldId4portE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE">
+<span id="_CPPv3I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE"></span><span id="_CPPv2I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">FieldIdT</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I00EN4gviz9attrtypes13RecordFieldIdE" title="gviz::attrtypes::RecordFieldId"><span class="n"><span class="pre">RecordFieldId</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="p"><span class="pre">&gt;</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Vec</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">vector</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">VecArgs</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="addible.html#_CPPv4N4gviz9attrtypesE" title="gviz::attrtypes"><span class="n"><span class="pre">attrtypes</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">RecordShape</span></span></span><a class="headerlink" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes11RecordShape12fieldid_typeE">
+<span id="_CPPv3N4gviz9attrtypes11RecordShape12fieldid_typeE"></span><span id="_CPPv2N4gviz9attrtypes11RecordShape12fieldid_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1a6b633acf873a941e897d7686090d41f6"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">fieldid_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="gviz::attrtypes::RecordShape::FieldIdT"><span class="n"><span class="pre">FieldIdT</span></span></a><a class="headerlink" href="#_CPPv4N4gviz9attrtypes11RecordShape12fieldid_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes11RecordShape17fieldid_list_typeE">
+<span id="_CPPv3N4gviz9attrtypes11RecordShape17fieldid_list_typeE"></span><span id="_CPPv2N4gviz9attrtypes11RecordShape17fieldid_list_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1a3586d6b5c90410bc93e2028d8c700a2e"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">fieldid_list_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="gviz::attrtypes::RecordShape::Vec"><span class="n"><span class="pre">Vec</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape12fieldid_typeE" title="gviz::attrtypes::RecordShape::fieldid_type"><span class="n"><span class="pre">fieldid_type</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="gviz::attrtypes::RecordShape::VecArgs"><span class="n"><span class="pre">VecArgs</span></span></a><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes11RecordShape17fieldid_list_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes11RecordShape10field_typeE">
+<span id="_CPPv3N4gviz9attrtypes11RecordShape10field_typeE"></span><span id="_CPPv2N4gviz9attrtypes11RecordShape10field_typeE"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1a77fc846cd49016ff67bb7a4dddbf531f"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">field_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">variant</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape12fieldid_typeE" title="gviz::attrtypes::RecordShape::fieldid_type"><span class="n"><span class="pre">fieldid_type</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape17fieldid_list_typeE" title="gviz::attrtypes::RecordShape::fieldid_list_type"><span class="n"><span class="pre">fieldid_list_type</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes11RecordShape10field_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERK10field_typeDpRR4Args">
+<span id="_CPPv3IDpEN4gviz9attrtypes11RecordShape11RecordShapeERK10field_typeDpRR4Args"></span><span id="_CPPv2IDpEN4gviz9attrtypes11RecordShape11RecordShapeERK10field_typeDpRR4Args"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Args</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1a1e03539a2fcf3e7abc8c5a899546e5e5"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RecordShape</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape10field_typeE" title="gviz::attrtypes::RecordShape::field_type"><span class="n"><span class="pre">field_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">first</span></span>, <a class="reference internal" href="#_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERK10field_typeDpRR4Args" title="gviz::attrtypes::RecordShape::RecordShape::Args"><span class="n"><span class="pre">Args</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">args</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERK10field_typeDpRR4Args" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERR10field_typeDpRR4Args">
+<span id="_CPPv3IDpEN4gviz9attrtypes11RecordShape11RecordShapeERR10field_typeDpRR4Args"></span><span id="_CPPv2IDpEN4gviz9attrtypes11RecordShape11RecordShapeERR10field_typeDpRR4Args"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Args</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1af5d99aef56ffaca7cf21d7c9d3d4dd42"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">RecordShape</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape10field_typeE" title="gviz::attrtypes::RecordShape::field_type"><span class="n"><span class="pre">field_type</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">first</span></span>, <a class="reference internal" href="#_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERR10field_typeDpRR4Args" title="gviz::attrtypes::RecordShape::RecordShape::Args"><span class="n"><span class="pre">Args</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">args</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4IDpEN4gviz9attrtypes11RecordShape11RecordShapeERR10field_typeDpRR4Args" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypes11RecordShape6fieldsE">
+<span id="_CPPv3N4gviz9attrtypes11RecordShape6fieldsE"></span><span id="_CPPv2N4gviz9attrtypes11RecordShape6fieldsE"></span><span id="gviz::attrtypes::RecordShape::fields__Vec:field_type.VecArgsDp:"></span><span class="target" id="structgviz_1_1attrtypes_1_1_record_shape_1ac13b57c9c35891378b7393d4a7ff5601"></span><a class="reference internal" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="gviz::attrtypes::RecordShape::Vec"><span class="n"><span class="pre">Vec</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N4gviz9attrtypes11RecordShape10field_typeE" title="gviz::attrtypes::RecordShape::field_type"><span class="n"><span class="pre">field_type</span></span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0I0DpE0DpEN4gviz9attrtypes11RecordShapeE" title="gviz::attrtypes::RecordShape::VecArgs"><span class="n"><span class="pre">VecArgs</span></span></a><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">fields</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="p"><span class="pre">{</span></span><span class="p"><span class="pre">}</span></span><a class="headerlink" href="#_CPPv4N4gviz9attrtypes11RecordShape6fieldsE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz9attrtypesE">
+<span id="_CPPv3N4gviz9attrtypesE"></span><span id="_CPPv2N4gviz9attrtypesE"></span><span id="gviz::attrtypes"></span><span class="target" id="namespacegviz_1_1attrtypes"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">attrtypes</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="shape__record_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">shape_record.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_8f1f3da1bee06e25d585412137025c95"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="style.html" class="btn btn-neutral float-left" title="attrtypes/style.hpp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="viewport.html" class="btn btn-neutral float-right" title="attrtypes/viewport.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

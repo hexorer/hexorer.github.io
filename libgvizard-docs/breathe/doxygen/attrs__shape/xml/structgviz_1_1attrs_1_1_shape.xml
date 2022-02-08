@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_shape" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Shape, attrtypes::ShapeType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_shape_1aacaf84a89652f1b4ab3c390ab7220d0b" prot="public" static="no">
+        <type>attrtypes::ShapeType</type>
+        <definition>using gviz::attrs::Shape::value_type =  attrtypes::ShapeType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Shape::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="10" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_shape_1a080f732ab41930494e3e22ac808f6980" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Shape::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Shape::name</qualifiedname>
+        <initializer>= &quot;shape&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="12" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_shape_1a567d5303efa87035ca1c8b2ed1609a0e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Shape::Shape</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Shape</name>
+        <qualifiedname>gviz::attrs::Shape::Shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="14" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_shape_1a5cce44399f7b42f9ed80f03e2da0cede" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Shape::Shape</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Shape</name>
+        <qualifiedname>gviz::attrs::Shape::Shape</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="15" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_shape_1aac2d2b8340b55c7d9385e3e737d2e120" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Shape::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Shape::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="17" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_shape_1a2c7cc157be3d9e5d1530ee63caac3fb5" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Shape::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Shape::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_shape_1ac0ca911794fa64d08e40515f6f20b99f" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Shape::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Shape::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Shape, attrtypes::ShapeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Shape</label>
+        <link refid="structgviz_1_1attrs_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Shape, attrtypes::ShapeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Shape</label>
+        <link refid="structgviz_1_1attrs_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" line="9" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/shape.hpp" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_shape_1ac0ca911794fa64d08e40515f6f20b99f" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1aac2d2b8340b55c7d9385e3e737d2e120" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1a2c7cc157be3d9e5d1530ee63caac3fb5" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1a080f732ab41930494e3e22ac808f6980" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1a567d5303efa87035ca1c8b2ed1609a0e" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>Shape</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1a5cce44399f7b42f9ed80f03e2da0cede" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>Shape</name></member>
+      <member refid="structgviz_1_1attrs_1_1_shape_1aacaf84a89652f1b4ab3c390ab7220d0b" prot="public" virt="non-virtual"><scope>gviz::attrs::Shape</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

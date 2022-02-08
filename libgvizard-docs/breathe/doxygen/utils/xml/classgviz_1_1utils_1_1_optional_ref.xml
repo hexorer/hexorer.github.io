@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1utils_1_1_optional_ref" kind="class" language="C++" prot="public">
+    <compoundname>gviz::utils::OptionalRef</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgviz_1_1utils_1_1_optional_ref_1a4c0330feac1d347ec979030fe41afadb" prot="public" static="no">
+        <type>std::remove_reference_t&lt; T &gt;</type>
+        <definition>using gviz::utils::OptionalRef&lt; T &gt;::value_type =  std::remove_reference_t&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::utils::OptionalRef::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="92" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1utils_1_1_optional_ref_1afbc8ca3cbc828a98165efae1f7c3eb27" prot="public" static="no">
+        <type>value_type &amp;</type>
+        <definition>using gviz::utils::OptionalRef&lt; T &gt;::reference_type =  value_type&amp;</definition>
+        <argsstring></argsstring>
+        <name>reference_type</name>
+        <qualifiedname>gviz::utils::OptionalRef::reference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="93" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1utils_1_1_optional_ref_1a96ae635c037ab8b6d3c3c96b561c694b" prot="public" static="no">
+        <type>const value_type &amp;</type>
+        <definition>using gviz::utils::OptionalRef&lt; T &gt;::const_reference_type =  const value_type&amp;</definition>
+        <argsstring></argsstring>
+        <name>const_reference_type</name>
+        <qualifiedname>gviz::utils::OptionalRef::const_reference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="94" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1utils_1_1_optional_ref_1a6de0c47320ae8d22c188d6cc5340424a" prot="public" static="no">
+        <type>value_type *</type>
+        <definition>using gviz::utils::OptionalRef&lt; T &gt;::pointer_type =  value_type*</definition>
+        <argsstring></argsstring>
+        <name>pointer_type</name>
+        <qualifiedname>gviz::utils::OptionalRef::pointer_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="95" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classgviz_1_1utils_1_1_optional_ref_1a60be60855ad91c907a9450ea29d3521c" prot="public" static="no">
+        <type>const value_type *</type>
+        <definition>using gviz::utils::OptionalRef&lt; T &gt;::const_pointer_type =  const value_type*</definition>
+        <argsstring></argsstring>
+        <name>const_pointer_type</name>
+        <qualifiedname>gviz::utils::OptionalRef::const_pointer_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="96" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1utils_1_1_optional_ref_1a50d0b5ef38d53d0c47d33bbf886b1720" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* gviz::utils::OptionalRef&lt; T &gt;::ptr_</definition>
+        <argsstring></argsstring>
+        <name>ptr_</name>
+        <qualifiedname>gviz::utils::OptionalRef::ptr_</qualifiedname>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="89" column="5" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a4521828b86a84828033e64700b9bb3ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::utils::OptionalRef&lt; T &gt;::OptionalRef</definition>
+        <argsstring>()</argsstring>
+        <name>OptionalRef</name>
+        <qualifiedname>gviz::utils::OptionalRef::OptionalRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="98" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a28cd985ecca29c9d1a0857976848e513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::utils::OptionalRef&lt; T &gt;::OptionalRef</definition>
+        <argsstring>(reference_type ref)</argsstring>
+        <name>OptionalRef</name>
+        <qualifiedname>gviz::utils::OptionalRef::OptionalRef</qualifiedname>
+        <param>
+          <type>reference_type</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="99" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1aace6ceb365754f704ece8534bae5fe57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::utils::OptionalRef&lt; T &gt;::OptionalRef</definition>
+        <argsstring>(pointer_type ptr)</argsstring>
+        <name>OptionalRef</name>
+        <qualifiedname>gviz::utils::OptionalRef::OptionalRef</qualifiedname>
+        <param>
+          <type>pointer_type</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="100" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1aa95888e39b4af7da055f431048c4eeb9" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::utils::OptionalRef&lt; T &gt;::has_value</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>has_value</name>
+        <qualifiedname>gviz::utils::OptionalRef::has_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="102" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a22078c5cd58c22faf9a412c2719c635e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr auto &amp;</type>
+        <definition>constexpr auto &amp; gviz::utils::OptionalRef&lt; T &gt;::value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>value</name>
+        <qualifiedname>gviz::utils::OptionalRef::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="104" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1ab8d2928c7aef949a3e69656b8c42a53c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr const auto &amp;</type>
+        <definition>constexpr const auto &amp; gviz::utils::OptionalRef&lt; T &gt;::value</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>value</name>
+        <qualifiedname>gviz::utils::OptionalRef::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="105" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a428fa452a2d7b59ca2a5ab43d16e1fbc" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr auto &amp;</type>
+        <definition>constexpr auto &amp; gviz::utils::OptionalRef&lt; T &gt;::value_or</definition>
+        <argsstring>(T &amp;other) noexcept</argsstring>
+        <name>value_or</name>
+        <qualifiedname>gviz::utils::OptionalRef::value_or</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="107" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1acc5347775e843f3f13268f7260373e5a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr const auto &amp;</type>
+        <definition>constexpr const auto &amp; gviz::utils::OptionalRef&lt; T &gt;::value_or</definition>
+        <argsstring>(const T &amp;other) const noexcept</argsstring>
+        <name>value_or</name>
+        <qualifiedname>gviz::utils::OptionalRef::value_or</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="112" column="24" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a09fb9490bf3ba9df968549c33e173071" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr reference_type</type>
+        <definition>constexpr reference_type gviz::utils::OptionalRef&lt; T &gt;::operator*</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="117" column="34" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1aa7c8d7ed310739c752c16230d4ff8be8" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr const_reference_type</type>
+        <definition>constexpr const_reference_type gviz::utils::OptionalRef&lt; T &gt;::operator*</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="118" column="34" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1af6d16c307c9bc180680955893a15f5bd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr pointer_type</type>
+        <definition>constexpr pointer_type gviz::utils::OptionalRef&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="120" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1aa6f384d14f9cb543f41d648f90130d2b" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr const_pointer_type</type>
+        <definition>constexpr const_pointer_type gviz::utils::OptionalRef&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="121" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a94dd8697fc5d04452f5ab9fc3c98694e" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::utils::OptionalRef&lt; T &gt;::operator==</definition>
+        <argsstring>(const OptionalRef other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1utils_1_1_optional_ref" kindref="compound">OptionalRef</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="123" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a9ba10efcac8d5e66209ad4c68b4c58a3" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::utils::OptionalRef&lt; T &gt;::operator!=</definition>
+        <argsstring>(const OptionalRef other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classgviz_1_1utils_1_1_optional_ref" kindref="compound">OptionalRef</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="128" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1utils_1_1_optional_ref_1a0645844e24edf93c219fd6fb214a1c62" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::utils::OptionalRef&lt; T &gt;::operator bool</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>gviz::utils::OptionalRef::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="133" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="133" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="88" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="88" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a60be60855ad91c907a9450ea29d3521c" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>const_pointer_type</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a96ae635c037ab8b6d3c3c96b561c694b" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>const_reference_type</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1aa95888e39b4af7da055f431048c4eeb9" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>has_value</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a0645844e24edf93c219fd6fb214a1c62" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator bool</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a9ba10efcac8d5e66209ad4c68b4c58a3" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator!=</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a09fb9490bf3ba9df968549c33e173071" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator*</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1aa7c8d7ed310739c752c16230d4ff8be8" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator*</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1af6d16c307c9bc180680955893a15f5bd" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator-&gt;</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1aa6f384d14f9cb543f41d648f90130d2b" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator-&gt;</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a94dd8697fc5d04452f5ab9fc3c98694e" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>operator==</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a4521828b86a84828033e64700b9bb3ce" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>OptionalRef</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a28cd985ecca29c9d1a0857976848e513" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>OptionalRef</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1aace6ceb365754f704ece8534bae5fe57" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>OptionalRef</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a6de0c47320ae8d22c188d6cc5340424a" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>pointer_type</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a50d0b5ef38d53d0c47d33bbf886b1720" prot="private" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>ptr_</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1afbc8ca3cbc828a98165efae1f7c3eb27" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>reference_type</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a22078c5cd58c22faf9a412c2719c635e" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>value</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1ab8d2928c7aef949a3e69656b8c42a53c" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>value</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a428fa452a2d7b59ca2a5ab43d16e1fbc" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>value_or</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1acc5347775e843f3f13268f7260373e5a" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>value_or</name></member>
+      <member refid="classgviz_1_1utils_1_1_optional_ref_1a4c0330feac1d347ec979030fe41afadb" prot="public" virt="non-virtual"><scope>gviz::utils::OptionalRef</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

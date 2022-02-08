@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_remin_cross" kind="struct"><name>gviz::attrs::ReminCross</name>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1aaac686e620bafe24b70c516c7a54eff6" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1ac002be04da7e203968f4b94170e37b61" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1a5b73dc0980b168cd255f50446d2a0d8a" kind="function"><name>ReminCross</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1afcaaccb3439870f997746ecc5b6e03dc" kind="function"><name>ReminCross</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1ae2931280e1bc60f6ae1cd0661b7a6622" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1a8f100f76f479f98b8bc32b5989db224c" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_remin_cross_1a8b5798805ae9d14d4da5126fecf4cf72" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="remincross_8hpp" kind="file"><name>remincross.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

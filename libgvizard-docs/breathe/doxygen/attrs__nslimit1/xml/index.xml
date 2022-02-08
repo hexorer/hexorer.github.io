@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_n_s_limit1" kind="struct"><name>gviz::attrs::NSLimit1</name>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a98f7a4785d101ca16d8044c388838d7d" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a7a25ba243f611665dfbc5c04fb1cc8a5" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1ae9e521ccdba2765a1db1d6c185b41d0c" kind="function"><name>NSLimit1</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a921b9bae0a370caa814cd93d65accd52" kind="function"><name>NSLimit1</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a56d9b33aae6190eb3f61759040ad899c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1a8bc7c1056280986b828279280b504a0c" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_n_s_limit1_1aa50cc0c34c61e4cb962fd04dfb3adb36" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="nslimit1_8hpp" kind="file"><name>nslimit1.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_style_sheet" kind="struct"><name>gviz::attrs::StyleSheet</name>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1ae1fc0bb4ed84e634b2e2136e4029c427" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1ab3db58f7a4a10e675a31a081e768c94e" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1a31e515a232255c802dbe8e743df80ad5" kind="function"><name>StyleSheet</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1a5547e565ed2390d300907c0acd21a00c" kind="function"><name>StyleSheet</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1a45a554efc21de4d46119e6547aeb23d5" kind="function"><name>StyleSheet</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1a9828b056755aa58be4a3d0d8c8b0a28c" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1ae49ee5b9eead3881d0cd02684fa41f9e" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_style_sheet_1a4d81d4c3d90f0c3beb33c153118b7a5c" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="stylesheet_8hpp" kind="file"><name>stylesheet.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

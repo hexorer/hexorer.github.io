@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1detail_1_1_dynamic_square_matrix" kind="class"><name>gviz::detail::DynamicSquareMatrix</name>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a4d8a22f5160a64cc11af0facd397c3ad" kind="typedef"><name>value_type</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a43be546bdd4706b090055fd550a3cf8d" kind="variable"><name>vec_</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1ac16195655ecc27b7df7bc6e54c680f80" kind="variable"><name>size_</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a1b2d82afdb4d6b74734b7edf0fd7644a" kind="function"><name>DynamicSquareMatrix</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1ad029ba09464a1a2e3ecb077f659a37f4" kind="function"><name>DynamicSquareMatrix</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a23f73493767bfce2fb8ddfe884f3f194" kind="function"><name>size</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a850cf3782e025fd1959fc5da8eb8d4b4" kind="function"><name>resize</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1ae441d48ace126da694c8782132efd17d" kind="function"><name>at</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1ace61c28375a93f9a84c2cd53f9f382eb" kind="function"><name>at</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a4d7f6fd67e6abd67be871b47d125da5f" kind="function"><name>add_rowcol</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a5113006e2cf89bdfef9f5f17966e85d9" kind="function"><name>pop_rowcol</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1ae1d44852d5ca08bc2fa0df26b807baa6" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a7102ee877bf27eb7075ae331f9c72c45" kind="function"><name>end</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a9eee9cea7955abba0e5277bf7171a006" kind="function"><name>begin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a3179e817bb6468e85606d08970edfa42" kind="function"><name>end</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a27ed745f72973c302715feef37b8b967" kind="function"><name>cbegin</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a5e0b8c821627d7fd4a17937ae0bfc393" kind="function"><name>cend</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a47609cc7ec8c726bec3e11082a468883" kind="function"><name>operator()</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1aee21b525d9c9f805ac6b66d321e6e9ac" kind="function"><name>operator()</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a00b79455ebe186456df1b4f93437c651" kind="function"><name>index</name></member>
+    <member refid="classgviz_1_1detail_1_1_dynamic_square_matrix_1a54a8b374ff6cd7bd6ea32ac7060e28e9" kind="function"><name>reverse_index</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1detail" kind="namespace"><name>gviz::detail</name>
+  </compound>
+  <compound refid="dynamic__square__matrix_8hpp" kind="file"><name>dynamic_square_matrix.hpp</name>
+  </compound>
+  <compound refid="dir_e0c25747f46028ce5f9403284dcd8c1d" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/graph</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

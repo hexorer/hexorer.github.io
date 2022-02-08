@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_kvalue" kind="struct"><name>gviz::attrs::Kvalue</name>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1acae4b320ed501ce191d094b74aa6cbf5" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a34418a954c3d36ac5c72a2ba5e3fc742" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a3d5bd3a1cbe37ad9791baa41c25e95b1" kind="function"><name>Kvalue</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a1d93e230e64faf91e86f284d12d6658d" kind="function"><name>Kvalue</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a5c5b6fe57f6b7c2f5394fc9f2f70c272" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a1520aade59b6620b862dfb22313d493c" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_kvalue_1a23d677a6bc80d72f757e8510109b6ff9" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="k_8hpp" kind="file"><name>k.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

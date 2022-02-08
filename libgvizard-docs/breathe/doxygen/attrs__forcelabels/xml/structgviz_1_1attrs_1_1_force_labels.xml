@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_force_labels" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::ForceLabels</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; ForceLabels, bool &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_force_labels_1a5a9dedb907aa84b179a63725d50e3ba4" prot="public" static="no">
+        <type>bool</type>
+        <definition>using gviz::attrs::ForceLabels::value_type =  bool</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::ForceLabels::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="9" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_force_labels_1a08fb60775f24d7cebd7fbd1af7332c75" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::ForceLabels::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::ForceLabels::name</qualifiedname>
+        <initializer>= &quot;forcelabels&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="11" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_force_labels_1a078edda661ce1580f8bcce1713b95af9" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ForceLabels::ForceLabels</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>ForceLabels</name>
+        <qualifiedname>gviz::attrs::ForceLabels::ForceLabels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="13" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_force_labels_1aea8aacf858c458deac08f059ca3aa8e8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::ForceLabels::ForceLabels</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>ForceLabels</name>
+        <qualifiedname>gviz::attrs::ForceLabels::ForceLabels</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="14" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_force_labels_1a7a377adcac213847bcaae55e3f9bb604" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::ForceLabels::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::ForceLabels::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="18" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_force_labels_1a4d51be7645aacfa41fc8831694f35e65" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ForceLabels::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::ForceLabels::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="20" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_force_labels_1aae18c5622a5a6cb3847bc5fec5f80663" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::ForceLabels::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::ForceLabels::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="25" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; ForceLabels, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ForceLabels</label>
+        <link refid="structgviz_1_1attrs_1_1_force_labels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; ForceLabels, bool &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::ForceLabels</label>
+        <link refid="structgviz_1_1attrs_1_1_force_labels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" line="8" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/forcelabels.hpp" bodystart="8" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1aae18c5622a5a6cb3847bc5fec5f80663" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1a078edda661ce1580f8bcce1713b95af9" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>ForceLabels</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1aea8aacf858c458deac08f059ca3aa8e8" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>ForceLabels</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1a7a377adcac213847bcaae55e3f9bb604" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1a4d51be7645aacfa41fc8831694f35e65" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1a08fb60775f24d7cebd7fbd1af7332c75" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_force_labels_1a5a9dedb907aa84b179a63725d50e3ba4" prot="public" virt="non-virtual"><scope>gviz::attrs::ForceLabels</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

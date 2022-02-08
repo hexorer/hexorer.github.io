@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_view_port_s" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrtypes::ViewPortS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_view_port_s_1a90d5b6de0eb16801c8613f960f054ac9" prot="public" static="no" mutable="no">
+        <type>PointType&lt; double &gt;</type>
+        <definition>PointType&lt;double&gt; gviz::attrtypes::ViewPortS::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>gviz::attrtypes::ViewPortS::size</qualifiedname>
+        <initializer>= {0., 0.}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="32" column="13" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_view_port_s_1aae2bdb84723e2914e55880bfa2652c2b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gviz::attrtypes::ViewPortS::zoom</definition>
+        <argsstring></argsstring>
+        <name>zoom</name>
+        <qualifiedname>gviz::attrtypes::ViewPortS::zoom</qualifiedname>
+        <initializer>= 1.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="33" column="10" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgviz_1_1attrtypes_1_1_view_port_s_1a61b3b6dfb1541c0addd9cc1ed60998a0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gviz::attrtypes::ViewPortS::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>gviz::attrtypes::ViewPortS::center</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="34" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_view_port_s_1a552772d719329c12ede38f468c359cae" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ViewPortS::operator==</definition>
+        <argsstring>(const ViewPortS &amp;other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>gviz::attrtypes::ViewPortS::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_view_port_s" kindref="compound">ViewPortS</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="36" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_view_port_s_1ac618ce059a9d7f4e532f59151c515208" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool gviz::attrtypes::ViewPortS::operator!=</definition>
+        <argsstring>(const ViewPortS &amp;other) const noexcept</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>gviz::attrtypes::ViewPortS::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structgviz_1_1attrtypes_1_1_view_port_s" kindref="compound">ViewPortS</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="43" column="18" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" line="31" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/viewport.hpp" bodystart="31" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a61b3b6dfb1541c0addd9cc1ed60998a0" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ViewPortS</scope><name>center</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1ac618ce059a9d7f4e532f59151c515208" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ViewPortS</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a552772d719329c12ede38f468c359cae" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ViewPortS</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1a90d5b6de0eb16801c8613f960f054ac9" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ViewPortS</scope><name>size</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_view_port_s_1aae2bdb84723e2914e55880bfa2652c2b" prot="public" virt="non-virtual"><scope>gviz::attrtypes::ViewPortS</scope><name>zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

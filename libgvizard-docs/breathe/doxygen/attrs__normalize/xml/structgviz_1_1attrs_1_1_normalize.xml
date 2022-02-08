@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_normalize" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Normalize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Normalize, NormalizeType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_normalize_1a24e10d583ac302340f4f1ca38ddf3954" prot="public" static="no">
+        <type>NormalizeType</type>
+        <definition>using gviz::attrs::Normalize::value_type =  NormalizeType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Normalize::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_normalize_1a804bed38514bd7f087a63c833628686a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Normalize::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Normalize::name</qualifiedname>
+        <initializer>= &quot;normalize&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_normalize_1a9b93077412ea16521e15206a00da3637" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Normalize::Normalize</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Normalize</name>
+        <qualifiedname>gviz::attrs::Normalize::Normalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_normalize_1ab69eb6776a866018402767ae4f0f8fa2" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Normalize::Normalize</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>Normalize</name>
+        <qualifiedname>gviz::attrs::Normalize::Normalize</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_normalize_1a018033367f6659f9243dd991eeb19de0" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Normalize::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Normalize::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="20" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_normalize_1a9a93cab4b54ec5c3998f540a642e8c58" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Normalize::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Normalize::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="22" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_normalize_1a336a0995fa15331dba3e346578bb5dbb" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Normalize::constraint</definition>
+        <argsstring>(value_type) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Normalize::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Normalize, NormalizeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Normalize</label>
+        <link refid="structgviz_1_1attrs_1_1_normalize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Normalize, NormalizeType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Normalize</label>
+        <link refid="structgviz_1_1attrs_1_1_normalize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" line="12" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/normalize.hpp" bodystart="12" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a336a0995fa15331dba3e346578bb5dbb" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a018033367f6659f9243dd991eeb19de0" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a9a93cab4b54ec5c3998f540a642e8c58" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a804bed38514bd7f087a63c833628686a" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a9b93077412ea16521e15206a00da3637" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>Normalize</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1ab69eb6776a866018402767ae4f0f8fa2" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>Normalize</name></member>
+      <member refid="structgviz_1_1attrs_1_1_normalize_1a24e10d583ac302340f4f1ca38ddf3954" prot="public" virt="non-virtual"><scope>gviz::attrs::Normalize</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1utils_1_1_converter" kind="struct"><name>gviz::utils::Converter</name>
+    <member refid="structgviz_1_1utils_1_1_converter_1a3123ab4d565a539cc0410c0b055017cc" kind="function"><name>convert</name></member>
+    <member refid="structgviz_1_1utils_1_1_converter_1a42cc0e44d3493450410c5adcd72e09fe" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="structgviz_1_1utils_1_1_enum_helper" kind="struct"><name>gviz::utils::EnumHelper</name>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a2e88e6cf4a83f486298eb3921f5e2441" kind="function"><name>to_str</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a38155fe251b74bf27f6e7f5d5eb035f9" kind="function"><name>from_value</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a66619e26ea2f64fc61986bd4f7355ee2" kind="function"><name>from_index</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a5059866aa2ea8e75200d056e17fe8c68" kind="function"><name>from_str</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1ac906c486a55b6f6e6d256f3f89a9193c" kind="function"><name>from_str</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a60ee0342f5ab4e580e9ff10907102cab" kind="function"><name>from_str</name></member>
+    <member refid="structgviz_1_1utils_1_1_enum_helper_1a638f8a73e9d6389faf073f79c472df08" kind="function"><name>size</name></member>
+  </compound>
+  <compound refid="structgviz_1_1utils_1_1_lambda_visitor" kind="struct"><name>gviz::utils::LambdaVisitor</name>
+  </compound>
+  <compound refid="classgviz_1_1utils_1_1_optional_ref" kind="class"><name>gviz::utils::OptionalRef</name>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a4c0330feac1d347ec979030fe41afadb" kind="typedef"><name>value_type</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1afbc8ca3cbc828a98165efae1f7c3eb27" kind="typedef"><name>reference_type</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a96ae635c037ab8b6d3c3c96b561c694b" kind="typedef"><name>const_reference_type</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a6de0c47320ae8d22c188d6cc5340424a" kind="typedef"><name>pointer_type</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a60be60855ad91c907a9450ea29d3521c" kind="typedef"><name>const_pointer_type</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a50d0b5ef38d53d0c47d33bbf886b1720" kind="variable"><name>ptr_</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a4521828b86a84828033e64700b9bb3ce" kind="function"><name>OptionalRef</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a28cd985ecca29c9d1a0857976848e513" kind="function"><name>OptionalRef</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1aace6ceb365754f704ece8534bae5fe57" kind="function"><name>OptionalRef</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1aa95888e39b4af7da055f431048c4eeb9" kind="function"><name>has_value</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a22078c5cd58c22faf9a412c2719c635e" kind="function"><name>value</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1ab8d2928c7aef949a3e69656b8c42a53c" kind="function"><name>value</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a428fa452a2d7b59ca2a5ab43d16e1fbc" kind="function"><name>value_or</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1acc5347775e843f3f13268f7260373e5a" kind="function"><name>value_or</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a09fb9490bf3ba9df968549c33e173071" kind="function"><name>operator*</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1aa7c8d7ed310739c752c16230d4ff8be8" kind="function"><name>operator*</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1af6d16c307c9bc180680955893a15f5bd" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1aa6f384d14f9cb543f41d648f90130d2b" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a94dd8697fc5d04452f5ab9fc3c98694e" kind="function"><name>operator==</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a9ba10efcac8d5e66209ad4c68b4c58a3" kind="function"><name>operator!=</name></member>
+    <member refid="classgviz_1_1utils_1_1_optional_ref_1a0645844e24edf93c219fd6fb214a1c62" kind="function"><name>operator bool</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1utils" kind="namespace"><name>gviz::utils</name>
+    <member refid="utils_8hpp_1aab67a69b5afed6d85f3229244fb03cae" kind="typedef"><name>Ref</name></member>
+    <member refid="utils_8hpp_1ac74ec1497a25b8107e96950f3bc55c9a" kind="variable"><name>nulloptref</name></member>
+    <member refid="utils_8hpp_1a0a08993cc6b0fed8a6a0ff6cad65c462" kind="function"><name>LambdaVisitor</name></member>
+    <member refid="utils_8hpp_1a32b9cffecd0d8d535062704a612510d6" kind="function"><name>LambdaVisit</name></member>
+  </compound>
+  <compound refid="utils_8hpp" kind="file"><name>utils.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

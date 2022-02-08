@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1colors" kind="namespace" language="C++">
+    <compoundname>gviz::colors</compoundname>
+    <innerclass refid="structgviz_1_1colors_1_1_scheme_color" prot="public">gviz::colors::SchemeColor</innerclass>
+    <innerclass refid="classgviz_1_1colors_1_1_weighted_color" prot="public">gviz::colors::WeightedColor</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>SchemeEnum</name>
+        <qualifiedname>gviz::colors::SchemeEnum</qualifiedname>
+        <enumvalue id="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328ad21ab1ce30c9c7735c0591317f50ab85" prot="public">
+          <name>X11</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="general_8hpp_1a5dabd67819a7c8edca96321a9ff7d328acd15a75c26008696647b31a3f0de43b3" prot="public">
+          <name>SVG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/general.hpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

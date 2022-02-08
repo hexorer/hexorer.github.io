@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; To, SVGColor &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename To</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4_1a92b7e995b158332812a6a524eea5d904" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr To</type>
+        <definition>static constexpr To gviz::utils::Converter&lt; To, SVGColor &gt;::convert</definition>
+        <argsstring>(const SVGColor &amp;color)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; To, SVGColor &gt;::convert</qualifiedname>
+        <param>
+          <type>const SVGColor &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="157" column="23" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="156" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="156" bodyend="161"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_to_00_01_s_v_g_color_01_4_1a92b7e995b158332812a6a524eea5d904" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; To, SVGColor &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

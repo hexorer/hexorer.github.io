@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrtypes_1_1_add_double" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::attrtypes::AddDouble</compoundname>
+    <basecompoundref refid="structgviz_1_1attrtypes_1_1_addible" prot="public" virt="non-virtual">gviz::attrtypes::Addible&lt; double &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrtypes_1_1_add_double_1a5d4b13e2eebf7811196f3b8ed441d849" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrtypes::Addible&lt; T &gt;::Addible</definition>
+        <argsstring>(T value, AddibleSign sign=AddibleSign::neutral)</argsstring>
+        <name>Addible</name>
+        <qualifiedname>gviz::attrtypes::AddDouble::Addible</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>AddibleSign</type>
+          <declname>sign</declname>
+          <defval>AddibleSign::neutral</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" line="49" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gviz::attrtypes::Addible&lt; double &gt;</label>
+        <link refid="structgviz_1_1attrtypes_1_1_addible"/>
+      </node>
+      <node id="1">
+        <label>gviz::attrtypes::AddDouble</label>
+        <link refid="structgviz_1_1attrtypes_1_1_add_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gviz::attrtypes::Addible&lt; double &gt;</label>
+        <link refid="structgviz_1_1attrtypes_1_1_addible"/>
+      </node>
+      <node id="1">
+        <label>gviz::attrtypes::AddDouble</label>
+        <link refid="structgviz_1_1attrtypes_1_1_add_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" line="48" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/addible.hpp" bodystart="48" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrtypes_1_1_add_double_1a5d4b13e2eebf7811196f3b8ed441d849" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>Addible</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1a5d4b13e2eebf7811196f3b8ed441d849" prot="public" virt="non-virtual" ambiguityscope="Addible&lt; double &gt;::"><scope>gviz::attrtypes::AddDouble</scope><name>Addible</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1ae72fc6e80a8d196774d2d1edd0ac7cf4" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>addible</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1a7e5e617b65703a36f94df22c29f7580c" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>make</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1ab603cb6d3cf9a8cbee274fb485c547d5" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>map</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1a7ccf12ad190ee7c49d7035568748b15e" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>operator value_type</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1a4c980334597be4eaa10ed22cc94db9b6" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>operator!=</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1a90b4f230b0354cafb29560da00749ee1" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>operator==</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1add3d6526acd68b0468afaef9035001ad" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>value</name></member>
+      <member refid="structgviz_1_1attrtypes_1_1_addible_1aa35e204ebdcd93a95f834f1e6e33eab3" prot="public" virt="non-virtual"><scope>gviz::attrtypes::AddDouble</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

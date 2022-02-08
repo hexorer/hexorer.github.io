@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_8f1f3da1bee06e25d585412137025c95" kind="dir">
+    <compoundname>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes</compoundname>
+    <innerfile refid="portpos_8hpp">portpos.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrtypes/"/>
+  </compounddef>
+</doxygen>

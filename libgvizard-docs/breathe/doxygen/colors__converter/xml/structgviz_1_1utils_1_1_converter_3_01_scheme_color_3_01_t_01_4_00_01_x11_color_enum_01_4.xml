@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, X11ColorEnum &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4_1ab2151ede274b336b78329fd7f9cbb6ac" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr SchemeColor&lt; T &gt;</type>
+        <definition>static constexpr SchemeColor&lt; T &gt; gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, X11ColorEnum &gt;::convert</definition>
+        <argsstring>(X11ColorEnum color)</argsstring>
+        <name>convert</name>
+        <qualifiedname>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, X11ColorEnum &gt;::convert</qualifiedname>
+        <param>
+          <type>X11ColorEnum</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="181" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="181" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" line="180" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/colors/converter.hpp" bodystart="180" bodyend="190"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_converter_3_01_scheme_color_3_01_t_01_4_00_01_x11_color_enum_01_4_1ab2151ede274b336b78329fd7f9cbb6ac" prot="public" virt="non-virtual"><scope>gviz::utils::Converter&lt; SchemeColor&lt; T &gt;, X11ColorEnum &gt;</scope><name>convert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

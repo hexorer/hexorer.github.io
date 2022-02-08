@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1mtp_1_1find__type__index__in" kind="struct" language="C++" prot="public">
+    <compoundname>gviz::mtp::find_type_index_in</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename X</type>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1mtp_1_1find__type__index__in_1afe379c17590208c2c3494f6e4b893f4f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t gviz::mtp::find_type_index_in&lt; X, Ts &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>gviz::mtp::find_type_index_in::value</qualifiedname>
+        <initializer>=
+     <ref refid="structgviz_1_1mtp_1_1impl_1_1find__type__index__in__impl" kindref="compound">impl::find_type_index_in_impl</ref>&lt;1, X, Ts...&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="157" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" line="156" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/mtputils.hpp" bodystart="156" bodyend="159"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1mtp_1_1find__type__index__in_1afe379c17590208c2c3494f6e4b893f4f" prot="public" virt="non-virtual"><scope>gviz::mtp::find_type_index_in</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="structgviz_1_1attrs_1_1_smoothing" kind="struct"><name>gviz::attrs::Smoothing</name>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1a7bc2b709dfa6885d30343d8c7541c281" kind="typedef"><name>value_type</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1af51cc84ac9e6ff4d7729904a2e3d3d4a" kind="variable"><name>name</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1a436842ca6814e701aaab7cd7b9d8ccfb" kind="function"><name>Smoothing</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1a647659dc157ee3d2fb93ff1505aeb73d" kind="function"><name>Smoothing</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1a6bd55000b178fc2978be629ce5b0e244" kind="function"><name>get_default_value</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1af9d9cd1155fc8f61504428238be89c25" kind="function"><name>is_default</name></member>
+    <member refid="structgviz_1_1attrs_1_1_smoothing_1a2e57b4f5a6fe019b006e86ea0dbd92fe" kind="function"><name>constraint</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1attrs" kind="namespace"><name>gviz::attrs</name>
+  </compound>
+  <compound refid="smoothing_8hpp" kind="file"><name>smoothing.hpp</name>
+  </compound>
+  <compound refid="dir_c4d11457176417effc161a5f95a647eb" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+</doxygenindex>

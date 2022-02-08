@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_label_distance" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LabelDistance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LabelDistance, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_label_distance_1a4a156f6477b65cf623067f142eb948e4" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::LabelDistance::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LabelDistance::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="83" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_label_distance_1a3c38429b5466b9852737577ba0735e97" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LabelDistance::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LabelDistance::name</qualifiedname>
+        <initializer>= &quot;labeldistance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="85" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_distance_1a25369971de5f5b2b92d2002baeed3f67" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelDistance::LabelDistance</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LabelDistance</name>
+        <qualifiedname>gviz::attrs::LabelDistance::LabelDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="87" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_distance_1af23e51c4c8fa2d0b96edb48da48e905a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelDistance::LabelDistance</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>LabelDistance</name>
+        <qualifiedname>gviz::attrs::LabelDistance::LabelDistance</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="88" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_distance_1aea7cd9432fdbeb5a4b354c7cafffc6ad" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LabelDistance::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LabelDistance::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="92" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_distance_1a3ee35cdc45a91791bb5bfcfe77a04497" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelDistance::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LabelDistance::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="94" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_distance_1a26fe9efd61a2fca829cf2e7afc8fc533" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelDistance::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LabelDistance::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="99" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelDistance, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelDistance</label>
+        <link refid="structgviz_1_1attrs_1_1_label_distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelDistance, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelDistance</label>
+        <link refid="structgviz_1_1attrs_1_1_label_distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="81" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="82" bodyend="103"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1a26fe9efd61a2fca829cf2e7afc8fc533" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1aea7cd9432fdbeb5a4b354c7cafffc6ad" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1a3ee35cdc45a91791bb5bfcfe77a04497" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1a25369971de5f5b2b92d2002baeed3f67" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>LabelDistance</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1af23e51c4c8fa2d0b96edb48da48e905a" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>LabelDistance</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1a3c38429b5466b9852737577ba0735e97" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_distance_1a4a156f6477b65cf623067f142eb948e4" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelDistance</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

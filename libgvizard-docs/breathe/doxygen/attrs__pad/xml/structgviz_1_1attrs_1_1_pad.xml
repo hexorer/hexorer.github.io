@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_pad" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::Pad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; Pad, PadType &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_pad_1af0c6ab1e73e979adacf296f46a568a57" prot="public" static="no">
+        <type>PadType</type>
+        <definition>using gviz::attrs::Pad::value_type =  PadType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::Pad::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="14" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_pad_1afd8534d79a63bd3c1a801631d0547cf5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::Pad::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::Pad::name</qualifiedname>
+        <initializer>= &quot;pad&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="16" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pad_1adfa044cc7bc60981149c4bf8196531b1" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Pad::Pad</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Pad</name>
+        <qualifiedname>gviz::attrs::Pad::Pad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pad_1a51ac6ff4a66b450af6638cd357b4351e" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::Pad::Pad</definition>
+        <argsstring>(const value_type &amp;value)</argsstring>
+        <name>Pad</name>
+        <qualifiedname>gviz::attrs::Pad::Pad</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="19" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pad_1a1601a17ed01f8780c925a02f0f258f37" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::Pad::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::Pad::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="21" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pad_1ab989c614e37695456317ff8fcaa8aa74" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Pad::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::Pad::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="23" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_pad_1ac565bd2d6f9457a911e685fb236703cc" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::Pad::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::Pad::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="28" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; Pad, PadType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Pad</label>
+        <link refid="structgviz_1_1attrs_1_1_pad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; Pad, PadType &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::Pad</label>
+        <link refid="structgviz_1_1attrs_1_1_pad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" line="13" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/pad.hpp" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_pad_1ac565bd2d6f9457a911e685fb236703cc" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1a1601a17ed01f8780c925a02f0f258f37" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1ab989c614e37695456317ff8fcaa8aa74" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1afd8534d79a63bd3c1a801631d0547cf5" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1adfa044cc7bc60981149c4bf8196531b1" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>Pad</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1a51ac6ff4a66b450af6638cd357b4351e" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>Pad</name></member>
+      <member refid="structgviz_1_1attrs_1_1_pad_1af0c6ab1e73e979adacf296f46a568a57" prot="public" virt="non-virtual"><scope>gviz::attrs::Pad</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

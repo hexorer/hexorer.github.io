@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>registry/entt_registry.hpp &mdash; libgvizard  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="registry/registry_entity_proxy.hpp" href="registry_entity_proxy.html" />
+    <link rel="prev" title="registry" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> libgvizard
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">libgvizard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../demonstration.html">A Simple Usage Example (Complete Graph and Dot Generator)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Reference Documentation</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../attribute.html">attribute.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contracts.html">contracts.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gvizgraph.html">gvizgraph.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../mtputils.html">mtputils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">utils.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../views.html">views.hpp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrs/index.html">attrs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../attrtypes/index.html">attrtypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../colors/index.html">colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graph/index.html">graph</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">registry</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">registry/entt_registry.hpp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="registry_entity_proxy.html">registry/registry_entity_proxy.hpp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">libgvizard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../index.html">Reference Documentation</a> &raquo;</li>
+          <li><a href="index.html">registry</a> &raquo;</li>
+      <li>registry/entt_registry.hpp</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/rstfiles/registry/entt_registry.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="registry-entt-registry-hpp">
+<h1>registry/entt_registry.hpp<a class="headerlink" href="#registry-entt-registry-hpp" title="Permalink to this headline"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistryE">
+<span id="_CPPv3N4gviz8registry12EnTTRegistryE"></span><span id="_CPPv2N4gviz8registry12EnTTRegistryE"></span><span id="gviz::registry::EnTTRegistry"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-prename descclassname"><a class="reference internal" href="../attribute.html#_CPPv44gviz" title="gviz"><span class="n"><span class="pre">gviz</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N4gviz8registryE" title="gviz::registry"><span class="n"><span class="pre">registry</span></span></a><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">EnTTRegistry</span></span></span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistryE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-types">Public Types</p>
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry11entity_typeE"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry11entity_typeE"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a170b293f56eade6dfd994c7e5b447d54"></span><span class="k"><span class="pre">using</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">entity_type</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="n"><span class="pre">entt</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">entity</span></span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz8registry12EnTTRegistry4sizeEv">
+<span id="_CPPv3NK4gviz8registry12EnTTRegistry4sizeEv"></span><span id="_CPPv2NK4gviz8registry12EnTTRegistry4sizeEv"></span><span id="gviz::registry::EnTTRegistry::sizeC"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a25fe737a323316e7efb1cf58c51b0af2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz8registry12EnTTRegistry4sizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz8registry12EnTTRegistry8max_sizeEv">
+<span id="_CPPv3NK4gviz8registry12EnTTRegistry8max_sizeEv"></span><span id="_CPPv2NK4gviz8registry12EnTTRegistry8max_sizeEv"></span><span id="gviz::registry::EnTTRegistry::max_sizeCCE"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1ae05c71789a5cbcad4c8c688f14e0d2c6"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">constexpr</span></span><span class="w"> </span><a class="reference internal" href="../mtputils.html#_CPPv4St" title="std"><span class="n"><span class="pre">std</span></span></a><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">max_size</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz8registry12EnTTRegistry8max_sizeEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry12raw_registryEv">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry12raw_registryEv"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry12raw_registryEv"></span><span id="gviz::registry::EnTTRegistry::raw_registry"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a89894e1947f04948154baa82eeb26cea"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">raw_registry</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry12raw_registryEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK4gviz8registry12EnTTRegistry12raw_registryEv">
+<span id="_CPPv3NK4gviz8registry12EnTTRegistry12raw_registryEv"></span><span id="_CPPv2NK4gviz8registry12EnTTRegistry12raw_registryEv"></span><span id="gviz::registry::EnTTRegistry::raw_registryC"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1ad50ad97394a68c5a0bb9dae121ee5d19"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">raw_registry</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4NK4gviz8registry12EnTTRegistry12raw_registryEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry6createEv">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry6createEv"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry6createEv"></span><span id="gviz::registry::EnTTRegistry::create"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a6606827c2f78f22f0115254c6b0177b1"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">create</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry6createEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry7destroyE11entity_type">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry7destroyE11entity_type"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry7destroyE11entity_type"></span><span id="gviz::registry::EnTTRegistry::destroy__entity_type"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1ac488eb8af9f7b208be5ab9cbb8a5b375"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">destroy</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry7destroyE11entity_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry5clearEv">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry5clearEv"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry5clearEv"></span><span id="gviz::registry::EnTTRegistry::clear"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a90edbfca53c1019aca69c46f05631cf2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">clear</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry5clearEv" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefI4AttrEE11entity_type">
+<span id="_CPPv3I0EN4gviz8registry12EnTTRegistry3getE11entity_type"></span><span id="_CPPv2I0EN4gviz8registry12EnTTRegistry3getE11entity_type"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a176703a5468b26e96768de69905b93f2"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../utils.html#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0EN4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefI4AttrEE11entity_type" title="gviz::registry::EnTTRegistry::get::Attr"><span class="n"><span class="pre">Attr</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0EN4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefI4AttrEE11entity_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0ENK4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefIK4AttrEE11entity_type">
+<span id="_CPPv3I0ENK4gviz8registry12EnTTRegistry3getE11entity_type"></span><span id="_CPPv2I0ENK4gviz8registry12EnTTRegistry3getE11entity_type"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a73f41d0440be2af679c653b723165bb4"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../utils.html#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0ENK4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefIK4AttrEE11entity_type" title="gviz::registry::EnTTRegistry::get::Attr"><span class="n"><span class="pre">Attr</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0ENK4gviz8registry12EnTTRegistry3getEN5utils11OptionalRefIK4AttrEE11entity_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0DpENK4gviz8registry12EnTTRegistry3hasEb11entity_type">
+<span id="_CPPv3I0DpENK4gviz8registry12EnTTRegistry3hasE11entity_type"></span><span id="_CPPv2I0DpENK4gviz8registry12EnTTRegistry3hasE11entity_type"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Rest</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a42f72ebae7a11e803b0e017c3ecc6f3c"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">has</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="k"><span class="pre">noexcept</span></span><a class="headerlink" href="#_CPPv4I0DpENK4gviz8registry12EnTTRegistry3hasEb11entity_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz8registry12EnTTRegistry6updateEN5utils11OptionalRefI4AttrEE11entity_typeRR1F">
+<span id="_CPPv3I00EN4gviz8registry12EnTTRegistry6updateE11entity_typeRR1F"></span><span id="_CPPv2I00EN4gviz8registry12EnTTRegistry6updateE11entity_typeRR1F"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">F</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a0cb8965b7fdcca01f46429a0d68b2d39"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">update</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span>, <a class="reference internal" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry6updateEN5utils11OptionalRefI4AttrEE11entity_typeRR1F" title="gviz::registry::EnTTRegistry::update::F"><span class="n"><span class="pre">F</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">func</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../utils.html#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry6updateEN5utils11OptionalRefI4AttrEE11entity_typeRR1F" title="gviz::registry::EnTTRegistry::update::Attr"><span class="n"><span class="pre">Attr</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry6updateEN5utils11OptionalRefI4AttrEE11entity_typeRR1F" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I00EN4gviz8registry12EnTTRegistry3setEN5utils11OptionalRefI4AttrEE11entity_typeRR4ValT">
+<span id="_CPPv3I00EN4gviz8registry12EnTTRegistry3setE11entity_typeRR4ValT"></span><span id="_CPPv2I00EN4gviz8registry12EnTTRegistry3setE11entity_typeRR4ValT"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">ValT</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a7a9c3b3393b426c355a0689e437d07a5"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">set</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span>, <a class="reference internal" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry3setEN5utils11OptionalRefI4AttrEE11entity_typeRR4ValT" title="gviz::registry::EnTTRegistry::set::ValT"><span class="n"><span class="pre">ValT</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">value</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../utils.html#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry3setEN5utils11OptionalRefI4AttrEE11entity_typeRR4ValT" title="gviz::registry::EnTTRegistry::set::Attr"><span class="n"><span class="pre">Attr</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I00EN4gviz8registry12EnTTRegistry3setEN5utils11OptionalRefI4AttrEE11entity_typeRR4ValT" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0DpEN4gviz8registry12EnTTRegistry7emplaceEN5utils11OptionalRefI4AttrEE11entity_typeDpRR4Args">
+<span id="_CPPv3I0DpEN4gviz8registry12EnTTRegistry7emplaceE11entity_typeDpRR4Args"></span><span id="_CPPv2I0DpEN4gviz8registry12EnTTRegistry7emplaceE11entity_typeDpRR4Args"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Args</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1ae69532fc11cf7722901699a09af644be"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">emplace</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span>, <a class="reference internal" href="#_CPPv4I0DpEN4gviz8registry12EnTTRegistry7emplaceEN5utils11OptionalRefI4AttrEE11entity_typeDpRR4Args" title="gviz::registry::EnTTRegistry::emplace::Args"><span class="n"><span class="pre">Args</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">args</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="o"><span class="pre">-&gt;</span></span><span class="w"> </span><a class="reference internal" href="../attrtypes/quadtype.html#_CPPv4N4gviz5utilsE" title="gviz::utils"><span class="n"><span class="pre">utils</span></span></a><span class="p"><span class="pre">::</span></span><a class="reference internal" href="../utils.html#_CPPv4I0EN4gviz5utils11OptionalRefE" title="gviz::utils::OptionalRef"><span class="n"><span class="pre">OptionalRef</span></span></a><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4I0DpEN4gviz8registry12EnTTRegistry7emplaceEN5utils11OptionalRefI4AttrEE11entity_typeDpRR4Args" title="gviz::registry::EnTTRegistry::emplace::Attr"><span class="n"><span class="pre">Attr</span></span></a><span class="p"><span class="pre">&gt;</span></span><a class="headerlink" href="#_CPPv4I0DpEN4gviz8registry12EnTTRegistry7emplaceEN5utils11OptionalRefI4AttrEE11entity_typeDpRR4Args" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN4gviz8registry12EnTTRegistry6removeEb11entity_type">
+<span id="_CPPv3I0EN4gviz8registry12EnTTRegistry6removeE11entity_type"></span><span id="_CPPv2I0EN4gviz8registry12EnTTRegistry6removeE11entity_type"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Attr</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1a30389d9bb085ca77730b1e25760b8224"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">remove</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N4gviz8registry12EnTTRegistry11entity_typeE" title="gviz::registry::EnTTRegistry::entity_type"><span class="n"><span class="pre">entity_type</span></span></a><span class="w"> </span><span class="n sig-param"><span class="pre">entity</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4I0EN4gviz8registry12EnTTRegistry6removeEb11entity_type" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-private-members">Private Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registry12EnTTRegistry9registry_E">
+<span id="_CPPv3N4gviz8registry12EnTTRegistry9registry_E"></span><span id="_CPPv2N4gviz8registry12EnTTRegistry9registry_E"></span><span id="gviz::registry::EnTTRegistry::registry___entt::registry"></span><span class="target" id="classgviz_1_1registry_1_1_en_t_t_registry_1ac86393c4d2c81f60b6e1213e1f975728"></span><span class="n"><span class="pre">entt</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">registry</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">registry_</span></span></span><a class="headerlink" href="#_CPPv4N4gviz8registry12EnTTRegistry9registry_E" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv44gviz">
+<span id="_CPPv34gviz"></span><span id="_CPPv24gviz"></span><span id="gviz"></span><span class="target" id="namespacegviz"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">gviz</span></span></span><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp type">
+<dt class="sig sig-object cpp" id="_CPPv4N4gviz8registryE">
+<span id="_CPPv3N4gviz8registryE"></span><span id="_CPPv2N4gviz8registryE"></span><span id="gviz::registry"></span><span class="target" id="namespacegviz_1_1registry"></span><span class="k"><span class="pre">namespace</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">registry</span></span></span><a class="headerlink" href="#_CPPv4N4gviz8registryE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="entt__registry_8hpp"></span><em><span class="pre">file</span></em> <span class="sig-name descname"><span class="pre">entt_registry.hpp</span></span></dt>
+<dd><div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include &lt;&gt;</em></div>
+<div class="docutils container">
+<em>#include “”</em></div>
+</dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_373c18dca8118a20815b3d7a45dd62d9"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_d44c64559bbebec7f509842c48db8b23"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include</span></span></dt>
+<dd></dd></dl>
+
+<dl>
+<dt class="sig sig-object cpp">
+<span class="target" id="dir_301003c6a54e74370a0312c155659a82"></span><em><span class="pre">dir</span></em> <span class="sig-name descname"><span class="pre">/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry</span></span></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="registry" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="registry_entity_proxy.html" class="btn btn-neutral float-right" title="registry/registry_entity_proxy.hpp" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Mohsen MK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

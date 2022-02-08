@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_label_angle" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::LabelAngle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; LabelAngle, double &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_label_angle_1abb790c2092ad88376ed57cb1b6a696b8" prot="public" static="no">
+        <type>double</type>
+        <definition>using gviz::attrs::LabelAngle::value_type =  double</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::LabelAngle::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="60" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_label_angle_1aa82815bc41fd8af9c6cb99d713eaea44" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::LabelAngle::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::LabelAngle::name</qualifiedname>
+        <initializer>= &quot;labelangle&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="62" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_angle_1a1ede0578929937f1053caebc2dd92f50" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelAngle::LabelAngle</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>LabelAngle</name>
+        <qualifiedname>gviz::attrs::LabelAngle::LabelAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="64" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_angle_1a30c8089e69be76ea41cde525db1426bc" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::LabelAngle::LabelAngle</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>LabelAngle</name>
+        <qualifiedname>gviz::attrs::LabelAngle::LabelAngle</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="65" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_angle_1aa35a7c5265cf368163a9002216d0f1a8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::LabelAngle::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::LabelAngle::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="67" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_angle_1ae2bc87cef2db397ad896cff4b07d1fd0" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelAngle::is_default</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::LabelAngle::is_default</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="69" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_label_angle_1aec67d3d5884da1ea5e4f48d38bac34ce" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::LabelAngle::constraint</definition>
+        <argsstring>(value_type value) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::LabelAngle::constraint</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="74" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelAngle, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelAngle</label>
+        <link refid="structgviz_1_1attrs_1_1_label_angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; LabelAngle, double &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::LabelAngle</label>
+        <link refid="structgviz_1_1attrs_1_1_label_angle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" line="59" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/label_related.hpp" bodystart="59" bodyend="78"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1aec67d3d5884da1ea5e4f48d38bac34ce" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1aa35a7c5265cf368163a9002216d0f1a8" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1ae2bc87cef2db397ad896cff4b07d1fd0" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1a1ede0578929937f1053caebc2dd92f50" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>LabelAngle</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1a30c8089e69be76ea41cde525db1426bc" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>LabelAngle</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1aa82815bc41fd8af9c6cb99d713eaea44" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_label_angle_1abb790c2092ad88376ed57cb1b6a696b8" prot="public" virt="non-virtual"><scope>gviz::attrs::LabelAngle</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

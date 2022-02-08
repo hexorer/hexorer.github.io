@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="classgviz_1_1_callback_view" kind="class" language="C++" prot="public">
+    <compoundname>gviz::CallbackView</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename F</type>
+      </param>
+      <param>
+        <type>std::enable_if_t&lt; std::is_invocable_v&lt; F, T &gt;, bool &gt;</type>
+        <defval>true</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classgviz_1_1_callback_view_1a52657b745d2aa67925c203aee2d7bcc8" prot="private" static="no">
+        <type>F</type>
+        <definition>using gviz::CallbackView&lt; T, F, &gt;::AdvanceCallback =  F</definition>
+        <argsstring></argsstring>
+        <name>AdvanceCallback</name>
+        <qualifiedname>gviz::CallbackView::AdvanceCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="84" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgviz_1_1_callback_view_1a9290bcdc6ac55c77a50bdaee6f6d28ab" prot="private" static="no" mutable="no">
+        <type>AdvanceCallback</type>
+        <definition>AdvanceCallback gviz::CallbackView&lt; T, F, &gt;::advance</definition>
+        <argsstring></argsstring>
+        <name>advance</name>
+        <qualifiedname>gviz::CallbackView::advance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="86" column="20" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgviz_1_1_callback_view_1ae2e2f697c0dc40a311df71be0f81aba2" prot="private" static="no" mutable="no">
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt;T&gt; gviz::CallbackView&lt; T, F, &gt;::init</definition>
+        <argsstring></argsstring>
+        <name>init</name>
+        <qualifiedname>gviz::CallbackView::init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="87" column="17" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a42f23fabc6428ca99bfb03863b8dbc4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::CallbackView&lt; T, F, &gt;::CallbackView</definition>
+        <argsstring>(AdvanceCallback callback)</argsstring>
+        <name>CallbackView</name>
+        <qualifiedname>gviz::CallbackView::CallbackView</qualifiedname>
+        <param>
+          <type>AdvanceCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="90" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a66930da00b4d7397250d675029c410a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gviz::CallbackView&lt; T, F, &gt;::CallbackView</definition>
+        <argsstring>(AdvanceCallback callback, T init)</argsstring>
+        <name>CallbackView</name>
+        <qualifiedname>gviz::CallbackView::CallbackView</qualifiedname>
+        <param>
+          <type>AdvanceCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="95" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a096f6446e5863cfbab5b61a062098fec" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::CallbackView&lt; T, F, &gt;::begin</definition>
+        <argsstring>() &amp;-&gt; CallbackViewIterator&lt; T, F &gt;</argsstring>
+        <name>begin</name>
+        <qualifiedname>gviz::CallbackView::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="100" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a2030234b842e7a04a3e4508b04bf7bdd" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::CallbackView&lt; T, F, &gt;::begin</definition>
+        <argsstring>() &amp;&amp;-&gt; CallbackViewIterator&lt; T, F &gt;</argsstring>
+        <name>begin</name>
+        <qualifiedname>gviz::CallbackView::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="105" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a0fadf3e546e85cf1bc39800b17aca0ff" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::CallbackView&lt; T, F, &gt;::begin</definition>
+        <argsstring>() const &amp;-&gt; CallbackViewIterator&lt; T, F &gt;</argsstring>
+        <name>begin</name>
+        <qualifiedname>gviz::CallbackView::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="110" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a914af46f79029fb93553518b36ac3c5b" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::CallbackView&lt; T, F, &gt;::begin</definition>
+        <argsstring>() const &amp;&amp;-&gt; CallbackViewIterator&lt; T, F &gt;</argsstring>
+        <name>begin</name>
+        <qualifiedname>gviz::CallbackView::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="115" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classgviz_1_1_callback_view_1a6795328e30c5f3bd1256f78d02a61415" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto gviz::CallbackView&lt; T, F, &gt;::end</definition>
+        <argsstring>() -&gt; CallbackViewIterator&lt; T, F &gt;</argsstring>
+        <name>end</name>
+        <qualifiedname>gviz::CallbackView::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="120" column="8" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" line="83" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/views.hpp" bodystart="83" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classgviz_1_1_callback_view_1a9290bcdc6ac55c77a50bdaee6f6d28ab" prot="private" virt="non-virtual"><scope>gviz::CallbackView</scope><name>advance</name></member>
+      <member refid="classgviz_1_1_callback_view_1a52657b745d2aa67925c203aee2d7bcc8" prot="private" virt="non-virtual"><scope>gviz::CallbackView</scope><name>AdvanceCallback</name></member>
+      <member refid="classgviz_1_1_callback_view_1a096f6446e5863cfbab5b61a062098fec" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>begin</name></member>
+      <member refid="classgviz_1_1_callback_view_1a2030234b842e7a04a3e4508b04bf7bdd" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>begin</name></member>
+      <member refid="classgviz_1_1_callback_view_1a0fadf3e546e85cf1bc39800b17aca0ff" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>begin</name></member>
+      <member refid="classgviz_1_1_callback_view_1a914af46f79029fb93553518b36ac3c5b" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>begin</name></member>
+      <member refid="classgviz_1_1_callback_view_1a42f23fabc6428ca99bfb03863b8dbc4d" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>CallbackView</name></member>
+      <member refid="classgviz_1_1_callback_view_1a66930da00b4d7397250d675029c410a9" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>CallbackView</name></member>
+      <member refid="classgviz_1_1_callback_view_1a6795328e30c5f3bd1256f78d02a61415" prot="public" virt="non-virtual"><scope>gviz::CallbackView</scope><name>end</name></member>
+      <member refid="classgviz_1_1_callback_view_1ae2e2f697c0dc40a311df71be0f81aba2" prot="private" virt="non-virtual"><scope>gviz::CallbackView</scope><name>init</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

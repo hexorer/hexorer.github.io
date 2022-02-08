@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="classgviz_1_1registry_1_1_en_t_t_registry" kind="class"><name>gviz::registry::EnTTRegistry</name>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a170b293f56eade6dfd994c7e5b447d54" kind="typedef"><name>entity_type</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1ac86393c4d2c81f60b6e1213e1f975728" kind="variable"><name>registry_</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a25fe737a323316e7efb1cf58c51b0af2" kind="function"><name>size</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1ae05c71789a5cbcad4c8c688f14e0d2c6" kind="function"><name>max_size</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a89894e1947f04948154baa82eeb26cea" kind="function"><name>raw_registry</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1ad50ad97394a68c5a0bb9dae121ee5d19" kind="function"><name>raw_registry</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a6606827c2f78f22f0115254c6b0177b1" kind="function"><name>create</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1ac488eb8af9f7b208be5ab9cbb8a5b375" kind="function"><name>destroy</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a90edbfca53c1019aca69c46f05631cf2" kind="function"><name>clear</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a176703a5468b26e96768de69905b93f2" kind="function"><name>get</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a73f41d0440be2af679c653b723165bb4" kind="function"><name>get</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a42f72ebae7a11e803b0e017c3ecc6f3c" kind="function"><name>has</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a0cb8965b7fdcca01f46429a0d68b2d39" kind="function"><name>update</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a7a9c3b3393b426c355a0689e437d07a5" kind="function"><name>set</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1ae69532fc11cf7722901699a09af644be" kind="function"><name>emplace</name></member>
+    <member refid="classgviz_1_1registry_1_1_en_t_t_registry_1a30389d9bb085ca77730b1e25760b8224" kind="function"><name>remove</name></member>
+  </compound>
+  <compound refid="namespacegviz" kind="namespace"><name>gviz</name>
+  </compound>
+  <compound refid="namespacegviz_1_1registry" kind="namespace"><name>gviz::registry</name>
+  </compound>
+  <compound refid="entt__registry_8hpp" kind="file"><name>entt_registry.hpp</name>
+  </compound>
+  <compound refid="dir_373c18dca8118a20815b3d7a45dd62d9" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include</name>
+  </compound>
+  <compound refid="dir_301003c6a54e74370a0312c155659a82" kind="dir"><name>/home/cthulhu/projects/repos/libgvizard/include/gvizard/registry</name>
+  </compound>
+</doxygenindex>

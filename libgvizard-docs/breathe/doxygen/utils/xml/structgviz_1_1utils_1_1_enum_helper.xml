@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1utils_1_1_enum_helper" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::utils::EnumHelper</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename U</type>
+        <defval>std::underlying_type_t&lt;T&gt;</defval>
+      </param>
+      <param>
+        <type>std::enable_if_t&lt; std::is_enum_v&lt; T &gt;, bool &gt;</type>
+        <defval>true</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a2e88e6cf4a83f486298eb3921f5e2441" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>static constexpr auto gviz::utils::EnumHelper&lt; T, U, &gt;::to_str</definition>
+        <argsstring>(const T &amp;value) -&gt; const std::string_view</argsstring>
+        <name>to_str</name>
+        <qualifiedname>gviz::utils::EnumHelper::to_str</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="36" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a38155fe251b74bf27f6e7f5d5eb035f9" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>static constexpr auto gviz::utils::EnumHelper&lt; T, U, &gt;::from_value</definition>
+        <argsstring>(const U &amp;value) -&gt; std::optional&lt; T &gt;</argsstring>
+        <name>from_value</name>
+        <qualifiedname>gviz::utils::EnumHelper::from_value</qualifiedname>
+        <param>
+          <type>const U &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="41" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a66619e26ea2f64fc61986bd4f7355ee2" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>static constexpr auto gviz::utils::EnumHelper&lt; T, U, &gt;::from_index</definition>
+        <argsstring>(std::size_t index) -&gt; std::optional&lt; T &gt;</argsstring>
+        <name>from_index</name>
+        <qualifiedname>gviz::utils::EnumHelper::from_index</qualifiedname>
+        <param>
+          <type>std::size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="46" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a5059866aa2ea8e75200d056e17fe8c68" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>static constexpr auto gviz::utils::EnumHelper&lt; T, U, &gt;::from_str</definition>
+        <argsstring>(const char *str) -&gt; std::optional&lt; T &gt;</argsstring>
+        <name>from_str</name>
+        <qualifiedname>gviz::utils::EnumHelper::from_str</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="54" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1ac906c486a55b6f6e6d256f3f89a9193c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr auto</type>
+        <definition>static constexpr auto gviz::utils::EnumHelper&lt; T, U, &gt;::from_str</definition>
+        <argsstring>(const std::string_view str) -&gt; std::optional&lt; T &gt;</argsstring>
+        <name>from_str</name>
+        <qualifiedname>gviz::utils::EnumHelper::from_str</qualifiedname>
+        <param>
+          <type>const std::string_view</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="59" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a60ee0342f5ab4e580e9ff10907102cab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto gviz::utils::EnumHelper&lt; T, U, &gt;::from_str</definition>
+        <argsstring>(const std::string &amp;str) -&gt; std::optional&lt; T &gt;</argsstring>
+        <name>from_str</name>
+        <qualifiedname>gviz::utils::EnumHelper::from_str</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="64" column="15" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1utils_1_1_enum_helper_1a638f8a73e9d6389faf073f79c472df08" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr std::size_t</type>
+        <definition>static constexpr std::size_t gviz::utils::EnumHelper&lt; T, U, &gt;::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>gviz::utils::EnumHelper::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="69" column="32" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" line="35" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/utils.hpp" bodystart="35" bodyend="73"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a66619e26ea2f64fc61986bd4f7355ee2" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>from_index</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a5059866aa2ea8e75200d056e17fe8c68" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>from_str</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1ac906c486a55b6f6e6d256f3f89a9193c" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>from_str</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a60ee0342f5ab4e580e9ff10907102cab" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>from_str</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a38155fe251b74bf27f6e7f5d5eb035f9" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>from_value</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a638f8a73e9d6389faf073f79c472df08" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>size</name></member>
+      <member refid="structgviz_1_1utils_1_1_enum_helper_1a2e88e6cf4a83f486298eb3921f5e2441" prot="public" virt="non-virtual"><scope>gviz::utils::EnumHelper</scope><name>to_str</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

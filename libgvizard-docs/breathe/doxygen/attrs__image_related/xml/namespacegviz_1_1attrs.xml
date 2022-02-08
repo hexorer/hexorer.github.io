@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespacegviz_1_1attrs" kind="namespace" language="C++">
+    <compoundname>gviz::attrs</compoundname>
+    <innerclass refid="structgviz_1_1attrs_1_1_image" prot="public">gviz::attrs::Image</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_image_path" prot="public">gviz::attrs::ImagePath</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_image_pos" prot="public">gviz::attrs::ImagePos</innerclass>
+    <innerclass refid="structgviz_1_1attrs_1_1_image_scale" prot="public">gviz::attrs::ImageScale</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="image__related_8hpp_1a87dd158bc474f4d79157927555803308" prot="public" static="no">
+        <type>std::variant&lt; bool, std::string &gt;</type>
+        <definition>using gviz::attrs::ImageScaleType = typedef std::variant&lt;bool, std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>ImageScaleType</name>
+        <qualifiedname>gviz::attrs::ImageScaleType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/image_related.hpp" line="78" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/image_related.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/image_related.hpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

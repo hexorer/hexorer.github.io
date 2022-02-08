@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="structgviz_1_1attrs_1_1_sample_points" kind="struct" language="C++" prot="public" final="yes">
+    <compoundname>gviz::attrs::SamplePoints</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AttributeBase&lt; SamplePoints, std::optional&lt; int &gt; &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structgviz_1_1attrs_1_1_sample_points_1a8da30a934595125456481bffb8bbac0c" prot="public" static="no">
+        <type>std::optional&lt; int &gt;</type>
+        <definition>using gviz::attrs::SamplePoints::value_type =  std::optional&lt;int&gt;</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>gviz::attrs::SamplePoints::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="13" column="3" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structgviz_1_1attrs_1_1_sample_points_1a1238d193452d842040fd97a5c01d4118" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *const</type>
+        <definition>constexpr const char* const gviz::attrs::SamplePoints::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>gviz::attrs::SamplePoints::name</qualifiedname>
+        <initializer>= &quot;samplepoints&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="15" column="38" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sample_points_1a9f3cc97f00a8f5e4126a8dc7f7703c05" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::SamplePoints::SamplePoints</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SamplePoints</name>
+        <qualifiedname>gviz::attrs::SamplePoints::SamplePoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="17" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sample_points_1abdb2252087e837e410457bceb6ecd509" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr gviz::attrs::SamplePoints::SamplePoints</definition>
+        <argsstring>(value_type value)</argsstring>
+        <name>SamplePoints</name>
+        <qualifiedname>gviz::attrs::SamplePoints::SamplePoints</qualifiedname>
+        <param>
+          <type>value_type</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="18" column="22" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sample_points_1aefc6371032006cd9a5072adb16deccd1" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr value_type</type>
+        <definition>static constexpr value_type gviz::attrs::SamplePoints::get_default_value</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>get_default_value</name>
+        <qualifiedname>gviz::attrs::SamplePoints::get_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="22" column="31" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sample_points_1acc3d12aefe5dc0b5570d2687a392dbdf" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::SamplePoints::is_default</definition>
+        <argsstring>(const value_type &amp;value) noexcept</argsstring>
+        <name>is_default</name>
+        <qualifiedname>gviz::attrs::SamplePoints::is_default</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="27" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structgviz_1_1attrs_1_1_sample_points_1a51741d53dcf4a023e7165faf820e7a9e" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>static constexpr bool gviz::attrs::SamplePoints::constraint</definition>
+        <argsstring>(const value_type &amp;) noexcept</argsstring>
+        <name>constraint</name>
+        <qualifiedname>gviz::attrs::SamplePoints::constraint</qualifiedname>
+        <param>
+          <type>const value_type &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="32" column="25" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AttributeBase&lt; SamplePoints, std::optional&lt; int &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::SamplePoints</label>
+        <link refid="structgviz_1_1attrs_1_1_sample_points"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AttributeBase&lt; SamplePoints, std::optional&lt; int &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>gviz::attrs::SamplePoints</label>
+        <link refid="structgviz_1_1attrs_1_1_sample_points"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" line="10" column="1" bodyfile="/home/cthulhu/projects/repos/libgvizard/include/gvizard/attrs/samplepoints.hpp" bodystart="12" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1a51741d53dcf4a023e7165faf820e7a9e" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>constraint</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1aefc6371032006cd9a5072adb16deccd1" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>get_default_value</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1acc3d12aefe5dc0b5570d2687a392dbdf" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>is_default</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1a1238d193452d842040fd97a5c01d4118" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>name</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1a9f3cc97f00a8f5e4126a8dc7f7703c05" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>SamplePoints</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1abdb2252087e837e410457bceb6ecd509" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>SamplePoints</name></member>
+      <member refid="structgviz_1_1attrs_1_1_sample_points_1a8da30a934595125456481bffb8bbac0c" prot="public" virt="non-virtual"><scope>gviz::attrs::SamplePoints</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
