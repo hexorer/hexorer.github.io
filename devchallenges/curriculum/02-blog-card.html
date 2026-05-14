@@ -1,35 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <header>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <title>Minimal Blog Card</title>
     <style>
       * {
-        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
       body {
-        background-color: #f4f4f4;
+        height: 100vh;
+        font-family: Sora, sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
       }
-      .header {
-        text-align: center;
-        background-color: white;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+      hr {
+        border: none;
+        border-top: 1px solid lightgray;
+        margin: 0;
       }
-      .page {
-        display: flex;
+      #main {
+        /* display: flex; */
         justify-content: center;
-        padding: 2rem;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      .title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30rem;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        text-align: left;
+      }
+      .card .top {
+        padding: 1rem;
+      }
+      .card .bottom {
+        padding: 1rem;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+      }
+      .card .tags {
+        display: flex;
+        margin-bottom: 1.5rem;
+      }
+      .card .tag {
+        color: #6a0dad;
+        font-weight: 500;
+        background-color: #feefff;
+        padding: 5px 15px;
+        border-radius: 15px;
+        font-size: 12px;
+        margin: 0 0.5rem 0 0;
+      }
+      .card *:not(:last-child) {
+        margin-bottom: 0.5rem;
       }
     </style>
-  </header>
+  </head>
   <body>
-    <main class="page">
-      <article>
-        <section>
-        </section>
-      </article>
+    <main id="main">
+      <div class="card">
+        <div class="top">
+          <img src="https://picsum.photos/400/200" alt="Blog Post Image">
+          <div class="tags"><span class="tag">Design</span></div>
+          <h2 class="title">Embracing Minimalism</h2>
+          <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        </div>
+        <hr>
+        <div class="bottom">
+          <p><span>Annie Spratt</span></p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
