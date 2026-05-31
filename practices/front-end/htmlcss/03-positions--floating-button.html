@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Floating Button</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 1em;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        gap: 1em;
+      }
+      .container img {
+        width: auto;
+        height: auto;
+      }
+      .floating-button {
+        position: fixed;
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        font-size: 15px;
+        z-index: 10;
+        right: 0;
+        bottom: 0;
+        margin: 1em;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  </head>
+  <body>
+    <button class="floating-button"><i class="fa-solid fa-plus"></i></button>
+    <main id="main">
+      <h1>Floating Button</h1>
+      <div class="container">
+        <img width="400" height="400" src="https://picsum.photos/400/400" alt="Random Image" />
+        <img width="400" height="200" src="https://picsum.photos/400/200" alt="Random Image" />
+        <img width="400" height="300" src="https://picsum.photos/400/300" alt="Random Image" />
+        <img width="400" height="600" src="https://picsum.photos/400/600" alt="Random Image" />
+        <img width="400" height="100" src="https://picsum.photos/400/100" alt="Random Image" />
+      </div>
+    </main>
+  </body>
+</html>

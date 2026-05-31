@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Search Bar</title>
+    <style>
+      #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .search-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: min(25em, 90vw);
+        /* border: 1px solid red; */
+      }
+      .search-input {
+        width: 100%;
+        height: inherit;
+        border-radius: 1.25em 0 0 1.25em;
+        border: 1px solid #ccc;
+        text-align: left;
+        padding: 0.5em 1em;
+        font-size: 0.875em;
+      }
+      .search-input:focus {
+        outline: none;
+        border-color: #4285f4;
+        border-right: none;
+      }
+      .search-button {
+        height: inherit;
+        color: white;
+        background-color: #4285f4;
+        border-radius: 0 1.25em 1.25em 0;
+        border: none;
+        padding: 0.7em;
+        cursor: pointer;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1>Mini Google</h1>
+      <form class="search-box">
+        <input class="search-input" type="text" placeholder="Search..." />
+        <button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </main>
+  </body>
+</html>

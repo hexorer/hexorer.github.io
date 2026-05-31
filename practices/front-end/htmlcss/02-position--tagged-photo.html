@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Tagged Photo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 1em;
+      }
+      .container {
+        position: relative;
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+      }
+      .tag {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgba(255, 0, 0, 0.7);
+        color: white;
+        border-radius: 5px;
+        padding: 0.2em;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1>Tagged Photo</h1>
+      <div class="container">
+        <img width="200" height="200" src="https://picsum.photos/200/200" alt="Random Image" />
+        <p class="tag"><i class="fa-solid fa-percent"></i><b>Sales</b></p>
+      </div>
+    </main>
+  </body>
+</html>
