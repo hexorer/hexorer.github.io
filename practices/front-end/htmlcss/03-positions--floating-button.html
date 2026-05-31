@@ -15,16 +15,13 @@
         gap: 1em;
       }
       .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        columns: 3 200px;
+        column-gap: 0;
         padding: 1em;
-        gap: 1em;
       }
       .container img {
-        width: auto;
-        height: auto;
+        display: block;
+        width: 100%;
       }
       .floating-button {
         position: fixed;
@@ -48,11 +45,11 @@
     <main id="main">
       <h1>Floating Button</h1>
       <div class="container">
-        <img width="400" height="400" src="https://picsum.photos/400/400" alt="Random Image" />
-        <img width="400" height="200" src="https://picsum.photos/400/200" alt="Random Image" />
-        <img width="400" height="300" src="https://picsum.photos/400/300" alt="Random Image" />
-        <img width="400" height="600" src="https://picsum.photos/400/600" alt="Random Image" />
-        <img width="400" height="100" src="https://picsum.photos/400/100" alt="Random Image" />
+        <img width="400" src="https://picsum.photos/400/400" alt="Random Image" />
+        <img width="400" src="https://picsum.photos/400/200" alt="Random Image" />
+        <img width="400" src="https://picsum.photos/400/300" alt="Random Image" />
+        <img width="400" src="https://picsum.photos/400/600" alt="Random Image" />
+        <img width="400" src="https://picsum.photos/400/500" alt="Random Image" />
       </div>
     </main>
   </body>
