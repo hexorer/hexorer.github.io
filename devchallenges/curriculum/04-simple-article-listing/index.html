@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Article Listing</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+    </style>
+    <style>
+      * {
+        --font-size-heading: 2.25rem;
+        --font-size-subheading: 1.25rem;
+        --font-size-text: 0.875rem;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        font-family: Poppins, sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: min(85vw, 45em);
+        gap: 2em;
+        padding-top: 2em;
+      }
+      .title {
+        font-size: var(--font-size-heading);
+        font-weight: 600;
+        text-align: center;
+      }
+      .divider {
+        font-size: var(--font-size-subheading);
+        font-weight: 400;
+        text-align: center;
+        color: #D9D9D9;
+        margin-top: 2em;
+        margin-bottom: 1em;
+      }
+      .listing-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+      }
+      .article {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        width: 100%;
+        gap: 1em;
+      }
+      .article .thumbnail {
+        border-radius: 8px;
+        flex: 0 0 auto;
+        object-fit: cover;
+      }
+      .article .content {
+        flex: 1 1 0;
+      }
+      .article .content h3 {
+        font-size: var(--font-size-subheading);
+        font-weight: 600;
+      }
+      .article .date {
+        margin-top: 0.5em;
+        font-size: var(--font-size-text);
+        font-weight: 500;
+        color: #4D5562;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 class="title">We release interesting articles about technology</h1>
+        <h2 class="divider">/////////////////////////</h2>
+      </header>
+      <div class="listing-container">
+        <div class="article">
+          <img class="thumbnail" width="150" height="150" src="photo_1.png" alt="Article 1" />
+          <div class="content">
+            <h3>Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</h3>
+            <p class="date">November 12, 2024</p>
+          </div>
+        </div>
+        <div class="article">
+          <img class="thumbnail" width="150" height="150" src="photo_2.png" alt="Article 2" />
+          <div class="content">
+            <h3>The Future of AI: How Machine Learning is Revolutionizing Industries</h3>
+            <p class="date">November 12, 2024</p>
+          </div>
+        </div>
+        <div class="article">
+          <img class="thumbnail" width="150" height="150" src="photo_3.png" alt="Article 3" />
+          <div class="content">
+            <h3>The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</h3>
+            <p class="date">November 12, 2024</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
